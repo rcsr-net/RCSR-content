@@ -44,6 +44,10 @@ input[type=text] {
     width: 16em;
 }
 
+.wideTextfields input[type=text] {
+    width: 24em;
+}
+
 a:link {
     color: #0810f0;
     text-decoration: none;
