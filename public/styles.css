@@ -76,11 +76,15 @@ h1, h2 {
 }
 
 .homePage div {
-    width: 600px;
+    width: 500px;
     margin: auto;
     padding: 20px;
     background: #cdf;
     border: 1px solid lightgray;
+}
+
+.homePage img {
+    margin-bottom: 30px;
 }
 
 .center {
