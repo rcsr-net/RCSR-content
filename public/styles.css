@@ -59,14 +59,27 @@ h1, h2 {
 }
 
 .disclaimer {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     padding: 2px;
     background: #cdf;
     font-size: 120%;
+    text-align: center;
 }
 
-.homePage h1, .homePage h2 {
-    margin: 50px 0;
+.homePage h1 {
+    margin: 40px 0 30px;
+}
+
+.homePage h2 {
+    margin: 10px 0;
+}
+
+.homePage div {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #cdf;
+    border: 1px solid lightgray;
 }
 
 .center {
@@ -275,4 +288,8 @@ h1.center, h2.center, h3.center, h4.center, p.center {
 dt {
     margin-top: 1ex;
     font-weight: bold;
+}
+
+.active {
+    background: lightyellow;
 }
