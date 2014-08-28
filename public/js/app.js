@@ -584,24 +584,25 @@
 
 	    return $.div({ className: 'homePage' },
 	                 $.h1({ className: 'center' }, greeting),
-	                 $.img({ className: 'center', 
-	                         src: '/images/CRC_sphere_pic.jpg' }),
-	                 $.h2({ className: 'center' },
-	                      'Department of Chemistry and Biochemistry',
-	                      $.br(),
-	                      'Arizona State University'),
-	                 $.h2({ className: 'center' },
-	                      'Department of Applied Mathematics',
-	                      $.br(),
-	                      'Australian National University'),
-	                 $.h2({ className: 'center' },
-	                      'NCI Vizlab',
-	                      $.br(),
-	                      'Australian National University'),
-	                 $.h2({ className: 'center' },
-	                      'Department of Chemistry',
-	                      $.br(),
-	                      'University of California, Berkeley'));
+	                 $.div(null,
+	                       $.img({ className: 'center', 
+	                               src: '/images/CRC_sphere_pic.jpg' }),
+	                       $.h2({ className: 'center' },
+	                            'Department of Chemistry and Biochemistry',
+	                            $.br(),
+	                            'Arizona State University'),
+	                       $.h2({ className: 'center' },
+	                            'Department of Applied Mathematics',
+	                            $.br(),
+	                            'Australian National University'),
+	                       $.h2({ className: 'center' },
+	                            'NCI Vizlab',
+	                            $.br(),
+	                            'Australian National University'),
+	                       $.h2({ className: 'center' },
+	                            'Department of Chemistry',
+	                            $.br(),
+	                            'University of California, Berkeley')));
 	  }
 	});
 
@@ -1706,18 +1707,22 @@
 
 
 	var properties = function(net) {
-	  return common.makeTable(
-	    ['embed type', 'space group', 'volume', 'density', 'genus', 'td10'],
-	    [[ net.embedType, net.spacegroupSymbol,
-	       f(net.cell.volume), f(net.density), net.genus, net.td10 ]]);
+	  return common.Table({
+	    headers: ['embed type', 'space group', 'volume',
+	              'density', 'genus', 'td10'],
+	    values : [[ net.embedType, net.spacegroupSymbol, f(net.cell.volume),
+	                f(net.density), net.genus, net.td10 ]]
+	  });
 	};
 
 
 	var cell = function(net) {
 	  var cell = net.cell;
-	  return common.makeTable(['a', 'b', 'c', 'alpha', 'beta', 'gamma'],
-	                          [[ f(cell.a), f(cell.b), f(cell.c),
-	                             a(cell.alpha), a(cell.beta), a(cell.gamma) ]]);
+	  return common.Table({
+	    headers: ['a', 'b', 'c', 'alpha', 'beta', 'gamma'],
+	    values : [[ f(cell.a), f(cell.b), f(cell.c),
+	                a(cell.alpha), a(cell.beta), a(cell.gamma) ]]
+	  });
 	};
 
 
@@ -1728,52 +1733,57 @@
 
 	  return $.div(null,
 	               $.p(null, common.makeLine('vertices', [net.vertices.length])),
-	               common.makeTable(['vertex', 'cn', 'x', 'y', 'z', 'symbolic',
-	                                 'Wyckoff', 'symmetry', 'order'],
-	                                net.vertices.map(function(v) {
-	                                  return [
-	                                    v.name,
-	                                    v.coordinationNumber,
-	                                    f(v.coordinates.numerical[0]),
-	                                    f(v.coordinates.numerical[1]),
-	                                    f(v.coordinates.numerical[2]),
-	                                    v.coordinates.symbolic,
-	                                    v.wyckoff,
-	                                    v.symmetry,
-	                                    v.order
-	                                  ];
-	                                })),
-	               common.makeTable(
-	                 [].concat('vertex',
-	                           [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	                           .map(makeIndexed.bind(null, 'cs')),
-	                           makeIndexed('cum', 10),
-	                           (showVertexSymbol ? 'vertex symbol' : [])),
-	                 net.vertices.map(function(v) {
+	               common.Table({
+	                 headers: ['vertex', 'cn', 'x', 'y', 'z', 'symbolic',
+	                           'Wyckoff', 'symmetry', 'order'],
+	                 values : net.vertices.map(function(v) {
+	                   return [
+	                     v.name,
+	                     v.coordinationNumber,
+	                     f(v.coordinates.numerical[0]),
+	                     f(v.coordinates.numerical[1]),
+	                     f(v.coordinates.numerical[2]),
+	                     v.coordinates.symbolic,
+	                     v.wyckoff,
+	                     v.symmetry,
+	                     v.order
+	                   ];
+	                 })
+	               }),
+	               common.Table({
+	                 headers: [].concat('vertex',
+	                                    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	                                    .map(makeIndexed.bind(null, 'cs')),
+	                                    makeIndexed('cum', 10),
+	                                    (showVertexSymbol ? 'vertex symbol' : [])),
+	                 values : net.vertices.map(function(v) {
 	                   return [].concat(v.name,
 	                                    v.coordinationSequence,
 	                                    v.cum10,
 	                                    (showVertexSymbol ? v.symbol : []));
-	                 })));
+	                 })
+	               }));
 	};
 
 
 	var edges = function(net) {
 	  return $.div(null,
 	               $.p(null, common.makeLine('edges', [net.edges.length])),
-	               common.makeTable(['edge', 'x', 'y', 'z',
-	                                 'symbolic', 'Wyckoff', 'symmetry'],
-	                                net.edges.map(function(e) {
-	                                  return [
-	                                    e.name,
-	                                    f(e.coordinates.numerical[0]),
-	                                    f(e.coordinates.numerical[1]),
-	                                    f(e.coordinates.numerical[2]),
-	                                    e.coordinates.symbolic,
-	                                    e.wyckoff,
-	                                    e.symmetry
-	                                  ];
-	                                })));
+	               common.Table({
+	                 headers: ['edge', 'x', 'y', 'z',
+	                           'symbolic', 'Wyckoff', 'symmetry'],
+	                 values : net.edges.map(function(e) {
+	                   return [
+	                     e.name,
+	                     f(e.coordinates.numerical[0]),
+	                     f(e.coordinates.numerical[1]),
+	                     f(e.coordinates.numerical[2]),
+	                     e.coordinates.symbolic,
+	                     e.wyckoff,
+	                     e.symmetry
+	                   ];
+	                 })
+	               }));
 	};
 
 
@@ -1781,13 +1791,15 @@
 	  if (net.numberOfFaces > 0)
 	    return $.div(null,
 	                 $.p(null, common.makeLine('tiling', [])),
-	                 common.makeTable(['tiling', 'dual',
-	                                   'vertices', 'edges', 'faces', 'tiles',
-	                                   'D-symbol'],
-	                                  [[ net.tiling, net.dual,
-	                                     net.numberOfVertices, net.numberOfEdges,
-	                                     net.numberOfFaces, net.numberOfTiles,
-	                                     net.sizeOfDSymbol ]]));
+	                 common.Table({
+	                   headers: ['tiling', 'dual',
+	                             'vertices', 'edges', 'faces', 'tiles',
+	                             'D-symbol'],
+	                   values : [[ net.tiling, net.dual,
+	                               net.numberOfVertices, net.numberOfEdges,
+	                               net.numberOfFaces, net.numberOfTiles,
+	                               net.sizeOfDSymbol ]]
+	                 }));
 	  else
 	    return $.div();
 	};
@@ -1821,10 +1833,10 @@
 
 
 	var netTable = function(items, link) {
-	  return common.makeTable(
-	    ['pic', 'symbol', 'embed type', 'space group', 'vertices',
-	     'edges', 'genus'],
-	    items.map(function(net, i) {
+	  return common.Table({
+	    headers: ['pic', 'symbol', 'embed type', 'space group', 'vertices',
+	              'edges', 'genus'],
+	    values : items.map(function(net, i) {
 	      return [
 	        common.StructureImage({
 	          prefix: 'Net',
@@ -1838,7 +1850,7 @@
 	        net.genus
 	      ];
 	    })
-	  );
+	  });
 	};
 
 
@@ -1988,25 +2000,28 @@
 
 
 	var properties = function(layer) {
-	  return common.makeTable(['2 periodic group', '3 periodic group'],
-	                          [[ layer.group2d,
-	                             layer.group3d ]]);
+	  return common.Table({
+	    headers: ['2 periodic group', '3 periodic group'],
+	    values : [[ layer.group2d, layer.group3d ]]
+	  });
 	};
 
 
 	var kinds = function(layer) {
-	  return common.makeTable(['kinds of vertex', 'kinds of edge', 'kinds of face'],
-	                          [[ layer.kindsOfVertex,
-	                             layer.kindsOfEdge,
-	                             layer.kindsOfFace ]]);
+	  return common.Table({
+	    headers: ['kinds of vertex', 'kinds of edge', 'kinds of face'],
+	    values : [[ layer.kindsOfVertex, layer.kindsOfEdge, layer.kindsOfFace ]]
+	  });
 	};
 
 
 	var cell = function(layer) {
 	  var cell = layer.cell;
-	  return common.makeTable(['a', 'b', 'c', 'alpha', 'beta', 'gamma'],
-	                          [[ f(cell.a), f(cell.b), f(cell.c),
-	                             a(cell.alpha), a(cell.beta), a(cell.gamma) ]]);
+	  return common.Table({
+	    headers: ['a', 'b', 'c', 'alpha', 'beta', 'gamma'],
+	    values : [[ f(cell.a), f(cell.b), f(cell.c),
+	                a(cell.alpha), a(cell.beta), a(cell.gamma) ]]
+	  });
 	};
 
 
@@ -2018,30 +2033,32 @@
 	var vertices = function(layer) {
 	  return $.div(null,
 	               $.p(null, common.makeLine('vertices', [layer.vertices.length])),
-	               common.makeTable(['vertex', 'coordination',
-	                                 'x', 'y', 'z', 'symbolic'],
-	                                layer.vertices.map(function(v) {
-	                                  return [
-	                                    v.name,
-	                                    v.coordination,
-	                                    f(v.coordinates.numerical[0]),
-	                                    f(v.coordinates.numerical[1]),
-	                                    f(v.coordinates.numerical[2]),
-	                                    v.coordinates.symbolic
-	                                  ];
-	                                })),
-	               common.makeTable(
-	                 [].concat('vertex',
-	                           [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	                           .map(makeIndexed.bind(null, 'cs')),
-	                           makeIndexed('cum', 10),
-	                           'vertex symbol'),
-	                 layer.vertices.map(function(v) {
+	               common.Table({
+	                 headers: ['vertex', 'coordination', 'x', 'y', 'z', 'symbolic'],
+	                 values : layer.vertices.map(function(v) {
+	                   return [
+	                     v.name,
+	                     v.coordination,
+	                     f(v.coordinates.numerical[0]),
+	                     f(v.coordinates.numerical[1]),
+	                     f(v.coordinates.numerical[2]),
+	                     v.coordinates.symbolic
+	                   ];
+	                 })
+	               }),
+	               common.Table({
+	                 headers: [].concat('vertex',
+	                                    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	                                    .map(makeIndexed.bind(null, 'cs')),
+	                                    makeIndexed('cum', 10),
+	                                    'vertex symbol'),
+	                 values : layer.vertices.map(function(v) {
 	                   return [].concat(v.name,
 	                                    v.coordinationSequence,
 	                                    v.cum10,
 	                                    v.symbol);
-	                 })));
+	                 })
+	               }));
 	};
 
 
@@ -2072,10 +2089,10 @@
 
 
 	var layerTable = function(items, link) {
-	  return common.makeTable(
-	    ['pic', 'symbol', '2 periodic group', '3 periodic group',
-	     'kinds of vertex', 'kinds of edge', 'kinds of face'],
-	    items.map(function(layer, i) {
+	  return common.Table({
+	    headers: ['pic', 'symbol', '2 periodic group', '3 periodic group',
+	              'kinds of vertex', 'kinds of edge', 'kinds of face'],
+	    values : items.map(function(layer, i) {
 	      return [
 	        common.StructureImage({
 	          prefix: 'Layer',
@@ -2089,7 +2106,7 @@
 	        layer.kindsOfFace
 	      ];
 	    })
-	  );
+	  });
 	};
 
 
@@ -2229,29 +2246,31 @@
 
 
 	var properties = function(poly) {
-	  return common.makeTable(['symmetry', 'face symbol', 'dual', 'space group'],
-	                          [[ poly.pointSymmetry,
-	                             poly.faceSymbol,
-	                             poly.dual,
-	                             poly.spacegroupSymbol ]]);
+	  return common.Table({
+	    headers: ['symmetry', 'face symbol', 'dual', 'space group'],
+	    values : [[ poly.pointSymmetry,
+	                poly.faceSymbol,
+	                poly.dual,
+	                poly.spacegroupSymbol ]]
+	  });
 	};
 
 
 	var kinds = function(poly) {
-	  return common.makeTable(['kinds of vertex', 'kinds of edge', 'kinds of face'],
-	                          [[ poly.kindsOfVertex,
-	                             poly.kindsOfEdge,
-	                             poly.kindsOfFace ]]);
+	  return common.Table({
+	    headers: ['kinds of vertex', 'kinds of edge', 'kinds of face'],
+	    values : [[ poly.kindsOfVertex, poly.kindsOfEdge, poly.kindsOfFace ]]
+	  });
 	};
 
 
 	var numbers = function(poly) {
-	  return common.makeTable(['number of vertices',
-	                           'number of edges',
-	                           'number of faces'],
-	                          [[ poly.numberOfVertices,
-	                             poly.numberOfEdges,
-	                             poly.numberOfFaces ]]);
+	  return common.Table({
+	    headers: ['number of vertices', 'number of edges', 'number of faces'],
+	    values : [[ poly.numberOfVertices,
+	                poly.numberOfEdges,
+	                poly.numberOfFaces ]]
+	  });
 	};
 
 
@@ -2263,32 +2282,36 @@
 	var vertices = function(poly) {
 	  return $.div(null,
 	               $.p(null, common.makeLine('vertices', [poly.vertices.length])),
-	               common.makeTable(['vertex', 'coordination', 'x', 'y', 'z'],
-	                                poly.vertices.map(function(v) {
-	                                  return [
-	                                    v.name,
-	                                    v.coordination,
-	                                    f(v.coordinates[0]),
-	                                    f(v.coordinates[1]),
-	                                    f(v.coordinates[2])
-	                                  ];
-	                                })));
+	               common.Table({
+	                 headers: ['vertex', 'coordination', 'x', 'y', 'z'],
+	                 values : poly.vertices.map(function(v) {
+	                   return [
+	                     v.name,
+	                     v.coordination,
+	                     f(v.coordinates[0]),
+	                     f(v.coordinates[1]),
+	                     f(v.coordinates[2])
+	                   ];
+	                 })
+	               }));
 	};
 
 
 	var faces = function(poly) {
 	  return $.div(null,
 	               $.p(null, common.makeLine('faces', [poly.faces.length])),
-	               common.makeTable(['face', 'number of edges', 'x', 'y', 'z'],
-	                                poly.faces.map(function(face) {
-	                                  return [
-	                                    face.name,
-	                                    face.numberOfEdges,
-	                                    f(face.coordinates[0]),
-	                                    f(face.coordinates[1]),
-	                                    f(face.coordinates[2])
-	                                  ];
-	                                })));
+	               common.Table({
+	                 headers: ['face', 'number of edges', 'x', 'y', 'z'],
+	                 values : poly.faces.map(function(face) {
+	                   return [
+	                     face.name,
+	                     face.numberOfEdges,
+	                     f(face.coordinates[0]),
+	                     f(face.coordinates[1]),
+	                     f(face.coordinates[2])
+	                   ];
+	                 })
+	               }));
 	};
 
 
@@ -2322,12 +2345,11 @@
 
 
 	var polyTable = function(items, link) {
-	  return common.makeTable(
-	    ['pic', 'symbol', 'face symbol', 'symmetry',
-	     'kinds of vertex', 'kinds of edge',
-	     'kinds of face', '# vertices', '# edges',
-	     '# faces'],
-	    items.map(function(poly, i) {
+	  return common.Table({
+	    headers: ['pic', 'symbol', 'face symbol', 'symmetry',
+	              'kinds of vertex', 'kinds of edge', 'kinds of face',
+	              '# vertices', '# edges', '# faces'],
+	    values: items.map(function(poly, i) {
 	      return [
 	        common.StructureImage({
 	          prefix: 'Poly',
@@ -2344,7 +2366,7 @@
 	        poly.numberOfFaces
 	      ];
 	    })
-	  );
+	  });
 	};
 
 
@@ -3381,21 +3403,6 @@
 	};
 
 
-	common.makeTable = function(headers, values) {
-	  return $.table(null,
-	                 $.thead(null,
-	                         $.tr(null, headers.map(function(s, i) {
-	                           return $.th({ key: i }, s);
-	                         }))),
-	                 $.tbody(null,
-	                         values.map(function(row, i) {
-	                           return $.tr({ key: i }, row.map(function(s, i) {
-	                             return $.td({ key: i }, s);
-	                           }));
-	                         })));
-	};
-
-
 	common.formatReferences = function(net, kinds, keywords) {
 	  var refs = [];
 	  var i, key, title, val;
@@ -3436,6 +3443,53 @@
 	    return $.a({ className: this.props.className,
 	                 href: '#' + (this.props.href || '') },
 	               this.props.children);
+	  }
+	});
+
+
+	var TableElement = React.createClass({
+	  render: function() {
+	    var editable = this.props.active && typeof this.props.content != 'object';
+
+	    return $.td({ key: this.props.key },
+	                $.div({ contentEditable: editable }, this.props.content));
+	  }
+	});
+
+
+	common.Table = React.createClass({
+	  getInitialState: function() {
+	    return {
+	      active: false
+	    };
+	  },
+	  handleEnter: function() {
+	    this.setState({
+	      active: true
+	    });
+	  },
+	  handleLeave: function() {
+	    this.setState({
+	      active: false
+	    });
+	  },
+	  render: function() {
+	    var active   = this.state.active;
+
+	    return $.table({ onMouseEnter: this.handleEnter,
+	                     onMouseLeave: this.handleLeave },
+	                   $.thead(null,
+	                           $.tr(null, this.props.headers.map(function(s, i) {
+	                             return $.th({ key: i }, s);
+	                           }))),
+	                   $.tbody(null,
+	                           this.props.values.map(function(row, i) {
+	                             return $.tr({ key: i }, row.map(function(s, j) {
+	                               return TableElement({ key: j,
+	                                                     active: active,
+	                                                     content: s });
+	                             }));
+	                           })));
 	  }
 	});
 
@@ -6117,13 +6171,13 @@
 	"use strict";
 
 	var ReactCurrentOwner = __webpack_require__(28);
-	var ReactOwner = __webpack_require__(54);
-	var ReactUpdates = __webpack_require__(58);
+	var ReactOwner = __webpack_require__(53);
+	var ReactUpdates = __webpack_require__(54);
 
 	var invariant = __webpack_require__(50);
-	var keyMirror = __webpack_require__(60);
-	var merge = __webpack_require__(61);
-	var monitorCodeUse = __webpack_require__(63);
+	var keyMirror = __webpack_require__(55);
+	var merge = __webpack_require__(56);
+	var monitorCodeUse = __webpack_require__(57);
 
 	/**
 	 * Every React component is in one of these life cycles.
@@ -6721,20 +6775,20 @@
 	var ReactComponent = __webpack_require__(25);
 	var ReactContext = __webpack_require__(27);
 	var ReactCurrentOwner = __webpack_require__(28);
-	var ReactErrorUtils = __webpack_require__(53);
-	var ReactOwner = __webpack_require__(54);
+	var ReactErrorUtils = __webpack_require__(58);
+	var ReactOwner = __webpack_require__(53);
 	var ReactPerf = __webpack_require__(35);
-	var ReactPropTransferer = __webpack_require__(55);
-	var ReactPropTypeLocations = __webpack_require__(56);
-	var ReactPropTypeLocationNames = __webpack_require__(57);
-	var ReactUpdates = __webpack_require__(58);
+	var ReactPropTransferer = __webpack_require__(59);
+	var ReactPropTypeLocations = __webpack_require__(60);
+	var ReactPropTypeLocationNames = __webpack_require__(61);
+	var ReactUpdates = __webpack_require__(54);
 
-	var instantiateReactComponent = __webpack_require__(59);
+	var instantiateReactComponent = __webpack_require__(62);
 	var invariant = __webpack_require__(50);
-	var keyMirror = __webpack_require__(60);
-	var merge = __webpack_require__(61);
-	var mixInto = __webpack_require__(62);
-	var monitorCodeUse = __webpack_require__(63);
+	var keyMirror = __webpack_require__(55);
+	var merge = __webpack_require__(56);
+	var mixInto = __webpack_require__(63);
+	var monitorCodeUse = __webpack_require__(57);
 	var objMap = __webpack_require__(64);
 	var shouldUpdateReactComponent = __webpack_require__(65);
 	var warning = __webpack_require__(48);
@@ -8312,7 +8366,7 @@
 
 	"use strict";
 
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 
 	/**
 	 * Keeps track of the current context.
@@ -8657,8 +8711,8 @@
 	var escapeTextForBrowser = __webpack_require__(46);
 	var invariant = __webpack_require__(50);
 	var keyOf = __webpack_require__(71);
-	var merge = __webpack_require__(61);
-	var mixInto = __webpack_require__(62);
+	var merge = __webpack_require__(56);
+	var mixInto = __webpack_require__(63);
 
 	var deleteListener = ReactEventEmitter.deleteListener;
 	var listenTo = ReactEventEmitter.listenTo;
@@ -9550,7 +9604,7 @@
 
 	var containsNode = __webpack_require__(96);
 	var getReactRootElementInContainer = __webpack_require__(97);
-	var instantiateReactComponent = __webpack_require__(59);
+	var instantiateReactComponent = __webpack_require__(62);
 	var invariant = __webpack_require__(50);
 	var shouldUpdateReactComponent = __webpack_require__(65);
 
@@ -10204,7 +10258,7 @@
 	var ReactMultiChildUpdateTypes = __webpack_require__(98);
 
 	var flattenChildren = __webpack_require__(99);
-	var instantiateReactComponent = __webpack_require__(59);
+	var instantiateReactComponent = __webpack_require__(62);
 	var shouldUpdateReactComponent = __webpack_require__(65);
 
 	/**
@@ -10730,7 +10784,7 @@
 	"use strict";
 
 	var ReactComponent = __webpack_require__(25);
-	var ReactPropTypeLocationNames = __webpack_require__(57);
+	var ReactPropTypeLocationNames = __webpack_require__(61);
 
 	var warning = __webpack_require__(48);
 	var createObjectFrom = __webpack_require__(100);
@@ -11101,7 +11155,7 @@
 	var ReactServerRenderingTransaction =
 	  __webpack_require__(102);
 
-	var instantiateReactComponent = __webpack_require__(59);
+	var instantiateReactComponent = __webpack_require__(62);
 	var invariant = __webpack_require__(50);
 
 	/**
@@ -11197,7 +11251,7 @@
 	var ReactComponent = __webpack_require__(25);
 
 	var escapeTextForBrowser = __webpack_require__(46);
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	/**
 	 * Text nodes violate a couple assumptions that React makes about components:
@@ -12170,7 +12224,7 @@
 
 	"use strict";
 
-	var keyMirror = __webpack_require__(60);
+	var keyMirror = __webpack_require__(55);
 
 	var PropagationPhases = keyMirror({bubbled: null, captured: null});
 
@@ -12624,49 +12678,6 @@
 /* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ReactErrorUtils
-	 * @typechecks
-	 */
-
-	"use strict";
-
-	var ReactErrorUtils = {
-	  /**
-	   * Creates a guarded version of a function. This is supposed to make debugging
-	   * of event handlers easier. To aid debugging with the browser's debugger,
-	   * this currently simply returns the original function.
-	   *
-	   * @param {function} func Function to be executed
-	   * @param {string} name The name of the guard
-	   * @return {function}
-	   */
-	  guard: function(func, name) {
-	    return func;
-	  }
-	};
-
-	module.exports = ReactErrorUtils;
-
-
-/***/ },
-/* 54 */
-/***/ function(module, exports, __webpack_require__) {
-
 	/* WEBPACK VAR INJECTION */(function(process) {/**
 	 * Copyright 2013-2014 Facebook, Inc.
 	 *
@@ -12830,234 +12841,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
 
 /***/ },
-/* 55 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ReactPropTransferer
-	 */
-
-	"use strict";
-
-	var emptyFunction = __webpack_require__(105);
-	var invariant = __webpack_require__(50);
-	var joinClasses = __webpack_require__(107);
-	var merge = __webpack_require__(61);
-
-	/**
-	 * Creates a transfer strategy that will merge prop values using the supplied
-	 * `mergeStrategy`. If a prop was previously unset, this just sets it.
-	 *
-	 * @param {function} mergeStrategy
-	 * @return {function}
-	 */
-	function createTransferStrategy(mergeStrategy) {
-	  return function(props, key, value) {
-	    if (!props.hasOwnProperty(key)) {
-	      props[key] = value;
-	    } else {
-	      props[key] = mergeStrategy(props[key], value);
-	    }
-	  };
-	}
-
-	/**
-	 * Transfer strategies dictate how props are transferred by `transferPropsTo`.
-	 * NOTE: if you add any more exceptions to this list you should be sure to
-	 * update `cloneWithProps()` accordingly.
-	 */
-	var TransferStrategies = {
-	  /**
-	   * Never transfer `children`.
-	   */
-	  children: emptyFunction,
-	  /**
-	   * Transfer the `className` prop by merging them.
-	   */
-	  className: createTransferStrategy(joinClasses),
-	  /**
-	   * Never transfer the `key` prop.
-	   */
-	  key: emptyFunction,
-	  /**
-	   * Never transfer the `ref` prop.
-	   */
-	  ref: emptyFunction,
-	  /**
-	   * Transfer the `style` prop (which is an object) by merging them.
-	   */
-	  style: createTransferStrategy(merge)
-	};
-
-	/**
-	 * ReactPropTransferer are capable of transferring props to another component
-	 * using a `transferPropsTo` method.
-	 *
-	 * @class ReactPropTransferer
-	 */
-	var ReactPropTransferer = {
-
-	  TransferStrategies: TransferStrategies,
-
-	  /**
-	   * Merge two props objects using TransferStrategies.
-	   *
-	   * @param {object} oldProps original props (they take precedence)
-	   * @param {object} newProps new props to merge in
-	   * @return {object} a new object containing both sets of props merged.
-	   */
-	  mergeProps: function(oldProps, newProps) {
-	    var props = merge(oldProps);
-
-	    for (var thisKey in newProps) {
-	      if (!newProps.hasOwnProperty(thisKey)) {
-	        continue;
-	      }
-
-	      var transferStrategy = TransferStrategies[thisKey];
-
-	      if (transferStrategy && TransferStrategies.hasOwnProperty(thisKey)) {
-	        transferStrategy(props, thisKey, newProps[thisKey]);
-	      } else if (!props.hasOwnProperty(thisKey)) {
-	        props[thisKey] = newProps[thisKey];
-	      }
-	    }
-
-	    return props;
-	  },
-
-	  /**
-	   * @lends {ReactPropTransferer.prototype}
-	   */
-	  Mixin: {
-
-	    /**
-	     * Transfer props from this component to a target component.
-	     *
-	     * Props that do not have an explicit transfer strategy will be transferred
-	     * only if the target component does not already have the prop set.
-	     *
-	     * This is usually used to pass down props to a returned root component.
-	     *
-	     * @param {ReactComponent} component Component receiving the properties.
-	     * @return {ReactComponent} The supplied `component`.
-	     * @final
-	     * @protected
-	     */
-	    transferPropsTo: function(component) {
-	      ("production" !== process.env.NODE_ENV ? invariant(
-	        component._owner === this,
-	        '%s: You can\'t call transferPropsTo() on a component that you ' +
-	        'don\'t own, %s. This usually means you are calling ' +
-	        'transferPropsTo() on a component passed in as props or children.',
-	        this.constructor.displayName,
-	        component.constructor.displayName
-	      ) : invariant(component._owner === this));
-
-	      component.props = ReactPropTransferer.mergeProps(
-	        component.props,
-	        this.props
-	      );
-
-	      return component;
-	    }
-
-	  }
-	};
-
-	module.exports = ReactPropTransferer;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
-
-/***/ },
-/* 56 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ReactPropTypeLocations
-	 */
-
-	"use strict";
-
-	var keyMirror = __webpack_require__(60);
-
-	var ReactPropTypeLocations = keyMirror({
-	  prop: null,
-	  context: null,
-	  childContext: null
-	});
-
-	module.exports = ReactPropTypeLocations;
-
-
-/***/ },
-/* 57 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ReactPropTypeLocationNames
-	 */
-
-	"use strict";
-
-	var ReactPropTypeLocationNames = {};
-
-	if ("production" !== process.env.NODE_ENV) {
-	  ReactPropTypeLocationNames = {
-	    prop: 'prop',
-	    context: 'context',
-	    childContext: 'child context'
-	  };
-	}
-
-	module.exports = ReactPropTypeLocationNames;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
-
-/***/ },
-/* 58 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13212,7 +12996,429 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
 
 /***/ },
+/* 55 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule keyMirror
+	 * @typechecks static-only
+	 */
+
+	"use strict";
+
+	var invariant = __webpack_require__(50);
+
+	/**
+	 * Constructs an enumeration with keys equal to their value.
+	 *
+	 * For example:
+	 *
+	 *   var COLORS = keyMirror({blue: null, red: null});
+	 *   var myColor = COLORS.blue;
+	 *   var isColorValid = !!COLORS[myColor];
+	 *
+	 * The last line could not be performed if the values of the generated enum were
+	 * not equal to their keys.
+	 *
+	 *   Input:  {key1: val1, key2: val2}
+	 *   Output: {key1: key1, key2: key2}
+	 *
+	 * @param {object} obj
+	 * @return {object}
+	 */
+	var keyMirror = function(obj) {
+	  var ret = {};
+	  var key;
+	  ("production" !== process.env.NODE_ENV ? invariant(
+	    obj instanceof Object && !Array.isArray(obj),
+	    'keyMirror(...): Argument must be an object.'
+	  ) : invariant(obj instanceof Object && !Array.isArray(obj)));
+	  for (key in obj) {
+	    if (!obj.hasOwnProperty(key)) {
+	      continue;
+	    }
+	    ret[key] = key;
+	  }
+	  return ret;
+	};
+
+	module.exports = keyMirror;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule merge
+	 */
+
+	"use strict";
+
+	var mergeInto = __webpack_require__(66);
+
+	/**
+	 * Shallow merges two structures into a return value, without mutating either.
+	 *
+	 * @param {?object} one Optional object with properties to merge from.
+	 * @param {?object} two Optional object with properties to merge from.
+	 * @return {object} The shallow extension of one by two.
+	 */
+	var merge = function(one, two) {
+	  var result = {};
+	  mergeInto(result, one);
+	  mergeInto(result, two);
+	  return result;
+	};
+
+	module.exports = merge;
+
+
+/***/ },
+/* 57 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule monitorCodeUse
+	 */
+
+	"use strict";
+
+	var invariant = __webpack_require__(50);
+
+	/**
+	 * Provides open-source compatible instrumentation for monitoring certain API
+	 * uses before we're ready to issue a warning or refactor. It accepts an event
+	 * name which may only contain the characters [a-z0-9_] and an optional data
+	 * object with further information.
+	 */
+
+	function monitorCodeUse(eventName, data) {
+	  ("production" !== process.env.NODE_ENV ? invariant(
+	    eventName && !/[^a-z0-9_]/.test(eventName),
+	    'You must provide an eventName using only the characters [a-z0-9_]'
+	  ) : invariant(eventName && !/[^a-z0-9_]/.test(eventName)));
+	}
+
+	module.exports = monitorCodeUse;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ReactErrorUtils
+	 * @typechecks
+	 */
+
+	"use strict";
+
+	var ReactErrorUtils = {
+	  /**
+	   * Creates a guarded version of a function. This is supposed to make debugging
+	   * of event handlers easier. To aid debugging with the browser's debugger,
+	   * this currently simply returns the original function.
+	   *
+	   * @param {function} func Function to be executed
+	   * @param {string} name The name of the guard
+	   * @return {function}
+	   */
+	  guard: function(func, name) {
+	    return func;
+	  }
+	};
+
+	module.exports = ReactErrorUtils;
+
+
+/***/ },
 /* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ReactPropTransferer
+	 */
+
+	"use strict";
+
+	var emptyFunction = __webpack_require__(105);
+	var invariant = __webpack_require__(50);
+	var joinClasses = __webpack_require__(107);
+	var merge = __webpack_require__(56);
+
+	/**
+	 * Creates a transfer strategy that will merge prop values using the supplied
+	 * `mergeStrategy`. If a prop was previously unset, this just sets it.
+	 *
+	 * @param {function} mergeStrategy
+	 * @return {function}
+	 */
+	function createTransferStrategy(mergeStrategy) {
+	  return function(props, key, value) {
+	    if (!props.hasOwnProperty(key)) {
+	      props[key] = value;
+	    } else {
+	      props[key] = mergeStrategy(props[key], value);
+	    }
+	  };
+	}
+
+	/**
+	 * Transfer strategies dictate how props are transferred by `transferPropsTo`.
+	 * NOTE: if you add any more exceptions to this list you should be sure to
+	 * update `cloneWithProps()` accordingly.
+	 */
+	var TransferStrategies = {
+	  /**
+	   * Never transfer `children`.
+	   */
+	  children: emptyFunction,
+	  /**
+	   * Transfer the `className` prop by merging them.
+	   */
+	  className: createTransferStrategy(joinClasses),
+	  /**
+	   * Never transfer the `key` prop.
+	   */
+	  key: emptyFunction,
+	  /**
+	   * Never transfer the `ref` prop.
+	   */
+	  ref: emptyFunction,
+	  /**
+	   * Transfer the `style` prop (which is an object) by merging them.
+	   */
+	  style: createTransferStrategy(merge)
+	};
+
+	/**
+	 * ReactPropTransferer are capable of transferring props to another component
+	 * using a `transferPropsTo` method.
+	 *
+	 * @class ReactPropTransferer
+	 */
+	var ReactPropTransferer = {
+
+	  TransferStrategies: TransferStrategies,
+
+	  /**
+	   * Merge two props objects using TransferStrategies.
+	   *
+	   * @param {object} oldProps original props (they take precedence)
+	   * @param {object} newProps new props to merge in
+	   * @return {object} a new object containing both sets of props merged.
+	   */
+	  mergeProps: function(oldProps, newProps) {
+	    var props = merge(oldProps);
+
+	    for (var thisKey in newProps) {
+	      if (!newProps.hasOwnProperty(thisKey)) {
+	        continue;
+	      }
+
+	      var transferStrategy = TransferStrategies[thisKey];
+
+	      if (transferStrategy && TransferStrategies.hasOwnProperty(thisKey)) {
+	        transferStrategy(props, thisKey, newProps[thisKey]);
+	      } else if (!props.hasOwnProperty(thisKey)) {
+	        props[thisKey] = newProps[thisKey];
+	      }
+	    }
+
+	    return props;
+	  },
+
+	  /**
+	   * @lends {ReactPropTransferer.prototype}
+	   */
+	  Mixin: {
+
+	    /**
+	     * Transfer props from this component to a target component.
+	     *
+	     * Props that do not have an explicit transfer strategy will be transferred
+	     * only if the target component does not already have the prop set.
+	     *
+	     * This is usually used to pass down props to a returned root component.
+	     *
+	     * @param {ReactComponent} component Component receiving the properties.
+	     * @return {ReactComponent} The supplied `component`.
+	     * @final
+	     * @protected
+	     */
+	    transferPropsTo: function(component) {
+	      ("production" !== process.env.NODE_ENV ? invariant(
+	        component._owner === this,
+	        '%s: You can\'t call transferPropsTo() on a component that you ' +
+	        'don\'t own, %s. This usually means you are calling ' +
+	        'transferPropsTo() on a component passed in as props or children.',
+	        this.constructor.displayName,
+	        component.constructor.displayName
+	      ) : invariant(component._owner === this));
+
+	      component.props = ReactPropTransferer.mergeProps(
+	        component.props,
+	        this.props
+	      );
+
+	      return component;
+	    }
+
+	  }
+	};
+
+	module.exports = ReactPropTransferer;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
+
+/***/ },
+/* 60 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ReactPropTypeLocations
+	 */
+
+	"use strict";
+
+	var keyMirror = __webpack_require__(55);
+
+	var ReactPropTypeLocations = keyMirror({
+	  prop: null,
+	  context: null,
+	  childContext: null
+	});
+
+	module.exports = ReactPropTypeLocations;
+
+
+/***/ },
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ReactPropTypeLocationNames
+	 */
+
+	"use strict";
+
+	var ReactPropTypeLocationNames = {};
+
+	if ("production" !== process.env.NODE_ENV) {
+	  ReactPropTypeLocationNames = {
+	    prop: 'prop',
+	    context: 'context',
+	    childContext: 'child context'
+	  };
+	}
+
+	module.exports = ReactPropTypeLocationNames;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
+
+/***/ },
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13289,115 +13495,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
 
 /***/ },
-/* 60 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule keyMirror
-	 * @typechecks static-only
-	 */
-
-	"use strict";
-
-	var invariant = __webpack_require__(50);
-
-	/**
-	 * Constructs an enumeration with keys equal to their value.
-	 *
-	 * For example:
-	 *
-	 *   var COLORS = keyMirror({blue: null, red: null});
-	 *   var myColor = COLORS.blue;
-	 *   var isColorValid = !!COLORS[myColor];
-	 *
-	 * The last line could not be performed if the values of the generated enum were
-	 * not equal to their keys.
-	 *
-	 *   Input:  {key1: val1, key2: val2}
-	 *   Output: {key1: key1, key2: key2}
-	 *
-	 * @param {object} obj
-	 * @return {object}
-	 */
-	var keyMirror = function(obj) {
-	  var ret = {};
-	  var key;
-	  ("production" !== process.env.NODE_ENV ? invariant(
-	    obj instanceof Object && !Array.isArray(obj),
-	    'keyMirror(...): Argument must be an object.'
-	  ) : invariant(obj instanceof Object && !Array.isArray(obj)));
-	  for (key in obj) {
-	    if (!obj.hasOwnProperty(key)) {
-	      continue;
-	    }
-	    ret[key] = key;
-	  }
-	  return ret;
-	};
-
-	module.exports = keyMirror;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
-
-/***/ },
-/* 61 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule merge
-	 */
-
-	"use strict";
-
-	var mergeInto = __webpack_require__(66);
-
-	/**
-	 * Shallow merges two structures into a return value, without mutating either.
-	 *
-	 * @param {?object} one Optional object with properties to merge from.
-	 * @param {?object} two Optional object with properties to merge from.
-	 * @return {object} The shallow extension of one by two.
-	 */
-	var merge = function(one, two) {
-	  var result = {};
-	  mergeInto(result, one);
-	  mergeInto(result, two);
-	  return result;
-	};
-
-	module.exports = merge;
-
-
-/***/ },
-/* 62 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -13435,50 +13533,6 @@
 
 	module.exports = mixInto;
 
-
-/***/ },
-/* 63 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule monitorCodeUse
-	 */
-
-	"use strict";
-
-	var invariant = __webpack_require__(50);
-
-	/**
-	 * Provides open-source compatible instrumentation for monitoring certain API
-	 * uses before we're ready to issue a warning or refactor. It accepts an event
-	 * name which may only contain the characters [a-z0-9_] and an optional data
-	 * object with further information.
-	 */
-
-	function monitorCodeUse(eventName, data) {
-	  ("production" !== process.env.NODE_ENV ? invariant(
-	    eventName && !/[^a-z0-9_]/.test(eventName),
-	    'You must provide an eventName using only the characters [a-z0-9_]'
-	  ) : invariant(eventName && !/[^a-z0-9_]/.test(eventName)));
-	}
-
-	module.exports = monitorCodeUse;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44)))
 
 /***/ },
 /* 64 */
@@ -13892,7 +13946,7 @@
 
 	var invariant = __webpack_require__(50);
 	var isEventSupported = __webpack_require__(117);
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 
 	/**
 	 * Summary of `ReactEventEmitter` event handling:
@@ -14282,7 +14336,7 @@
 	var ReactEventEmitter = __webpack_require__(70);
 	var ReactPerf = __webpack_require__(35);
 	var ReactRootIndex = __webpack_require__(95);
-	var ReactUpdates = __webpack_require__(58);
+	var ReactUpdates = __webpack_require__(54);
 
 	var ReactInjection = {
 	  Component: ReactComponent.injection,
@@ -14529,7 +14583,7 @@
 	var EventPluginHub = __webpack_require__(113);
 	var EventPropagators = __webpack_require__(118);
 	var ExecutionEnvironment = __webpack_require__(40);
-	var ReactUpdates = __webpack_require__(58);
+	var ReactUpdates = __webpack_require__(54);
 	var SyntheticEvent = __webpack_require__(119);
 
 	var isEventSupported = __webpack_require__(117);
@@ -15628,7 +15682,7 @@
 	var ReactMount = __webpack_require__(33);
 
 	var getEventTarget = __webpack_require__(127);
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	/**
 	 * @type {boolean}
@@ -15781,7 +15835,7 @@
 	var ReactCompositeComponent = __webpack_require__(26);
 	var ReactDOM = __webpack_require__(29);
 
-	var keyMirror = __webpack_require__(60);
+	var keyMirror = __webpack_require__(55);
 
 	// Store a reference to the <button> `ReactDOMComponent`.
 	var button = ReactDOM.button;
@@ -15995,7 +16049,7 @@
 	var ReactMount = __webpack_require__(33);
 
 	var invariant = __webpack_require__(50);
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 
 	// Store a reference to the <input> `ReactDOMComponent`.
 	var input = ReactDOM.input;
@@ -16244,7 +16298,7 @@
 	var ReactDOM = __webpack_require__(29);
 
 	var invariant = __webpack_require__(50);
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 
 	// Store a reference to the <select> `ReactDOMComponent`.
 	var select = ReactDOM.select;
@@ -16432,7 +16486,7 @@
 	var ReactDOM = __webpack_require__(29);
 
 	var invariant = __webpack_require__(50);
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 
 	var warning = __webpack_require__(48);
 
@@ -17243,11 +17297,11 @@
 
 	"use strict";
 
-	var ReactUpdates = __webpack_require__(58);
+	var ReactUpdates = __webpack_require__(54);
 	var Transaction = __webpack_require__(139);
 
 	var emptyFunction = __webpack_require__(105);
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	var RESET_BATCHED_UPDATES = {
 	  initialize: emptyFunction,
@@ -17787,7 +17841,7 @@
 
 	"use strict";
 
-	var keyMirror = __webpack_require__(60);
+	var keyMirror = __webpack_require__(55);
 
 	/**
 	 * When a component's children are updated, a series of update configuration
@@ -18029,7 +18083,7 @@
 	var Transaction = __webpack_require__(139);
 
 	var emptyFunction = __webpack_require__(105);
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	/**
 	 * Provides a `ReactMountReady` queue for collecting `onDOMReady` callbacks
@@ -18588,7 +18642,7 @@
 	"use strict";
 
 	var invariant = __webpack_require__(50);
-	var keyMirror = __webpack_require__(60);
+	var keyMirror = __webpack_require__(55);
 
 	/**
 	 * Maximum number of levels to traverse. Will catch circular structures.
@@ -19043,7 +19097,7 @@
 	var forEachAccumulated = __webpack_require__(148);
 	var invariant = __webpack_require__(50);
 	var isEventSupported = __webpack_require__(117);
-	var monitorCodeUse = __webpack_require__(63);
+	var monitorCodeUse = __webpack_require__(57);
 
 	/**
 	 * Internal store for event listeners
@@ -19626,7 +19680,7 @@
 	"use strict";
 
 	var EventPluginHub = __webpack_require__(113);
-	var ReactUpdates = __webpack_require__(58);
+	var ReactUpdates = __webpack_require__(54);
 
 	function runEventQueueInBatch(events) {
 	  EventPluginHub.enqueueEvents(events);
@@ -19962,7 +20016,7 @@
 
 	var emptyFunction = __webpack_require__(105);
 	var getEventTarget = __webpack_require__(127);
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 	var mergeInto = __webpack_require__(66);
 
 	/**
@@ -20758,7 +20812,7 @@
 	var ReactPutListenerQueue = __webpack_require__(145);
 	var Transaction = __webpack_require__(139);
 
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	/**
 	 * Ensures that, when possible, the selection range (currently selected text
@@ -21961,7 +22015,7 @@
 	 * @providesModule ReactDefaultPerfAnalysis
 	 */
 
-	var merge = __webpack_require__(61);
+	var merge = __webpack_require__(56);
 
 	// Don't try to save users less than 1.2ms (a number I made up)
 	var DONT_CARE_THRESHOLD = 1.2;
@@ -22299,7 +22353,7 @@
 
 	var PooledClass = __webpack_require__(51);
 
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	/**
 	 * A specialized pseudo-event module to help keep track of components waiting to
@@ -22401,7 +22455,7 @@
 	var PooledClass = __webpack_require__(51);
 	var ReactEventEmitter = __webpack_require__(70);
 
-	var mixInto = __webpack_require__(62);
+	var mixInto = __webpack_require__(63);
 
 	function ReactPutListenerQueue() {
 	  this.listenersToPut = [];
