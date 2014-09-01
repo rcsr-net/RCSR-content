@@ -97,11 +97,24 @@ h1.center, h2.center, h3.center, h4.center, p.center {
     text-align: center;
 }
 
+.header {
+}
+
 .logoText {
     font-size: 22.8px;
     font-family: Muli, verdana, arial, sans-serif;
     vertical-align: 40%;
     margin: 5px;
+}
+
+.contactInfo {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 100;
+    background-color: lightyellow;
+    padding: 2px;
+    border: 1px solid lightgray;
 }
 
 .navBar {
