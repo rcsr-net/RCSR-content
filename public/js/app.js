@@ -785,7 +785,7 @@
 
 
 	var starrify = function(text) {
-	  return text.split('').map(function() { return '*'; }).join('')
+	  return (text || '').split('').map(function() { return '*'; }).join('')
 	};
 
 
@@ -984,7 +984,7 @@
 	      [ 'Polyhedra', '/polyhedra' ]
 	    ];
 
-	    if (this.props.path == '/admin') {
+	    if (adminKnown) {
 	      links.push([ '|' ]);
 	      links.push([ 'Testing', '/testing' ]);
 	      links.push([ '|' ]);
@@ -1235,18 +1235,7 @@
 	};
 
 
-	var checkStructure = function(net) {
-	  var a = net.edgesPerUnitCell;
-	  var b = 0.5 * net.vertices.reduce(function(sum, vert) {
-	    return sum + vert.multiplicity * vert.coordinationNumber;
-	  }, 0);
-	  if (a != b)
-	    console.error("WARNING: " + net.symbol + " - edge numbers inconsistent ("
-	                  + a + " vs " + b + ")");
-	};
-
-
-	module.exports = function(text) {
+	var parseFile = function(text) {
 	  var lines  = splitIntoLines(text).map(cleanupLine);
 	  var lineNo = 0;
 	  var seen   = {};
@@ -1257,7 +1246,6 @@
 	    tmp = parseStructure(lines, lineNo);
 	    if (tmp == null)
 	      break;
-	    checkStructure(tmp.result);
 	    symbol = tmp.result.symbol;
 
 	    if (seen[symbol])
@@ -1271,6 +1259,9 @@
 
 	  return result;
 	};
+
+
+	module.exports = parseFile;
 
 
 /***/ },
@@ -1606,7 +1597,7 @@
 	var Form     = __webpack_require__(10);
 
 	var common   = __webpack_require__(13);
-	var search   = __webpack_require__(14);
+	var search   = __webpack_require__(15);
 
 	var hellip   = '\u2026';
 
@@ -1941,7 +1932,7 @@
 
 
 	var common   = __webpack_require__(13);
-	var search   = __webpack_require__(15);
+	var search   = __webpack_require__(14);
 
 
 	var $ = React.DOM;
@@ -3646,6 +3637,91 @@
 	            common.search(s, m, item.otherNames));
 	  },
 	  keywords: function(item, values) {
+	    var keywords = item.keywords.map(function(s) { return s.toLowerCase(); });
+	    for (var i in values)
+	      if (keywords.indexOf(values[i].toLowerCase()) < 0)
+	        return false;
+	    return true;
+	  },
+	  coordination: function(item, values) {
+	    var seen = item.vertices.map(function(v) { return v.coordination; });
+	    return common.equalSets(values, seen);
+	  },
+	  "kinds of vertex": common.rangeMatcher('kindsOfVertex')
+	};
+
+
+	var matches = function(item, query) {
+	  var key, good;
+
+	  for (var key in query) {
+	    if (matcher[key])
+	      good = matcher[key](item, query[key]);
+	    else
+	      good = matches(item, query[key]);
+
+	    if (!good)
+	      return false;
+	  }
+	  return true;
+	};
+
+
+	var filteredBySymbol = function(data, query) {
+	  var spec = query.symbol;
+	  var s, m, matches;
+
+	  var check = function(s, m) {
+	    return function(item) {
+	      return (common.search(s, m, [item.symbol]) ||
+	              common.search(s, m, item.otherSymbols));
+	    };
+	  }
+
+	  if (spec && spec.text) {
+	    s = spec.text.toLowerCase()
+	    m = spec.mode || 'is';
+
+	    matches = data.filter(check(s, m));
+	  } else
+	    matches = data;
+
+	  return matches;
+	};
+
+
+	var cmp = function(a, b) {
+	  return (a == b) ? 0 : (a < b) ? -1 : 1;
+	};
+
+
+	module.exports = function(data, query) {
+	  return filteredBySymbol(data, query)
+	    .filter(function(item) { return matches(item, query); })
+	    .sort(function(a, b) { return cmp(a.symbol, b.symbol); });
+	};
+
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var common = __webpack_require__(21);
+
+
+	var matcher = {
+	  symbol: function(item, value) {
+	    return true;
+	  },
+	  names: function(item, value) {
+	    var s = value.text.toLowerCase()
+	    var m = value.mode || 'is';
+	    return (common.search(s, m, item.names) ||
+	            common.search(s, m, item.otherNames));
+	  },
+	  keywords: function(item, values) {
 	    for (var i in values)
 	      if (item.keywords.indexOf(values[i].toLowerCase()) < 0)
 	        return false;
@@ -3750,91 +3826,6 @@
 	    results = withAugmented(results, data, query);
 
 	  return results
-	    .sort(function(a, b) { return cmp(a.symbol, b.symbol); });
-	};
-
-
-/***/ },
-/* 15 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var common = __webpack_require__(21);
-
-
-	var matcher = {
-	  symbol: function(item, value) {
-	    return true;
-	  },
-	  names: function(item, value) {
-	    var s = value.text.toLowerCase()
-	    var m = value.mode || 'is';
-	    return (common.search(s, m, item.names) ||
-	            common.search(s, m, item.otherNames));
-	  },
-	  keywords: function(item, values) {
-	    var keywords = item.keywords.map(function(s) { return s.toLowerCase(); });
-	    for (var i in values)
-	      if (keywords.indexOf(values[i].toLowerCase()) < 0)
-	        return false;
-	    return true;
-	  },
-	  coordination: function(item, values) {
-	    var seen = item.vertices.map(function(v) { return v.coordination; });
-	    return common.equalSets(values, seen);
-	  },
-	  "kinds of vertex": common.rangeMatcher('kindsOfVertex')
-	};
-
-
-	var matches = function(item, query) {
-	  var key, good;
-
-	  for (var key in query) {
-	    if (matcher[key])
-	      good = matcher[key](item, query[key]);
-	    else
-	      good = matches(item, query[key]);
-
-	    if (!good)
-	      return false;
-	  }
-	  return true;
-	};
-
-
-	var filteredBySymbol = function(data, query) {
-	  var spec = query.symbol;
-	  var s, m, matches;
-
-	  var check = function(s, m) {
-	    return function(item) {
-	      return (common.search(s, m, [item.symbol]) ||
-	              common.search(s, m, item.otherSymbols));
-	    };
-	  }
-
-	  if (spec && spec.text) {
-	    s = spec.text.toLowerCase()
-	    m = spec.mode || 'is';
-
-	    matches = data.filter(check(s, m));
-	  } else
-	    matches = data;
-
-	  return matches;
-	};
-
-
-	var cmp = function(a, b) {
-	  return (a == b) ? 0 : (a < b) ? -1 : 1;
-	};
-
-
-	module.exports = function(data, query) {
-	  return filteredBySymbol(data, query)
-	    .filter(function(item) { return matches(item, query); })
 	    .sort(function(a, b) { return cmp(a.symbol, b.symbol); });
 	};
 
@@ -5958,10 +5949,10 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 
 	var invariant = __webpack_require__(51);
-	var traverseAllChildren = __webpack_require__(58);
+	var traverseAllChildren = __webpack_require__(53);
 
 	var twoArgumentPooler = PooledClass.twoArgumentPooler;
 	var threeArgumentPooler = PooledClass.threeArgumentPooler;
@@ -6098,13 +6089,13 @@
 	"use strict";
 
 	var ReactCurrentOwner = __webpack_require__(29);
-	var ReactOwner = __webpack_require__(52);
-	var ReactUpdates = __webpack_require__(53);
+	var ReactOwner = __webpack_require__(54);
+	var ReactUpdates = __webpack_require__(55);
 
 	var invariant = __webpack_require__(51);
-	var keyMirror = __webpack_require__(54);
-	var merge = __webpack_require__(55);
-	var monitorCodeUse = __webpack_require__(56);
+	var keyMirror = __webpack_require__(56);
+	var merge = __webpack_require__(57);
+	var monitorCodeUse = __webpack_require__(58);
 
 	/**
 	 * Every React component is in one of these life cycles.
@@ -6703,19 +6694,19 @@
 	var ReactContext = __webpack_require__(28);
 	var ReactCurrentOwner = __webpack_require__(29);
 	var ReactErrorUtils = __webpack_require__(59);
-	var ReactOwner = __webpack_require__(52);
+	var ReactOwner = __webpack_require__(54);
 	var ReactPerf = __webpack_require__(36);
 	var ReactPropTransferer = __webpack_require__(60);
 	var ReactPropTypeLocations = __webpack_require__(61);
 	var ReactPropTypeLocationNames = __webpack_require__(62);
-	var ReactUpdates = __webpack_require__(53);
+	var ReactUpdates = __webpack_require__(55);
 
 	var instantiateReactComponent = __webpack_require__(63);
 	var invariant = __webpack_require__(51);
-	var keyMirror = __webpack_require__(54);
-	var merge = __webpack_require__(55);
+	var keyMirror = __webpack_require__(56);
+	var merge = __webpack_require__(57);
 	var mixInto = __webpack_require__(64);
-	var monitorCodeUse = __webpack_require__(56);
+	var monitorCodeUse = __webpack_require__(58);
 	var objMap = __webpack_require__(65);
 	var shouldUpdateReactComponent = __webpack_require__(66);
 	var warning = __webpack_require__(49);
@@ -8293,7 +8284,7 @@
 
 	"use strict";
 
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	/**
 	 * Keeps track of the current context.
@@ -8638,7 +8629,7 @@
 	var escapeTextForBrowser = __webpack_require__(47);
 	var invariant = __webpack_require__(51);
 	var keyOf = __webpack_require__(72);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 	var mixInto = __webpack_require__(64);
 
 	var deleteListener = ReactEventEmitter.deleteListener;
@@ -9529,8 +9520,8 @@
 	var ReactInstanceHandles = __webpack_require__(33);
 	var ReactPerf = __webpack_require__(36);
 
-	var containsNode = __webpack_require__(97);
-	var getReactRootElementInContainer = __webpack_require__(98);
+	var containsNode = __webpack_require__(99);
+	var getReactRootElementInContainer = __webpack_require__(100);
 	var instantiateReactComponent = __webpack_require__(63);
 	var invariant = __webpack_require__(51);
 	var shouldUpdateReactComponent = __webpack_require__(66);
@@ -10182,9 +10173,9 @@
 	"use strict";
 
 	var ReactComponent = __webpack_require__(26);
-	var ReactMultiChildUpdateTypes = __webpack_require__(99);
+	var ReactMultiChildUpdateTypes = __webpack_require__(97);
 
-	var flattenChildren = __webpack_require__(100);
+	var flattenChildren = __webpack_require__(98);
 	var instantiateReactComponent = __webpack_require__(63);
 	var shouldUpdateReactComponent = __webpack_require__(66);
 
@@ -12151,7 +12142,7 @@
 
 	"use strict";
 
-	var keyMirror = __webpack_require__(54);
+	var keyMirror = __webpack_require__(56);
 
 	var PropagationPhases = keyMirror({bubbled: null, captured: null});
 
@@ -12297,479 +12288,6 @@
 	 * See the License for the specific language governing permissions and
 	 * limitations under the License.
 	 *
-	 * @providesModule ReactOwner
-	 */
-
-	"use strict";
-
-	var emptyObject = __webpack_require__(107);
-	var invariant = __webpack_require__(51);
-
-	/**
-	 * ReactOwners are capable of storing references to owned components.
-	 *
-	 * All components are capable of //being// referenced by owner components, but
-	 * only ReactOwner components are capable of //referencing// owned components.
-	 * The named reference is known as a "ref".
-	 *
-	 * Refs are available when mounted and updated during reconciliation.
-	 *
-	 *   var MyComponent = React.createClass({
-	 *     render: function() {
-	 *       return (
-	 *         <div onClick={this.handleClick}>
-	 *           <CustomComponent ref="custom" />
-	 *         </div>
-	 *       );
-	 *     },
-	 *     handleClick: function() {
-	 *       this.refs.custom.handleClick();
-	 *     },
-	 *     componentDidMount: function() {
-	 *       this.refs.custom.initialize();
-	 *     }
-	 *   });
-	 *
-	 * Refs should rarely be used. When refs are used, they should only be done to
-	 * control data that is not handled by React's data flow.
-	 *
-	 * @class ReactOwner
-	 */
-	var ReactOwner = {
-
-	  /**
-	   * @param {?object} object
-	   * @return {boolean} True if `object` is a valid owner.
-	   * @final
-	   */
-	  isValidOwner: function(object) {
-	    return !!(
-	      object &&
-	      typeof object.attachRef === 'function' &&
-	      typeof object.detachRef === 'function'
-	    );
-	  },
-
-	  /**
-	   * Adds a component by ref to an owner component.
-	   *
-	   * @param {ReactComponent} component Component to reference.
-	   * @param {string} ref Name by which to refer to the component.
-	   * @param {ReactOwner} owner Component on which to record the ref.
-	   * @final
-	   * @internal
-	   */
-	  addComponentAsRefTo: function(component, ref, owner) {
-	    ("production" !== process.env.NODE_ENV ? invariant(
-	      ReactOwner.isValidOwner(owner),
-	      'addComponentAsRefTo(...): Only a ReactOwner can have refs. This ' +
-	      'usually means that you\'re trying to add a ref to a component that ' +
-	      'doesn\'t have an owner (that is, was not created inside of another ' +
-	      'component\'s `render` method). Try rendering this component inside of ' +
-	      'a new top-level component which will hold the ref.'
-	    ) : invariant(ReactOwner.isValidOwner(owner)));
-	    owner.attachRef(ref, component);
-	  },
-
-	  /**
-	   * Removes a component by ref from an owner component.
-	   *
-	   * @param {ReactComponent} component Component to dereference.
-	   * @param {string} ref Name of the ref to remove.
-	   * @param {ReactOwner} owner Component on which the ref is recorded.
-	   * @final
-	   * @internal
-	   */
-	  removeComponentAsRefFrom: function(component, ref, owner) {
-	    ("production" !== process.env.NODE_ENV ? invariant(
-	      ReactOwner.isValidOwner(owner),
-	      'removeComponentAsRefFrom(...): Only a ReactOwner can have refs. This ' +
-	      'usually means that you\'re trying to remove a ref to a component that ' +
-	      'doesn\'t have an owner (that is, was not created inside of another ' +
-	      'component\'s `render` method). Try rendering this component inside of ' +
-	      'a new top-level component which will hold the ref.'
-	    ) : invariant(ReactOwner.isValidOwner(owner)));
-	    // Check that `component` is still the current ref because we do not want to
-	    // detach the ref if another component stole it.
-	    if (owner.refs[ref] === component) {
-	      owner.detachRef(ref);
-	    }
-	  },
-
-	  /**
-	   * A ReactComponent must mix this in to have refs.
-	   *
-	   * @lends {ReactOwner.prototype}
-	   */
-	  Mixin: {
-
-	    construct: function() {
-	      this.refs = emptyObject;
-	    },
-
-	    /**
-	     * Lazily allocates the refs object and stores `component` as `ref`.
-	     *
-	     * @param {string} ref Reference name.
-	     * @param {component} component Component to store as `ref`.
-	     * @final
-	     * @private
-	     */
-	    attachRef: function(ref, component) {
-	      ("production" !== process.env.NODE_ENV ? invariant(
-	        component.isOwnedBy(this),
-	        'attachRef(%s, ...): Only a component\'s owner can store a ref to it.',
-	        ref
-	      ) : invariant(component.isOwnedBy(this)));
-	      var refs = this.refs === emptyObject ? (this.refs = {}) : this.refs;
-	      refs[ref] = component;
-	    },
-
-	    /**
-	     * Detaches a reference name.
-	     *
-	     * @param {string} ref Name to dereference.
-	     * @final
-	     * @private
-	     */
-	    detachRef: function(ref) {
-	      delete this.refs[ref];
-	    }
-
-	  }
-
-	};
-
-	module.exports = ReactOwner;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
-
-/***/ },
-/* 53 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ReactUpdates
-	 */
-
-	"use strict";
-
-	var ReactPerf = __webpack_require__(36);
-
-	var invariant = __webpack_require__(51);
-
-	var dirtyComponents = [];
-
-	var batchingStrategy = null;
-
-	function ensureBatchingStrategy() {
-	  ("production" !== process.env.NODE_ENV ? invariant(batchingStrategy, 'ReactUpdates: must inject a batching strategy') : invariant(batchingStrategy));
-	}
-
-	function batchedUpdates(callback, param) {
-	  ensureBatchingStrategy();
-	  batchingStrategy.batchedUpdates(callback, param);
-	}
-
-	/**
-	 * Array comparator for ReactComponents by owner depth
-	 *
-	 * @param {ReactComponent} c1 first component you're comparing
-	 * @param {ReactComponent} c2 second component you're comparing
-	 * @return {number} Return value usable by Array.prototype.sort().
-	 */
-	function mountDepthComparator(c1, c2) {
-	  return c1._mountDepth - c2._mountDepth;
-	}
-
-	function runBatchedUpdates() {
-	  // Since reconciling a component higher in the owner hierarchy usually (not
-	  // always -- see shouldComponentUpdate()) will reconcile children, reconcile
-	  // them before their children by sorting the array.
-
-	  dirtyComponents.sort(mountDepthComparator);
-
-	  for (var i = 0; i < dirtyComponents.length; i++) {
-	    // If a component is unmounted before pending changes apply, ignore them
-	    // TODO: Queue unmounts in the same list to avoid this happening at all
-	    var component = dirtyComponents[i];
-	    if (component.isMounted()) {
-	      // If performUpdateIfNecessary happens to enqueue any new updates, we
-	      // shouldn't execute the callbacks until the next render happens, so
-	      // stash the callbacks first
-	      var callbacks = component._pendingCallbacks;
-	      component._pendingCallbacks = null;
-	      component.performUpdateIfNecessary();
-	      if (callbacks) {
-	        for (var j = 0; j < callbacks.length; j++) {
-	          callbacks[j].call(component);
-	        }
-	      }
-	    }
-	  }
-	}
-
-	function clearDirtyComponents() {
-	  dirtyComponents.length = 0;
-	}
-
-	var flushBatchedUpdates = ReactPerf.measure(
-	  'ReactUpdates',
-	  'flushBatchedUpdates',
-	  function() {
-	    // Run these in separate functions so the JIT can optimize
-	    try {
-	      runBatchedUpdates();
-	    } finally {
-	      clearDirtyComponents();
-	    }
-	  }
-	);
-
-	/**
-	 * Mark a component as needing a rerender, adding an optional callback to a
-	 * list of functions which will be executed once the rerender occurs.
-	 */
-	function enqueueUpdate(component, callback) {
-	  ("production" !== process.env.NODE_ENV ? invariant(
-	    !callback || typeof callback === "function",
-	    'enqueueUpdate(...): You called `setProps`, `replaceProps`, ' +
-	    '`setState`, `replaceState`, or `forceUpdate` with a callback that ' +
-	    'isn\'t callable.'
-	  ) : invariant(!callback || typeof callback === "function"));
-	  ensureBatchingStrategy();
-
-	  if (!batchingStrategy.isBatchingUpdates) {
-	    component.performUpdateIfNecessary();
-	    callback && callback.call(component);
-	    return;
-	  }
-
-	  dirtyComponents.push(component);
-
-	  if (callback) {
-	    if (component._pendingCallbacks) {
-	      component._pendingCallbacks.push(callback);
-	    } else {
-	      component._pendingCallbacks = [callback];
-	    }
-	  }
-	}
-
-	var ReactUpdatesInjection = {
-	  injectBatchingStrategy: function(_batchingStrategy) {
-	    ("production" !== process.env.NODE_ENV ? invariant(
-	      _batchingStrategy,
-	      'ReactUpdates: must provide a batching strategy'
-	    ) : invariant(_batchingStrategy));
-	    ("production" !== process.env.NODE_ENV ? invariant(
-	      typeof _batchingStrategy.batchedUpdates === 'function',
-	      'ReactUpdates: must provide a batchedUpdates() function'
-	    ) : invariant(typeof _batchingStrategy.batchedUpdates === 'function'));
-	    ("production" !== process.env.NODE_ENV ? invariant(
-	      typeof _batchingStrategy.isBatchingUpdates === 'boolean',
-	      'ReactUpdates: must provide an isBatchingUpdates boolean attribute'
-	    ) : invariant(typeof _batchingStrategy.isBatchingUpdates === 'boolean'));
-	    batchingStrategy = _batchingStrategy;
-	  }
-	};
-
-	var ReactUpdates = {
-	  batchedUpdates: batchedUpdates,
-	  enqueueUpdate: enqueueUpdate,
-	  flushBatchedUpdates: flushBatchedUpdates,
-	  injection: ReactUpdatesInjection
-	};
-
-	module.exports = ReactUpdates;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
-
-/***/ },
-/* 54 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule keyMirror
-	 * @typechecks static-only
-	 */
-
-	"use strict";
-
-	var invariant = __webpack_require__(51);
-
-	/**
-	 * Constructs an enumeration with keys equal to their value.
-	 *
-	 * For example:
-	 *
-	 *   var COLORS = keyMirror({blue: null, red: null});
-	 *   var myColor = COLORS.blue;
-	 *   var isColorValid = !!COLORS[myColor];
-	 *
-	 * The last line could not be performed if the values of the generated enum were
-	 * not equal to their keys.
-	 *
-	 *   Input:  {key1: val1, key2: val2}
-	 *   Output: {key1: key1, key2: key2}
-	 *
-	 * @param {object} obj
-	 * @return {object}
-	 */
-	var keyMirror = function(obj) {
-	  var ret = {};
-	  var key;
-	  ("production" !== process.env.NODE_ENV ? invariant(
-	    obj instanceof Object && !Array.isArray(obj),
-	    'keyMirror(...): Argument must be an object.'
-	  ) : invariant(obj instanceof Object && !Array.isArray(obj)));
-	  for (key in obj) {
-	    if (!obj.hasOwnProperty(key)) {
-	      continue;
-	    }
-	    ret[key] = key;
-	  }
-	  return ret;
-	};
-
-	module.exports = keyMirror;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
-
-/***/ },
-/* 55 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule merge
-	 */
-
-	"use strict";
-
-	var mergeInto = __webpack_require__(67);
-
-	/**
-	 * Shallow merges two structures into a return value, without mutating either.
-	 *
-	 * @param {?object} one Optional object with properties to merge from.
-	 * @param {?object} two Optional object with properties to merge from.
-	 * @return {object} The shallow extension of one by two.
-	 */
-	var merge = function(one, two) {
-	  var result = {};
-	  mergeInto(result, one);
-	  mergeInto(result, two);
-	  return result;
-	};
-
-	module.exports = merge;
-
-
-/***/ },
-/* 56 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule monitorCodeUse
-	 */
-
-	"use strict";
-
-	var invariant = __webpack_require__(51);
-
-	/**
-	 * Provides open-source compatible instrumentation for monitoring certain API
-	 * uses before we're ready to issue a warning or refactor. It accepts an event
-	 * name which may only contain the characters [a-z0-9_] and an optional data
-	 * object with further information.
-	 */
-
-	function monitorCodeUse(eventName, data) {
-	  ("production" !== process.env.NODE_ENV ? invariant(
-	    eventName && !/[^a-z0-9_]/.test(eventName),
-	    'You must provide an eventName using only the characters [a-z0-9_]'
-	  ) : invariant(eventName && !/[^a-z0-9_]/.test(eventName)));
-	}
-
-	module.exports = monitorCodeUse;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
-
-/***/ },
-/* 57 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
 	 * @providesModule PooledClass
 	 */
 
@@ -12878,7 +12396,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
 
 /***/ },
-/* 58 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -13075,6 +12593,479 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
 
 /***/ },
+/* 54 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ReactOwner
+	 */
+
+	"use strict";
+
+	var emptyObject = __webpack_require__(107);
+	var invariant = __webpack_require__(51);
+
+	/**
+	 * ReactOwners are capable of storing references to owned components.
+	 *
+	 * All components are capable of //being// referenced by owner components, but
+	 * only ReactOwner components are capable of //referencing// owned components.
+	 * The named reference is known as a "ref".
+	 *
+	 * Refs are available when mounted and updated during reconciliation.
+	 *
+	 *   var MyComponent = React.createClass({
+	 *     render: function() {
+	 *       return (
+	 *         <div onClick={this.handleClick}>
+	 *           <CustomComponent ref="custom" />
+	 *         </div>
+	 *       );
+	 *     },
+	 *     handleClick: function() {
+	 *       this.refs.custom.handleClick();
+	 *     },
+	 *     componentDidMount: function() {
+	 *       this.refs.custom.initialize();
+	 *     }
+	 *   });
+	 *
+	 * Refs should rarely be used. When refs are used, they should only be done to
+	 * control data that is not handled by React's data flow.
+	 *
+	 * @class ReactOwner
+	 */
+	var ReactOwner = {
+
+	  /**
+	   * @param {?object} object
+	   * @return {boolean} True if `object` is a valid owner.
+	   * @final
+	   */
+	  isValidOwner: function(object) {
+	    return !!(
+	      object &&
+	      typeof object.attachRef === 'function' &&
+	      typeof object.detachRef === 'function'
+	    );
+	  },
+
+	  /**
+	   * Adds a component by ref to an owner component.
+	   *
+	   * @param {ReactComponent} component Component to reference.
+	   * @param {string} ref Name by which to refer to the component.
+	   * @param {ReactOwner} owner Component on which to record the ref.
+	   * @final
+	   * @internal
+	   */
+	  addComponentAsRefTo: function(component, ref, owner) {
+	    ("production" !== process.env.NODE_ENV ? invariant(
+	      ReactOwner.isValidOwner(owner),
+	      'addComponentAsRefTo(...): Only a ReactOwner can have refs. This ' +
+	      'usually means that you\'re trying to add a ref to a component that ' +
+	      'doesn\'t have an owner (that is, was not created inside of another ' +
+	      'component\'s `render` method). Try rendering this component inside of ' +
+	      'a new top-level component which will hold the ref.'
+	    ) : invariant(ReactOwner.isValidOwner(owner)));
+	    owner.attachRef(ref, component);
+	  },
+
+	  /**
+	   * Removes a component by ref from an owner component.
+	   *
+	   * @param {ReactComponent} component Component to dereference.
+	   * @param {string} ref Name of the ref to remove.
+	   * @param {ReactOwner} owner Component on which the ref is recorded.
+	   * @final
+	   * @internal
+	   */
+	  removeComponentAsRefFrom: function(component, ref, owner) {
+	    ("production" !== process.env.NODE_ENV ? invariant(
+	      ReactOwner.isValidOwner(owner),
+	      'removeComponentAsRefFrom(...): Only a ReactOwner can have refs. This ' +
+	      'usually means that you\'re trying to remove a ref to a component that ' +
+	      'doesn\'t have an owner (that is, was not created inside of another ' +
+	      'component\'s `render` method). Try rendering this component inside of ' +
+	      'a new top-level component which will hold the ref.'
+	    ) : invariant(ReactOwner.isValidOwner(owner)));
+	    // Check that `component` is still the current ref because we do not want to
+	    // detach the ref if another component stole it.
+	    if (owner.refs[ref] === component) {
+	      owner.detachRef(ref);
+	    }
+	  },
+
+	  /**
+	   * A ReactComponent must mix this in to have refs.
+	   *
+	   * @lends {ReactOwner.prototype}
+	   */
+	  Mixin: {
+
+	    construct: function() {
+	      this.refs = emptyObject;
+	    },
+
+	    /**
+	     * Lazily allocates the refs object and stores `component` as `ref`.
+	     *
+	     * @param {string} ref Reference name.
+	     * @param {component} component Component to store as `ref`.
+	     * @final
+	     * @private
+	     */
+	    attachRef: function(ref, component) {
+	      ("production" !== process.env.NODE_ENV ? invariant(
+	        component.isOwnedBy(this),
+	        'attachRef(%s, ...): Only a component\'s owner can store a ref to it.',
+	        ref
+	      ) : invariant(component.isOwnedBy(this)));
+	      var refs = this.refs === emptyObject ? (this.refs = {}) : this.refs;
+	      refs[ref] = component;
+	    },
+
+	    /**
+	     * Detaches a reference name.
+	     *
+	     * @param {string} ref Name to dereference.
+	     * @final
+	     * @private
+	     */
+	    detachRef: function(ref) {
+	      delete this.refs[ref];
+	    }
+
+	  }
+
+	};
+
+	module.exports = ReactOwner;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
+
+/***/ },
+/* 55 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule ReactUpdates
+	 */
+
+	"use strict";
+
+	var ReactPerf = __webpack_require__(36);
+
+	var invariant = __webpack_require__(51);
+
+	var dirtyComponents = [];
+
+	var batchingStrategy = null;
+
+	function ensureBatchingStrategy() {
+	  ("production" !== process.env.NODE_ENV ? invariant(batchingStrategy, 'ReactUpdates: must inject a batching strategy') : invariant(batchingStrategy));
+	}
+
+	function batchedUpdates(callback, param) {
+	  ensureBatchingStrategy();
+	  batchingStrategy.batchedUpdates(callback, param);
+	}
+
+	/**
+	 * Array comparator for ReactComponents by owner depth
+	 *
+	 * @param {ReactComponent} c1 first component you're comparing
+	 * @param {ReactComponent} c2 second component you're comparing
+	 * @return {number} Return value usable by Array.prototype.sort().
+	 */
+	function mountDepthComparator(c1, c2) {
+	  return c1._mountDepth - c2._mountDepth;
+	}
+
+	function runBatchedUpdates() {
+	  // Since reconciling a component higher in the owner hierarchy usually (not
+	  // always -- see shouldComponentUpdate()) will reconcile children, reconcile
+	  // them before their children by sorting the array.
+
+	  dirtyComponents.sort(mountDepthComparator);
+
+	  for (var i = 0; i < dirtyComponents.length; i++) {
+	    // If a component is unmounted before pending changes apply, ignore them
+	    // TODO: Queue unmounts in the same list to avoid this happening at all
+	    var component = dirtyComponents[i];
+	    if (component.isMounted()) {
+	      // If performUpdateIfNecessary happens to enqueue any new updates, we
+	      // shouldn't execute the callbacks until the next render happens, so
+	      // stash the callbacks first
+	      var callbacks = component._pendingCallbacks;
+	      component._pendingCallbacks = null;
+	      component.performUpdateIfNecessary();
+	      if (callbacks) {
+	        for (var j = 0; j < callbacks.length; j++) {
+	          callbacks[j].call(component);
+	        }
+	      }
+	    }
+	  }
+	}
+
+	function clearDirtyComponents() {
+	  dirtyComponents.length = 0;
+	}
+
+	var flushBatchedUpdates = ReactPerf.measure(
+	  'ReactUpdates',
+	  'flushBatchedUpdates',
+	  function() {
+	    // Run these in separate functions so the JIT can optimize
+	    try {
+	      runBatchedUpdates();
+	    } finally {
+	      clearDirtyComponents();
+	    }
+	  }
+	);
+
+	/**
+	 * Mark a component as needing a rerender, adding an optional callback to a
+	 * list of functions which will be executed once the rerender occurs.
+	 */
+	function enqueueUpdate(component, callback) {
+	  ("production" !== process.env.NODE_ENV ? invariant(
+	    !callback || typeof callback === "function",
+	    'enqueueUpdate(...): You called `setProps`, `replaceProps`, ' +
+	    '`setState`, `replaceState`, or `forceUpdate` with a callback that ' +
+	    'isn\'t callable.'
+	  ) : invariant(!callback || typeof callback === "function"));
+	  ensureBatchingStrategy();
+
+	  if (!batchingStrategy.isBatchingUpdates) {
+	    component.performUpdateIfNecessary();
+	    callback && callback.call(component);
+	    return;
+	  }
+
+	  dirtyComponents.push(component);
+
+	  if (callback) {
+	    if (component._pendingCallbacks) {
+	      component._pendingCallbacks.push(callback);
+	    } else {
+	      component._pendingCallbacks = [callback];
+	    }
+	  }
+	}
+
+	var ReactUpdatesInjection = {
+	  injectBatchingStrategy: function(_batchingStrategy) {
+	    ("production" !== process.env.NODE_ENV ? invariant(
+	      _batchingStrategy,
+	      'ReactUpdates: must provide a batching strategy'
+	    ) : invariant(_batchingStrategy));
+	    ("production" !== process.env.NODE_ENV ? invariant(
+	      typeof _batchingStrategy.batchedUpdates === 'function',
+	      'ReactUpdates: must provide a batchedUpdates() function'
+	    ) : invariant(typeof _batchingStrategy.batchedUpdates === 'function'));
+	    ("production" !== process.env.NODE_ENV ? invariant(
+	      typeof _batchingStrategy.isBatchingUpdates === 'boolean',
+	      'ReactUpdates: must provide an isBatchingUpdates boolean attribute'
+	    ) : invariant(typeof _batchingStrategy.isBatchingUpdates === 'boolean'));
+	    batchingStrategy = _batchingStrategy;
+	  }
+	};
+
+	var ReactUpdates = {
+	  batchedUpdates: batchedUpdates,
+	  enqueueUpdate: enqueueUpdate,
+	  flushBatchedUpdates: flushBatchedUpdates,
+	  injection: ReactUpdatesInjection
+	};
+
+	module.exports = ReactUpdates;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule keyMirror
+	 * @typechecks static-only
+	 */
+
+	"use strict";
+
+	var invariant = __webpack_require__(51);
+
+	/**
+	 * Constructs an enumeration with keys equal to their value.
+	 *
+	 * For example:
+	 *
+	 *   var COLORS = keyMirror({blue: null, red: null});
+	 *   var myColor = COLORS.blue;
+	 *   var isColorValid = !!COLORS[myColor];
+	 *
+	 * The last line could not be performed if the values of the generated enum were
+	 * not equal to their keys.
+	 *
+	 *   Input:  {key1: val1, key2: val2}
+	 *   Output: {key1: key1, key2: key2}
+	 *
+	 * @param {object} obj
+	 * @return {object}
+	 */
+	var keyMirror = function(obj) {
+	  var ret = {};
+	  var key;
+	  ("production" !== process.env.NODE_ENV ? invariant(
+	    obj instanceof Object && !Array.isArray(obj),
+	    'keyMirror(...): Argument must be an object.'
+	  ) : invariant(obj instanceof Object && !Array.isArray(obj)));
+	  for (key in obj) {
+	    if (!obj.hasOwnProperty(key)) {
+	      continue;
+	    }
+	    ret[key] = key;
+	  }
+	  return ret;
+	};
+
+	module.exports = keyMirror;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
+
+/***/ },
+/* 57 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule merge
+	 */
+
+	"use strict";
+
+	var mergeInto = __webpack_require__(67);
+
+	/**
+	 * Shallow merges two structures into a return value, without mutating either.
+	 *
+	 * @param {?object} one Optional object with properties to merge from.
+	 * @param {?object} two Optional object with properties to merge from.
+	 * @return {object} The shallow extension of one by two.
+	 */
+	var merge = function(one, two) {
+	  var result = {};
+	  mergeInto(result, one);
+	  mergeInto(result, two);
+	  return result;
+	};
+
+	module.exports = merge;
+
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule monitorCodeUse
+	 */
+
+	"use strict";
+
+	var invariant = __webpack_require__(51);
+
+	/**
+	 * Provides open-source compatible instrumentation for monitoring certain API
+	 * uses before we're ready to issue a warning or refactor. It accepts an event
+	 * name which may only contain the characters [a-z0-9_] and an optional data
+	 * object with further information.
+	 */
+
+	function monitorCodeUse(eventName, data) {
+	  ("production" !== process.env.NODE_ENV ? invariant(
+	    eventName && !/[^a-z0-9_]/.test(eventName),
+	    'You must provide an eventName using only the characters [a-z0-9_]'
+	  ) : invariant(eventName && !/[^a-z0-9_]/.test(eventName)));
+	}
+
+	module.exports = monitorCodeUse;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
+
+/***/ },
 /* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -13144,7 +13135,7 @@
 	var emptyFunction = __webpack_require__(106);
 	var invariant = __webpack_require__(51);
 	var joinClasses = __webpack_require__(108);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	/**
 	 * Creates a transfer strategy that will merge prop values using the supplied
@@ -13295,7 +13286,7 @@
 
 	"use strict";
 
-	var keyMirror = __webpack_require__(54);
+	var keyMirror = __webpack_require__(56);
 
 	var ReactPropTypeLocations = keyMirror({
 	  prop: null,
@@ -13873,7 +13864,7 @@
 
 	var invariant = __webpack_require__(51);
 	var isEventSupported = __webpack_require__(118);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	/**
 	 * Summary of `ReactEventEmitter` event handling:
@@ -14263,7 +14254,7 @@
 	var ReactEventEmitter = __webpack_require__(71);
 	var ReactPerf = __webpack_require__(36);
 	var ReactRootIndex = __webpack_require__(96);
-	var ReactUpdates = __webpack_require__(53);
+	var ReactUpdates = __webpack_require__(55);
 
 	var ReactInjection = {
 	  Component: ReactComponent.injection,
@@ -14510,7 +14501,7 @@
 	var EventPluginHub = __webpack_require__(114);
 	var EventPropagators = __webpack_require__(119);
 	var ExecutionEnvironment = __webpack_require__(41);
-	var ReactUpdates = __webpack_require__(53);
+	var ReactUpdates = __webpack_require__(55);
 	var SyntheticEvent = __webpack_require__(120);
 
 	var isEventSupported = __webpack_require__(118);
@@ -15479,7 +15470,7 @@
 	var ReactPerf = __webpack_require__(36);
 	var ReactReconcileTransaction = __webpack_require__(127);
 
-	var getReactRootElementInContainer = __webpack_require__(98);
+	var getReactRootElementInContainer = __webpack_require__(100);
 	var invariant = __webpack_require__(51);
 
 
@@ -15603,7 +15594,7 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 	var ReactEventEmitter = __webpack_require__(71);
 	var ReactInstanceHandles = __webpack_require__(33);
 	var ReactMount = __webpack_require__(34);
@@ -15762,7 +15753,7 @@
 	var ReactCompositeComponent = __webpack_require__(27);
 	var ReactDOM = __webpack_require__(30);
 
-	var keyMirror = __webpack_require__(54);
+	var keyMirror = __webpack_require__(56);
 
 	// Store a reference to the <button> `ReactDOMComponent`.
 	var button = ReactDOM.button;
@@ -15976,7 +15967,7 @@
 	var ReactMount = __webpack_require__(34);
 
 	var invariant = __webpack_require__(51);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	// Store a reference to the <input> `ReactDOMComponent`.
 	var input = ReactDOM.input;
@@ -16225,7 +16216,7 @@
 	var ReactDOM = __webpack_require__(30);
 
 	var invariant = __webpack_require__(51);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	// Store a reference to the <select> `ReactDOMComponent`.
 	var select = ReactDOM.select;
@@ -16413,7 +16404,7 @@
 	var ReactDOM = __webpack_require__(30);
 
 	var invariant = __webpack_require__(51);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	var warning = __webpack_require__(49);
 
@@ -17224,7 +17215,7 @@
 
 	"use strict";
 
-	var ReactUpdates = __webpack_require__(53);
+	var ReactUpdates = __webpack_require__(55);
 	var Transaction = __webpack_require__(140);
 
 	var emptyFunction = __webpack_require__(106);
@@ -17662,6 +17653,114 @@
 	 * See the License for the specific language governing permissions and
 	 * limitations under the License.
 	 *
+	 * @providesModule ReactMultiChildUpdateTypes
+	 */
+
+	"use strict";
+
+	var keyMirror = __webpack_require__(56);
+
+	/**
+	 * When a component's children are updated, a series of update configuration
+	 * objects are created in order to batch and serialize the required changes.
+	 *
+	 * Enumerates all the possible types of update configurations.
+	 *
+	 * @internal
+	 */
+	var ReactMultiChildUpdateTypes = keyMirror({
+	  INSERT_MARKUP: null,
+	  MOVE_EXISTING: null,
+	  REMOVE_NODE: null,
+	  TEXT_CONTENT: null
+	});
+
+	module.exports = ReactMultiChildUpdateTypes;
+
+
+/***/ },
+/* 98 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
+	 * @providesModule flattenChildren
+	 */
+
+	"use strict";
+
+	var invariant = __webpack_require__(51);
+	var traverseAllChildren = __webpack_require__(53);
+
+	/**
+	 * @param {function} traverseContext Context passed through traversal.
+	 * @param {?ReactComponent} child React child component.
+	 * @param {!string} name String name of key path to child.
+	 */
+	function flattenSingleChildIntoContext(traverseContext, child, name) {
+	  // We found a component instance.
+	  var result = traverseContext;
+	  ("production" !== process.env.NODE_ENV ? invariant(
+	    !result.hasOwnProperty(name),
+	    'flattenChildren(...): Encountered two children with the same key, `%s`. ' +
+	    'Children keys must be unique.',
+	    name
+	  ) : invariant(!result.hasOwnProperty(name)));
+	  if (child != null) {
+	    result[name] = child;
+	  }
+	}
+
+	/**
+	 * Flattens children that are typically specified as `props.children`. Any null
+	 * children will not be included in the resulting object.
+	 * @return {!object} flattened children keyed by name.
+	 */
+	function flattenChildren(children) {
+	  if (children == null) {
+	    return children;
+	  }
+	  var result = {};
+	  traverseAllChildren(children, flattenSingleChildIntoContext, result);
+	  return result;
+	}
+
+	module.exports = flattenChildren;
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-2014 Facebook, Inc.
+	 *
+	 * Licensed under the Apache License, Version 2.0 (the "License");
+	 * you may not use this file except in compliance with the License.
+	 * You may obtain a copy of the License at
+	 *
+	 * http://www.apache.org/licenses/LICENSE-2.0
+	 *
+	 * Unless required by applicable law or agreed to in writing, software
+	 * distributed under the License is distributed on an "AS IS" BASIS,
+	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	 * See the License for the specific language governing permissions and
+	 * limitations under the License.
+	 *
 	 * @providesModule containsNode
 	 * @typechecks
 	 */
@@ -17699,7 +17798,7 @@
 
 
 /***/ },
-/* 98 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -17743,114 +17842,6 @@
 
 	module.exports = getReactRootElementInContainer;
 
-
-/***/ },
-/* 99 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule ReactMultiChildUpdateTypes
-	 */
-
-	"use strict";
-
-	var keyMirror = __webpack_require__(54);
-
-	/**
-	 * When a component's children are updated, a series of update configuration
-	 * objects are created in order to batch and serialize the required changes.
-	 *
-	 * Enumerates all the possible types of update configurations.
-	 *
-	 * @internal
-	 */
-	var ReactMultiChildUpdateTypes = keyMirror({
-	  INSERT_MARKUP: null,
-	  MOVE_EXISTING: null,
-	  REMOVE_NODE: null,
-	  TEXT_CONTENT: null
-	});
-
-	module.exports = ReactMultiChildUpdateTypes;
-
-
-/***/ },
-/* 100 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright 2013-2014 Facebook, Inc.
-	 *
-	 * Licensed under the Apache License, Version 2.0 (the "License");
-	 * you may not use this file except in compliance with the License.
-	 * You may obtain a copy of the License at
-	 *
-	 * http://www.apache.org/licenses/LICENSE-2.0
-	 *
-	 * Unless required by applicable law or agreed to in writing, software
-	 * distributed under the License is distributed on an "AS IS" BASIS,
-	 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	 * See the License for the specific language governing permissions and
-	 * limitations under the License.
-	 *
-	 * @providesModule flattenChildren
-	 */
-
-	"use strict";
-
-	var invariant = __webpack_require__(51);
-	var traverseAllChildren = __webpack_require__(58);
-
-	/**
-	 * @param {function} traverseContext Context passed through traversal.
-	 * @param {?ReactComponent} child React child component.
-	 * @param {!string} name String name of key path to child.
-	 */
-	function flattenSingleChildIntoContext(traverseContext, child, name) {
-	  // We found a component instance.
-	  var result = traverseContext;
-	  ("production" !== process.env.NODE_ENV ? invariant(
-	    !result.hasOwnProperty(name),
-	    'flattenChildren(...): Encountered two children with the same key, `%s`. ' +
-	    'Children keys must be unique.',
-	    name
-	  ) : invariant(!result.hasOwnProperty(name)));
-	  if (child != null) {
-	    result[name] = child;
-	  }
-	}
-
-	/**
-	 * Flattens children that are typically specified as `props.children`. Any null
-	 * children will not be included in the resulting object.
-	 * @return {!object} flattened children keyed by name.
-	 */
-	function flattenChildren(children) {
-	  if (children == null) {
-	    return children;
-	  }
-	  var result = {};
-	  traverseAllChildren(children, flattenSingleChildIntoContext, result);
-	  return result;
-	}
-
-	module.exports = flattenChildren;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(45)))
 
 /***/ },
 /* 101 */
@@ -18004,7 +17995,7 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 	var ReactMountReady = __webpack_require__(145);
 	var ReactPutListenerQueue = __webpack_require__(146);
 	var Transaction = __webpack_require__(140);
@@ -18569,7 +18560,7 @@
 	"use strict";
 
 	var invariant = __webpack_require__(51);
-	var keyMirror = __webpack_require__(54);
+	var keyMirror = __webpack_require__(56);
 
 	/**
 	 * Maximum number of levels to traverse. Will catch circular structures.
@@ -19024,7 +19015,7 @@
 	var forEachAccumulated = __webpack_require__(149);
 	var invariant = __webpack_require__(51);
 	var isEventSupported = __webpack_require__(118);
-	var monitorCodeUse = __webpack_require__(56);
+	var monitorCodeUse = __webpack_require__(58);
 
 	/**
 	 * Internal store for event listeners
@@ -19607,7 +19598,7 @@
 	"use strict";
 
 	var EventPluginHub = __webpack_require__(114);
-	var ReactUpdates = __webpack_require__(53);
+	var ReactUpdates = __webpack_require__(55);
 
 	function runEventQueueInBatch(events) {
 	  EventPluginHub.enqueueEvents(events);
@@ -19939,11 +19930,11 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 
 	var emptyFunction = __webpack_require__(106);
 	var getEventTarget = __webpack_require__(128);
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 	var mergeInto = __webpack_require__(67);
 
 	/**
@@ -20165,7 +20156,7 @@
 
 	var ReactDOMSelection = __webpack_require__(151);
 
-	var containsNode = __webpack_require__(97);
+	var containsNode = __webpack_require__(99);
 	var focusNode = __webpack_require__(152);
 	var getActiveElement = __webpack_require__(131);
 
@@ -20732,7 +20723,7 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 	var ReactEventEmitter = __webpack_require__(71);
 	var ReactInputSelection = __webpack_require__(122);
 	var ReactMountReady = __webpack_require__(145);
@@ -21942,7 +21933,7 @@
 	 * @providesModule ReactDefaultPerfAnalysis
 	 */
 
-	var merge = __webpack_require__(55);
+	var merge = __webpack_require__(57);
 
 	// Don't try to save users less than 1.2ms (a number I made up)
 	var DONT_CARE_THRESHOLD = 1.2;
@@ -22278,7 +22269,7 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 
 	var mixInto = __webpack_require__(64);
 
@@ -22379,7 +22370,7 @@
 
 	"use strict";
 
-	var PooledClass = __webpack_require__(57);
+	var PooledClass = __webpack_require__(52);
 	var ReactEventEmitter = __webpack_require__(71);
 
 	var mixInto = __webpack_require__(64);
@@ -22897,7 +22888,7 @@
 	"use strict";
 
 	var Danger = __webpack_require__(157);
-	var ReactMultiChildUpdateTypes = __webpack_require__(99);
+	var ReactMultiChildUpdateTypes = __webpack_require__(97);
 
 	var getTextContentAccessor = __webpack_require__(124);
 
