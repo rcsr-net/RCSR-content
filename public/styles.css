@@ -311,3 +311,30 @@ dt {
 .active {
     background: lightyellow;
 }
+
+.TabsList {
+    margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid gray;
+    list-style: none;
+}
+
+.TabsItem {
+    display: inline;
+    padding: 3px 15px;
+    border: 1px solid gray;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    background-color: lightyellow;
+    margin-right: 2px;
+}
+
+.TabsSelected {
+    border-bottom-color: white;
+    background-color: inherit;
+}
+
+.TabsPanel {
+    padding: 10px;
+}
