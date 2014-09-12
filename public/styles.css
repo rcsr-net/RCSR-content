@@ -315,14 +315,14 @@ dt {
 .TabsList {
     margin-bottom: 0;
     padding: 0;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
     border-bottom: 1px solid gray;
     list-style: none;
 }
 
 .TabsItem {
     display: inline;
-    padding: 3px 15px;
+    padding: 3px 15px 1px 15px;
     border: 1px solid gray;
     border-radius: 5px 5px 0 0;
     cursor: pointer;
@@ -331,7 +331,7 @@ dt {
 }
 
 .TabsSelected {
-    border-bottom-color: white;
+    border-bottom-color: #fdfdfc;
     background-color: inherit;
 }
 
