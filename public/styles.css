@@ -196,7 +196,8 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
 }
 
 .form-section {
-    border: 2px solid gray;
+    border: 2px solid #cdf;
+    background-color: #e6eeff;
 }
 
 .form-subsection {
@@ -207,6 +208,11 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
 
 .form-section-title {
     font-weight: bold;
+    display: none;
+}
+
+.form-subsection .form-section-title {
+    display: inline;
 }
 
 .form-section-title .help-link {
