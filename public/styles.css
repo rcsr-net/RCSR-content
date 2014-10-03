@@ -93,7 +93,7 @@ h1, h2 {
     margin-right: auto;
 }
 
-h1.center, h2.center, h3.center, h4.center, p.center {
+h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
     text-align: center;
 }
 
@@ -356,4 +356,9 @@ dt {
 .hSep-1em {
     margin-left: 1em;
     margin-right: 1em;
+}
+
+.inlineFigure {
+    display: inline-block;
+    margin: 1ex 1em;
 }
