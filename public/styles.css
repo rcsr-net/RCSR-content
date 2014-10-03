@@ -368,3 +368,7 @@ dt {
     display: inline-block;
     margin: 1ex 1em;
 }
+
+.leftAlign {
+    text-align: left;
+}
