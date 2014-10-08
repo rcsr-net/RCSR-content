@@ -381,7 +381,7 @@ dt {
     display: none;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -16;
     z-index: 5;
 }
 
