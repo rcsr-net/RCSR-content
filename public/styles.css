@@ -372,3 +372,19 @@ dt {
 .leftAlign {
     text-align: left;
 }
+
+.withDeleteIcon {
+    position: relative;
+}
+
+.deleteIcon {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.withDeleteIcon:hover .deleteIcon {
+    display: inline-block;
+}
