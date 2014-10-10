@@ -133,11 +133,20 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
 }
 
 .pageLinks {
+    display: block;
     list-style: none;
-    position: absolute;
     margin: 0;
-    bottom: 20%;
-    right: 10%;
+    margin-top: 1ex;
+}
+
+@media (min-width: 800px) {
+    .pageLinks {
+        display: inline;
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        margin-top: 0;
+    }
 }
 
 .pageLinks a:link {
