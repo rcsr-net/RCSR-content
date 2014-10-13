@@ -45,7 +45,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "2d59e6f8a91a22010bc5";
+/******/ 	var hotCurrentHash = "1a45fb3d02007c0fa84b";
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = [];
 /******/ 	
@@ -2065,25 +2065,25 @@
 	  return cc.go(wrapGenerator.mark(function $callee() {
 	    var res;
 
-	    return wrapGenerator(function $callee$($ctx72) {
-	      while (1) switch ($ctx72.prev = $ctx72.next) {
+	    return wrapGenerator(function $callee$($ctx104) {
+	      while (1) switch ($ctx104.prev = $ctx104.next) {
 	      case 0:
-	        $ctx72.next = 2;
+	        $ctx104.next = 2;
 	        return cc.nbind(agent.get)(path);
 	      case 2:
-	        res = $ctx72.sent;
+	        res = $ctx104.sent;
 
 	        if (!res.ok) {
-	          $ctx72.next = 7;
+	          $ctx104.next = 7;
 	          break;
 	        }
 
-	        return $ctx72.abrupt("return", res.text);
+	        return $ctx104.abrupt("return", res.text);
 	      case 7:
 	        alert('Could not load ' + path);
 	      case 8:
 	      case "end":
-	        return $ctx72.stop();
+	        return $ctx104.stop();
 	      }
 	    }, $callee, this);
 	  }));
@@ -2094,40 +2094,40 @@
 	  return cc.go(wrapGenerator.mark(function $callee() {
 	    var data, res;
 
-	    return wrapGenerator(function $callee$($ctx73) {
-	      while (1) switch ($ctx73.prev = $ctx73.next) {
+	    return wrapGenerator(function $callee$($ctx105) {
+	      while (1) switch ($ctx105.prev = $ctx105.next) {
 	      case 0:
-	        $ctx73.next = 2;
+	        $ctx105.next = 2;
 	        return cc.nbind(agent.get)(txtPath);
 	      case 2:
-	        res = $ctx73.sent;
+	        res = $ctx105.sent;
 
 	        if (res.ok)
 	          data = parse(res.text);
 
 	        if (!data) {
-	          $ctx73.next = 12;
+	          $ctx105.next = 12;
 	          break;
 	        }
 
 	        if (!symbol) {
-	          $ctx73.next = 9;
+	          $ctx105.next = 9;
 	          break;
 	        }
 
-	        return $ctx73.abrupt("return", data.filter(function(item) {
+	        return $ctx105.abrupt("return", data.filter(function(item) {
 	          return item.symbol == symbol;
 	        })[0]);
 	      case 9:
-	        return $ctx73.abrupt("return", data);
+	        return $ctx105.abrupt("return", data);
 	      case 10:
-	        $ctx73.next = 13;
+	        $ctx105.next = 13;
 	        break;
 	      case 12:
 	        alert('Could not read data for RCSR ' + type);
 	      case 13:
 	      case "end":
-	        return $ctx73.stop();
+	        return $ctx105.stop();
 	      }
 	    }, $callee, this);
 	  }));
@@ -2168,25 +2168,25 @@
 	  return cc.go(wrapGenerator.mark(function $callee() {
 	    var data;
 
-	    return wrapGenerator(function $callee$($ctx74) {
-	      while (1) switch ($ctx74.prev = $ctx74.next) {
+	    return wrapGenerator(function $callee$($ctx106) {
+	      while (1) switch ($ctx106.prev = $ctx106.next) {
 	      case 0:
-	        $ctx74.next = 2;
+	        $ctx106.next = 2;
 
 	        return cc.join([builtinNetData(),
 	                                  builtinLayerData(),
 	                                  builtinPolyData()]);
 	      case 2:
-	        data = $ctx74.sent;
+	        data = $ctx106.sent;
 
-	        return $ctx74.abrupt("return", {
+	        return $ctx106.abrupt("return", {
 	          Nets     : data[0],
 	          Layers   : data[1],
 	          Polyhedra: data[2]
 	        });
 	      case 4:
 	      case "end":
-	        return $ctx74.stop();
+	        return $ctx106.stop();
 	      }
 	    }, $callee, this);
 	  }));
@@ -2204,38 +2204,38 @@
 	    }[type](arg);
 
 	    cc.go(wrapGenerator.mark(function $callee() {
-	      return wrapGenerator(function $callee$($ctx75) {
-	        while (1) switch ($ctx75.prev = $ctx75.next) {
+	      return wrapGenerator(function $callee$($ctx107) {
+	        while (1) switch ($ctx107.prev = $ctx107.next) {
 	        case 0:
-	          $ctx75.next = 2;
+	          $ctx107.next = 2;
 	          return cc.sleep(500);
 	        case 2:
 	          handler(null, null);
 	        case 3:
 	        case "end":
-	          return $ctx75.stop();
+	          return $ctx107.stop();
 	        }
 	      }, $callee, this);
 	    }));
 	    cc.go(wrapGenerator.mark(function $callee() {
-	      return wrapGenerator(function $callee$($ctx76) {
-	        while (1) switch ($ctx76.prev = $ctx76.next) {
+	      return wrapGenerator(function $callee$($ctx108) {
+	        while (1) switch ($ctx108.prev = $ctx108.next) {
 	        case 0:
-	          $ctx76.prev = 0;
-	          $ctx76.next = 3;
+	          $ctx108.prev = 0;
+	          $ctx108.next = 3;
 	          return deferred;
 	        case 3:
-	          $ctx76.t36 = $ctx76.sent;
-	          handler(null, $ctx76.t36);
-	          $ctx76.next = 10;
+	          $ctx108.t52 = $ctx108.sent;
+	          handler(null, $ctx108.t52);
+	          $ctx108.next = 10;
 	          break;
 	        case 7:
-	          $ctx76.prev = 7;
-	          $ctx76.t37 = $ctx76.catch(0);
-	          handler(new Error($ctx76.t37), null);
+	          $ctx108.prev = 7;
+	          $ctx108.t53 = $ctx108.catch(0);
+	          handler(new Error($ctx108.t53), null);
 	        case 10:
 	        case "end":
-	          return $ctx76.stop();
+	          return $ctx108.stop();
 	        }
 	      }, $callee, this, [[0, 7]]);
 	    }));
@@ -2619,7 +2619,10 @@
 
 	  addToLog: function(message) {
 	    var maxLength = 25;
-	    var newLog = this.state.log.concat(message+' on '+(new Date()));
+	    var simulated = credentials().simulate ? ' [simulated]' : '';
+	    var fullmsg   = message + ' on ' + (new Date()) + simulated;
+	    var newLog    = this.state.log.concat(fullmsg);
+
 	    if (newLog.length > maxLength)
 	      newLog.splice(0, newLog.length - maxLength);
 
@@ -4575,19 +4578,19 @@
 	    return cc.go(wrapGenerator.mark(function $callee() {
 	      var response, result, content;
 
-	      return wrapGenerator(function $callee$($ctx77) {
-	        while (1) switch ($ctx77.prev = $ctx77.next) {
+	      return wrapGenerator(function $callee$($ctx109) {
+	        while (1) switch ($ctx109.prev = $ctx109.next) {
 	        case 0:
-	          $ctx77.next = 2;
+	          $ctx109.next = 2;
 	          return request('GET', path);
 	        case 2:
-	          response = $ctx77.sent;
+	          response = $ctx109.sent;
 	          result = response.data;
 
 	          if (result.content)
 	            content = new Buffer(result.content, 'base64').toString('utf8');
 
-	          return $ctx77.abrupt("return", {
+	          return $ctx109.abrupt("return", {
 	            status : response.status,
 	            result : result,
 	            content: content,
@@ -4595,7 +4598,7 @@
 	          });
 	        case 6:
 	        case "end":
-	          return $ctx77.stop();
+	          return $ctx109.stop();
 	        }
 	      }, $callee, this);
 	    }));
@@ -4605,36 +4608,36 @@
 	    return cc.go(wrapGenerator.mark(function $callee() {
 	      var parts, dir, file, contents, i;
 
-	      return wrapGenerator(function $callee$($ctx78) {
-	        while (1) switch ($ctx78.prev = $ctx78.next) {
+	      return wrapGenerator(function $callee$($ctx110) {
+	        while (1) switch ($ctx110.prev = $ctx110.next) {
 	        case 0:
 	          parts = path.split('/');
 	          file  = parts.pop();
 	          dir   = parts.join('/');
-	          $ctx78.next = 5;
+	          $ctx110.next = 5;
 	          return get(dir);
 	        case 5:
-	          contents = $ctx78.sent.result;
+	          contents = $ctx110.sent.result;
 	          i = 0;
 	        case 7:
 	          if (!(i < contents.length)) {
-	            $ctx78.next = 13;
+	            $ctx110.next = 13;
 	            break;
 	          }
 
 	          if (!(contents[i].name == file)) {
-	            $ctx78.next = 10;
+	            $ctx110.next = 10;
 	            break;
 	          }
 
-	          return $ctx78.abrupt("return", contents[i].sha);
+	          return $ctx110.abrupt("return", contents[i].sha);
 	        case 10:
 	          ++i;
-	          $ctx78.next = 7;
+	          $ctx110.next = 7;
 	          break;
 	        case 13:
 	        case "end":
-	          return $ctx78.stop();
+	          return $ctx110.stop();
 	        }
 	      }, $callee, this);
 	    }));
@@ -4644,25 +4647,25 @@
 	    return cc.go(wrapGenerator.mark(function $callee() {
 	      var data, response, result;
 
-	      return wrapGenerator(function $callee$($ctx79) {
-	        while (1) switch ($ctx79.prev = $ctx79.next) {
+	      return wrapGenerator(function $callee$($ctx111) {
+	        while (1) switch ($ctx111.prev = $ctx111.next) {
 	        case 0:
-	          $ctx79.t38 = new Buffer(content).toString('base64');
-	          $ctx79.next = 3;
+	          $ctx111.t54 = new Buffer(content).toString('base64');
+	          $ctx111.next = 3;
 	          return shaFor(path);
 	        case 3:
-	          $ctx79.t39 = $ctx79.sent;
+	          $ctx111.t55 = $ctx111.sent;
 
 	          data = {
 	            message: message || 'automated commit',
-	            content: $ctx79.t38,
-	            sha: $ctx79.t39
+	            content: $ctx111.t54,
+	            sha: $ctx111.t55
 	          };
 
-	          $ctx79.next = 7;
+	          $ctx111.next = 7;
 	          return request('PUT', path, data, onProgress);
 	        case 7:
-	          response = $ctx79.sent;
+	          response = $ctx111.sent;
 	          result = response.data;
 
 	          //TODO report an error if these don't match
@@ -4670,7 +4673,7 @@
 
 	          console.log(sha1(content));
 
-	          return $ctx79.abrupt("return", {
+	          return $ctx111.abrupt("return", {
 	            status: response.status,
 	            sha   : result.content.sha,
 	            commit: {
@@ -4679,7 +4682,7 @@
 	          });
 	        case 12:
 	        case "end":
-	          return $ctx79.stop();
+	          return $ctx111.stop();
 	        }
 	      }, $callee, this);
 	    }));
