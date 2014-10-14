@@ -3,6 +3,7 @@
 cd `dirname $0`
 cd ..
 
+git remote update &&
 if [ `git rev-parse HEAD` != `git rev-parse @{u}` ]
 then
     echo 'we need to update'
