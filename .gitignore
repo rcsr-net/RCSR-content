@@ -1,2 +1,3 @@
 /public/js/*.hot-update.*
 /public/_*.html
+/public/cache.manifest
