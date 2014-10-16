@@ -64,4 +64,4 @@ CACHE:
 
 NETWORK:
 
-/images/*/*
+*
