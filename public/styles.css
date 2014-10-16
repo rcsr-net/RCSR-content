@@ -398,27 +398,15 @@ dt {
     display: inline-block;
 }
 
-.withDropDown {
-    position: relative;
-}
-
-.dropDown {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-level: 5;
-    box-shadow: 4px 4px 10px lightgray;
-}
-
-.withDropDown:hover .dropDown {
-    display: inline-block;
-}
-
 .noOutline:focus {
     outline: none;
 }
 
 .inlineBlock {
     display: inline-block;
+}
+
+.overlay {
+    z-level: 5;
+    box-shadow: 2px 2px 5px lightgray;
 }
