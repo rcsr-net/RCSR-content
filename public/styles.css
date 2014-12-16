@@ -36,8 +36,9 @@ th {
     background-color: #cdf;
 }
 
-input {
+input, select, button {
     font-family: arial, sans-serif;
+    font-size: 100%;
 }
 
 input[type=text] {
