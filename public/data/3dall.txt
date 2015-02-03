@@ -793,7 +793,7 @@ uta
 crs-f
  2 !number of names
 3/6/c3
-9^3 D
+9^3D
  1 !number of other names
 carbon
  1 !number of keywords
@@ -1171,7 +1171,7 @@ utc
  0 !number of other symbols
  2 !number of names
 3/8/c2
-9^3 G
+9^3G
  1 !number of other names
 carbon
  3 !number of keywords
@@ -14914,7 +14914,8 @@ start
 alb-a
 1b
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+PX net
  0 !number of other names
  1 !number of keywords
 good
@@ -29032,7 +29033,8 @@ etc-c3
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Aust. J. Chem. 56, 981 (2003)
 P6(3)/mcm       193
    2.5484  2.5484  1.6723  90.000  90.000 120.000
  2
@@ -33255,7 +33257,7 @@ E3   2
   2
   25
   [5^2.6^2] + [3^2.5^2.6^2]
-  unk
+  fsf
      4   18   38   66  102  146  198  258  326  402 1559
      6   18   38   66  102  146  198  258  326  402 1561
 3.6(2).5.5.5.5
@@ -38053,7 +38055,8 @@ start
 shp
 4
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+SX net
  0 !number of other names
  3 !number of keywords
 bipartite
@@ -38097,7 +38100,8 @@ start
 ftw
 2b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
+SB net
    Cu3Au
 C(P) = Neovius surface
  0 !number of other names
@@ -83849,7 +83853,8 @@ start
 urf
 2b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3OB net
   0     !number of other names
   3     !number of keywords
 bipartite
@@ -94403,7 +94408,8 @@ start
 xag 
 2b
 0 !number of other symbols 
-0 !number of names 
+1 !number of names 
+3SB net
 0 !number of other names
 2 !number of keywords
 heterocoord
@@ -94626,7 +94632,8 @@ start
 xaj 
 4
 0 !number of other symbols 
-0 !number of names 
+1 !number of names 
+3CB net
 0 !number of other names
 2 !number of keywords
 good
@@ -104071,8 +104078,9 @@ etn
 1b
   0     !number of other symbols
   1     !number of names
+8^3P
+  1     !number of other names
 (8,3)n
-  0     !number of other names
   3     !number of keywords
 uniform net
 infinite polyhedron
@@ -116597,7 +116605,8 @@ start
   1     !number of names
 qtz-derived
   0     !number of other names
-  2     !number of keywords
+  3     !number of keywords
+uniform net
 heterocoord 34
 chiral
   1     !number of references
@@ -116628,11 +116637,11 @@ V2  4
   x, y, z                                                    
   12  k                                                      
   1                                                          
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
-  unk                                                        
+  2                                                          
+  1                                                          
+  24
+  [8^6]                                                        
+  sxc                                                        
      3    8   18   35   59   82  116  153  196  239  910     
      4    8   20   38   54   84  116  152  194  246  917     
 8(2).8(2).8(3) 
@@ -133042,7 +133051,8 @@ start
 aea                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3X net
   0     !number of other names
   3     !number of keywords
 bipartite
@@ -133098,7 +133108,8 @@ start
 pek                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3CX net
   0     !number of other names
   3     !number of keywords
 bipartite
@@ -133616,7 +133627,8 @@ start
 urp                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3CX net
   0     !number of other names
   3     !number of keywords
 good
@@ -134017,45 +134029,45 @@ bipartite
 heterocoord
   0     !number of references
 Fm-3m          225                                         
- 3.3751   3.3751   3.3751  90.0 90.0 90.0            
+ 3.7712 3.7712 3.7712  90.0 90.0 90.0            
   3
-V1  24
-  0.0000 0.0000 0.5000                                       
+V1  12
+  0.0000 0.0000 0.0000                                       
   0, 0, 0                                                          
-2 a                                                       
+4 a                                                       
 m-3m                                                          
 48                                                          
-V2  8
-  0.0000 0.2500 0.5000                                       
- 0, 1/4, 1/2                                                          
-12 d                                                      
--4m2                                                         
-8                                                          
+V2  12
+  0.2500 0.2500 0.5000                                       
+ 1/4, 1/4, 1/4                                                          
+8 c                                                      
+-43m                                                         
+24                                                          
 V3  3
- 0.0903 0.0903 0.2673                                        
-  x, x, z                                                         
- 48 k                                                     
-  m                                                         
+ 0.0000 0.1875 0.1875                                        
+  0, y, y                                                         
+ 48 h                                                     
+  mm2                                                         
   2                                                                                                                    
   2
  E1   2                                                      
-  0.0452 0.1702 0.3837                                       
-  x, y, z                                                          
-  96 l                                                       
- 1                                                          
+  0.1250 0.2188 0.2188                                       
+  x, y, y                                                          
+  96 k                                                       
+ m                                                          
  E2   2                                                      
-0452 0.0452 0.1337                                       
-  x, x, z                                                          
- 48 k                                                       
-  m                                                                                                                                                           
-  3                                                          
-  3                                                          
-  24
-4[4^12] + 12[4^3.6^2] + 6[6^6]                                                     
+0.00000 0.0938 0.0938                                       
+  0, y, y                                                          
+ 48 h                                                       
+  mm2                                                                                                                                                           
+  0                                                          
+  0                                                          
+  0
+unk                                                     
 unk                                                        
-24 24 96  38 288 156 576 206 936  360 2705
- 8  8 96  70 272 102 552 246 952  342 2649
- 3 34 28 154  80 380 162 704 277 1126 2949
+12  8 60  36 204  78 420 140 684 230 1873
+12 10 72  34 204  82 420 142 684 218 1879
+ 3 28 17 112  51 280 105 528 171 820 2116
 unk 
 unk 
 unk 
@@ -134065,7 +134077,8 @@ start
 urx                                                      
 1
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3OX net
   0     !number of other names
   3     !number of keywords
 good
@@ -134121,8 +134134,9 @@ start
 ury                                                      
 1
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 alb-derived
+3X net
   0     !number of other names
   3     !number of keywords
 good
@@ -134233,7 +134247,8 @@ start
 epu                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3HX net
   0     !number of other names
   2     !number of keywords
 bipartite
@@ -134288,7 +134303,8 @@ start
 epv                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3OX net
   0     !number of other names
   2     !number of keywords
 bipartite
@@ -134343,7 +134359,8 @@ start
 epw                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3HX net
   0     !number of other names
   2     !number of keywords
 bipartite
@@ -136504,6 +136521,105 @@ V3  3
 7.7.8(3) 
    7
 start
+ 2287
+  qza                                                         
+ 1b
+  0     !number of other symbols
+  1     !number of names
+qtz-derived
+  0     !number of other names
+  0     !number of keywords
+  0     !number of references
+ P6(4)22         181                                         
+   2.3093  2.3093  3.8734  90.000  90.000 120.000            
+  2
+V1  3
+  0.6250 0.2500 0.0000                                       
+  x, 2x, 0                                                          
+   6 i                                                       
+  2                                                         
+  2                                                          
+V2  4
+  0.5000 0.0000 0.5000                                       
+  1/2, 0, 1/2                                                         
+   3 d                                                       
+  222                                                          
+  4                                                          
+  2
+ E1   2                                                      
+  0.5000 0.0000 0.0000                                       
+  0, 0, 0                                                          
+   3 a                                                       
+  222                                                          
+ E2   2                                                      
+  0.8125 0.3750 0.9167                                       
+  x, y, z                                                    
+  12  k                                                      
+  1                                                          
+  2                                                          
+  1                                                          
+  24
+  [7^4.10^2]                                                        
+  sxc                                                        
+     3    8   18   34   53   78  111  144  178  230  858     
+     4    8   20   36   58   80  116  142  188  224  877     
+7.7.7(2) 
+7.7.7(2).7(2).10(2).10(2) 
+   7
+ start
+  2288
+  sxc-d                                                      
+ 1b
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  3     !number of keywords
+good
+uniform net
+isohedral tiling
+  0     !number of references
+ P6(4)22         181                                         
+   2.5111  2.5111  6.0652  90.000  90.000 120.000            
+  2
+V1  3
+  0.5000 0.0000 0.4176                                       
+  0, 0, z                                                          
+   6 e                                                       
+  2                                                          
+  2                                                          
+V2  3
+  0.6150 0.2300 0.0000                                       
+  x, 2x, 0                                                          
+   6 i                                                       
+  2                                                          
+  2                                                          
+  3
+ E1   2                                                      
+  0.5000 0.0000 0.5000                                       
+  1/2, 0, 1/2                                                          
+   3 d                                                       
+  222                                                          
+ E2   2                                                      
+  0.3649 0.8075 0.3755                                       
+  x, y, z                                                    
+  12  k                                                      
+  1                                                          
+ E3   2                                                      
+  0.5000 0.0000 0.0000                                       
+  1/2, 0, 0                                                          
+   3 c                                                       
+  222                                                          
+  2                                                          
+  1                                                          
+  28
+  [9^4.10^2]                                                        
+  sxc                                                        
+     3    6   12   24   36   56   76   93  126  159  592     
+     3    6   12   24   37   50   71   98  120  150  572     
+9.9(2).9(2) 
+9.9.9(2) 
+   9
+ start
  -1
 
 
