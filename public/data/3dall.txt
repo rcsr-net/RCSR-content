@@ -2575,7 +2575,7 @@ gsi
  3 !number of names
 gamma silicon
 4/6/c4
-C(S) surface
+C(S) minimal surface
  1 !number of other names
 qsn-075
  5 !number of keywords
@@ -5354,7 +5354,7 @@ hxg-e
 sodalite
 W*
 4/4/c1
-O,C-TO surface
+O,C-TO minimal surface
  3 !number of other names
 federov net
 ultramarine
@@ -23376,8 +23376,9 @@ start
 lcy
 1a
  0 !number of other symbols
- 2 !number of names
-   Y
+ 3 !number of names
+ lattice complex  Y
+Y minimal surface
 6/3/c1
  0 !number of other names
  5 !number of keywords
@@ -28054,7 +28055,7 @@ ctn
  3 !number of names
   C3N4
 3T net
-S surface
+S minimal surface
  0 !number of other names
  5 !number of keywords
 bipartite
@@ -28105,7 +28106,7 @@ pyr-d
  3 !number of names
 3O net
 pyrite
-C(Y) surface
+C(*Y) minimal surface
  0 !number of other names
  4 !number of keywords
 bipartite
@@ -30442,7 +30443,7 @@ hms
  1 !number of other symbols
 hms-d
  1 !number of names
-H surface net
+H minimal surface
  0 !number of other names
  4 !number of keywords
 self dual net
@@ -30492,8 +30493,7 @@ start
 hms-c
 4
  0 !number of other symbols
- 1 !number of names
-H surface net
+ 0 !number of names
  0 !number of other names
  3 !number of keywords
 heterocoord
@@ -34829,7 +34829,8 @@ start
 svn
 1a
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
+*Y minimal surface
 7/4/c1
  0 !number of other names
  1 !number of keywords
@@ -37614,7 +37615,7 @@ fcu
    cubic closest packing
    face centered cubic
    12/3/c1
-F-RD surface
+F-RD minimal surface
  0 !number of other names
  3 !number of keywords
    quasiregular net
@@ -37741,7 +37742,7 @@ bcu-x
    sod-d
  2 !number of names
    body centered cubic
-O,C-TO surface
+O,C-TO minimal surface
  0 !number of other names
  2 !number of keywords
 good
@@ -38103,7 +38104,7 @@ ftw
  3 !number of names
 SB net
    Cu3Au
-C(P) = Neovius surface
+C(P) = Neovius minimal surface
  0 !number of other names
  5 !number of keywords
 bipartite
@@ -38199,7 +38200,7 @@ flu
  3 !number of names
 TC-net
   fluorite
-F-RD surface
+F-RD minimal surface
  0 !number of other names
  4 !number of keywords
 bipartite
@@ -42478,7 +42479,7 @@ est
 4
  0 !number of other symbols
  1 !number of names
-ST2
+ST2 minimal surface
  0 !number of other names
  1 !number of keywords
 self dual net
@@ -42611,7 +42612,7 @@ pte
 2b
  0 !number of other symbols
  1 !number of names
-minimal surface PT
+PT minimal surface
  0 !number of other names
  2 !number of keywords
 self dual net
@@ -42663,8 +42664,7 @@ start
 mcf
 2b
  0 !number of other symbols
- 1 !number of names
-minimal surface MC5
+ 0 !number of names
  0 !number of other names
  3 !number of keywords
 uniform net
@@ -42722,7 +42722,8 @@ start
 cys
 *1b
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+C(Y) minimal durface
  0 !number of other names
  3 !number of keywords
 bipartite
@@ -42766,7 +42767,8 @@ mco
 1b
  0 !number of other symbols
  0 !number of names
- 0 !number of other names
+ 1 !number of other names
+MC1 minimal surface
  4 !number of keywords
 self dual net
 uniform net
@@ -43342,7 +43344,8 @@ start
 sto
 unk
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+ST1 minimal surface
  0 !number of other names
  4 !number of keywords
 chiral
@@ -43649,8 +43652,9 @@ start
 hst
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 pth-derived
+HST3 minimal surface
  0 !number of other names
  3 !number of keywords
 chiral
@@ -48058,7 +48062,8 @@ start
 bcl
 unk
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+BC2 minimal surface
  0 !number of other names
  2 !number of keywords
 polar
@@ -54743,7 +54748,7 @@ mgc
  0 !number of other symbols
  2 !number of names
 MgCu2
-C(D) surface
+C(D) minimal surface
  0 !number of other names
  4 !number of keywords
 bipartite
@@ -81138,8 +81143,7 @@ sod-t
 1b
   1     !number of other symbols
 bcu-x-t
- 1     !number of names
-O,C-TO surface
+ 0     !number of names
   0     !number of other names
   2     !number of keywords
 simple tiling
@@ -88696,7 +88700,8 @@ pte-c
 2b
  0 !number of other symbols
  0 !number of names
- 0 !number of other names
+ 1 !number of other names
+ST-net
  2 !number of keywords
 interpenetrating net
 heterocoord 46
@@ -114761,7 +114766,8 @@ start
 4
   0     !number of other symbols
   0     !number of names
-  0     !number of other names
+  1     !number of other names
+C(H) minimal surface
   2     !number of keywords
 heterocoord
 good
