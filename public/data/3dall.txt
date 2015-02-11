@@ -117774,13 +117774,11 @@ start
  kms                                                        
  4
   0     !number of other symbols
-  1     !number of names
-csq-derived
+  0     !number of names
   0     !number of other names
   1     !number of keywords
 heterocoord 36
-  1     !number of references
-Chem. Rev.114, 1343 92014)
+  0     !number of references
  P63/mcm   193                                         
  4.1064 4.1064 4.4505 90.000 90.000 120.000            
   3
