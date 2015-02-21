@@ -17,7 +17,7 @@
       This refers to the coordination of the vertices of the net. To find nets
       with vertices of a given coordination number, enter that number. To find
       nets with vertices that have multiple coordination numbers, enter those
-      numbers, separated by commas.
+      numbers, separated by commas. * acts as a wild-card (only one allowed).
     </p>
 
     <p><em>Examples:</em></p>
@@ -34,6 +34,10 @@
         <tr>
           <td><code>3,4,5</code></td>
           <td>3-, 4-, and 5-coordinated vertices all occur, but no others</td>
+        </tr>
+        <tr>
+          <td><code>3,12,*</code></td>
+          <td>3-, 12-, and at least one other coordination</td>
         </tr>
     </table>
   </div>
