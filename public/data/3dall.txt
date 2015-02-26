@@ -2029,7 +2029,8 @@ Y**
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 Ia-3d         230
    2.8286  2.8286  2.8286  90.000  90.000  90.000
  1
@@ -2103,7 +2104,8 @@ srs-c4
  2 !number of keywords
 interpenetrating net
 chiral
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P4(2)32        208
   1.4142 1.4142  1.4142  90.0000 90.0000 90.0000
  1
@@ -9813,7 +9815,8 @@ diamond intergrowth
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 Pn-3m            224
    1.1548  1.1548  1.1548  90.000  90.000  90.000
  1
@@ -9961,7 +9964,8 @@ quartz intergrowth
  2 !number of keywords
 chiral
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P6(2)22            180
    1.6328  1.6328  0.8660  90.000  90.000 120.000
  1
@@ -27128,7 +27132,8 @@ hexagonal barrel
  2 !number of keywords
 clathrate
 simple tiling
- 0 !number of references
+ 1 !number of references
+Inorg. Chem. 54, 808 (2015)
 P6/mmm          191
    3.1933  3.1933  3.3803  90.000  90.000 120.000
  3
@@ -27389,7 +27394,8 @@ cal-d
 simple tiling
 clathrate
 good
- 0 !number of references
+ 1 !number of references
+Inorg. Chem. 54, 808 (2015)
 I4/mcm          140
    5.2345  5.2345  4.2533  90.000  90.000  90.000
  4
@@ -30037,9 +30043,10 @@ start
 hea
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 heazlewoodite
 Ni3S2
+TP net
  0 !number of other names
  3 !number of keywords
 bipartite
@@ -38463,7 +38470,8 @@ tch
  0 !number of other names
  1 !number of keywords
 good
- 0 !number of references
+ 1 !number of references
+Inorg. Chem. 54, 808 (2015)
 P6(3)/m         176
    2.3874  2.3874  1.0000  90.000  90.000 120.000
  1
@@ -42997,7 +43005,8 @@ fiv
  2 !number of keywords
 uniform net
 heterocoord
- 0 !number of references
+ 1 !number of references
+Inorg. Chem. 54, 808 (2015)
 Fm-3c           226
    9.6734  9.6734  9.6734  90.000  90.000  90.000
  7
@@ -58678,7 +58687,8 @@ lcy-c
  2 !number of keywords
 interpenetrating net
 chiral
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 I4(1)32         214
    1.6331  1.6331  1.6331  90.000  90.000  90.000
  1
@@ -64983,8 +64993,9 @@ cbd
  2 !number of keywords
 dimple tiling
 clathrate
- 1 !number of references
+ 2 !number of references
 J. Chem. Phys. 124, 224704 (2006)
+Inorg. Chem. 54, 808 (2015)
 Cmcm             63
   3.0195  8.6552  3.0007  90.000  90.000  90.000
  6
@@ -65244,7 +65255,8 @@ hexagonal barrel
  2 !number of keywords
 zeolite net
 clathrate
- 0 !number of references
+ 1 !number of references
+Inorg. Chem. 54, 808 (2015)
 P6/mmm          191
   4.4453  4.4453  3.5729  90.000  90.000 120.000
  4
@@ -65331,7 +65343,8 @@ tmd
  0 !number of other names
  1 !number of keywords
 heterocoord
- 0 !number of references
+ 1 !number of references
+Inorg. Chem. 54, 808 (2015)
 I4/mmm          139
   7.4496  7.4496  4.3309  90.000  90.000  90.000
  9
@@ -77565,7 +77578,8 @@ srs-c8
  2 !number of keywords
 interpenetrating net
 chiral
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 I432           211
   1.4142 1.4142  1.4142  90.0000 90.0000 90.0000
  1
@@ -79094,7 +79108,8 @@ diamond intergrowth
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 I-43d            217
    0.8894  0.8894  0.8894  90.000  90.000  90.000
  1
@@ -86536,7 +86551,8 @@ qtz-c3
  2 !number of keywords
 chiral
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P6(2)22            180
    0.9428  0.9428  1.7321  90.000  90.000 120.000
  1
@@ -86570,7 +86586,8 @@ qtz-c4
  2 !number of keywords
 interpenetrating net
 chiral
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P6(2)22            180
    1.6330  1.6330  0.4333  90.000  90.000 120.000
  1
@@ -86642,7 +86659,8 @@ pcu-c4
  2 !number of keywords
 interpenetrating net
 chiral
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P4(3)32           212
    1.0000  1.0000  1.0000  90.000  90.000  90.000
  1
@@ -87905,7 +87923,8 @@ srs-c3
  2 !number of keywords
 interpenetrating net
 chiral
-0 !number of references
+1 !number of references
+Acta Cryst A71, 82 (2015)
 I4(1)32         214
 2.8286  2.8286  2.8286  90.000  90.000  90.000
 1
@@ -87944,7 +87963,8 @@ qtz-c6
  2 !number of keywords
 chiral
 interpenetrating net
-0 !number of references
+1 !number of references
+Acta Cryst A71, 82 (2015)
 P6(2)22            180
 0.9428  0.9428  0.8660  90.000  90.000 120.000
 1
@@ -88507,7 +88527,8 @@ srs-c*
  2 !number of keywords
 chiral
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P4(2)22         93
    2.0000  2.0000  1.4142  90.000  90.000  90.000
  1
@@ -88545,7 +88566,8 @@ srs-c4*
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P4(2)/nbc         133
    2.0000  2.0000  1.4142  90.000  90.000  90.000
  1
@@ -89447,7 +89469,8 @@ dia-c3*
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 I4(1)/amd            141
    1.6330  1.6330  0.7698  90.000  90.000  90.000
  1
@@ -89480,7 +89503,8 @@ dia-c4
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P4/nbm            125
    1.1547  1.1547  0.5774  90.000  90.000  90.000
  1
@@ -89513,7 +89537,8 @@ dia-c6
  0 !number of other names
  1 !number of keywords
 interpenetrating net
- 0 !number of references
+ 1 !number of references
+Acta Cryst A71, 82 (2015)
 P4(2)/nnm            134
    1.1547  1.1547  0.3924  90.000  90.000  90.000
  1
@@ -93966,7 +93991,7 @@ lcy-c*
 1 !number of keywords
 interpenetrating net 
 1 !number of references
-CB
+Acta Cryst A71, 82 (2015)
 Pa-3         205  
 1.6175  1.6175  1.6175  90.000  90.000  90.000
 1
@@ -98541,8 +98566,9 @@ start
  fsk                                                        
 1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 SiP2O7
+pcu-derived
   0     !number of other names
   1     !number of keywords
 heterocoord 46
@@ -98611,8 +98637,9 @@ start
  fsm                                                        
 1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 SiP2O7
+pcu-derived
   0     !number of other names
   1     !number of keywords
 heterocoord 46
@@ -99478,8 +99505,9 @@ start
   0     !number of other names
   1     !number of keywords
 good
-  1     !number of references
+  2     !number of references
 CrystEngComm 11, 274 (2009)
+Acta Cryst A71, 82 (2015)
 I4(1)/amd             141
   1.6338 1.6338 1.0621  90.000  90.000  90.000
   1
@@ -102075,7 +102103,8 @@ start
  1812
 jst                                                        
 1b
-  0     !number of other symbols
+  1     !number of other symbols
+noh-e
   0     !number of names
   0     !number of other names
   0     !number of keywords
@@ -103177,7 +103206,7 @@ V1  3
  2                                                          
 V2  4
  0.0000 0.0000 0.2500                                       
- 0, 0,                                                           
+ 0, 0, 1/4                                                        
   4 c                                                       
  4/m                                                          
  8                                                          
@@ -108021,8 +108050,9 @@ start
   2     !number of keywords
 bipartite
 heterocoord 34
-  1     !number of references
+  2     !number of references
 Angew. Chem.51 (2012)
+Acta Cryst A71, 82 (2015)
  P-62c           190                                         
    2.9541 2.9541 1.6306  90.000  90.000  120.000            
   3
@@ -108182,7 +108212,8 @@ hcb-c3
   0     !number of other names
   1     !number of keywords
 uniform net
-  0     !number of references
+  1     !number of references
+Acta Cryst A71, 82 (2015)
 P6/mcc             192                                         
    3.0000 3.0000 1.7321  90.000  90.000  120.000            
   1
@@ -109432,7 +109463,8 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
+bipartite
 heterocoord
   0     !number of references
  P6(3)/mmc           194                                         
@@ -110461,7 +110493,8 @@ start
   edc-a                                                      
  ib
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+TB net
   0     !number of other names
   1     !number of keywords
 heterocoord
@@ -120243,97 +120276,51 @@ V4  3
    3
 start
 2068
-  kag-a                                                      
- 1b
+ wys                                                      
+ 4
   0     !number of other symbols
   0     !number of names
   0     !number of other names
   2     !number of keywords
-heterocoord 34
-good
+heterocoord
+chiral
   0     !number of references
- P4(2)/mnm       136                                         
-   6.3842  6.3842  5.4133  90.000  90.000  90.000            
-  4
-V1  3
-  0.0679 0.1786 0.3130                                       
-  x, y, z                                                    
-  16  k                                                      
-  1                                                          
-  1                                                          
+ R32       155                                         
+   2.5016 2.5016 1.9340  90.000  90.000  120.000            
+  2
+V1  9
+  0.0000 0.0000 0.0000                                       
+  0. 0. 0                                                    
+  3 a                                                      
+  32                                                          
+  6                                                          
 V2  3
-  0.1969 0.1969 0.2104                                       
-  x, x, z                                                          
-   8 j                                                       
-  m                                                          
+  0.0000 0.3997 0.0000                                       
+  0, y, 0                                                          
+   9 d                                                       
   2                                                          
-V3  4
-  0.3226 0.4334 0.0924                                       
-  x, y, z                                                    
-  16  k                                                      
-  1                                                          
-  1                                                          
-V4  4
-  0.2821 0.2821 0.0924                                       
-  x, x, z                                                          
-   8 j                                                       
-  m                                                          
-  2                                                          
-  8
+  2                                                                                                          
+  2
  E1   2                                                      
-  0.1233 0.1232 0.3130                                       
-  x, x, z                                                          
-   8 j                                                       
-  m                                                          
+  0.0000 0.1999 0.0000                                       
+  0, y, 0                                                          
+ 9 d                                                       
+ 2                                                          
  E2   2                                                      
-  0.1324 0.1877 0.2617                                       
+  0.1335 0.9668 0.1667                                       
   x, y, z                                                    
-  16  k                                                      
-  1                                                          
- E3   2                                                      
-  0.0007 0.1780 0.3603                                       
-  x, y, z                                                    
-  16  k                                                      
-  1                                                          
- E4   2                                                      
-  0.2395 0.2395 0.1514                                       
-  x, x, z                                                          
-   8 j                                                       
-  m                                                          
- E5   2                                                      
-  0.3780 0.3780 0.0924                                       
-  x, x, z                                                          
-   8 j                                                       
-  m                                                          
- E6   2                                                      
-  0.3226 0.4334 0.0000                                       
-  x, y, 0                                                          
-   8 i                                                       
-  m                                                          
- E7   2                                                      
-  0.3023 0.3577 0.0924                                       
-  x, y, z                                                    
-  16  k                                                      
-  1                                                          
- E8   2                                                      
-  0.2821 0.2821 0.0000                                       
-  x, x, 0                                                          
-   4 f                                                       
-  mm2                                                          
+  18 f                                                      
+  1                                                                                                            
   0                                                          
   0                                                          
   0
   unk                                                        
   unk                                                        
-     3    5   11   16   19   29   54   79   85   91  393     
-     3    5   11   18   20   28   51   75   87   97  396     
-     4    7   10   14   23   40   55   68   84   99  405     
-     4    7   10   16   27   38   50   65   83  112  413     
-3.8(2).16(7) 
-3.16(7).16(7) 
-3.8.4.8.4.16(3) 
-3.16(8).4.16(3).4.16(3) 
-   3
+     9 12 69  44 195  98 387 174 645 272 1906  
+     3 22 23 116  65 272 129 494 215 782 2122   
+unk
+unk 
+   4
 start
 2069
   tsj-a                                                      
