@@ -24654,7 +24654,7 @@ E4   2
 start
  476
 lcv-e
-unk
+4
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -26781,14 +26781,14 @@ Fddd             70
  2
 V1  6
   0.2500 0.2500 0.0000
-  1/8, 1/8, z
-  16 g
-  2
+  1/4, 1/4, 0
+  16 c
+  -1
   2
 V2  6
   0.3750 0.1875 0.3750
-  x, 1/8, 3/8
-  16 e
+  3/8, y, 3/8
+  16 f
   2
   2
  4
@@ -61993,7 +61993,7 @@ E4   2
 start
  1186
 mgz
-unk
+4
  0 !number of other symbols
  1 !number of names
 MgZn2
@@ -89046,8 +89046,9 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
 good
+simple tiling
   0     !number of references
 Pa-3            205
   7.4094  7.4094  7.4094  90.000  90.000  90.000
@@ -102973,7 +102974,8 @@ start
  lqm                                                        
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+wbl-derived
   0     !number of other names
   2     !number of keywords
 chiral
@@ -108745,7 +108747,7 @@ V4  3
    3
 start
  1902
-  non-a                                                      
+  fon-a                                                      
  1b
   0     !number of other symbols
   0     !number of names
@@ -130583,8 +130585,9 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
 good
+simple tiling
   0     !number of references
  Fm-3m           225                                         
   12.2758 12.2758 12.2758  90.000  90.000  90.000            
