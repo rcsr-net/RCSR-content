@@ -25214,7 +25214,7 @@ E2   2
   1
   18
   [3^6.4^6.6^2]
-  unk
+  bcu-x
      6   20   48   80  128  180  248  320  408  500 1939
 3.3.3.4.4.4.4.6.6.7.7.7.7.7.*
 3
@@ -25298,7 +25298,7 @@ E2   2
   1
   28
   [3^2.4^2.7^2]
-  unk
+  qtz-x
      6   20   50   82  132  184  256  330  422  516 1999
 3.3.3.4.4.4.4.7.7.7(4).7(4).7(5).7(6).7(6).*
 3
@@ -26928,9 +26928,11 @@ start
 ptt
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
    twisted PtS
- 0 !number of other names
+ST net
+ 1 !number of other names
+ST-net
  1 !number of keywords
 bipartite
  0 !number of references
@@ -103116,7 +103118,8 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
+simple tiling
 good
   0     !number of references
 Im-3m           229                                         
@@ -103171,10 +103174,10 @@ E6   2
  x, y, y                                                          
  48 k                                                       
  m                                                          
- 0                                                          
- 0                                                          
- 0
- unk                                                        
+ 8                                                          
+ 3                                                          
+ 48
+ [4^36.6^8.16^6] + 9[4^16.16^2]                                                       
  unk                                                        
     4    8   13   20   28   37   50   68   87  105  421     
     4    8   12   17   25   36   48   60   76  100  387     
@@ -117127,7 +117130,7 @@ hey-related
  uniform net
  0 !number of references
 I432           211
-   2.1381  2.1381  2.1381  90.000  90.000  90.000
+   1.9242 1.9242 1.9242  90.000  90.000  90.000
  1
 V1  4
   0.0000 0.0000 0.4000
@@ -118147,7 +118150,8 @@ shb
  4
   0     !number of other symbols
   0     !number of names
-  0     !number of other names
+  1     !number of other names
+SPX net
   2     !number of keywords
 heterocoord
 good
@@ -119051,10 +119055,10 @@ V3  3
   x, y, z                                                    
  192  l                                                      
   1                                                          
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
+  4                                                          
+  4                                                          
+  26
+  [4^6] +  [4^6.5^24.6^8] + 12[5^4] + 2[5^12.6^4]                                                        
   unk                                                        
      6   18   34   48   81  129  171  225  267  348 1328     
      5   12   30   54   86  127  156  243  264  346 1324     
@@ -124112,10 +124116,10 @@ V4  3
   x, x, z                                                          
   48 k                                                       
   m                                                          
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
+  4                                                          
+  4                                                          
+  36
+  [[8^6] + 4[8^6.12^2] + [8^6.12^8]                                                       
   unk                                                        
      3    6   12   20   30   40   55   77  100  126  470     
      3    6   12   19   29   43   59   77   98  119  466     
@@ -134365,7 +134369,7 @@ bipartite
 heterocoord
   0     !number of references
 Fd-3m          227                                         
-1.8455   1.8455   7.6734   90.0 90.0 120.0            
+4.8990 4.8990 4.8990 90.0 90.0 90.0            
   3
 V1  12
   0.5000 0.0000 0.0000                                       
