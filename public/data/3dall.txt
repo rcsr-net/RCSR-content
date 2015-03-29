@@ -28338,8 +28338,9 @@ start
 tbo
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 twisted boracite
+3S net
  0 !number of other names
  3 !number of keywords
 bipartite
@@ -32582,9 +32583,8 @@ start
 tbo-a
 1b
  0 !number of other symbols
- 2 !number of names
+ 1 !number of names
    augmented twisted boracite
-3S net
  0 !number of other names
  1 !number of keywords
 good
@@ -44302,9 +44302,8 @@ fti
  0 !number of other symbols
  0 !number of names
  0 !number of other names
- 2 !number of keywords
+ 1 !number of keywords
 good
-simple tiling
  0 !number of references
 I4/mmm          139
    7.1131  7.1131  2.9797  90.000  90.000  90.000
