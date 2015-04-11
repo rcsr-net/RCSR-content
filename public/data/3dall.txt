@@ -2765,8 +2765,7 @@ qsn-047
  2 !number of keywords
 uniform net
 quasisimple tiling
- 1 !number of references
-Chem. Rev, 112, 675 (2012)
+ 0 !number of references
 P-31c            163
    2.6180  2.6180  2.4650  90.000  90.000 120.000
  1
@@ -12028,7 +12027,7 @@ E2   2
   1
   24
   [5^4.7^4]
-  unk
+  ddi
      4   12   28   50   80  110  152  198  248  310 1193
      4   12   30   48   76  114  152  196  250  306 1189
 5.5.5.5.8(2).8(2)
@@ -18133,7 +18132,7 @@ bcr
  0 !number of names
  0 !number of other names
  1 !number of keywords
-isohedral tiling
+simple tiling
  2 !number of references
 J. Solid State Chem. 178, 2533-2554 (2005)
 Acta Cryst. A61, 358-362 (2005)
@@ -43597,7 +43596,7 @@ kto
  3 !number of keywords
 good
 polar
-isohedral tiling
+simple tiling
  1 !number of references
 Z. Kristallogr. 214, 438-443 (1999)
 R3m             160
@@ -55982,7 +55981,7 @@ E3   2
   1
   40
   [5^8]
- unk
+ bcu
     5   20   47   90  141  203  283  365  463  575 2193
 5.5.5.5.5(2).5(2).5(2).6.6.*
 5
@@ -95131,7 +95130,7 @@ E3   2
 1 
 9  
 [6^12]
-unk  
+fcu  
    5 12  24  40   64   92  121  154  201  252  966
    3 10  23  42   61   88  121  162  197  240  948
 6.6.6.6.6.6.6.6.*.*
@@ -118280,7 +118279,7 @@ V2  3
   0, y, y                                                          
  12 j                                                       
 mm2                                                          
-6                                                            
+4                                                           
   2
  E1   2                                                      
   0.0000 0.1464 0.1464                                       
