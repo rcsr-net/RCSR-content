@@ -123923,14 +123923,15 @@ start
   gee                                                  
  1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 3S net
+ftw-derived
   0     !number of other names
   2     !number of keywords
 bipartite
 heterocoord 34
   1     !number of references
-Chem. Commun. 51, 1046 (2015)
+Chem. Vommun. 51, 1046 (2015)
  Pm-3m           221                                         
    3.4143  3.4143  3.4143  90.000  90.000  90.000            
   3
