@@ -123929,7 +123929,8 @@ start
   2     !number of keywords
 bipartite
 heterocoord 34
-  0     !number of references
+  1     !number of references
+Chem. Commun. 51, 1046 (2015)
  Pm-3m           221                                         
    3.4143  3.4143  3.4143  90.000  90.000  90.000            
   3
