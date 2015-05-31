@@ -1006,7 +1006,7 @@ x, y, 0
 4.6.12
 start
 40
-hxt-a
+fxt-a
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
@@ -1074,7 +1074,7 @@ V2 3
 5^4
 start
 43
-fsz-a
+fsz-d
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
