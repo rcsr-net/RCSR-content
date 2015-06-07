@@ -1151,7 +1151,8 @@
 	  "Archimedean",
 	  "isohedral",
 	  "plane",
-	  "self-dual"
+	  "self-dual",
+	  "uniform"
 	];
 
 
@@ -13739,8 +13740,8 @@
 	var EventEmitter   = __webpack_require__(26).EventEmitter
 	  , inherits       = __webpack_require__(126).inherits
 	  , extend         = __webpack_require__(183)
-	  , prr            = __webpack_require__(186)
-	  , DeferredLevelDOWN = __webpack_require__(187)
+	  , prr            = __webpack_require__(187)
+	  , DeferredLevelDOWN = __webpack_require__(186)
 
 	  , WriteError     = __webpack_require__(120).WriteError
 	  , ReadError      = __webpack_require__(120).ReadError
@@ -29743,6 +29744,60 @@
 /* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/* WEBPACK VAR INJECTION */(function(process, Buffer) {var util              = __webpack_require__(126)
+	  , AbstractLevelDOWN = __webpack_require__(222).AbstractLevelDOWN
+
+	function DeferredLevelDOWN (location) {
+	  AbstractLevelDOWN.call(this, typeof location == 'string' ? location : '') // optional location, who cares?
+	  this._db         = undefined
+	  this._operations = []
+	}
+
+	util.inherits(DeferredLevelDOWN, AbstractLevelDOWN)
+
+	// called by LevelUP when we have a real DB to take its place
+	DeferredLevelDOWN.prototype.setDb = function (db) {
+	  this._db = db
+	  this._operations.forEach(function (op) {
+	    db[op.method].apply(db, op.args)
+	  })
+	}
+
+	DeferredLevelDOWN.prototype._open = function (options, callback) {
+	  return process.nextTick(callback)
+	}
+
+	// queue a new deferred operation
+	DeferredLevelDOWN.prototype._operation = function (method, args) {
+	  if (this._db)
+	    return this._db[method].apply(this._db, args)
+	  this._operations.push({ method: method, args: args })
+	}
+
+	// deferrables
+	'put get del batch approximateSize'.split(' ').forEach(function (m) {
+	  DeferredLevelDOWN.prototype['_' + m] = function () {
+	    this._operation(m, arguments)
+	  }
+	})
+
+	DeferredLevelDOWN.prototype._isBuffer = function (obj) {
+	  return Buffer.isBuffer(obj)
+	}
+
+	// don't need to implement this as LevelUP's ReadStream checks for 'ready' state
+	DeferredLevelDOWN.prototype._iterator = function () {
+	  throw new TypeError('not implemented')
+	}
+
+	module.exports = DeferredLevelDOWN
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(59), __webpack_require__(30).Buffer))
+
+/***/ },
+/* 187 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/*!
 	  * prr
 	  * (c) 2013 Rod Vagg <rod@vagg.org>
@@ -29806,60 +29861,6 @@
 
 	  return prr
 	})
-
-/***/ },
-/* 187 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process, Buffer) {var util              = __webpack_require__(126)
-	  , AbstractLevelDOWN = __webpack_require__(222).AbstractLevelDOWN
-
-	function DeferredLevelDOWN (location) {
-	  AbstractLevelDOWN.call(this, typeof location == 'string' ? location : '') // optional location, who cares?
-	  this._db         = undefined
-	  this._operations = []
-	}
-
-	util.inherits(DeferredLevelDOWN, AbstractLevelDOWN)
-
-	// called by LevelUP when we have a real DB to take its place
-	DeferredLevelDOWN.prototype.setDb = function (db) {
-	  this._db = db
-	  this._operations.forEach(function (op) {
-	    db[op.method].apply(db, op.args)
-	  })
-	}
-
-	DeferredLevelDOWN.prototype._open = function (options, callback) {
-	  return process.nextTick(callback)
-	}
-
-	// queue a new deferred operation
-	DeferredLevelDOWN.prototype._operation = function (method, args) {
-	  if (this._db)
-	    return this._db[method].apply(this._db, args)
-	  this._operations.push({ method: method, args: args })
-	}
-
-	// deferrables
-	'put get del batch approximateSize'.split(' ').forEach(function (m) {
-	  DeferredLevelDOWN.prototype['_' + m] = function () {
-	    this._operation(m, arguments)
-	  }
-	})
-
-	DeferredLevelDOWN.prototype._isBuffer = function (obj) {
-	  return Buffer.isBuffer(obj)
-	}
-
-	// don't need to implement this as LevelUP's ReadStream checks for 'ready' state
-	DeferredLevelDOWN.prototype._iterator = function () {
-	  throw new TypeError('not implemented')
-	}
-
-	module.exports = DeferredLevelDOWN
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(59), __webpack_require__(30).Buffer))
 
 /***/ },
 /* 188 */
@@ -32420,7 +32421,7 @@
 /* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var prr = __webpack_require__(186)
+	var prr = __webpack_require__(187)
 
 	function init (type, message, cause) {
 	  prr(this, {
