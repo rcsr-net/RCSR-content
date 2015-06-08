@@ -340,7 +340,8 @@ usm
 U6Mn net
 OKH12
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+uniform
 p4gm
 P4/mbm
 3.3461 3.3461 10.0000 90.0000 90.0000 90.0000
@@ -841,7 +842,8 @@ lbl
 1  ! number of names
 3-4-8 net
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+uniform
 p4mm
 P4/mmm
 2.7321 2.7321 10.0000 90.0000 90.0000 90.0000
@@ -864,7 +866,8 @@ bew
 beta-W net
 OKH14
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+uniform
 p2mm
 Pmmm
 2.0000 1.7321 10.0000 90.0000 90.0000 90.0000
