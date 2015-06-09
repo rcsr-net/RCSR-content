@@ -1569,7 +1569,6 @@ x, y, 0
 4 9 15 20 26 32 36 40 46 52 281
 3.4.6.4
 start
-start
 64
 krm
 0  ! number of other symbols
@@ -1666,7 +1665,7 @@ krt
 1  ! number of keywords
 uniform
 p6mm
-P6'mmm
+P6/mmm
 5.4641 5.4641 10.0000 90.0000 90.0000 120.0000
 2 4 4
 V1 4
