@@ -55,7 +55,7 @@ minimal transitivity
 0  ! number of other names
 0  ! number of keywords
 p6
-p6/mmm
+P6/mmm
 4641 3.4641 10.0000 90.0000 90.0000 120.0000
 3 2 2
 V1 6
