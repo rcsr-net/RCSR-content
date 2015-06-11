@@ -36,6 +36,10 @@ th {
     background-color: #cdf;
 }
 
+p, li {
+    text-align: justify;
+}
+
 input, select, button {
     font-family: arial, sans-serif;
     font-size: 100%;
