@@ -1884,7 +1884,7 @@ x, 2x, 0
 6.8^2
 start
 75
-krw-a
+krw-d
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
