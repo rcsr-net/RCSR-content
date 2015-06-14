@@ -568,12 +568,20 @@
 	});
 
 
+	var makeLink = function(a, k) {
+	  if (a.length > 2)
+	    return $.p({ key: k },
+	               a[1]+': ',
+	               makeLink([a[0], a[2]], k));
+	  else
+	    return $.a({ key: k, href: a[0] }, a[1], $.br());
+	};
+
+
 	var Links = React.createClass({
 	  displayName: 'Links',
 
 	  render: function() {
-	    var emdash = '\u2014';
-
 	    var links = [
 	      ['http://www.iza-structure.org/databases',
 	       'zeolite atlas (known zeolites)' ],
@@ -596,24 +604,29 @@
 	      ['http://www.iucr.org',
 	       'International Union of Crystallography' ],
 	      ['/downloads/OKeeffeLecturesLR.zip',
-	       'O\'Keeffe lectures', 'download (ZIP file, 19MB)'],
-	      ['/downloads/RCSRnets.cgd',
-	       'Systre data for RCSR nets (where available)', 'download (1.3MB)']
+	       'O\'Keeffe lectures', 'download (ZIP file, 19MB)']
 	    ];
-
-	    var makeLink = function(a, k) {
-	      if (a.length > 2)
-	        return $.p({ key: k },
-	                   a[1]+': ',
-	                   makeLink([a[0], a[2]], k));
-	      else
-	        return $.a({ key: k, href: a[0] }, a[1], $.br());
-	    };
 
 	    return $.div({ className: 'article center' },
 	                 $.h1(null, 'RCSR Links Page'),
 	                 $.p(null,
 	                     'These are some links to related resources on the Web.'),
+	                 links.map(makeLink));
+	  }
+	});
+
+
+	var Systre = React.createClass({
+	  displayName: 'Systre',
+
+	  render: function() {
+	    var links = [
+	      ['/downloads/RCSRnets.cgd',
+	       'Systre data for RCSR nets (where available)', 'download (1.3MB)']
+	    ];
+
+	    return $.div({ className: 'article center' },
+	                 $.h1(null, 'RCSR Systre Page'),
 	                 links.map(makeLink));
 	  }
 	});
@@ -657,6 +670,8 @@
 	    });
 	  else if (path == '/links')
 	    return React.createElement(Links);
+	  else if (path == '/systre')
+	    return React.createElement(Systre);
 	  else if (path.match(/^\/nets\//))
 	    return React.createElement(Deferred, {
 	      component: Nets.single,
@@ -708,8 +723,9 @@
 	      [ 'Home', '/' ], [ '|' ],
 	      [ 'About', '/about' ], [ '|' ],
 	      [ 'Links', '/links' ], [ '|' ],
-	      [ 'Nets', '/nets' ], [ '|' ],
-	      [ 'Layers', '/layers' ], [ '|' ],
+	      [ 'Systre', '/systre' ], [ '|' ],
+	      [ '3D Nets', '/nets' ], [ '|' ],
+	      [ '2D Nets', '/layers' ], [ '|' ],
 	      [ 'Polyhedra', '/polyhedra' ]
 	    ];
 
@@ -848,7 +864,7 @@
 
 
 	var schema = {
-	  title: "Search nets",
+	  title: "Search 3D nets",
 	  type: "object",
 	  required: [],
 	  properties: {
@@ -1104,7 +1120,7 @@
 
 	  render: function() {
 	    return $.div(null,
-	                 $.h1(null, 'Search Nets'),
+	                 $.h1(null, 'Search 3D Nets'),
 	                 this.props.info ? $.p(null, '(' + this.props.info + ')') : null,
 	                 makeTabs({ labels: ['Search Form', 'Results'],
 	                            spreadThreshold: 800,
@@ -1150,14 +1166,14 @@
 	  "regular",
 	  "Archimedean",
 	  "isohedral",
-	  "plane",
+	  "pentagonal tiling",
 	  "self-dual",
 	  "uniform"
 	];
 
 
 	var schema = {
-	  title: "Search layers",
+	  title: "Search 2D nets",
 	  type: "object",
 	  required: [],
 	  properties: {
@@ -1339,14 +1355,14 @@
 
 	  render: function() {
 	    return $.div(null,
-	                 $.h1(null, 'Search Layers'),
+	                 $.h1(null, 'Search 2D Nets'),
 	                 this.props.info ? $.p(null, '(' + this.props.info + ')') : null,
 	                 makeTabs({ labels: ['Search Form', 'Results'],
 	                            spreadThreshold: 800,
 	                            enableRemoteSelection: this.subscribe
 	                          },
 	                          this.renderSearchForm(schema),
-	                          this.renderResults('layer', 'layers',
+	                          this.renderResults('net', 'nets',
 	                                             Layer, layerTable)));
 	  }
 	});
@@ -13740,8 +13756,8 @@
 	var EventEmitter   = __webpack_require__(26).EventEmitter
 	  , inherits       = __webpack_require__(126).inherits
 	  , extend         = __webpack_require__(183)
-	  , prr            = __webpack_require__(187)
-	  , DeferredLevelDOWN = __webpack_require__(186)
+	  , prr            = __webpack_require__(186)
+	  , DeferredLevelDOWN = __webpack_require__(187)
 
 	  , WriteError     = __webpack_require__(120).WriteError
 	  , ReadError      = __webpack_require__(120).ReadError
@@ -29744,60 +29760,6 @@
 /* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(process, Buffer) {var util              = __webpack_require__(126)
-	  , AbstractLevelDOWN = __webpack_require__(222).AbstractLevelDOWN
-
-	function DeferredLevelDOWN (location) {
-	  AbstractLevelDOWN.call(this, typeof location == 'string' ? location : '') // optional location, who cares?
-	  this._db         = undefined
-	  this._operations = []
-	}
-
-	util.inherits(DeferredLevelDOWN, AbstractLevelDOWN)
-
-	// called by LevelUP when we have a real DB to take its place
-	DeferredLevelDOWN.prototype.setDb = function (db) {
-	  this._db = db
-	  this._operations.forEach(function (op) {
-	    db[op.method].apply(db, op.args)
-	  })
-	}
-
-	DeferredLevelDOWN.prototype._open = function (options, callback) {
-	  return process.nextTick(callback)
-	}
-
-	// queue a new deferred operation
-	DeferredLevelDOWN.prototype._operation = function (method, args) {
-	  if (this._db)
-	    return this._db[method].apply(this._db, args)
-	  this._operations.push({ method: method, args: args })
-	}
-
-	// deferrables
-	'put get del batch approximateSize'.split(' ').forEach(function (m) {
-	  DeferredLevelDOWN.prototype['_' + m] = function () {
-	    this._operation(m, arguments)
-	  }
-	})
-
-	DeferredLevelDOWN.prototype._isBuffer = function (obj) {
-	  return Buffer.isBuffer(obj)
-	}
-
-	// don't need to implement this as LevelUP's ReadStream checks for 'ready' state
-	DeferredLevelDOWN.prototype._iterator = function () {
-	  throw new TypeError('not implemented')
-	}
-
-	module.exports = DeferredLevelDOWN
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(59), __webpack_require__(30).Buffer))
-
-/***/ },
-/* 187 */
-/***/ function(module, exports, __webpack_require__) {
-
 	/*!
 	  * prr
 	  * (c) 2013 Rod Vagg <rod@vagg.org>
@@ -29861,6 +29823,60 @@
 
 	  return prr
 	})
+
+/***/ },
+/* 187 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process, Buffer) {var util              = __webpack_require__(126)
+	  , AbstractLevelDOWN = __webpack_require__(222).AbstractLevelDOWN
+
+	function DeferredLevelDOWN (location) {
+	  AbstractLevelDOWN.call(this, typeof location == 'string' ? location : '') // optional location, who cares?
+	  this._db         = undefined
+	  this._operations = []
+	}
+
+	util.inherits(DeferredLevelDOWN, AbstractLevelDOWN)
+
+	// called by LevelUP when we have a real DB to take its place
+	DeferredLevelDOWN.prototype.setDb = function (db) {
+	  this._db = db
+	  this._operations.forEach(function (op) {
+	    db[op.method].apply(db, op.args)
+	  })
+	}
+
+	DeferredLevelDOWN.prototype._open = function (options, callback) {
+	  return process.nextTick(callback)
+	}
+
+	// queue a new deferred operation
+	DeferredLevelDOWN.prototype._operation = function (method, args) {
+	  if (this._db)
+	    return this._db[method].apply(this._db, args)
+	  this._operations.push({ method: method, args: args })
+	}
+
+	// deferrables
+	'put get del batch approximateSize'.split(' ').forEach(function (m) {
+	  DeferredLevelDOWN.prototype['_' + m] = function () {
+	    this._operation(m, arguments)
+	  }
+	})
+
+	DeferredLevelDOWN.prototype._isBuffer = function (obj) {
+	  return Buffer.isBuffer(obj)
+	}
+
+	// don't need to implement this as LevelUP's ReadStream checks for 'ready' state
+	DeferredLevelDOWN.prototype._iterator = function () {
+	  throw new TypeError('not implemented')
+	}
+
+	module.exports = DeferredLevelDOWN
+	
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(59), __webpack_require__(30).Buffer))
 
 /***/ },
 /* 188 */
@@ -32421,7 +32437,7 @@
 /* 216 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var prr = __webpack_require__(187)
+	var prr = __webpack_require__(186)
 
 	function init (type, message, cause) {
 	  prr(this, {
