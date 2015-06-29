@@ -1763,7 +1763,8 @@ uniform net
 good
 isohedral tiling
 self dual net
- 2 !number of references
+ 3 !number of references
+J. Am. chem. Soc. 105, 4831 (1983)
 Acta Cryst. A60, 517-520 (2004)
 J. Solid State Chem. 152, 3-20 (2000)
 I4(1)/amd     141
@@ -4785,7 +4786,8 @@ qsn-073
 zeolite net
 quasisimple tiling
 good
- 2 !number of references
+ 3 !number of references
+J. Am. Chem. Soc. 111, 810 (1989)
 Acta Cryst. A59, 515-525 (2003)
 J. Solid State Chem. 178, 2533-2554 (2005)
 Im-3m            229
@@ -139888,6 +139890,156 @@ V6  4
 5.8.8 
 3.8.8 
 4.8.5.16(2).6.8 
+   3
+start
+2327
+ dna                                                      
+ 4
+  0     !number of other symbols
+  2     !number of names
+she-related
+3HC net
+  0     !number of other names
+  2     !number of keywords
+bipartite
+heterocoord
+  0     !number of references
+ Im-3m        229                                         
+   4.8990 4.8990 4.8990  90.000  90.000 90.000            
+  3
+V1  8
+  0.0000 0.2500 0.5000                                       
+  0, 1/4, 1/2                                                          
+   12 d                                                       
+  -4m2                                                          
+  8                                                          
+V2  6
+  0.2500 0.2500 0.2500                                       
+ 1/4, 1/4, 1/4                                                          
+ 8 c                                                       
+  -3m                                                          
+  12                                                          
+V3  3
+  0.0833 0.3333 0.3333                                       
+  x, y, y                                                          
+  48 k                                                       
+  m                                                       
+  2                                                          
+  2
+ E1   2                                                      
+  0.0417 0.2917 0.4167                                       
+  x, y, z                                                    
+  96 l                                                      
+  1                                                         
+ E2   2                                                      
+   0.1667 0.2917 0.2917                                       
+  x, x, z                                                    
+ 48 k                                                      
+  m                                                                                                                   
+  3                                                          
+  2                                                          
+  32
+  [4^60.8^6] + 3[4^4.8^2]                                                        
+  unk                                                        
+      8  8 32 22 80 52 168  90 280 152 893 
+      6  6 30 24 78 42 150  96 270 128 831    
+      3 16 13 50 33 112 67 214 115 341 965    
+unk
+unk 
+unk 
+   4
+start
+2328
+  dna-a                                                      
+ 1b
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  2     !number of keywords
+heterocoord 4
+good
+  0     !number of references
+ Im-3m           229                                         
+  11.9839 11.9839 11.9839  90.000  90.000  90.000            
+  4
+V1  3
+  0.1752 0.1752 0.3787                                       
+  x, x, z                                                          
+  48 k                                                       
+  m                                                          
+  2                                                          
+V2  3
+  0.1120 0.1710 0.4330                                       
+  x, y, z                                                    
+  96  l                                                      
+  1                                                          
+  1                                                          
+V3  3
+  0.2147 0.2147 0.3167                                       
+  x, x, z                                                          
+  48 k                                                       
+  m                                                          
+  $                                                          
+V4  4
+  0.0417 0.2083 0.4583                                       
+  x, y, z                                                    
+  96  l                                                      
+  1                                                          
+  1                                                          
+  8
+ E1   2                                                      
+  0.1436 0.1731 0.4059                                       
+  x, y, z                                                    
+  96  l                                                      
+  1                                                          
+ E2   2                                                      
+  0.1949 0.1949 0.3477                                       
+  x, x, z                                                          
+  48 k                                                       
+  m                                                          
+ E3   2                                                      
+  0.1415 0.1415 0.4330                                       
+  x, x, z                                                          
+  48 k                                                       
+  m                                                         
+ E4   2                                                      
+  0.0768 0.1897 0.4457                                       
+  x, y, z                                                    
+  96  l                                                      
+  1                                                          
+ E5   2                                                      
+  0.2500 0.1990 0.3010                                       
+  1/4, y, 1/2-y                                                          
+  48 2                                                       
+  $                                                          
+ E6   2                                                      
+  0.0417 0.2083 0.5000                                       
+  x, y, 1/2                                                          
+  48 j                                                       
+  m                                                          
+ E7   2                                                      
+  0.0000 0.2083 0.4583                                       
+  0. y, z                                                          
+  48 j                                                       
+  m                                                          
+ E8   2                                                      
+  0.0417 0.2500 0.4583                                       
+  x, 1/4, 1/2-x                                                          
+  48 i                                                       
+  2                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     3    4   10   17   20   29   34   50   62   72  302     
+     3    5   11   18   21   29   35   49   61   71  304     
+     3    6    9   13   20   29   39   48   61   77  306     
+     4    8   12   16   22   31   40   48   57   71  310     
+3.8.8 
+3.8.8 
+6.8.8 
+4.8.4.8.4.16 
    3
 start
  -1
