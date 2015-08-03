@@ -57,8 +57,9 @@ Y*3
 isohedral tiling
 chiral
 good
- 1 !number of references
+ 2 !number of references
 Acta Cryst. A59, 515-525 (2003)
+Struct. Chem. 23, 1079 (2012)
 I4(1)32       214
    6.0948  6.0948  6.0948  90.000  90.000  90.000
  1
@@ -7091,8 +7092,9 @@ QO
  0 !number of other names
  1 !number of keywords
 chiral
- 1 !number of references
+ 2 !number of references
 Z. Krist. 196, 21 (1991)
+Struct. Chem. 23, 1079 (2012)
 P6(2)22            180
    1.8596  1.8596  2.3513  90.000  90.000 120.000
  1
@@ -35167,14 +35169,16 @@ start
 svu
 1a
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
+7^3D
 7/3/c4
  1 !number of other names
    icosahedron
  2 !number of keywords
    infinite polyhedron
 good
- 0 !number of references
+ 1 !number of references
+Struct. Chem. 23, 1079 (2012)
 Fd-3            203
    5.3768  5.3768  5.3768  90.000  90.000  90.000
  1
@@ -36554,7 +36558,8 @@ ncc
  0 !number of other names
  1 !number of keywords
 good
- 0 !number of references
+ 1 !number of references
+Struct. Chem. 23, 1079 (2012)
 I-43m           217
    2.8284  2.8284  2.8284  90.000  90.000  90.000
  1
@@ -38566,7 +38571,8 @@ ecq
 8/3/h15
  0 !number of other names
  0 !number of keywords
- 0 !number of references
+ 1 !number of references
+Struct. Chem. 23, 1079 (2012)
 P6/mcc          192
    4.0982  4.0982  1.0000  90.000  90.000 120.000
  1
@@ -39440,7 +39446,8 @@ tci
  0 !number of other names
  1 !number of keywords
 good
- 0 !number of references
+ 1 !number of references
+Struct. Chem. 23, 1079 (2012)
 R-3             148
    2.6458  2.6458  2.4495  90.000  90.000 120.000
  1
@@ -47184,8 +47191,9 @@ fvg
  0 !number of other symbols
  0 !number of names
  0 !number of other names
- 2 !number of keywords
+ 3 !number of keywords
 simple tiling
+clathrate
 good
  0 !number of references
 Fd-3m           227
@@ -47829,8 +47837,9 @@ fvs
  0 !number of other symbols
  0 !number of names
  0 !number of other names
- 2 !number of keywords
+ 3 !number of keywords
 simple tiling
+clathrate
 good
  0 !number of references
 Pa-3            205
@@ -62784,8 +62793,9 @@ mur
  1 !number of names
 mu phase
  0 !number of other names
- 2 !number of keywords
+ 3 !number of keywords
 clathrate
+simple tiling
 good
  1 !number of references
 Phil. Mag. Letts. 78, 21 (1998)
@@ -68240,9 +68250,10 @@ cnd
 Ce2Ni7 dual
  1 !number of other names
 hexagonal barrel
- 2 !number of keywords
+ 3 !number of keywords
 good
 clathrate
+simple tiling
  0 !number of references
 P6(3)/mmc       194
   4.4356  4.4356 21.3465  90.000  90.000 120.000
@@ -68560,8 +68571,9 @@ nbd
 NbBe3 dual
  1 !number of other names
 hexagonal barrel
- 1 !number of keywords
+ 2 !number of keywords
 clathrate
+simple tiling
  0 !number of references
 R-3m            166
   4.4200  4.4200 21.4170  90.000  90.000 120.000
@@ -82006,7 +82018,8 @@ start
   0     !number of other names
   1     !number of keywords
 good
-  0     !number of references
+  1     !number of references
+Nature 453, 207 (2008)
 I4/mmm          139
   6.7223  6.7223  9.3758  90.000  90.000  90.000
   4
@@ -82118,7 +82131,8 @@ start
   0     !number of other names
   1     !number of keywords
 heterocoord 34
-  0     !number of references
+  1     !number of references
+Nature 453, 207 (2008)
 Im-3            204
  12.4732 12.4732 12.4732  90.000  90.000  90.000
  10
@@ -97301,7 +97315,8 @@ start
 1b
   0     !number of other symbols
   0     !number of names
-  0     !number of other names
+  1     !number of other names
+hexagonal barrel
   2     !number of keywords
 clathrate
 simple tiling
@@ -97693,7 +97708,8 @@ start
 1b
   0     !number of other symbols
   0     !number of names
-  0     !number of other names
+  1     !number of other names
+hexagonal barrel
   2     !number of keywords
 clathrate
 simple tiling
@@ -97888,7 +97904,8 @@ start
 1b
   0     !number of other symbols
   0     !number of names
-  0     !number of other names
+  1     !number of other names
+hexagonal barrel
   2     !number of keywords
 clathrate
 simple tiling
@@ -132836,7 +132853,8 @@ start
 eft                                                      
 4
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
+bcu-derived
 3SC net
   0     !number of other names
   3     !number of keywords
@@ -133871,7 +133889,8 @@ start
 uru                                                      
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3BR net
   0     !number of other names
   3     !number of keywords
 good
