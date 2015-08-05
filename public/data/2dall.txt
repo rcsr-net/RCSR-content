@@ -2110,7 +2110,7 @@ start
 82
 car
 0  ! number of other symbols
-o  ! number of names
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 c2mm
