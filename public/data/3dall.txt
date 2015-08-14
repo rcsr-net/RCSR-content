@@ -9286,7 +9286,7 @@ E3   2
 start
  206
 uld-z
-unk
+1b
  0 !number of other symbols
  1 !number of names
 4/3/c26
@@ -22190,7 +22190,7 @@ E4   2
 start
  420
 gan-z
-unk
+1a
  1 !number of other symbols
 fnm
  1 !number of names
@@ -22802,7 +22802,7 @@ E3   2
 start
  434
 ubt-z
-unk
+1b
  0 !number of other symbols
  1 !number of names
 5/3/c4
@@ -29139,7 +29139,7 @@ E2   2
 start
  564
 sxa
-unk
+2
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -29222,7 +29222,7 @@ E3   2
 4
 start
  566
-sxc
+2
 unk
  0 !number of other symbols
  0 !number of names
@@ -30554,7 +30554,7 @@ E2   2
 start
  589
 tfc
-unk
+2
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -33086,7 +33086,7 @@ E2   2
 start
  634
 spn-z
-unk
+1b
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -33226,7 +33226,7 @@ E2   2
 start
  637
 fsf
-unk
+2
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -33279,7 +33279,7 @@ E3   2
 start
  638
 fsg
-unk
+2
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -38306,7 +38306,7 @@ unk
 start
  740
 alb
-unk
+4
  0 !number of other symbols
  1 !number of names
 AlB2
@@ -43308,7 +43308,7 @@ E3   2
 start
  837
 fta
-unk
+2
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -43364,7 +43364,7 @@ mm2
 start
  838
 sto
-unk
+2
  0 !number of other symbols
  1 !number of names
 ST1 minimal surface
@@ -49429,7 +49429,7 @@ unk
 start
  936
 wfq
-unk
+1b
  0 !number of other symbols
  1 !number of names
 7/4/t2
@@ -54536,7 +54536,7 @@ unk
 start
  1037
 nzn
-unk
+4
  0 !number of other symbols
  1 !number of names
 NaZn13
@@ -54908,7 +54908,7 @@ E2   2
 start
  1044
 cbs
-unk
+2
  0 !number of other symbols
  1 !number of names
 CrB
@@ -63250,7 +63250,7 @@ E21  2
 start
  1197
 roa
-unk
+4
  0 !number of other symbols
  0 !number of names
  0 !number of other names
@@ -67629,7 +67629,7 @@ heterocoord 34
 interpenetrating net
 1 !number of references
 Chem. Commun. 1082-1083 (2006)
-I4(1)/amd           119
+I4(1)/amd           141
    1.8016  1.8016  3.7370  90.000  90.000  90.000
  2
 V1  3
@@ -84087,7 +84087,7 @@ unk
 start
 1542
  cdl-a
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -84155,7 +84155,7 @@ E5   2
 start
 1543
  sst-a
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -84477,7 +84477,7 @@ unk
 start
 1548
  sss-a
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -87478,7 +87478,7 @@ E2   2
 start
 1584
  tfj-a
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -87696,7 +87696,7 @@ unk
 start
  1587
  hci
-unk
+1b
   0     !number of other symbols
   1     !number of names
 6^3 hcc
@@ -88344,7 +88344,7 @@ E3   2
 start
  1600
  icm
-unk
+1b
   0     !number of other symbols
   1     !number of names
 ICMM-3
@@ -88403,7 +88403,7 @@ E4   2
 start
  1601
  ana-f
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -89685,7 +89685,7 @@ E9   2
 start
   1622
  ptr                                                        
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -99422,7 +99422,7 @@ E2   2
 start
   1778
  kdd                                                        
-unk
+1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -108484,7 +108484,7 @@ x, y, z
 start
   1898
   baz                                                        
- unk
+ 1a
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -110731,7 +110731,7 @@ V2  3
 start
   1929
   tfm                                                        
- unk
+ 1b
   0     !number of other symbols
   0     !number of names
   1     !number of other names
@@ -113203,7 +113203,7 @@ V3  5
 start
  1967
   pzh-a                                                      
- unk
+ 1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -119750,7 +119750,7 @@ V6  3
 start
 2061
   xlz-a                                                      
- unk
+ 1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -120492,7 +120492,7 @@ V3  3
 start
 2071
   xby-a                                                      
- unk
+ 1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
@@ -124844,7 +124844,7 @@ V3  4
 start
  2128
   nip                                                        
- unk
+ 1b
   0     !number of other symbols
   1     !number of names
 NiP2
@@ -127248,7 +127248,7 @@ V5  3
 start
  2165
   ffj-a                                                      
- unk
+ 1b
   0     !number of other symbols
   0     !number of names
   0     !number of other names
