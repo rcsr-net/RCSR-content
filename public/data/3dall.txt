@@ -29222,8 +29222,8 @@ E3   2
 4
 start
  566
+sxc
 2
-unk
  0 !number of other symbols
  0 !number of names
  0 !number of other names
