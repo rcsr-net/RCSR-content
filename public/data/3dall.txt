@@ -59744,7 +59744,7 @@ ose
  0 !number of other symbols
  2 !number of names
 7/3/o5
-6^2 c1
+6^3 c1
  0 !number of other names
  1 !number of keywords
 good
@@ -93116,7 +93116,8 @@ start
   0     !number of other names
   1     !number of keywords
 ZMOF
-  0     !number of references
+  1     !number of references
+Chem. Mater. 20, 7377 (2008)
 Imma             74                                         
   7.9700  3.5268  4.1478  90.000  90.000  90.000            
   3
@@ -121281,7 +121282,8 @@ start
   hef                                                        
  1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+6.8^2,6^2.8IWP
   1     !number of other names
 carbon
   2     !number of keywords
@@ -121344,7 +121346,9 @@ start
   hee                                                        
  1b
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+sqc13777
+6.8^2,6^8P
   1     !number of other names
 carbon
   1     !number of keywords
@@ -121386,10 +121390,10 @@ V2  3
   0, 1/2, z                                                          
   12 h                                                       
   mm2                                                          
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
+  5                                                          
+  4                                                          
+  32
+  [6^20.12^6] + [6^8.8^12.16^6] + 3[6^4.16^2] + 3[8^4.12^2]                                                         
   unk                                                        
      3    6   10   16   25   35   47   62   84  110  399     
      3    6   11   16   23   35   50   66   79   95  385     
@@ -143095,6 +143099,54 @@ V4  5
 3.8(2).3.8(2).3.8(2) 
 3.3.3.3.4.4.8(2).8(2).8(2).8(2) 
    3
+start
+2370
+ pyd                                                        
+ 2
+  0     !number of other symbols
+  2     !number of names
+8^3D
+sqc11265
+  1     !number of other names
+carbon
+  0     !number of keywords
+  0     !number of references
+Fd-3m   227                                         
+ 7.7274 7.7274 7.7274 90.000 90.000 90.000            
+  2
+V1  3
+  0.0915 0.2500 0.2500                                       
+  x, y, y                                                          
+  96 g                                                      
+ m                                                          
+ 2                                                          
+V2  3
+  0.0529 0.0529 0.1971                                       
+  x, x, 1/4-x                                                          
+  32 e                                                       
+  3m                                                          
+  6                                                           
+  2
+ E1   2                                                      
+  0.1057 0.0265 0.2236                                       
+  x, y, y                                                          
+  96 g                                                      
+ m                                                          
+ E2   2                                                      
+  0458 0.2500 0.2958                                       
+  x, y, 1/4+x                                                    
+  96 g                                                      
+  m                                                                                                                                                                           
+  3                                                          
+  2                                                          
+  16
+ [6^4.8^6] + [8^6.18^4}                                                       
+  hxg-d                                                        
+     3 6 11 18 26 37 55 79 107 140 483    
+     3 6 12 18 27 39 54 81 105 135 481
+6.8.8 
+8.8.8 
+   6
 start
  -1
 
