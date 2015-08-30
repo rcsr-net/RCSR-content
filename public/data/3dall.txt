@@ -36511,9 +36511,10 @@ start
 wal
 1a
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
    WAl12
    9/3/c3
+3^9 IWP
  1 !number of other names
 icosahedron
  0 !number of keywords
@@ -99759,7 +99760,7 @@ mss
 heterocoord
  1 !number of references
 Chem. Rev, 112, 675 (2012)
-I41/a           88
+I4(1)/a           88
  1.4142 1.4142 9.7557 90.000  90.000  90.000
  2
 V1  6
@@ -115034,7 +115035,7 @@ cua
   0     !number of other names
   0     !number of keywords
   0     !number of references
-I41/a            88                                         
+I4(1)/a            88                                         
 3.3205 3.3205 6.1477 90.000 90.000 90.000            
   2
 V1  4
@@ -117852,7 +117853,7 @@ start
   1     !number of keywords
 heterocoord 36
   0     !number of references
- P63/mcm   193                                         
+ P6(3)/mcm   193                                         
  4.1064 4.1064 4.4505 90.000 90.000 120.000            
   3
 V1  6
@@ -118053,7 +118054,7 @@ nia-derived
 heterocoord 46
 good
   0     !number of references
- P63/mmc   194                                         
+ P6(3)/mmc   194                                         
 1.5614 1.5614 3.7311 90.000 90.000 120.000            
   2
 V1  4
@@ -127354,7 +127355,7 @@ zircon
   1     !number of keywords
 heterocoord
   0     !number of references
- I41/amd             141                                         
+ I4(1)/amd             141                                         
   3.3332   3.3332   2.9827  90.0000  90.0000  90.0000           
   3
 V1  3
@@ -136576,7 +136577,8 @@ start
   1     !number of names
 qtz-derived
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+chiral
   0     !number of references
  P6(4)22         181                                         
    2.3093  2.3093  3.8734  90.000  90.000 120.000            
@@ -136621,10 +136623,11 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  3     !number of keywords
+  4     !number of keywords
 good
 uniform net
 isohedral tiling
+chiral
   0     !number of references
  P6(4)22         181                                         
    2.5111  2.5111  6.0652  90.000  90.000 120.000            
@@ -140952,8 +140955,9 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
 heterocoord
+chiral
   0     !number of references
  P4(2)32           208                                         
   8.0463 8.0463 8.0463  90.000  90.000  90.000            
@@ -141084,9 +141088,10 @@ start
   1     !number of names
 3OH net
   0     !number of other names
-  2     !number of keywords
+  3     !number of keywords
 bipartite
 heterocoord 36
+chiral
   0     !number of references
 P622        177                                         
 2.4594 2.4594 1.4482  90.0000 90.0000 120.0000            
@@ -141378,9 +141383,10 @@ start
 ocu-related
 3C net
   0     !number of other names
-  2     !number of keywords
+  3     !number of keywords
 bipartite
 heterocoord
+chiral
   0     !number of references
  I432        211                                         
    3.7718 3.7718 3.7718  90.000  90.000 90.000            
@@ -141434,7 +141440,8 @@ start
   1     !number of names
 twf-derived
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
+chiral
 heterocoord
   0     !number of references
  I432        211                                         
@@ -142408,7 +142415,8 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+chiral
   0     !number of references
  R32             155                                         
    5.7326  5.7326  8.3341  90.000  90.000 120.000            
@@ -143161,8 +143169,9 @@ start
   1     !number of names
 bor-derived
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
 good
+chiral
   0     !number of references
  P23             195                                         
    2.7914  2.7914  2.7914  90.000  90.000  90.000            
@@ -143318,9 +143327,10 @@ start
 6.8^2 G
   1     !number of other names
 carbon
-  0     !number of keywords
+  1     !number of keywords
+chiral
   0     !number of references
- I4132           227                                         
+ I4(1)32           227                                         
  7.6855   7.6855   7.6855  90.000  90.000  90.000            
   2
 V1  3
@@ -143374,7 +143384,8 @@ start
   1     !number of names
 3^8 P
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+chiral
   0     !number of references
  P432           207                                         
  2.1782  2.1782  2.1782  90.000  90.000  90.000            
@@ -143469,7 +143480,8 @@ unk
 3^8 D
   1     !number of other names
 icosahedron
-  0     !number of keywords
+  1     !number of keywords
+chiral
   0     !number of references
  F4(1)32         210                                         
    3.4631  3.4631  3.4631  90.000  90.000  90.000            
@@ -143502,6 +143514,141 @@ V1  8
  [3^20] + 2[3^6.6^2] + [3^4.6^4]                                                        
   unk                                                        
      8   26   68  130  194  292  390  508  650  802 3069     
+unk
+   3
+ start
+ 2378
+  law                                                        
+ 1b
+  0     !number of other symbols
+  1     !number of names
+9^3 IWP
+  1     !number of other names
+carbon
+  1     !number of keywords
+good
+  0     !number of references
+ Im-3            204                                         
+   5.7546  5.7546  5.7546  90.000  90.000  90.000            
+  2
+V1  3
+  0.1396 0.1903 0.3349                                       
+  x, y, z                                                    
+  48  h                                                      
+  1                                                          
+  1                                                          
+V2  3
+  0.0869 0.3349 0.0000                                       
+  x, y, 0                                                          
+  24 g                                                       
+  m                                                          
+  2                                                          
+  3
+ E1   2                                                      
+  0.1524 0.2753 0.3223                                       
+  x, y, z                                                    
+  48  h                                                      
+  1                                                          
+ E2   2                                                      
+  0.0698 0.1386 0.3349                                       
+  x, y, z                                                    
+  48  h                                                      
+  1                                                          
+ E3   2                                                      
+  0.0000 0.3349 0.0000                                       
+  0, y, 0                                                          
+  12 d                                                       
+  mm2                                                          
+  3                                                          
+  2                                                          
+  34
+  [6^8.9^12] + [9^4.12^4]                                                       
+  unk                                                        
+     3    6   11   21   35   53   77  101  134  162  604     
+     3    6   12   22   34   58   80   92  122  167  597     
+6.9.9 
+9.9.9 
+   6
+start
+ 2379
+ uty                                                        
+ 2
+  0     !number of other symbols
+  1     !number of names
+3^9 D
+  0     !number of other names
+  0     !number of keywords
+  0     !number of references
+ Fd-3m         227                                         
+   2.8284   2.8284   2.8284  90.000  90.000  90.000            
+  1
+V1  9
+  0.0000 0.0000 0.2500                                       
+  1/4-x, 1/4-x, x                                                          
+  32 e                                                       
+  3m                                                          
+  6                                                          
+  2
+ E1   2                                                      
+  0.0000 0.8750 0.3750                                       
+  x, 7/8, 3/8                                                    
+  48 f                                                      
+  mm2                                                          
+ E2   2                                                      
+  0.1250 0.8750 0.2500                                       
+  x, 1-x, z                                                          
+  96 g                                                       
+  m                                                                                                                    
+  3                                                          
+  3                                                          
+  10
+ [3^4] + 2[3^8] + [3^12.6^4]                                                        
+  unk                                                        
+     9 30 82 138 238 321 476 582 796 921 3594     
+unk
+   3
+start
+ 2380
+ utz                                                        
+ 4
+  0     !number of other symbols
+  1     !number of names
+3^9 G
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I4(1)32         214                                         
+  2.2471   2.2471   2.2471  90.000  90.000  90.000            
+  1
+V1  9
+  0.0170 0.0170 0.0170                                       
+  x, x, x                                                          
+  16 e                                                       
+  3                                                          
+  3                                                          
+  3
+ E1   2                                                      
+  0.1250 0.8920 0.1420                                       
+  1/8, y, 1/4+y                                                    
+  24 h                                                      
+  2                                                          
+ E2   2                                                      
+  0.1420 0.8920 0.8750                                       
+  x, 3/4+x, 7/8                                                          
+  24 h                                                       
+  2                                                          
+ E3   2                                                      
+  0.0170 0.0000 0.2500                                       
+  x. 0. 1/4                                                          
+  24 f                                                       
+  2                                                          
+  3                                                          
+  3                                                          
+  28
+ 2[3^6.4^2] + 3[3^4.6^2] + 2[6^3]                                                        
+  unk                                                        
+     9 34 87 148 243 349 486 631 807 991 3786     
 unk
    3
 start
