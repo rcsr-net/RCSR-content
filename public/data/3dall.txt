@@ -4312,9 +4312,10 @@ fau
 1a
  1 !number of other symbols
 dia-i
- 2 !number of names
+ 3 !number of names
 faujasite
 4/4/c17
+sqc13519
  1 !number of other names
 FAU cage
  4 !number of keywords
