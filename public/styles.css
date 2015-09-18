@@ -102,7 +102,19 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
     text-align: center;
 }
 
-.header {
+.header * {
+    display: inline;
+}
+
+.header ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-left: 10em;
+}
+
+.header li {
+    margin: 1em;
 }
 
 .logoText {
