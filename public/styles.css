@@ -109,12 +109,17 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
 .header ul {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0.5em;
     margin-left: 10em;
 }
 
 .header li {
-    margin: 1em;
+    margin: 0.5em;
+    color: gray;
+}
+
+.header a:link, .header a:visited {
+    color: #7F9AC7;
 }
 
 .logoText {
