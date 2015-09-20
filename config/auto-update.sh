@@ -6,7 +6,8 @@ cd ..
 git remote update &&
 if [ `git rev-parse HEAD` != `git rev-parse @{u}` ]
 then
-    git pull &&
-    #sh ./install-manifest.sh &&
+    git fetch origin master &&
+    git reset --hard FETCH_HEAD &&
+    git clean -df &&
     echo "Updated to `git rev-parse HEAD` on `date`" >>log.txt
 fi
