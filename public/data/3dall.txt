@@ -98737,7 +98737,8 @@ start
  fsn                                                        
 1b
   0     !number of other symbols
-  2     !number of names
+  3     !number of names
+pyrite
 SiP2O7
 pcu-derived
   0     !number of other names
