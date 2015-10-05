@@ -35682,7 +35682,7 @@ pyc
  3 !number of names
    pyrochlore
    8/3/c3
-3^8 P
+3^8 D
  0 !number of other names
  2 !number of keywords
    infinite polyhedron
@@ -99979,7 +99979,8 @@ start
  etg                                                        
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+8^3 CLP
   0     !number of other names
   3     !number of keywords
 uniform net
@@ -121357,7 +121358,7 @@ start
   0     !number of other symbols
   2     !number of names
 sqc13777
-6.8^2,6^8P
+6.8^2,6^2.8P
   1     !number of other names
 carbon
   1     !number of keywords
@@ -143278,9 +143279,10 @@ start
 1b
   0     !number of other symbols
   2     !number of names
-6^2.8 6.9^2 P
+6^2.8,6.9^2 P
 sqc12885
-  0     !number of other names
+  1     !number of other names
+carbon
   0     !number of keywords
   0     !number of references
  Pm-3m           221                                         
