@@ -77133,7 +77133,8 @@ start
  pbp-l
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+6^3 6^2.8 P
   1     !number of other names
 carbon
   1     !number of keywords
@@ -77249,7 +77250,8 @@ start
  pbg-l
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+6^3 6^2.8 D
   1     !number of other names
 carbon
   1     !number of keywords
@@ -77319,7 +77321,8 @@ start
  pbz-l
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+6^3 6^2.8 D
   1     !number of other names
 carbon
   1     !number of keywords
@@ -144351,6 +144354,78 @@ V2  4
 4.4.5.5.5.5.5.5.5.5.6(2).6(2).*.*.* 
 4.5(2).5.5.5.5 
    4
+start
+ 2391
+  mct                                                        
+ 1b
+  0     !number of other symbols
+  1     !number of names
+6^3 6^2.8 P
+  1     !number of other names
+carbon
+  1     !number of keywords
+good
+  1     !number of references
+Nature 352, 762 (1991)
+ Im-3m           229                                         
+  10.4857 10.4857 10.4857  90.000  90.000  90.000            
+  3
+V1  3
+  0.0852 0.3172 0.3172                                       
+  x, y, y                                                          
+  48 k                                                      
+  m                                                         
+  2                                                          
+V2  3
+  0.1703 0.2868 0.2868                                       
+  x, y, y                                                          
+  48 k                                                       
+  m                                                          
+  2                                                          
+V3  3
+  0.0477 0.2697 0.3909                                       
+  x, y, z                                                    
+  96  l                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.1278 0.3020 0.3020                                       
+  x, y, y                                                          
+  48 k                                                       
+  m                                                          
+ E2   2                                                      
+  0.0664 0.2935 0.3540                                       
+  x, y, z                                                    
+  96  l                                                      
+  1                                                          
+ E3   2                                                      
+  0.1918 0.3083 0.2500                                       
+  x, 1/2-x, 1/4                                                          
+  48 i                                                      
+  2                                                          
+ E4   2                                                      
+  0.0000 0.2697 0.3909                                       
+  0, y, z                                                          
+  48 j                                                       
+  m                                                          
+ E5   2                                                      
+  0.0784 0.2500 0.4216                                       
+  x, 1/4, 1/2-x                                                          
+  48 i                                                      
+  2                                                          
+  5                                                          
+  2                                                          
+  34
+  [6^68.20^60 + 3[6^4.8^4.20^2]                                                        
+  unk                                                        
+     3    6    9   14   19   24   31   42   55   67  271     
+     3    6    9   12   17   24   33   42   53   68  268     
+     3    6   10   14   19   25   32   41   53   67  271     
+6.6.6 
+6.6.6 
+6.6.8 
+   6
 start
  -1
 
