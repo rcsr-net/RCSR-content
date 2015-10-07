@@ -104157,7 +104157,7 @@ etn
   3     !number of names
 8^3 P
 (8,3)n
-sqc5609
+sqc5608
   1     !number of other names
 carbon
   3     !number of keywords
@@ -110693,8 +110693,9 @@ start
   etj                                                       
  1b
   0     !number of other symbols
-  1     !number of names
-(8,3)
+  2     !number of names
+sqc5605
+8^3 D
   0     !number of other names
   2     !number of keywords
 good
