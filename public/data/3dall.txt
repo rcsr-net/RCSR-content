@@ -1804,8 +1804,9 @@ start
 utm
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/10/t5
+12^3 P
  0 !number of other names
  2 !number of keywords
 uniform net
@@ -10007,7 +10008,7 @@ CdSO4 intergrowth
  1 !number of keywords
 interpenetrating net
  0 !number of references
-P4(2)/mcm            133
+P4(2)/mcm            132
    0.7071 0.7071 2.0000  90.000  90.000  90.000
  1
 V1  4
@@ -29894,7 +29895,7 @@ fsb
 heterocoord 46
 good
  0 !number of references
-P6/mmm            175
+P6/mmm            191
    2.8877  2.8877  1.4898  90.000  90.000 120.000
  2
 V1  4
@@ -93675,7 +93676,7 @@ good
 isohedral tiling
   1     !number of references
 J. Am. Chem. Soc. 131, 6894 (2009)
-I-4m2             118                                         
+I-4m2             119                                         
   1.3232 1.3232 1.0000  90.000  90.000  90.000            
   2
 V1  6
@@ -95950,7 +95951,7 @@ heteroccoord 34
 good
 isohedral tiling
 0 !number of references
-P6(3)/mmc     164
+P6(3)/mmc     194
 2.7321 2.7321 2.0000  90.000  90.000  120.000
 2
 V1  3  
@@ -111075,7 +111076,7 @@ start
  4
   0     !number of other symbols
   1     !number of names
-3^12
+3^12 IWP
   0     !number of other names
   2     !number of keywords
 infinite polyhedron
@@ -130444,7 +130445,7 @@ heterocoord 46
 good
   1     !number of references
 to come
-R-3m          146                                         
+R-3m          166                                         
    2.0000   2.0000   4.8990  90.0000  90.0000 120.0000            
  3
 V1  6
@@ -131534,7 +131535,7 @@ fchalcopyrite
   0     !number of other names
   0     !number of keywords
   0     !number of references
- I-42d       136                                         
+ I-42d       122                                         
   2.3093 2.3093 4.6186  90.000  90.000  90.000            
   3
 V1  4
@@ -134262,7 +134263,7 @@ urz
 bipartite
 heterocoord
   0     !number of references
-PI4/mcm          140                                         
+I4/mcm          140                                         
 2.4496 2.4496 4.8987   90.0 90.0 90.0            
   3
 V1  8
