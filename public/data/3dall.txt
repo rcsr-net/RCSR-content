@@ -115782,7 +115782,8 @@ start
   2     !number of names
 3P net
 nia-derived
-  0     !number of other names
+  1     !number of other names
+nia-derived
   2     !number of keywords
 bipartite
 heterocoord 36
@@ -144514,12 +144515,12 @@ V2  3
   3
  E1   2                                                      
   0.1250 0.0738 0.3238                                       
-  1/8. y 1/4+y                                                          
+  1/8, y, 1/4+y                                                          
   24 h                                                       
   2                                                          
  E2   2                                                      
   0.9816 0.1250 0.2684                                       
-  x, 1/8. 1/4+x                                                          
+  x, 1/8, 1/4+x                                                          
   24 h                                                       
   2                                                         
  E3   2                                                      
@@ -144637,6 +144638,54 @@ V1  8
      8 27 65 110 179 268 363 482 603 748 2854      
 unk  
  3
+start
+ 2396
+  etq                                                        
+ 4
+  0     !number of other symbols
+  2     !number of names
+8^3 P
+sqc5595
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I432         211                                         
+   3.9723 3.9723 3.9723  90.000  90.000  90.000            
+  2
+V1  3
+  0.2500 0.2500 0.2500                                       
+  1/4, 1/4, 1/4                                                    
+  8  c                                                      
+  32                                                          
+  6                                                          
+V2  3
+  0.1002 0.3998 0.2500                                       
+  x, 1/2-x, 1/4                                                         
+  24 i                                                       
+  2                                                          
+  2                                                          
+  2
+ E1   2                                                      
+  00.175 0.3249 0.2500                                       
+  x, 1/2-x, 1/4                                                          
+  24 i                                                       
+  2                                                          
+ E2   2                                                      
+  0.1751 0.5000 0.1751                                       
+  x, 1/2, x                                                          
+  24 h                                                       
+  2                                                                                                                  
+  2                                                          
+  2                                                          
+  20
+  3[8^4.12^2] + [12^6]                                                        
+  pcu                                                        
+     3 6 12 21 36 57 84 120 173 228 741     
+     3 6 12 21 36 59 90 124 169 226 747     
+8.8.8 
+8.8.8 
+   8
 start
  -1
 
