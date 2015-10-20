@@ -1221,10 +1221,10 @@ start
 etb
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/8/h1
- 1 !number of other names
-(8,3)-b
+(8,3(b
+ 0 !number of other names
  3 !number of keywords
 uniform net
 good
@@ -41404,8 +41404,9 @@ start
 fct
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/3/c37
+3^2.4.3.6 P
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -41449,7 +41450,7 @@ fcv
  0 !number of other symbols
  2 !number of names
 5/3/c38
-3.4.3^2.6
+3^2.4.3.6 D
  0 !number of other names
  1 !number of keywords
 infinite polyhedron
@@ -41580,7 +41581,7 @@ fcy
  0 !number of other symbols
  2 !number of names
 5/3/c41
-3^2.4.3.6
+3^2.4.3.6 G
  0 !number of other names
  1 !number of keywords
 infinite polyhedron
@@ -41626,7 +41627,7 @@ fcz
  0 !number of other symbols
  2 !number of names
 5/3/c42
-3^2.4.3.6
+3^2.4.3.6 G
  0 !number of other names
  2 !number of keywords
 good
