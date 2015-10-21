@@ -2497,9 +2497,10 @@ lcs
 1a
  1 !number of other symbols
 gan-d
- 2 !number of names
+ 3 !number of names
 S*
 4/6/c3
+6^4 G
  1 !number of other names
 qsn-083
  5 !number of keywords
@@ -2508,10 +2509,11 @@ semiregular net
 uniform net
 isohedral tiling
 quasisimple tiling
- 3 !number of references
+ 4 !number of references
 Zeits. Kristallogr. 196, 21-37 (1991)
 Acta Cryst. A58, 77-78 (2002)
 Acta Cryst. A59, 515-525 (2003)
+Acta cryst. A64, 425-429 (2008)
 Ia-3d          230
    3.2663  3.2663  3.2663  90.000  90.000  90.000
  1
@@ -2974,10 +2976,11 @@ nbo
 1a
  1 !number of other symbols
 bcu-d
- 3 !number of names
+ 4 !number of names
 NbO
 J*
 4/6/c2
+6^4 D
  2 !number of other names
 WP net
 square
@@ -2986,10 +2989,11 @@ good
 regular net
 isohedral tiling
 rod net
- 3 !number of references
+ 4 !number of references
 Acta Cryst. A59, 22-27 (2003)
 Acta Cryst. A59, 515-525 (2003)
 J. Amer. Chem. Soc. 127 1504-1518 (2005)
+Acta cryst. A64, 425-429 (2008)
 Im-3m            229
    2.0000  2.0000  2.0000  90.000  90.000  90.000
  1
@@ -3413,6 +3417,7 @@ E2   2
 start
  79
 lcs-a
+-a
 1b
  0 !number of other symbols
  1 !number of names
@@ -3822,9 +3827,10 @@ hbo
 1a
  1 !number of other symbols
   pto-e
- 2 !number of names
+ 3 !number of names
 gamma HBO2
 4/3/c5
+3.8.4.8 P
  1 !number of other names
 qsn-034
  2 !number of keywords
@@ -3952,8 +3958,9 @@ start
 unt
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 4/3/c30
+3.6^3 P
  1 !number of other names
 qsn-040
  2 !number of keywords
@@ -4316,10 +4323,11 @@ fau
 1a
  1 !number of other symbols
 dia-i
- 3 !number of names
+ 4 !number of names
 faujasite
 4/4/c17
 sqc13519
+4^3.6 D
  1 !number of other names
 FAU cage
  4 !number of keywords
@@ -4374,9 +4382,10 @@ lta
  2 !number of other symbols
 reo-a
 pcu-j
- 2 !number of names
+ 3 !number of names
 Linde A
 4/4/c6
+4.6.4.6 P
  1 !number of other names
 alpha cage
  5 !number of keywords
@@ -4428,9 +4437,10 @@ rho
 rhr-e
 she-e
 pcu-t
- 2 !number of names
+ 3 !number of names
 rho
 4/4/c4
+4^3.6 P
  1 !number of other names
 alpha cage
  5 !number of keywords
@@ -4923,10 +4933,11 @@ start
 gie
 1b
  0 !number of other symbols
- 3 !number of names
+ 4 !number of names
 UCSB-7
 BSV
 4/4/c20
+4^3.6 G
  1 !number of other names
 qsn-082
  2 !number of keywords
@@ -5363,7 +5374,7 @@ hxg-e
 sodalite
 W*
 4/4/c1
-O,C-TO minimal surface
+6^4 P
  3 !number of other names
 federov net
 ultramarine
@@ -5376,8 +5387,9 @@ uniform tiling
 isohedral tiling
 clathrate
 good
- 1 !number of references
+ 2 !number of references
 Acta Cryst. A59, 515-525 (2003)
+Acta cryst. A64, 425-429 (2008)
 Im-3m            229
    2.8284  2.8284  2.8284  90.000  90.000  90.000
  1
@@ -6231,9 +6243,10 @@ start
 ana
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 analcime
 4/4/c5
+4.6.4.6 G
  1 !number of other names
 qsn-093
  3 !number of keywords
@@ -6490,8 +6503,9 @@ start
 rhr
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 4/4/c3
+4.6.4.6 P
  0 !number of other names
  1 !number of keywords
 semiregular net
@@ -23344,10 +23358,11 @@ start
 pcu
 1a
  0 !number of other symbols
- 3 !number of names
+ 4 !number of names
 primitive cubic lattice
 6/4/c1
-c-6
+4^6 P
+6^6 G
  0 !number of other names
  7 !number of keywords
 uniform tiling
@@ -23357,9 +23372,10 @@ uniform net
 isohedral tiling
 rod net
 good
- 2 !number of references
+ 3 !number of references
 Acta Cryst. A59, 22-27 (2003)
 Acta Cryst. A60, 517-520 (2004)
+Acta cryst. A64, 425-429 (2008)
 Pm-3m           221
    1.0000  1.0000  1.0000  90.000  90.000  90.000
  1
@@ -23430,17 +23446,19 @@ crs
 1a
  1 !number of other symbols
 dia-e
- 3 !number of names
+ 4 !number of names
 T
 cristobalite
 6/3/c2
+6^6 D
  0 !number of other names
  3 !number of keywords
 uniform tiling
 semiregular net
 good
- 1 !number of references
+ 2 !number of references
 Acta Cryst. A59, 515 (2003)
+Acta cryst. A64, 425-429 (2008)
 Fd-3m           227
    2.8286  2.8286  2.8286  90.000  90.000  90.000
  1
@@ -25644,14 +25662,16 @@ start
 hxg
 2b
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+4^6 P
  0 !number of other names
  3 !number of keywords
 semiregular net
 good
 isohedral tiling
- 1 !number of references
+ 2 !number of references
 Acta Cryst. A59, 515 (2003)
+Acta cryst. A64, 425-429 (2008)
 Pn-3m           224
    1.4142  1.4142  1.4142  90.000  90.000  90.000
  1
@@ -25680,14 +25700,16 @@ start
 bcs
 2b
  0 !number of other symbols
- 0 !number of names
+ 1 !number of names
+4^6 G
  0 !number of other names
  2 !number of keywords
 good
 semiregular net
- 2 !number of references
+ 3 !number of references
 Acta Cryst. A59, 515-525 (2003)
 Angew. Chem. Int. Ed. 45, 4003-4007 (2006)
+Acta cryst. A64, 425-429 (2008)
 Ia-3d           230
    2.3094  2.3094  2.3094  90.000  90.000  90.000
  1
@@ -39951,8 +39973,9 @@ start
 ulh
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 4/3/c15
+3.6^3 D
  0 !number of other names
  1 !number of keywords
 chiral
