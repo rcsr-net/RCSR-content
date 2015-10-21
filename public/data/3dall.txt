@@ -2269,7 +2269,7 @@ dia
  0 !number of other symbols
  3 !number of names
 diamond
-D
+sqc6
 4/6/c1
  3 !number of other names
 silica
@@ -2497,10 +2497,11 @@ lcs
 1a
  1 !number of other symbols
 gan-d
- 3 !number of names
+ 4 !number of names
 S*
 4/6/c3
 6^4 G
+sqc5579
  1 !number of other names
 qsn-083
  5 !number of keywords
@@ -2582,10 +2583,11 @@ start
 gsi
 1a
  0 !number of other symbols
- 3 !number of names
+ 4 !number of names
 gamma silicon
 4/6/c4
 C(S) minimal surface
+sqc2181
  1 !number of other names
 qsn-075
  5 !number of keywords
@@ -2676,8 +2678,9 @@ start
 neb
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 4/6/o1
+sqc182
  1 !number of other names
 qsn-055
  4 !number of keywords
@@ -2976,11 +2979,12 @@ nbo
 1a
  1 !number of other symbols
 bcu-d
- 4 !number of names
+ 5 !number of names
 NbO
 J*
 4/6/c2
 6^4 D
+sqc35
  2 !number of other names
 WP net
 square
@@ -4098,8 +4102,9 @@ start
 unw
 1a
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 4/3/c3
+sqc5523
  1 !number of other names
 qsn-036
  2 !number of keywords
@@ -4385,7 +4390,7 @@ pcu-j
  3 !number of names
 Linde A
 4/4/c6
-4.6.4.6 P
+4^2.6^2 P
  1 !number of other names
 alpha cage
  5 !number of keywords
@@ -4645,9 +4650,10 @@ gis
 1b
  1 !number of other symbols
 lvt-e
- 2 !number of names
+ 3 !number of names
 gismondine
 4/4/t3
+sqc2200
  1 !number of other names
 qsn-021
  4 !number of keywords
@@ -4792,10 +4798,11 @@ pcb
  2 !number of other symbols
 bcu-a
 aco
- 3 !number of names
+ 4 !number of names
 polycubane
 4/4/c2
 ACO
+sqc2201
  1 !number of other names
 qsn-073
  3 !number of keywords
@@ -5370,11 +5377,12 @@ sod
  2 !number of other symbols
 nbo-e
 hxg-e
- 4 !number of names
+ 5 !number of names
 sodalite
 W*
 4/4/c1
 6^4 P
+sqc970
  3 !number of other names
 federov net
 ultramarine
@@ -6243,10 +6251,11 @@ start
 ana
 1b
  0 !number of other symbols
- 3 !number of names
+ 4 !number of names
 analcime
 4/4/c5
 4.6.4.6 G
+sqc11218
  1 !number of other names
 qsn-093
  3 !number of keywords
@@ -6503,9 +6512,10 @@ start
 rhr
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 4/4/c3
 4.6.4.6 P
+sqc544
  0 !number of other names
  1 !number of keywords
 semiregular net
@@ -6940,9 +6950,10 @@ start
 lvt
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 vT
 4/4/t1
+sqc176
  0 !number of other names
  2 !number of keywords
 semiregular net
@@ -7395,10 +7406,11 @@ start
 crb
 1b
  0 !number of other symbols
- 3 !number of names
+ 4 !number of names
 CrB4
 BCT
 4/4/t5
+sqc184
  1 !number of other names
 qsn-087
  3 !number of keywords
@@ -8788,8 +8800,9 @@ start
 uks
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 4/4/c7
+4^3.6 D
  0 !number of other names
  0 !number of keywords
  1 !number of references
@@ -9517,9 +9530,10 @@ start
 cds
 2a
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 CdSO4
 4/6/t4 [P4(2)/mbc]
+sqc5
  2 !number of other names
 STST
 square
@@ -9614,8 +9628,9 @@ start
 usf
 2b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 USF-1
+sqc906
  0 !number of other names
  0 !number of keywords
  1 !number of references
@@ -144846,6 +144861,45 @@ V3  3
 6.12(2).12(2) 
 4.12(2).12(2) 
    4
+start
+ 2399
+ crr                                                        
+ 2
+  0     !number of other symbols
+  2     !number of names
+3.8.4.8 D
+sqc5504
+  0     !number of other names
+  0     !number of keywords
+  0     !number of references
+ P-43m         215                                         
+ 2.8284 2.8284 2.8284  90.000  90.000  90.000            
+  1
+V1  4
+  0.1250 0.3750 0.3750                                       
+ x, y, y                                                    
+  12 i                                                      
+  m                                                          
+  2                                                                                                                    
+  2
+ E1   2                                                      
+  0.2500 0.2500 0.3750                                       
+  x,x,z                                                          
+  12 i                                                       
+  m                                                          
+ E2   2                                                      
+  0.0000 0.3750 0.5000                                       
+  0, y, 1/2                                                          
+  12 h                                                       
+  2                                                                                                                  
+  4                                                          
+  2                                                          
+  14
+  [3^4.4^6.9^4] + [2^4.8^6.9^4]                                                        
+  bcu-x                                                        
+     4 9 20 42 71 108 165 208 277 330 1235     
+3.4.8.8.9(4).9(4)  
+   3
 start
  -1
 
