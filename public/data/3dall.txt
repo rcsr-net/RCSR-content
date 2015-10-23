@@ -93,8 +93,9 @@ start
 nbo-a
 1a
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/4/c1
+sqc3059
  1 !number of other names
 4.12^2
  2 !number of keywords
@@ -136,8 +137,9 @@ start
 sod-f
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/4/c2
+sqc 9251
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -310,8 +312,10 @@ start
 sod-h
 1b
  0 !number of other symbols
- 1 !number of names
+ 3 !number of names
 3/4/c8
+4.8.12 D
+sqc2873
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -353,8 +357,10 @@ start
 rhr-a
 1b
  0 !number of other symbols
- 1 !number of names
+ 3 !number of names
 3/4/c9
+4.8.12 P
+sqc12880
  0 !number of other names
  2 !number of keywords
 good
@@ -793,9 +799,10 @@ uta
 1b
  1 !number of other symbols
 crs-f
- 2 !number of names
+ 3 !number of names
 3/6/c3
 9^3 D
+sqc9270
  1 !number of other names
 carbon
  1 !number of keywords
@@ -878,8 +885,9 @@ start
 pcu-g
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/6/c5
+sqc9266
  0 !number of other names
  2 !number of keywords
 good
@@ -1089,9 +1097,10 @@ start
 utb
 1a
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 3/8/c1
 9^3 P
+sqc3050
  1 !number of other names
 carbon
  3 !number of keywords
@@ -1173,9 +1182,10 @@ start
 utc
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 3/8/c2
 9^3 G
+sqc9259
  1 !number of other names
 carbon
  3 !number of keywords
@@ -1221,9 +1231,10 @@ start
 etb
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 3/8/h1
-(8,3(b
+(8,3)b
+sqc327
  0 !number of other names
  3 !number of keywords
 uniform net
@@ -1309,8 +1320,9 @@ start
 etf
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/8/h3
+sqc3055
  0 !number of other names
  3 !number of keywords
 good
@@ -1402,9 +1414,10 @@ start
 lig
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 3/8/t1
 LiGe
+sqc978
  0 !number of other names
  2 !number of keywords
 good
@@ -1533,8 +1546,9 @@ start
 bcu-h
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 3/8/t4
+sqc328
  0 !number of other names
  1 !number of keywords
 good
@@ -70936,8 +70950,9 @@ start
  wiw
 1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 3/10/h4
+sqc3058
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -107247,7 +107262,9 @@ start
   deh                                                        
  2b
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+3/8/t7
+sqc5603
   0     !number of other names
   1     !number of keywords
 isohedral tiling
