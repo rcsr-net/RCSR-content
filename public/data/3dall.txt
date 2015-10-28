@@ -48,9 +48,8 @@ start
 srs-a
 1a
  0 !number of other symbols
- 2 !number of names
+ 1 !number of names
 3/3/c1
-augmented SrSi2
  1 !number of other names
 Y*3
  3 !number of keywords
@@ -2959,7 +2958,8 @@ chiral
 good
 isohedral tiling
 self dual net
- 0 !number of references
+ 1 !number of references
+Acta Cryst. A48, 663 (1992)
 P6(1)22            178
    2.2614  2.2614  2.2621  90.000  90.000 120.000
  1
@@ -21191,9 +21191,10 @@ start
 sqp
 1b
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 square pyramid net
 5/4/t6
+sqc13
  0 !number of other names
  1 !number of keywords
 good
@@ -21232,9 +21233,10 @@ start
 bnn
 1a
  0 !number of other symbols
- 2 !number of names
+ 3 !number of names
 boron nitride
 5/4/h5
+sqc12
  1 !number of other names
 trigonal bipyramid
  4 !number of keywords
@@ -21377,9 +21379,10 @@ start
 fee
 1a
  0 !number of other symbols
- 2 !number of names
-4.8^2 prisms
+ 3 !number of names
+4^2.8 prisms
 5/4/t4
+sqc464
  0 !number of other names
  2 !number of keywords
 good
@@ -21562,9 +21565,11 @@ cab
 1a
  1 !number of other symbols
 pcu-a
- 2 !number of names
+ 4 !number of names
 CaB6
 5/3/c3
+3^3.8^2 IWP
+sqc 1568
  0 !number of other names
  2 !number of keywords
 uniform tiling
@@ -21605,8 +21610,9 @@ ubt
 1a
  1 !number of other symbols
 fcu-a
- 2 !number of names
+ 3 !number of names
 UB12
+sqc7309
 5/3/c4
  0 !number of other names
  3 !number of keywords
@@ -21693,14 +21699,13 @@ start
 pcu-i
 1a
  0 !number of other symbols
-2!number of names
+2  !number of names
 5/3/c8
-3.4^4
+sqc12223
  0 !number of other names
- 3 !number of keywords
+ 2 !number of keywords
 good
 uniform tiling
-infinite polyhedron
  0 !number of references
 Pm-3m           221
    3.4142  3.4142  3.4142  90.000  90.000  90.000
@@ -21741,8 +21746,10 @@ crs-a
 1a
  1 !number of other symbols
 dia-h
- 1 !number of names
+ 3 !number of names
 5/3/c10
+3^3.6^2 D
+sqc2217
  0 !number of other names
  2 !number of keywords
 good
@@ -21788,9 +21795,10 @@ fnf
 1a
  1 !number of other symbols
 mgc-e
- 2 !number of names
+ 3 !number of names
 5/3/c11
-3.4^4
+3.4^4 D
+sqc2219
  0 !number of other names
  2 !number of keywords
 good
@@ -21836,7 +21844,7 @@ nbo-h
  0 !number of other symbols
  2 !number of names
 5/4/c4
-4^5
+4^5 IWP
  0 !number of other names
  2 !number of keywords
 infinite polyhedron
@@ -21880,8 +21888,9 @@ start
 bcu-l
 1a
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/4/c3
+4^5 IWP
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -23053,8 +23062,9 @@ start
 fng
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/4/h2
+sqc1522
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -40275,8 +40285,9 @@ start
 fca
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/3/c6
+3^2.6.3.6 P
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -40358,8 +40369,9 @@ start
 fcd
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/3/c15
+3^2.6.3.6 G
  0 !number of other names
  1 !number of keywords
 good
@@ -40495,8 +40507,9 @@ start
 fcg
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/3/c20
+4^5 IWP
  0 !number of other names
  1 !number of keywords
 chiral
@@ -40632,8 +40645,9 @@ start
 fcj
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/3/c24
+3.4.6^2.4 G
  0 !number of other names
  1 !number of keywords
 chiral
@@ -40726,8 +40740,10 @@ start
 fcl
 1a
  0 !number of other symbols
- 1 !number of names
+ 3 !number of names
 5/3/c26
+3.4^4 G
+sqc12218
  0 !number of other names
  1 !number of keywords
 chiral
@@ -40826,8 +40842,9 @@ fcn
 1a
  1 !number of other symbols
 srs-h
- 1 !number of names
+ 2 !number of names
 5/3/c28
+3.4^4 G
  0 !number of other names
  1 !number of keywords
 chiral
@@ -41093,7 +41110,7 @@ fcp
  0 !number of other symbols
  2 !number of names
 5/3/c32
-5^5
+5^5 IWP
  0 !number of other names
  1 !number of keywords
 infinite polyhedron
@@ -51908,8 +51925,9 @@ start
 xfx
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/3/t9
+sqc512
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -53141,8 +53159,9 @@ start
 yfy
 1b
  0 !number of other symbols
- 1 !number of names
+ 2 !number of names
 5/4/t8
+sqc3799
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -70906,7 +70925,9 @@ start
 fcb
 3a
  0 !number of other symbols
- 0 !number of names
+ 2 !number of names
+3.4^4 P
+sqc7319
  0 !number of other names
  1 !number of keywords
 chiral
@@ -144974,6 +144995,112 @@ E3   2
      4 10 22 41 69 104 145 197 266 347 1206     
 4.6.4.6.8(3).8(3)  
    4
+start
+ 2401
+  etp                                                        
+ 1b
+  0     !number of other symbols
+  1     !number of names
+8^3 G
+  0     !number of other names
+  2     !number of keywords
+chiral
+good
+  0     !number of references
+ I4(1)32         214                                         
+   5.4262  5.4262  5.4262  90.000  90.000  90.000            
+  2
+V1  3
+  0.0410 0.0410 0.0410                                       
+  x, x, x                                                          
+  16 e                                                       
+  3                                                          
+  3                                                          
+V2  3
+  0.0806 0.2053 0.3411                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  3
+ E1   2                                                      
+  0.0428 0.1052 0.9750                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E2   2                                                      
+  0.1250 0.1482 0.3982                                       
+  1/8, y, 1/4+y                                                         
+  24 g                                                       
+  2                                                          
+ E3   2                                                      
+  0.0000 0.2500 0.3411                                       
+  0, 1/4, z                                                          
+  24 f                                                       
+  2                                                         
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     3    6   12   21   36   52   70  105  131  156  593     
+     3    6   12   21   36   55   75  101  130  163  603     
+8.8.8 
+8.8.8 
+   8
+ start
+ 2402
+  ets                                                        
+ unk
+  0     !number of other symbols
+  1     !number of names
+8^3 G
+  0     !number of other names
+  2     !number of keywords
+good
+hiral
+  0     !number of references
+ I4(1)32         214                                         
+   5.7795  5.7795  5.7795  90.000  90.000  90.000            
+  2
+V1  3
+  0.2883 0.2883 0.2883                                       
+  x, x, x                                                          
+  16 e                                                       
+  3                                                          
+  3                                                          
+V2  3
+  0.0483 0.1783 0.4850                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  3
+ E1   2                                                      
+  0.3583 0.2450 0.2617                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E2   2                                                      
+  0.1250 0.2067 0.4566                                       
+  1/8, y, 1/4+y                                                          
+  24 g                                                       
+  2                                                          
+ E3   2                                                      
+  0.0000 0.2500 0.4850                                       
+  0, 1/4, z                                                         
+  24 f                                                       
+  2                                                         
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     3    6   12   21   31   45   66   88  113  138  524     
+     3    6   12   21   31   44   66   90  111  133  518     
+8.8.8 
+8.8.8 
+   8
 start
  -1
 
