@@ -94665,7 +94665,8 @@ start
 xai 
 4
 0 !number of other symbols 
-0 !number of names 
+1 !number of names
+stp-derived 
 0 !number of other names
 1 !number of keywords
 good
@@ -104524,7 +104525,8 @@ start
  jea                                                        
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+sit-derived
   0     !number of other names
   2     !number of keywords
 polar
