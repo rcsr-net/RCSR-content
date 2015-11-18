@@ -131694,10 +131694,12 @@ start
   std                                                        
 1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 hhhc-e
+OP net
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
+bipartite
 good
   0     !number of references
  P6(3)/mmc       194                                         
@@ -131732,10 +131734,10 @@ V3  6
   x, 2x, z                                                          
   12 k                                                       
   m                                                          
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
+  3                                                          
+  3                                                          
+  16
+  3[4^3] + [4^15]                                                        
   unk                                                        
      6   20   42   74  114  164  222  290  366  452 1751     
      6   19   42   72  114  163  222  290  366  451 1746     
@@ -144479,8 +144481,9 @@ start
   0     !number of other symbols
   1     !number of names
 6^3 6^2.8 P
-  1     !number of other names
+  2     !number of other names
 schwartzite
+carbon
   1     !number of keywords
 good
   2     !number of references
@@ -146901,6 +146904,104 @@ V4  5
 3.8(2).8(2) 
 3.3.3.3.3.4.4.5.5(2).5(2).8.8.8.8.8(2) 
 3.3.3.3.4.4.8.8.8(2).8(2) 
+   3
+ start
+ 2427
+  std-a                                                      
+ 1b
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  2     !number of keywords
+heterocoord
+good
+  0     !number of references
+ P6(3)/mmc       194                                         
+   3.4448  3.4448 12.0459  90.000  90.000 120.000            
+  4
+V1  5
+  0.1935 0.0968 0.0339                                       
+  2y, y, z                                                          
+  12 k                                                       
+  m                                                          
+  2                                                          
+V2  4
+  0.4731 0.2366 0.0797                                       
+  2y, y, z                                                          
+  12 k                                                      
+  m                                                          
+  2                                                          
+V3  4
+  0.4732 0.2366 0.1627                                       
+  2y, y, z                                                         
+  12 k                                                       
+  m                                                          
+  2                                                          
+V4  4
+  0.1936 0.0968 0.2085                                       
+  2y, y, z                                                          
+  12 k                                                       
+  m                                                          
+  2                                                         
+  9
+ E1   2                                                      
+  0.0484 0.9516 0.0339                                       
+  x, 1-x, z                                                          
+  12 k                                                       
+  m                                                          
+ E2   2                                                      
+  0.1452 0.1452 0.0000                                       
+  x, x, 0                                                          
+  12 i                                                       
+  2                                                          
+ E3   2                                                      
+  0.3333 0.1667 0.0568                                       
+  2y, y, z                                                          
+  12 k                                                       
+  m                                                          
+ E4   2                                                      
+  0.6183 0.3817 0.0797                                       
+  x, 1-x, z                                                          
+  12 k                                                       
+  m                                                          
+ E5   2                                                      
+  0.4732 0.2366 0.1212                                       
+  2y, y, z                                                         
+  12 k                                                       
+  m                                                          
+ E6   2                                                      
+  0.6182 0.3818 0.1627                                       
+  x, 1-x, z                                                          
+  12 k                                                       
+  m                                                          
+ E7   2                                                      
+  0.3333 0.1666 0.1856                                       
+  2y, y, z                                                          
+  12 k                                                       
+  m                                                          
+ E8   2                                                      
+  0.0484 0.9516 0.2085                                       
+  x, 1-x, z                                                          
+  12 k                                                       
+  m                                                          
+ E9   2                                                      
+  0.1934 0.0967 0.2500                                       
+  2y, y, 1/4                                                          
+   6 h                                                       
+  mm2                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     5    8   18   32   46   69   93  113  155  196  736     
+     4    9   18   30   45   66   95  120  149  190  727     
+     4    8   17   30   44   68   93  121  155  182  723     
+     4    8   16   29   45   72   96  113  151  192  727     
+3.3.3.3.4.4.8.8.8.8 
+3.8(2).4.8.4.8 
+3.8(2).4.8.4.8 
+3.8(2).4.8.4.8 
    3
 start
  -1
