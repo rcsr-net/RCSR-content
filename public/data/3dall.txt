@@ -130931,7 +130931,7 @@ V3  3
    5
 start
   2216
-  ahr-a                                                      
+  ahq-a                                                      
  1b
   0     !number of other symbols
   0     !number of names
@@ -131014,7 +131014,7 @@ V4  3
    3
 start
  2217
-  ahq-a                                                      
+  ahr-a                                                      
 1b
   0     !number of other symbols
   0     !number of names
@@ -149614,7 +149614,7 @@ unk
 unk 
 unk 
    4
- start
+start
  2462
   cot-a                                                      
  2
