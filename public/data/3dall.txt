@@ -59063,8 +59063,9 @@ wix
  1 !number of names
 3/10/h2
  0 !number of other names
- 1 !number of keywords
+ 2 !number of keywords
 chiral
+uniform net
  0 !number of references
 P6(1)22         178
   3.9565  3.9565  2.0382  90.000  90.000 120.000
@@ -59107,8 +59108,9 @@ wiy
  1 !number of names
 3/10/h3
  0 !number of other names
- 1 !number of keywords
+ 2 !number of keywords
 chiral
+uniform net
  0 !number of references
 P6(1)22         178
   3.8861  3.8861  1.5206  90.000  90.000 120.000
@@ -70983,7 +70985,8 @@ start
 3/10/h4
 sqc3058
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+uniform net
   0     !number of references
 R-3c            167
   6.3913  6.3913  2.1550  90.000  90.000 120.000
@@ -76417,7 +76420,8 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+uniform net
   0     !number of references
 Fddd             70
   5.2382  1.7314  6.0982  90.000  90.000  90.000
@@ -80810,7 +80814,7 @@ start
 3
   0     !number of other symbols
   1     !number of names
-3^7
+3^7 P
   1     !number of other names
 snub cube
   2     !number of keywords
@@ -116539,10 +116543,11 @@ start
   1     !number of names
 lon-derived
   0     !number of other names
-  3     !number of keywords
+  4     !number of keywords
 good
 polar
 heterocoord 34
+uniform net
   1     !number of references
 Chem. Rev.114, 1343 92014)
  Cmc2(1)          36                                         
@@ -117913,7 +117918,9 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  2     !number of keywords
+chiral
+uniform net
   1     !number of references
 Acta Cryst. A69, 535 (2013)
  I432            211                                         
@@ -118246,7 +118253,8 @@ ofo
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+uniform net
   0     !number of references
  P6422   181                                         
 1.5808 1.5808 4.1059 90.000 90.000 120.000            
@@ -118279,7 +118287,7 @@ E3   2
   unk                                                        
   unk                                                        
      3 6 12 24 48 96 178 282 398 518 1566
-4.14(2).14(4).14(6)
+14(4).14(4).14(6)
   14
 start
 2041
@@ -152436,8 +152444,10 @@ start
   kgt                                                        
  1b
   0     !number of other symbols
-  0     !number of names
-  0     !number of other names
+  1     !number of names
+7^3 P
+  1     !number of other names
+schwartzite
   0     !number of keywords
   1     !number of references
 chiral
@@ -152616,8 +152626,10 @@ start
   kgs                                                        
  4
   0     !number of other symbols
-  0     !number of names
-  0     !number of other names
+  1     !number of names
+7^3 P
+  1     !number of other names
+schwartzite
   0     !number of keywords
   1     !number of references
 chiral
@@ -152791,6 +152803,62 @@ V10  3
 7.7.7 
 7.7.7 
    7
+start
+2501
+ snv-x*
+6
+  0     !number of other symbols
+  1     !number of names
+3^7 P
+  1     !number of other names
+snub cube
+  2     !number of keywords
+chiral
+infinite polyhedron
+  0     !number of references
+P432            207
+ 3.0486 3.0486 3.0486  90.000  90.000  90.000
+  1
+V1  7
+ 0.1138 0.1666 0.3737
+ x, y, z
+ 24  k
+ 1
+ 1
+  5
+E1   2
+ 0.1402 0.1402 0.5000
+ x, x, 0
+ 12 i
+ 2
+E2   2
+ 0.0000 0.2702 0.2702
+ 0, y, y
+ 12 i
+ 2
+E3   2
+  0.1402 0.0264 0.3737
+ x, y, z
+ 24  k
+ 1
+E4   2
+ 0.1402 0.2702 0.2438
+ x, y, z
+ 24  k
+ 1
+E5   2
+ 0.1138 0.0000 0.5000
+ x, 0, 1/2
+ 12 h
+ 2
+ 6
+ 4
+ 40
+[3^32.4^6] + 3[3^16.8^2] + 3[3^8.4^2] +[3^8.8^6]
+ unk
+ 7 20 43 86 150 233 327 444 584 705 2600
+unk
+ 3
 start
  -1
 
