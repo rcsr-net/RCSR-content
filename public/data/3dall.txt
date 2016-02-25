@@ -21573,7 +21573,7 @@ pcu-a
  4 !number of names
 CaB6
 5/3/c3
-3^3.8^2 IWP
+3^3.8^2 I-WP
 sqc 1568
  0 !number of other names
  2 !number of keywords
@@ -21849,7 +21849,7 @@ nbo-h
  0 !number of other symbols
  2 !number of names
 5/4/c4
-4^5 IWP
+4^5 I-WP
  0 !number of other names
  2 !number of keywords
 infinite polyhedron
@@ -21895,7 +21895,7 @@ bcu-l
  0 !number of other symbols
  2 !number of names
 5/4/c3
-4^5 IWP
+4^5 I-WP
  0 !number of other names
  0 !number of keywords
  0 !number of references
@@ -36599,7 +36599,7 @@ wal
  3 !number of names
    WAl12
    9/3/c3
-3^9 IWP
+3^9 I-WP
  1 !number of other names
 icosahedron
  0 !number of keywords
@@ -40516,7 +40516,7 @@ fcg
  0 !number of other symbols
  2 !number of names
 5/3/c20
-4^5 IWP
+4^5 I-WP
  0 !number of other names
  1 !number of keywords
 chiral
@@ -41117,7 +41117,7 @@ fcp
  0 !number of other symbols
  2 !number of names
 5/3/c32
-5^5 IWP
+5^5 I-WP
  0 !number of other names
  1 !number of keywords
 infinite polyhedron
@@ -111211,7 +111211,7 @@ start
  4
   0     !number of other symbols
   1     !number of names
-3^12 IWP
+3^12 I-WP
   0     !number of other names
   2     !number of keywords
 infinite polyhedron
@@ -121447,7 +121447,7 @@ start
  1b
   0     !number of other symbols
   1     !number of names
-6.8^2 6^2.8 IWP
+6.8^2 6^2.8 I-WP
   1     !number of other names
 schwartzite
   2     !number of keywords
@@ -143693,7 +143693,7 @@ start
  1b
   0     !number of other symbols
   1     !number of names
-9^3 IWP
+9^3 I-WP
   1     !number of other names
 schwartzite
   1     !number of keywords
@@ -153021,64 +153021,118 @@ unk
 unk 
    3
 start
- 2503
-  bpw                                                        
+2503
+  bpa                                                        
  1b
   0     !number of other symbols
-  1     !number of names
-9^3 I-WP
+1     !number of names
+(10,3)f
   0     !number of other names
-  1     !number of keywords
+  2     !number of keywords
+uniform net
 good
   0     !number of references
- Pm-3n           223                                         
-   5.6458  5.6458  5.6458  90.000  90.000  90.000            
+ Pbcn             60                                         
+   2.3854  4.0035  3.9713  90.000  90.000  90.000            
   2
 V1  3
-  0.0000 0.0886 0.3382                                       
-  0, y, z                                                          
-  24 k                                                       
-  m                                                          
-  2                                                          
-V2  3
-  0.1614 0.1614 0.3384                                       
+  0.4066 0.1111 0.0126                                       
   x, y, z                                                    
-  48  l                                                      
+   8  d                                                      
+  1                                                          
+  1                                                          
+V2  3
+  0.0946 0.2227 0.1377                                       
+  x, y, z                                                    
+   8  d                                                      
   1                                                          
   1                                                          
   4
  E1   2                                                      
-  0.0000 0.0000 0.3382                                       
-  0, 0, z                                                          
-  12 f                                                       
-  mm2                                                         
+  0.5000 0.0000 0.0000                                       
+  1/2, 0, 0                                                          
+   4 b                                                       
+  -1                                                          
  E2   2                                                      
-  0.0807 0.1250 0.3383                                       
+  0.2506 0.1669 0.0752                                       
   x, y, z                                                    
-  48  l                                                      
+   8  d                                                      
   1                                                          
  E3   2                                                      
-  0.2500 0.1615 0.3385                                       
-  1/4, y, 1/2-y                                                          
-  24 j                                                       
-  2                                                          
+  0.5006 0.1942 0.9374                                       
+  x, y, z                                                    
+   8  d                                                      
+  1                                                          
  E4   2                                                      
-  0.1615 0.2500 0.3385                                       
-  x, 1/4, 1/2-x                                                          
-  24 j                                                       
+  0.0000 0.2227 0.2500                                       
+  0, y, 1/4                                                          
+   4 c                                                       
   2                                                          
-  4                                                         
   3                                                          
-  42
-  [6^8.9^120 + [9^4.14^2] + [12^2.14^2]                                                        
-  unk                                                        
-     3    6   12   22   34   59   81   95  129  168  610     
-     3    6   11   21   35   54   79  104  136  167  617     
-9.9.9 
-6.9.9 
-   6
+  2                                                          
+  80
+  [10^30+ [10^5]                                                        
+  gra                                                        
+     3    6   12   24   39   57   82  108  136  171  639     
+     3    6   12   24   38   57   83  108  135  169  636     
+10(2).10(4).10(4) 
+10(2).10(4).10(4) 
+   10
 start
  2504
+  bpb                                                        
+ u1b
+  0     !number of other symbols
+  1     !number of names
+(10,3)e
+  0     !number of other names
+  2     !number of keywords
+good
+uniform net
+  0     !number of references
+ P6(5)22         179                                         
+   4.3250  4.3250  1.8161  90.000  90.000 120.000            
+  2
+V1  3
+  0.2204 0.0000 0.0000                                       
+  x, 0, 0                                                          
+   6 a                                                       
+  2                                                         
+  2                                                          
+V2  3
+  0.4516 0.0000 0.0000                                       
+  x, 0, 0                                                          
+   6 a                                                       
+  2                                                          
+  2                                                          
+  3
+ E1   2                                                      
+  0.1102 0.8898 0.0833                                       
+  x, 1-x, 1/12                                                          
+   6 b                                                       
+  2                                                          
+ E2   2                                                      
+  0.3360 0.0000 0.0000                                       
+  x, 0, 0                                                          
+   6 a                                                       
+  2                                                          
+ E3   2                                                      
+  0.5000 0.0000 0.2500                                       
+  x, 2x, 1/4                                                          
+   6 b                                                      
+  2                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     3    6   12   24   39   60   87  112  138  172  654     
+     3    6   12   24   39   52   71  102  136  166  612     
+10(3).10(3).10(5) 
+10(3).10(3).10(3) 
+   10
+start
+ 2505
   bpu                                                        
  1b
   0     !number of other symbols
@@ -153128,6 +153182,53 @@ V2  3
      3    6   11   21   35   53   77  101  134  162  604     
 9.9.9 
 6.9.9 
+   6
+start
+ 2506
+  maw                                                        
+ 1b
+  0     !number of other symbols
+  1     !number of names
+8^3 + 8^4 I-WP
+  0     !number of other names
+  1     !number of keywords
+good
+  0     !number of references
+ Im-3m           229                                         
+   4.8284  4.8284  4.8284  90.000  90.000  90.000            
+  2
+V1  4
+  0.0000 0.0000 0.3534                                       
+  0, 0 ,x                                                          
+  12 e                                                       
+  4mm                                                          
+  8                                                          
+V2  3
+  0.1464 0.1464 0.3534                                       
+  x, x, z                                                          
+  48 k                                                       
+  m                                                          
+  2                                                          
+  2
+ E1   2                                                      
+  0.0732 0.0732 0.3534                                       
+  x, x, z                                                          
+  48 k                                                       
+  m                                                          
+ E2   2                                                      
+  0.2500 0.1465 0.3535                                       
+  1/4, y, 1/2-y                                                          
+  48 i                                                       
+  2                                                          
+  3                                                          
+  2                                                          
+  16
+  [6^8.8^12] + [8^4.12^4]                                                        
+  unk                                                        
+     4    8   16   32   56   73   92  141  180  214  817     
+     3    7   15   28   51   79  109  138  173  218  822     
+8.8.8.8.12(6).12(6) 
+6.8.8 
    6
 start
  -1
