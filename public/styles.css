@@ -109,6 +109,10 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
     text-align: center;
 }
 
+.centeredText {
+    text-align: center;
+}
+
 .header {
     position: relative;
     margin: 0;
