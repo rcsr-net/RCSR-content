@@ -313,6 +313,11 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
     width: 10em;
 }
 
+.resultsMessage {
+    margin: 10px 0 -10px;
+    color: gray;
+}
+
 .thumbnail {
     display: inline-block;
     height: 72px;
