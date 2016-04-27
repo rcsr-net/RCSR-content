@@ -66,7 +66,7 @@ h1 {
     margin: 0 -12px;
     color: white;
     padding: 10px 12px 22px;
-    background: linear-gradient(to bottom, #0071BC, white);
+    background: linear-gradient(to bottom, #0071BC 12%, white);
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
@@ -78,25 +78,24 @@ h1 {
     text-align: center;
 }
 
-.homePage h1 {
-    font-size: 32px;
-    margin: 40px 0 30px;
+.homePageLogo {
+    background: linear-gradient(to bottom, #0071BC 12%, white);
+    padding: 30px 12% 60px 8%;
+    margin: 0 -12px;
 }
 
-.homePage h2 {
-    margin: 10px 0;
+.homePageLogo p {
+    color: white;
+    font-size: 57px;
+    line-height: 68px;
+    text-align: center;
+    font-weight: 300;
+    width: 60%;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
-.homePage div {
-    width: 500px;
-    margin: auto;
-    padding: 20px;
-    background: #A5CFEC;
-    border: 1px solid lightgray;
-}
-
-.homePage img {
-    margin-bottom: 30px;
+.homePageLogo img {
+    float: right;
 }
 
 .center {
