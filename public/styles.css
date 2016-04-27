@@ -80,7 +80,8 @@ h1 {
 
 .homePageLogo {
     background: linear-gradient(to bottom, #0071BC 12%, white);
-    padding: 30px 12% 60px 8%;
+    padding: 40px 10%;
+    min-height: 450px;
     margin: 0 -12px;
 }
 
@@ -96,6 +97,32 @@ h1 {
 
 .homePageLogo img {
     float: right;
+    vertical-align: center;
+}
+
+.partnerLogos {
+    clear: both;
+    margin: 50px 0 150px;
+}
+
+.partnerLogos figure {
+    vertical-align: top;
+    display: inline-block;
+    margin: auto;
+    width: 25%;
+}
+
+.partnerLogos img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.partnerLogos figcaption {
+    align: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .center {
