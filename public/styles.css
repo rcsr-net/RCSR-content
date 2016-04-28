@@ -67,7 +67,7 @@ h1 {
     color: white;
     padding: 10px 12px 22px;
     background: linear-gradient(to bottom, #0071BC 12%, white);
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 2px #0071BC, 2px 2px 4px #0071BC;
 }
 
 .disclaimer {
@@ -92,7 +92,7 @@ h1 {
     text-align: center;
     font-weight: 300;
     width: 60%;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 2px #0071BC, 3px 3px 4px #0071BC;
 }
 
 .homePageLogo img {
