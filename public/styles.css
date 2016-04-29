@@ -358,6 +358,7 @@ h1.center, h2.center, h3.center, h4.center, p.center, figcaption.center {
 .article {
     font-size: 16px;
     max-width: 50em;
+    margin: 2em auto;
 }
 
 .article ol {
