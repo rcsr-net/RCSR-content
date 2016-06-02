@@ -51,8 +51,7 @@ start
 3
 tth
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p6mm
@@ -848,8 +847,7 @@ lbl
 1  ! number of names
 3-4-8 net
 0  ! number of other names
-1  ! number of keywords
-uniform
+0  ! number of keywords
 p4mm
 P4/mmm
 2.7321 2.7321 10.0000 90.0000 90.0000 90.0000
@@ -1273,7 +1271,7 @@ SrMgSi(= Co2Si = PbCl2) layer
 1  ! number of keywords
 self-dual
 pg
-Pc
+Pmc2(1)
 10.0000 2.8883 1.9648 90.0000 90.0000 90.0000
 3 6 3
 V1 3
@@ -2164,11 +2162,11 @@ start
 84
 mta
 0  ! number of other symbols
-2  ! number of names
+1  ! number of names
 htb-d
-minimal transitivity
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+isohedral
 p6mm
 P6/mmm
 2.53590 2.53590 10.0000 90.0000 90.0000 120.0000
@@ -2192,8 +2190,7 @@ start
 85
 mtb
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p6mm
@@ -2219,8 +2216,7 @@ start
 86
 mtc
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p3m1
@@ -2246,8 +2242,7 @@ start
 87
 mtd
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p66mm
@@ -2273,8 +2268,7 @@ start
 88
 mte
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p4mm
@@ -2300,8 +2294,7 @@ start
 89
 mtf
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p4mm
@@ -2327,8 +2320,7 @@ start
 90
 mtg
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p6mm
@@ -2359,8 +2351,7 @@ start
 91
 mth
 0  ! number of other symbols
-1  ! number of names
-minimal transitivity
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 p6mm
