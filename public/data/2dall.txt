@@ -2760,7 +2760,7 @@ V3 3
 3 9 14 19 23 28 33 37 42 47 255
 3.5^2
 start
-103
+104
 sdp
 0  ! number of other symbols
 0  ! number of names
@@ -2788,7 +2788,7 @@ V3 3
 6^3
 start
 start
-104
+105
 sdr
 0  ! number of other symbols
 0  ! number of names
