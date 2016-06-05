@@ -2787,7 +2787,6 @@ V3 3
 3 6 12 20 25 30 37 42 48 54 278
 6^3
 start
-start
 105
 sdr
 0  ! number of other symbols
