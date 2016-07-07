@@ -139,9 +139,10 @@ start
 sod-f
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 3/4/c2
 sqc 9251
+4.12^2 P
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -3740,9 +3741,10 @@ start
 hal
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 HL42
 4/3/c8
+6^2.8^2 F-RD
  1  !number of other names
 alpha cage
  3  !number of keywords
@@ -4319,9 +4321,10 @@ start
 wse
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 W*8
 4/4/c18
+4^3.8 I-WP
  0  !number of other names
  3  !number of keywords
 good
@@ -4634,9 +4637,10 @@ start
 kfi
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 ZK-5
 4/4/c19
+4^3.8 I-WP
  1  !number of other names
 alpha cage
  4  !number of keywords
@@ -8940,8 +8944,9 @@ start
 ukr
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4/3/c29
+4^2.8^2 I-WP
  1  !number of other names
 qsn-041
  1  !number of keywords
@@ -10130,7 +10135,8 @@ start
 sst
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+4.6^3 I-WP
  1  !number of other names
 square
  0  !number of keywords
@@ -24598,8 +24604,9 @@ start
 dia-j
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/c14
+3.4.3^3.4 D
  0  !number of other names
  2  !number of keywords
 infinite polyhedron
@@ -24644,7 +24651,8 @@ start
 bcu-k
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+3^3.4^3 I-WP
 6/3/c15
  0  !number of other names
  2  !number of keywords
@@ -25004,8 +25012,9 @@ start
 pcu-m
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/c32
+3^4.6^2 P
  1  !number of other names
 snub cube
  2  !number of keywords
@@ -26123,8 +26132,9 @@ start
 smq
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/c12
+4^6 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -36114,7 +36124,7 @@ svz
  0  !number of other symbols
  2  !number of names
 7/3/c9
-3^6.4 IWP
+3^6.4 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -36164,7 +36174,7 @@ swa
  0  !number of other symbols
  2  !number of names
 7/3/c10
-3^6.4 IWP
+3^6.4 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -36212,8 +36222,9 @@ start
 swb
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 7/3/c11
+3^6.4 I-WP
  1  !number of other names
 snub cube
  1  !number of keywords
@@ -42544,7 +42555,7 @@ fdb
  0  !number of other symbols
  2  !number of names
 5/4/c5
-4^5 IWP
+4^5 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -70722,7 +70733,8 @@ start
 twf-e
 3b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+4^5 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -77392,7 +77404,7 @@ bva
 2b
  0  !number of other symbols
  1  !number of names
-12&3 IWP
+12&3 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -77475,7 +77487,7 @@ nfb
 2b
  0  !number of other symbols
  1  !number of names
-4^2.8^2 IWP
+4^2.8^2 I-WP
  0  !number of other names
  0  !number of keywords
  0  !number of references
