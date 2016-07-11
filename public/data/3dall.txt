@@ -26053,8 +26053,9 @@ start
 smo
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/c5
+3.6.3^3.6 P
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -42880,8 +42881,9 @@ start
 sxj
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/c28
+3^3.4.3.4 G
  0  !number of other names
  0  !number of keywords
  0  !number of references
