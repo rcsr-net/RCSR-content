@@ -162471,6 +162471,74 @@ unk
  4
 3
 start
+2594
+bcu-c
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 0  !number of keywords
+ 1  !number of references
+ACrystEngComm 14, 634 (2012)
+I41/amd   141
+  1.1547  1.1547  1.1547  90.000  90.000  90.000
+1
+V1  8
+  0.0000  0.7500  0.1250
+  0, 3/4, 1/8
+  4 a
+  -4m2
+  8
+1
+E1  2
+  0.7500  0.0000  0.6250
+  x, x+3/4, 5/8
+  16 g
+  2
+0
+0
+0
+unk
+unk
+  8  26  56  98  152  218  296  386  488  602  2331
+  unk
+4
+2
+start
+2595
+fcu-c
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 0  !number of keywords
+ 1  !number of references
+Chem. Eur. J. 77, 9320 (2011)
+Fd-3m   227
+  1.4142  1.4142  1.4142  90.000  90.000  90.000
+1
+V1  12
+  0.1250  0.1250  0.1250
+  1/8, 1/8, 1/8
+  8 a
+ -43m
+ 24
+1
+E1  2
+  0.3750  0.1250  0.1250
+  x, 1/8, 1/8
+ 48 f
+  mm2
+0
+0
+0
+unk
+unk
+  12  42  92  162  252  362  492  642  812  1002  3871
+  unk
+3
+1
+start
  -1
 
 
