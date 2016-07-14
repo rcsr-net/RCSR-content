@@ -24606,7 +24606,7 @@ dia-j
  0  !number of other symbols
  2  !number of names
 6/3/c14
-3.4.3^3.4 D
+3^3.4.3.4 D
  0  !number of other names
  2  !number of keywords
 infinite polyhedron
@@ -24870,8 +24870,9 @@ start
 snp
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/t5
+3^4.4^2 P
  0  !number of other names
  1  !number of keywords
 good
@@ -25014,7 +25015,7 @@ pcu-m
  0  !number of other symbols
  2  !number of names
 6/3/c32
-3^4.6^2 P
+3^4.4^2 P
  1  !number of other names
 snub cube
  2  !number of keywords
