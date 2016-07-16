@@ -80629,7 +80629,7 @@ diamond intergrowth
 interpenetrating net
  1  !number of references
 Acta Cryst A71, 82 (2015)
-I-43d   217
+I-43d   220
   0.8894  0.8894  0.8894  90.000  90.000  90.000
 1
 V1  4
@@ -88255,7 +88255,7 @@ hex-c3
  1  !number of keywords
 interpenetrating net
  0  !number of references
-R-3m   191
+R-3m   166
   1.0000  1.0000  1.0000  90.000  90.000  120.000
 1
 V1  8
@@ -90318,7 +90318,7 @@ unj-c
  1  !number of keywords
 chiral
  0  !number of references
-P6(2)22   181
+P6(4)22   181
   2.2614  2.2614  1.1310  90.000  90.000  120.000
 1
 V1  4
@@ -162542,11 +162542,12 @@ unk
  start
  2596
  lth                                                        
- 1b
+ 5(1b)
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+chiral
   0     !number of references
  F4(1)32         210                                         
   10.1729 10.1729 10.1729  90.000  90.000  90.000            
@@ -162643,7 +162644,7 @@ V4  3
   0.0000 0.0000 0.2500                                       
   0, 0, 1/4                                                          
    2 b                                                       
-  -5m2                                                         
+  -6m2                                                         
   12                                                          
 V5  3
   0.6667 0.3333 0.2500                                       
@@ -162833,6 +162834,81 @@ V8  3
 4.12(2).12(2) 
    3
 16
+ start
+ 2599
+  ltk                                                        
+ 5(1b)
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I432            211                                         
+   8.4560  8.4560  8.4560  90.000  90.000  90.000            
+  3
+V1  4
+  0.7017 0.7983 0.2500                                       
+  x, 1/2-x, 1/4                                                          
+  24 i                                                       
+  2                                                          
+  2                                                          
+V2  4
+  0.7774 0.8711 0.1957                                       
+  x, y, z                                                    
+  48  j                                                      
+  1                                                          
+  1                                                          
+V3  4
+  0.0591 0.1407 0.1446                                       
+  x, y, z                                                    
+  48  j                                                      
+  1                                                          
+  1                                                          
+  6
+ E1   2                                                      
+  0.7258 0.7500 0.2258                                       
+  x, 3/4, x-1/2                                                          
+  24 i                                                       
+  2                                                         
+ E2   2                                                      
+  0.7395 0.8347 0.2228                                       
+  x, y, z                                                    
+  48  j                                                      
+  1                                                          
+ E3   2                                                      
+  0.7909 0.8242 0.1623                                       
+  x, y, z                                                    
+  48  j                                                      
+  1                                                          
+ E4   2                                                      
+  0.8164 0.9060 0.1682                                       
+  x, y, z                                                    
+  48  j                                                      
+  1                                                          
+ E5   2                                                      
+  0.1018 0.0999 0.1427                                       
+  x, y, z                                                    
+  48  j                                                      
+  1                                                          
+ E6   2                                                      
+  0.0000 0.1427 0.1427                                       
+  0, y, y                                                          
+  24 h                                                       
+  2                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     4    6    6   10   22   34   40   42   46   66  277     
+     4    6    8   14   22   31   38   43   54   78  299     
+     4    8   14   20   23   26   34   50   75  107  362     
+3.22(45).4.4.4.4 
+3.22(45).4.4.4.4 
+3.22(45).4.8.4.8 
+   3
+8
 start
  -1
 
