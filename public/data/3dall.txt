@@ -162614,10 +162614,12 @@ V3  6
   yao                                                        
  1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 tbo h isomer
+3S net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P6(3)/mmc       194                                         
    3.4641  3.4641  5.6569  90.000  90.000 120.000            
@@ -162961,10 +162963,12 @@ V2  4
  yac                                                       
  1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 tbo hc isomer
+3S net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P6(3)/mmc       194                                         
    3.4641  3.4641 11.3141  90.000  90.000 120.000            
