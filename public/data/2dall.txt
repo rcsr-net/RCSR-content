@@ -3338,7 +3338,7 @@ start
 fzh
 0  ! number of other symbols
 1  ! number of names
-Angew. Chem. 2016, hao Yan
+Angew. Chem. 55, 860 (2016)
 0  ! number of other names
 0  ! number of keywords
 p2mm
