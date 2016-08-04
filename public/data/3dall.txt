@@ -102116,7 +102116,8 @@ start
 tse
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+stp telated
  0  !number of other names
  1  !number of keywords
 heterocoord
