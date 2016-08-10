@@ -2270,7 +2270,8 @@ start
 88
 mte
 0  ! number of other symbols
-0  ! number of names
+1  ! number of names
+dha-d
 0  ! number of other names
 0  ! number of keywords
 p4mm
@@ -3360,6 +3361,49 @@ V3 4
 0, 1/2, 0
 4 10 16 20 24 30 36 40 44 50 275
 6^4
+start
+125
+dha
+0  ! number of other symbols
+1  ! number of names
+mte-d
+0  ! number of other names
+0  ! number of keywords
+p4mm
+P4/mmm
+3.7320 2.7320 10.0000 90.0000 90.0000 90.0000
+2 2 3
+V1 4
+00.3175 0.3175 0.0000
+x, x, 0
+4 7 12 17 18 25 30 29 36 43 222
+3.4.3.8
+V2 4
+0.5000 0.0000 0.00000
+1/2. 0, 0
+4 8 10 18 20 22 30 32 34 42 221
+3.8.3.8
+start
+126
+dhb
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+0  ! number of keywords
+p2mg
+Pmma
+1.9604 10.000 2.0182 90.0000 90.0000 90.0000
+2 3 2
+V1 4
+0.2500 0.0000 0.4327
+1/4, 0, z
+4 10 12 18 24 24 32 38 36 46 245
+3.5^3
+V2 4
+0.0000 0.0000 0.00000
+0. 0, 0
+4 8 14 18 20 30 30 32 46 42 245
+3.5.3.5
 start
 -1
 
