@@ -3442,7 +3442,7 @@ V5 4
 4^4
 start
 128
-dh8
+dhd
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
