@@ -1587,6 +1587,50 @@ V3 3
 0.1178 0.1178 0.3536
 0
 start
+53
+mtk
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[4^6]
+3 2 2
+38 72 36
+3
+V1 3
+0.5000 0.5000 0.5000
+V2 3
+0.5000 0.5000 0.3333
+V3 8
+0.5000 0.5000 0.0000
+0
+start
+54
+mtm
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[4^24.6^8]
+3 2 2
+42 72 32
+3
+V1 4
+0.7071 0.7071 0.7071
+V2 4
+0.0000 0.0000 0.7071
+V3 3
+0.7071 0.7071 0.3535
+0
+start
 -1
 
 
