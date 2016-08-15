@@ -1543,6 +1543,28 @@ F4b 3
 F4c 3
 0.0000 0.2698 0.1833
 start
+51
+ntl
+unc
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[4^36]
+3 2 2
+58 72 36
+3
+V1 4
+0.7071 0.0000 0.0000
+V2 6
+0.2357 0.2357 0.2357
+V3 3
+0.2357 0.4714 0.0
+0
+start
 -1
 
 
