@@ -424,7 +424,7 @@ F2 3
 start
 16
 rco
-unk
+mtp
 0     !number of other symbols
 2     !number of names
 rhombicuboctahedron
@@ -1673,6 +1673,29 @@ V2 3
 0.2357 0.2357 0.2357
 V3 3
 00.3535 0.3535 0.0000
+0
+start
+57
+mtp
+rco
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+2     !number of keywords
+cubic
+Catalan
+m-3m (Oh)
+P-m-3m
+[4^24]
+3 2 2
+26 48 24
+3
+V1 4
+0.7071 0.0000 0.0000
+V2 3
+0.3583 0.3583 0.3583
+V3 3
+0.5327 0.5327 0.0000
 0
 start
 -1
