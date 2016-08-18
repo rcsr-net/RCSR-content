@@ -1398,8 +1398,9 @@ start
 tro-e-a
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
 fub cage
+oct-a-e-a
 0     !number of other names
 2     !number of keywords
 simple
@@ -1430,10 +1431,10 @@ F5 12
 start
 48
 tro-e
-unk
+mtj
 0     !number of other symbols
 1     !number of names
-sod-e cage
+oct-a-e
 0     !number of other names
 1     !number of keywords
 cubic
@@ -1545,7 +1546,7 @@ F4c 3
 start
 51
 mtj
-unc
+tro-e
 0     !number of other symbols
 0     !number of names
 0     !number of other names
@@ -1685,7 +1686,7 @@ rco
 cubic
 Catalan
 m-3m (Oh)
-P-m-3m
+Pm-3m
 [4^24]
 3 2 2
 26 48 24
@@ -1698,7 +1699,7 @@ V3 3
 0.5327 0.5327 0.0000
 0
 start
-57
+58
 mtp-a
 unk
 0     !number of other symbols
@@ -1707,7 +1708,7 @@ unk
 1     !number of keywords
 cubic
 m-3m (Oh)
-P-m-3m
+Pm-3m
 [3^8.4^18.8^24]
 4 6 4
 96 144 50
@@ -1720,6 +1721,40 @@ V3 3
 0.0000 0.2021 0.0616
 V4 3
 0.1903 0.0000 0.0876
+0
+start
+59
+tic-e
+unk
+0     !number of other symbols
+1     !number of names
+ico-a-e
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^60.5^12.6^20]
+2 2 3
+90 180 92
+0
+0
+start
+60
+tic-e-a
+unk
+0     !number of other symbols
+1     !number of names
+ico-a-e-a
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^60.10^12.12^20]
+3 7 5
+360 540 182
+0
 0
 start
 -1
