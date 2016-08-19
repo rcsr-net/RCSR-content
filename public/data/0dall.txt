@@ -637,7 +637,7 @@ F2  5
 start
 23
 ric
-unk
+mtx
 0     !number of other symbols
 2     !number of names
 rhombiicosidodecahedron
@@ -1751,8 +1751,136 @@ ico-a-e-a
 icosahedral
 m-3-5 (Ih)
 Pm-3
-[3^60.10^12.12^20]
+[4^90.6^60.10^12.12^20]
 3 7 5
+360 540 182
+0
+0
+start
+61
+mtz
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[4^90]
+3 2 2
+92 180 90
+0
+0
+start
+62
+mtw
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[4^60.5^12]
+3 2 2
+110 180 72
+0
+0
+start
+63
+mtx
+ric
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[4^60]
+3 2 1
+62 120 60
+0
+0
+start
+64
+mtx-a
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^20.4^30.5^12.8^160]
+4 6 4
+240 360 122
+0
+0
+start
+65
+mty
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[4^90]
+3 2 2
+92 180 90
+0
+0
+start
+66
+mty-a
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^60.4^30.5^12.8^60.12^20]
+5 7 5
+360 540 182
+0
+0
+start
+67
+mtv
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[4^90]
+3 2 2
+92 180 90
+0
+0
+start
+68
+mtv-a
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^60.5^12.6^20.8^90]
+4 6 4
 360 540 182
 0
 0
