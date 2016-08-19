@@ -1399,7 +1399,7 @@ tro-e-a
 unk
 0     !number of other symbols
 2     !number of names
-fub cage
+ucb cage
 oct-a-e-a
 0     !number of other names
 2     !number of keywords
@@ -1680,7 +1680,8 @@ start
 mtp
 rco
 0     !number of other symbols
-0     !number of names
+1     !number of names
+cuo-e
 0     !number of other names
 2     !number of keywords
 cubic
@@ -1885,8 +1886,41 @@ Pm-3
 0
 0
 start
+69
+rco-a
+unk
+0     !number of other symbols
+1     !number of names
+cuo-e-a
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[4^24.6^8.8^18]
+2 5 4
+96 144 50
+0
+0
+start
+70
+tic-e
+mty
+0     !number of other symbols
+1     !number of names
+ico-a-e
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^60.5^12.6^20]
+2 2 3
+90 180 92
+0
+0
+start
 -1
-
 
 
 
