@@ -3577,6 +3577,72 @@ x, x, 0
 3 6 10 14 17 20 23 26 30 34 184
 4.8^2
 start
+130
+cpa
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+circle packing
+p4mm
+P4/mmm
+2.4142 2.4142 10.0000 90.0000 90.0000 90.0000
+2 3 2
+V1 4
+0.0000 0.0000 0.0000
+0, 0, 0
+4 8 8 12 20 20 20 28 32 32 185
+6^4
+V2 3
+0.2929 0.2929 0.0000
+x. x, 0
+3 6 11 14 15 20 25 26 29 34 184
+4.6^2
+start
+131
+cpb
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+circle packing
+p2mm
+Pmmm
+2.7320 2.0000 10.0000 90.0000 90.0000 90.0000
+2 4 2
+V1 4
+0.0000 0.2500 0.0000
+0, y, 0
+ 4 6 10 14 16 20 24 26 30 34 185
+3^2.8^2
+V2 3
+0.3170 0.50000 0.0000
+x. 1/2, 0
+3 5 10 13 17 20 23 27 30 33 182
+3.8^2
+start
+132
+cpc
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+circle packing
+p4gm
+Pmbm
+23461 3.3461 10.0000 90.0000 90.0000 90.0000
+2 3 2
+V1 4
+0.3943 0.1057 0.0000
+x, 1/2-x, 0
+4 5 11 12 16 20 21 27 28 32 177
+3^2.8^2
+V2 3
+00.1830 0.3170 0.0000
+x. 1/2-x, 0
+3 6  8 15 14 21 22 24 31 30 175
+3.8^2
+start
 -1
 
 
