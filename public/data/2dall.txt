@@ -4361,7 +4361,7 @@ x, y, 0
 3^2.4.8
 start
 164
-cqd
+cqe
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
