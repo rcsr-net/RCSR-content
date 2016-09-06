@@ -1920,7 +1920,7 @@ Pm-3
 0
 start
 71
-kep
+kpl
 unk
 0     !number of other symbols
 1     !number of names
