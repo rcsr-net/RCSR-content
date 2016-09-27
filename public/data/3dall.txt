@@ -164171,10 +164171,9 @@ start
  4
   0     !number of other symbols
   1     !number of names
-STH net
+hyk-derived
   0     !number of other names
-  1     !number of keywords
-bipartite
+  0     !number of keywords
   0     !number of references
  R-3m            166                                         
 3.1556   3.1556   7.5279  90.000  90.000 120.000            
