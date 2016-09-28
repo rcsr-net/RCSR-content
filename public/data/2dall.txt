@@ -331,7 +331,8 @@ kgd-a
 1  ! number of names
 augmented kagome dual
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p6mm
 P6/mmm
 4.4641 4.4641 10.0000 90.0000 90.0000 120.0000
@@ -1013,7 +1014,8 @@ htb-a
 1  ! number of names
 htb-a
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p6mm
 P6/mmm
 6.4641 6.4641 10.0000 90.0000 90.0000 120.0000
@@ -1089,8 +1091,7 @@ hca-a
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
-circle packing
+0  ! number of keywords
 p6mm
 P6/mmm
 7.7321 7.7321 10.0000 90.0000 90.0000 120.0000
@@ -1946,8 +1947,9 @@ krw-d
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
+2  ! number of keywords
 pentagon tiling
+circle packing
 p2
 P2/m
 2.6422 10.0000 6.1361 90.0000 92.479 90.0000
@@ -2574,7 +2576,8 @@ mte-a
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p4mm
 P4/mmm
 8.6117 8.6117 10.0000 90.0000 90.0000 90.0000
@@ -2605,7 +2608,8 @@ mtf-a
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+cyrcle packing
 p4mm
 P4/mmm
 6.8160 6.8160 10.0000 90.0000 90.0000 90.0000
@@ -2636,7 +2640,8 @@ mtg-a
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p6mm
 P8/mmm
 10.4683 10.4683 10.0000 90.0000 90.0000 120.0000
@@ -2677,7 +2682,8 @@ mth-a
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p6mm
 P8/mmm
 8.3392 8.3392 10.0000 90.0000 90.0000 120.0000
@@ -5206,7 +5212,7 @@ V5 5
 3^2.4.3.4
 start
 193
-kry-a
+kry-d
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
