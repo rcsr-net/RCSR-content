@@ -2310,7 +2310,7 @@ mtd
 0  ! number of names
 0  ! number of other names
 0  ! number of keywords
-p66mm
+p6mm
 P6/mmm
 4.5917 4.5917 10.0000 90.0000 90.0000 120.0000
 3 2 2
@@ -2643,7 +2643,7 @@ mtg-a
 1  ! number of keywords
 circle packing
 p6mm
-P8/mmm
+P6/mmm
 10.4683 10.4683 10.0000 90.0000 90.0000 120.0000
 6 9 6
 V1 3
