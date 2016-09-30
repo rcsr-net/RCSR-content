@@ -4374,7 +4374,7 @@ cqe
 1  ! number of keywords
 circle packing
 P2
-CP2/m
+P2/m
 1.83994 2 10.0 2.51486 90.0 71.4898 90.0
 2 5 3
 V1 4
@@ -4396,7 +4396,7 @@ cqf
 1  ! number of keywords
 circle packing
 P3m1
-CP-6m2
+P-6m2
 3.43095 3.43095 10.0 90.0 90.0 120.0
 3 3 2
 V1 3
