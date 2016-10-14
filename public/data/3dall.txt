@@ -15259,8 +15259,7 @@ start
 alb-a
 1b
  0  !number of other symbols
- 1  !number of names
-PX net
+ 0  !number of names
  0  !number of other names
  1  !number of keywords
 good
@@ -39079,8 +39078,9 @@ start
 alb
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 AlB2
+PX net
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -144205,7 +144205,7 @@ dnm
  0  !number of other symbols
  2  !number of names
 acs-related
-3HX net
+3PX net
  0  !number of other names
  2  !number of keywords
 bipartite
