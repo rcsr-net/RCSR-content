@@ -108788,7 +108788,8 @@ wuy
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Chem. Commun. 52, 11543 (2016)
 I4(1)/amd   141
   3.9417  3.9417  2.4823  90.000  90.000  90.000
 1
@@ -118121,7 +118122,8 @@ K8 net
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Commun. 52, 11543 (2016)
 I4(1)22   98
   2.6683  2.6683  2.4823  90.000  90.000  90.000
 1
@@ -149015,7 +149017,7 @@ E5  2
   0.0625  0.3125  0.12500
   x, 1/4+x, 1/8
   24 h
-  3
+  2
 3
 3
 68
@@ -164712,6 +164714,80 @@ V4  4
 4.8.4.8.4.12(2) 
    4
 14
+start
+2622
+kgu
+4
+ 0  !number of other symbols
+ 2  !number of names
+Klein
+7^3 G
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+I4(1)32   214
+   7.9810   7.9810   7.9810  90.000  90.000  90.000
+3
+V1  3
+  0.0626 0.2515 0.5099
+  x, y, z
+  48  i
+  1
+  1
+V2  3
+  0.2545 0.3393 0.4316
+  x, y, z
+  48  i
+  1
+  1
+V3  3
+  0.3415 0.3415 0.3415
+  x, x, x
+  16 e
+  3
+  3
+5
+E1  2
+  0.0291 0.2165 0.5496
+  x, y, z
+  48 i
+  1
+E2  2
+  0.2181 0.3750 0.4681
+  x, 3/8, 3/4-x
+  24 g
+  2
+E3  2
+  0.1250 0.2557 0.5057
+  1/8, y, 1/4+y
+  24 g
+  2
+E4  2
+  0.2980 0.3404 0.3866
+  x, y, z
+  48 i
+  1
+E5  2
+  0.0000 0.2500 0.5099
+  0, 1/4, z
+  24 f
+  2
+3
+2
+60
+[7^6.28^3] + [7^6.24^3]
+unk
+  3 6 12 17 26 31 42 55 76  98 367
+  3 6 12 17 27 30 44 55 76 102 373
+  3 6 12 18 27 37 42 60 78 105 389
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
 start
  -1
 
