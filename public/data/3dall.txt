@@ -154642,7 +154642,7 @@ kwh
   0     !number of names
   0     !number of other names
   1     !number of keywords
-chiral
+polar
   0     !number of references
  P6(3)mc         186                                         
    2.8423  2.8423  4.7657  90.000  90.000 120.000            
@@ -154738,7 +154738,7 @@ start
   0     !number of names
   0     !number of other names
   2     !number of keywords
-gpolar
+polar
 good
   0     !number of references
  P6(3)mc         186                                         
