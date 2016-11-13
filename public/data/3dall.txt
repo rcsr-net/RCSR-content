@@ -136888,6 +136888,53 @@ unk
 4
 3
 start
+2263
+cec
+4
+ 0  !number of other symbols
+ 1  !number of names
+shp-derived
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+P6/mmm   191
+2.47602 2.47602 1.35062 90.0000 90.0000 120.0000
+2
+V1  12
+  0.0000  0.0000  0.0000
+  0, 0, 0
+  1 a
+  6/mmm
+  24
+V2  3
+  0.00000 0.29746 0.50000
+ 0, y, 1/2
+  6 k
+ mm2
+ 4
+2
+E1  2
+  0.00000 0.14873 0.25000
+  0, y, z
+ 12 n
+ m
+E2  2
+  00000 0.50000 0.50000
+ 0, 1/2, 1/2
+  3 g
+  mmm
+0
+0
+0
+unk
+unk
+  12 14 30 134 96 134 384 278 294 782 2159
+   3 19 34 49 155 170 179 393 420 373 1796
+unk
+unk
+4
+3
+start
 2264
 urn-a
 1b
@@ -149437,6 +149484,53 @@ unk
   4.6.4.6.6.10(6)
 4
 6
+start
+2429
+ced
+4
+ 0  !number of other symbols
+ 1  !number of names
+shp-derived
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+P6/mmm   191
+1.80240 1.80240 1.86707 90.0000 90.0000 120.0000
+2
+V1  12
+  0.0000  0.0000  0.0000
+  0, 0, 0
+  1 a
+  6/mmm
+  24
+V2  3
+  0.00000 0.50000 0.26733
+ 0, 1/2, z
+  6 1
+ mm2
+ 4
+2
+E1  2
+  00000 0.25000 0.38366
+  0, y, z
+ 12 n
+ m
+E2  2
+  00000 0.50000 0.000000
+ 0, 1/2, 0
+  3 f
+  mmm
+0
+0
+0
+unk
+unk
+  12 18 62 120 168 224 384 444 518 774 2725
+   3 23 40  89 155 236 291 429 556 637 2460
+unk
+unk
+4
+3
 start
 2430
 rab
