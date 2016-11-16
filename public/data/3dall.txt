@@ -4951,7 +4951,8 @@ pcb-b
  1  !number of names
 polycubane binary
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  0  !number of references
 I-43m   217
   3.1548  3.1548  3.1548  90.000  90.000  90.000
@@ -7671,7 +7672,7 @@ CaGa2O4 binary
 variscite
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  0  !number of references
 Pbca   61
   2.8701  3.2727  2.7658  90.000  90.000  90.000
@@ -9796,7 +9797,7 @@ cds-b
 CdSO4 binary
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  0  !number of references
 P4(2)/mnm   136
   1.4142  1.4142  2.0000  90.000  90.000  90.000
@@ -18639,7 +18640,8 @@ dia-b
  1  !number of names
 sphalerite
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 F-43m   216
@@ -18682,7 +18684,8 @@ nbo-b
  1  !number of names
 NbO
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Pm-3m   221
@@ -18727,7 +18730,7 @@ berlinite
  0  !number of other names
  2  !number of keywords
 chiral
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 P6(4)22   181
@@ -18770,8 +18773,9 @@ lon-b
  1  !number of names
 wurtzite
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 polar
+bipartite
  0  !number of references
 P6(3)mc   186
   1.6330  1.6330  2.6667  90.000  90.000  120.000
@@ -18818,7 +18822,8 @@ crb-b
  1  !number of names
 beta BeO
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  0  !number of references
 P4(2)/mnm   136
   2.8683  2.8683  1.5787  90.000  90.000  90.000
@@ -18865,7 +18870,7 @@ sod-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Pm-3n   223
@@ -18908,7 +18913,7 @@ lvt-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Imma   74
@@ -18950,7 +18955,8 @@ rhr-b
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Pm-3m   221
@@ -18993,7 +18999,7 @@ sra-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  0  !number of references
 Pnma   62
   3.2566  1.6860  2.6318  90.000  90.000  90.000
@@ -19045,7 +19051,7 @@ lcs-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515 (2003)
 I-43d   220
@@ -26536,7 +26542,7 @@ srs-b
  0  !number of other names
  2  !number of keywords
 chiral
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 P4(3)32   212
@@ -26580,7 +26586,7 @@ pcu-b
 sodium chloride
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Fm-3m   225
@@ -26623,7 +26629,7 @@ hxg-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Fd-3m   227
@@ -26665,7 +26671,8 @@ bcs-b
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Ia-3   206
@@ -26708,7 +26715,8 @@ acs-b
  1  !number of names
 WC
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 P-6m2   187
@@ -38650,8 +38658,9 @@ svn-b
  1  !number of names
 FeSi
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+bipartite
  0  !number of references
 P2(1)3   198
   1.8685  1.8685  1.8685  90.000  90.000  90.000
@@ -38705,7 +38714,8 @@ CsCl
 CuZn
 beta brass
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
 Pm-3m   221
@@ -66221,7 +66231,7 @@ ths-b
 ThSi2 binary
  0  !number of other names
  2  !number of keywords
-good
+bipartite
 polar
  0  !number of references
 I4(1)md   109
@@ -105921,7 +105931,7 @@ etg-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-good
+bipartite
  1  !number of references
 Chem. Rev, 112, 675 (2012)
 P4(2)/nmc   137
@@ -111205,7 +111215,7 @@ hmc-derived
 rht-derived
  0  !number of other names
  1  !number of keywords
-heterocoord
+bipartite
  1  !number of references
 Chem. Rev. 114, 1343 (2014)
 Fm-3m   225
@@ -113288,8 +113298,9 @@ twt-b
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+bipartite
  0  !number of references
 P3(2)21   154
   2.4748  2.4748  2.0264  90.000  90.000  120.000
@@ -130667,7 +130678,8 @@ bnn-b
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  0  !number of references
 P6(3)/mmc   194
   1.7321  1.7321  2.0000  90.000  90.000  120.000
@@ -130713,8 +130725,9 @@ sqp-b
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 polar
+bipartite
  0  !number of references
 I4mm   107
   1.3333  1.3333  2.6667  90.000  90.000  90.000
@@ -130761,7 +130774,7 @@ tbo-b
  0  !number of names
  0  !number of other names
  1  !number of keywords
-heterocoord 34
+bipartite
  0  !number of references
 I4/mmm   139
   3.4642  3.4642  4.8987  90.000  90.000  90.000
@@ -130816,7 +130829,7 @@ tbo-b3
  0  !number of names
  0  !number of other names
  1  !number of keywords
-heterocoord 34
+bipartite
  1  !number of references
 JACS 124, 10638 (2012)
 Fmmm   69
@@ -133906,7 +133919,8 @@ dia-b3
  1  !number of names
 fchalcopyrite
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  0  !number of references
 I-42d   122
   2.3093  2.3093  4.6186  90.000  90.000  90.000
@@ -134709,7 +134723,8 @@ bwt
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  0  !number of references
 Pa-3   205
   4.0000  4.0000  4.0000  90.000  90.000  90.000
@@ -147694,7 +147709,7 @@ pbz-b
 polybenzene binary
  0  !number of other names
  1  !number of keywords
-good
+bipartite
  0  !number of references
 Fd-3c   228
   8.4853  8.4853  8.4853  90.000  90.000  90.000
@@ -160750,8 +160765,9 @@ bpr
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 good
+bipartite
  1  !number of references
 Acta Cryst. A65, 202 (2009)
 Ia-3d   230
