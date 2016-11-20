@@ -12565,11 +12565,11 @@ start
 mog
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 moganite
- 2  !number of other names
+ST net
+ 1  !number of other names
 silica
-ST-net
  0  !number of keywords
  2  !number of references
 Solid State Sciences, 5, 73-78 (2003)
@@ -15558,8 +15558,7 @@ pts
 ST net
 PtS
 cooperite
- 1  !number of other names
-ST-net
+ 0  !number of other names
  2  !number of keywords
 bipartite
 good
@@ -15655,10 +15654,10 @@ start
 bbf
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+ST net
 moganite related
- 1  !number of other names
-ST-net
+ 0  !number of other names
  2  !number of keywords
 good
 isohedral tiling
@@ -18584,9 +18583,9 @@ start
 sst-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  1  !number of keywords
 good
  0  !number of references
@@ -27508,8 +27507,7 @@ ptt
  2  !number of names
 twisted PtS
 ST net
- 1  !number of other names
-ST-net
+ 0  !number of other names
  1  !number of keywords
 bipartite
  0  !number of references
@@ -28065,8 +28063,7 @@ pth
  2  !number of names
 ST net
 hexagonal PtS
- 1  !number of other names
-ST-net
+ 0  !number of other names
  2  !number of keywords
 chiral
 bipartite
@@ -29445,9 +29442,9 @@ start
 mot-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  1  !number of keywords
 good
  1  !number of references
@@ -84665,8 +84662,7 @@ cdl-e
  0  !number of other symbols
  1  !number of names
 ST net
- 1  !number of other names
-ST-net
+ 0  !number of other names
  1  !number of keywords
 bipartite
  0  !number of references
@@ -85975,8 +85971,7 @@ urh
  0  !number of other symbols
  1  !number of names
 ST net
- 1  !number of other names
-ST-net
+ 0  !number of other names
  1  !number of keywords
 bipartite
  0  !number of references
@@ -88395,11 +88390,10 @@ start
 qdl-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
- 2  !number of keywords
-bipartite
+ 1  !number of names
+ST net
+ 0  !number of other names
+ 1  !number of keywords
 chiral
  0  !number of references
 P6(2)22   180
@@ -90417,9 +90411,9 @@ start
 pte-c
 2b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  2  !number of keywords
 interpenetrating net
 heterocoord 46
@@ -94706,9 +94700,9 @@ start
 ssd-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  1  !number of keywords
 good
  0  !number of references
@@ -96091,10 +96085,10 @@ start
 xad
 2b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+ST net
 soc-derived
- 1  !number of other names
-ST-net
+ 0  !number of other names
  0  !number of keywords
  0  !number of references
 Im-3m   229
@@ -101893,8 +101887,7 @@ pti
  0  !number of other symbols
  1  !number of names
 ST net
- 1  !number of other names
-ST-net
+ 0  !number of other names
  1  !number of keywords
 bipartite
  0  !number of references
@@ -105543,8 +105536,7 @@ sbr
  1  !number of names
 ST net
  0  !number of other names
- 1  !number of keywords
-ST-net
+ 0  !number of keywords
  0  !number of references
 Cmma   67
   2.3092  4.6196  2.3092  90.000  90.000  90.000
@@ -127863,9 +127855,9 @@ start
 cdm-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  0  !number of keywords
  0  !number of references
 P4(2)/mmc   131
@@ -127931,9 +127923,9 @@ start
 mou-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  0  !number of keywords
  0  !number of references
 P4/mmm   123
@@ -127991,9 +127983,9 @@ start
 cdz-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+0  !number of other names
  0  !number of keywords
  0  !number of references
 Pmmm   47
@@ -128059,9 +128051,9 @@ start
 sse-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  0  !number of keywords
  0  !number of references
 P4/mmm   123
@@ -128124,9 +128116,9 @@ start
 ssf-e
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+0  !number of other names
  0  !number of keywords
  0  !number of references
 P4/mmm   123
@@ -131989,9 +131981,9 @@ start
 xda
 1b
  0  !number of other symbols
- 0  !number of names
- 1  !number of other names
-ST-net
+ 1  !number of names
+ST net
+ 0  !number of other names
  0  !number of keywords
  0  !number of references
 Immm   71
@@ -143199,7 +143191,7 @@ dnf
  0  !number of other symbols
  2  !number of names
 spl-related
-3HH net
+3H net
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -165631,7 +165623,8 @@ start
 cei
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+3SQ net
 shp-derived
  0  !number of other names
  1  !number of keywords
@@ -165687,7 +165680,8 @@ start
 cej
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+3SO net
 shp-derived
  0  !number of other names
  1  !number of keywords
@@ -165743,7 +165737,8 @@ start
 cel
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+3SC net
 shp related
  0  !number of other names
  1  !number of keywords
@@ -165856,7 +165851,8 @@ V3  4
   cek                                                        
  1b
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
+3SQ net
 shp-derived
   0     !number of other names
   1     !number of keywords
@@ -166243,9 +166239,7 @@ start
   ceg-a                                                      
  1b
   0     !number of other symbols
-  2     !number of names
-3TH net
-shp-derived
+  0     !number of names
   0     !number of other names
   1     !number of keywords
 good
