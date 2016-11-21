@@ -135510,8 +135510,9 @@ start
 aea
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3X net
+alb related
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -135568,8 +135569,9 @@ start
 pek
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3CX net
+shp related
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -140870,7 +140872,8 @@ start
 kex
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+alb related
 3HX net
  0  !number of other names
  2  !number of keywords
@@ -140927,7 +140930,8 @@ start
 kez
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+alb-derived
 3PH net
  0  !number of other names
  2  !number of keywords
@@ -143562,8 +143566,9 @@ start
 key
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3OH net
+alb-derived
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -143620,8 +143625,9 @@ start
 kew
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3PH net
+alb-derived
  0  !number of other names
  2  !number of keywords
 bipartite
