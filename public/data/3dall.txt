@@ -15656,7 +15656,7 @@ bbf
  0  !number of other symbols
  2  !number of names
 ST net
-moganite related
+moganite-related
  0  !number of other names
  2  !number of keywords
 good
@@ -34132,7 +34132,7 @@ moa
 1b
  0  !number of other symbols
  1  !number of names
-moganite related
+moganite-related
  0  !number of other names
  2  !number of keywords
 heterocoord 34
@@ -135512,7 +135512,7 @@ aea
  0  !number of other symbols
  2  !number of names
 3X net
-alb related
+alb-related
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -135571,7 +135571,7 @@ pek
  0  !number of other symbols
  2  !number of names
 3CX net
-shp related
+shp-related
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -139648,7 +139648,7 @@ alc
 4
  0  !number of other symbols
  2  !number of names
-alb related
+alb-related
 QHX net
  0  !number of other names
  2  !number of keywords
@@ -140875,7 +140875,7 @@ kex
 4
  0  !number of other symbols
  2  !number of names
-alb related
+alb-related
 3HX net
  0  !number of other names
  2  !number of keywords
@@ -165747,7 +165747,7 @@ cel
  0  !number of other symbols
  2  !number of names
 3SC net
-shp related
+shp-related
  0  !number of other names
  1  !number of keywords
 bipartite
