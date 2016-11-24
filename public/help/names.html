@@ -47,15 +47,19 @@
       C cube</br>
       X hexagonal prism</br>
       B cuboctahedron</br>
+      U truncated tetrahedron</br>
+      K truncated octahedron</br>
+      R rhombicuboctahedron</br>
     </p>
 
     <p>
       One may search for nets with approximately regular coordination figures
-      A and B for bipartite nets (AB with B linked only to A and A linked only
-      to B) by entering names with the name “AB net” where A and B are one of
-      the above symbols for coordination figure (e.g.3T net or ST net).
-      Three-symbol sequences are also possible as in “3ST net”.  Coordination
-      symbols must be in the above order.
+      A and B by entering names with the name “AB net” where A and B are one
+      of the above symbols for coordination figure (e.g. 3T net or ST net). For
+      nets with only A linked to B and B linked to A use also the keyword
+      “bipartite”.  Three-symbol sequences are also possible as in “3ST net”.
+      Coordination symbols must be in the above order. Using “bipartite” will
+      now limit the selection to nets ABC with e.g. only A-B and A-C links.
     </p>
 
     <p>
@@ -106,12 +110,18 @@
         retrieves 4-coordinated nets with square coordination of all vertices.
       </dd>
 
-      <dt><b>xyz</b>-derived</dt>
+      <dt><b>xyz</b>-derived and <b>xyz</b>-related</dt>
       <dd>
         gives nets derived from <b>xyz</b> by splitting some vertices into
         combinations of lower coordination. For example <b>tfa</b> is derived
         from <b>dia</b> by splitting half the tetrahedral vertices into pairs
         of triangular ones and is retrieved by the name "dia-derived".
+        Starting from a net AB the k-coordinated vertex B is replaced by a
+        group with k links to A vertices. If instead the vertex B is replaced
+        by a group with e.g. 2k links to A vertices, the new net is described
+        as “xyz-related”. See Chem. Rev. 114, 1343 (2014) for a discussion of
+        derived nets. They are relevant to the description of the nets of MOFs
+        with branched polytopic linkers.
       </dd>
     </dl>
   </div>
