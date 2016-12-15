@@ -858,8 +858,9 @@ start
 pbp
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 6.8^2 P
+12^3 I-WP
 sqc9265
 3/6/c4
  1  !number of other names
@@ -113110,7 +113111,7 @@ Im-3m   229
 V1  12
   0.0000  0.0000  0.3750
   0, 0, z
-  12  a
+  12  e
   4mm
   8
 2
