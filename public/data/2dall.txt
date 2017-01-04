@@ -5236,7 +5236,7 @@ V7 3
 5^3
 start
 194
-jdb
+bil
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
