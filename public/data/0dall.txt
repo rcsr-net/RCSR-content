@@ -540,7 +540,7 @@ F2 4
 start
 20
 ido
-unk
+trc
 0     !number of other symbols
 2     !number of names
 icosidodecahedron
