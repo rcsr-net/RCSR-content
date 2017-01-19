@@ -169674,7 +169674,8 @@ start
   nun                                                        
  1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+NU-1301 net
   0     !number of other names
   2     !number of keywords
 bipartite
