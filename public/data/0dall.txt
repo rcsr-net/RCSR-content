@@ -1040,12 +1040,13 @@ F2c 3
 start 
 35
 fkf
-unk
+fkf-d
 0     !number of other symbols
 1     !number of names
 Frank-Kasper 14-c
 0     !number of other names
-0     !number of keywords
+1     !number of keywords
+simplicial
 -12m2 (D6d)
 P222
 [3^24]
@@ -1967,6 +1968,43 @@ F4  5
 -0.5158 1.5560 0.51580
 F5  6
 0.9467 -0.9467 -0.9487
+start 
+73
+fkf-d
+fkf
+0     !number of other symbols
+1     !number of names
+clathrate type I (MEP) polyhedron
+0     !number of other names
+1     !number of keywords
+simple
+-12m2 (D6d)
+P222
+[5^12.6^2]
+2 3 2
+24 36 14
+6
+V1a 3
+1.12050 1.12050 0.25000
+V1b 3
+1.53060 0.41010 -0.24810
+V1c 3
+0.41010 1.53060 -2.4810
+V2a  3
+0.71030 0.71030 1.09630
+V2b 3
+0.97030 -0.26000 1.09630
+V3c 3
+-0.2600 0.97030 1.09630
+4
+F1 6
+0.00000 0.00000 1.09630
+F2a 5
+-1.1725  -0.3142 0.48852
+F2b 5
+-0.3142 -1.1725 0.48852
+F2c 5
+0.85830 -0.8583 0.48776
 start
 -1
 
