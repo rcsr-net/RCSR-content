@@ -1944,7 +1944,8 @@ unk
 0     !number of other symbols
 0     !number of names
 0     !number of other names
-0     !number of keywords
+1     !number of keywords
+cubic
 -43m (Td)
 P-43m
 [3^28.5^12.6^4]
@@ -2005,6 +2006,42 @@ F2b 5
 -0.3142 -1.1725 0.48852
 F2c 5
 0.85830 -0.8583 0.48776
+start
+74
+mcp-a
+unk
+0     !number of other symbols
+1     !number of names
+C84
+0     !number of other names
+2     !number of keywords
+simple
+cubic
+-43m (Td)
+P-43m
+[5^12.6^32]
+4 6 5
+84 126 44
+4
+V1  3
+-1.6173 -2.3238 -0.9102
+V2  3
+0.35329 2.887468 -0.3533
+V3  3
+2.661951 -1.22628 0.02305
+V4  3
+2.28284 1.57437 0.86591
+5
+F1  5
+-0.83334 0.83334 2.55225
+F2  6
+1.57437 1.57437 1.557437
+F3  6
+-0.61334 0.61334 2.59234
+F4  6
+-0.0225 1.94677 1.94677
+F5  6
+1.61712 1.61712 -1.61712
 start
 -1
 
