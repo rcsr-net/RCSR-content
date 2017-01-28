@@ -1596,12 +1596,13 @@ mtk
 unk
 0     !number of other symbols
 0     !number of names
-0     !number of other names
+1     !number of other names
+ddy cage
 1     !number of keywords
 cubic
 m-3m (Oh)
 Pm-3m
-[4^6]
+[4^36]
 3 2 2
 38 72 36
 3
