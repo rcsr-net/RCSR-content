@@ -170659,7 +170659,7 @@ V4  4
 14
  start
 2694
-  cceu-a                                                     
+  ceu-a                                                     
  1b
   0     !number of other symbols
   0     !number of names
@@ -170762,7 +170762,7 @@ V4  5
 14
  start
 2695
-  ev-a                                                       
+  cev-a                                                       
  1b
   0     !number of other symbols
   0     !number of names
