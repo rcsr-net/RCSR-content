@@ -171241,7 +171241,7 @@ cew
   0     !number of other symbols
   2     !number of names
 SC net
-shp-derived
+shp-related
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -171298,7 +171298,7 @@ cex
   0     !number of other symbols
   2     !number of names
 SX net
-alb-derived
+alb-related
   0     !number of other names
   1     !number of keywords
 bipartite
