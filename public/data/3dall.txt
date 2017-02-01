@@ -171069,7 +171069,7 @@ ces
 4
   0     !number of other symbols
   2     !number of names
-SH net
+SP net
 alb-derived
   0     !number of other names
   1     !number of keywords
