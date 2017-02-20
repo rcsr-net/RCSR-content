@@ -987,7 +987,8 @@ mcp-d
 Friauf polyhedron
 Frank-Kasper 16-c
 0     !number of other names
-1     !number of keywords
+2     !number of keywords
+cubic
 simplicial
 -43m (Td)
 P-43m
@@ -1595,8 +1596,9 @@ start
 mtk
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
 ddy cage
+kce cage
 0     !number of other names
 1     !number of keywords
 cubic
@@ -1924,7 +1926,7 @@ Pm-3
 0
 start
 71
-kpl
+ido-a
 unk
 0     !number of other symbols
 0     !number of names
@@ -1933,9 +1935,9 @@ unk
 icosahedral
 m-3-5 (Ih)
 Pm-3
-3^60.4^90.5^12.6^20]
-2 5 4
-180 360 182
+[4^30.6^20.10^12]
+2 3 3
+120 180 62
 0
 0
 start
@@ -2044,7 +2046,41 @@ F4  6
 F5  6
 1.61712 1.61712 -1.61712
 start
+72
+mcp-d-e-a
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+-43m (Td)
+P-43m
+[4^42.6^28.10^12.12^4]
+5 14 8
+168 252 86
+0
+0
+start
 -1
+
+start
+71
+kpl
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^60.4^90.5^12.6^20]
+2 5 4
+180 360 182
+0
+0
+
 
 
 
