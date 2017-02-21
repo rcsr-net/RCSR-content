@@ -1926,22 +1926,6 @@ Pm-3
 0
 start
 71
-ido-a
-unk
-0     !number of other symbols
-0     !number of names
-0     !number of other names
-1     !number of keywords
-icosahedral
-m-3-5 (Ih)
-Pm-3
-[4^30.6^20.10^12]
-2 3 3
-120 180 62
-0
-0
-start
-72
 mcp-d-e
 unk
 0     !number of other symbols
@@ -1973,7 +1957,7 @@ F4  5
 F5  6
 0.9467 -0.9467 -0.9487
 start 
-73
+72
 fkf-d
 fkf
 0     !number of other symbols
@@ -2010,7 +1994,7 @@ F2b 5
 F2c 5
 0.85830 -0.8583 0.48776
 start
-74
+73
 mcp-a
 unk
 0     !number of other symbols
@@ -2046,7 +2030,7 @@ F4  6
 F5  6
 1.61712 1.61712 -1.61712
 start
-72
+74
 mcp-d-e-a
 unk
 0     !number of other symbols
