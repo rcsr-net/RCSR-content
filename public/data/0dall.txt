@@ -2041,8 +2041,24 @@ cubic
 -43m (Td)
 P-43m
 [4^42.6^28.10^12.12^4]
-5 14 8
+8 14 8
 168 252 86
+0
+0
+start
+75
+mcp-d-a
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+-43m (Td)
+P-43m
+[3^28.10^12.12^4]
+5 8 5
+84 126 44
 0
 0
 start
