@@ -100840,7 +100840,7 @@ ntt
  0  !number of other symbols
  3  !number of names
 3S net
-rht-related
+rht-derived
 nts-derived
  0  !number of other names
  2  !number of keywords
