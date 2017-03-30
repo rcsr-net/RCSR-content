@@ -98380,11 +98380,12 @@ start
 xbo
 4
  0  !number of other symbols
- 1  !number of names
-perovskite
+ 2  !number of names
+Oerovskite
+OB net
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 Pm-3m   221
@@ -175613,6 +175614,64 @@ V4  4
 4.8.4.8.4.8(2) 
    3
 9
+start
+2743
+kfo                                                        
+4
+  0     !number of other symbols
+  2     !number of names
+TCU net
+KFeO2
+  0     !number of other names
+  2     !number of keywords
+bipartite
+good
+  0     !number of references
+ Fd-3m           227                                         
+2.73927 2.73927 2.73927 90.000  90.000  90.000            
+  3
+V1  8
+ 0.0000 0.0000 0.0000                                       
+ 0, 0, 0                                                          
+ 16 c                                                       
+  -3m                                                          
+ 12                                                          
+V2  4
+  0.1250 0.1250 0.1250                                       
+ 1/8, 1/8, 1/8                                                         
+ 8 a                                                      
+ -43m                                                         
+  24                                                          
+V3  12
+  0.1250 0.1250 0.6250                                       
+ 1/8, 1/8, 5/8                                                          
+  8 b                                                      
+ -43m                                                        
+ 24                                                        
+  2
+ E1   2                                                      
+  0.0625 0.0625 0.0625                                       
+  x, x, x                                                    
+  32 e                                                      
+  3m                                                          
+ E2   2                                                      
+  0.0625 0.0625 0.8125                                       
+  x, x, y                                                         
+  96 g                                                       
+  m                                                         
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     8  36 80  186 278 462 596 854 1036 1374 4911 
+     4  14 48   98 216 314 508 648  916 1104 3871    
+     12 38 112 186 340 456 684 848 1156 1362 5195    
+unk
+4unk 
+unk
+   4
+1
 start
  -1
 
