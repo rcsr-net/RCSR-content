@@ -136640,7 +136640,8 @@ alb-derived
 good
 bipartite
 heterocoord
- 0  !number of references
+ 1  !number of references
+J. Am. Chem. Soc. 139, 3265 (2017)
 P6/mmm   191
   2.8875  2.8875  1.4899  90.0  90.0  120.0
 3
@@ -140956,7 +140957,8 @@ alb-derived
  2  !number of keywords
 bpartite
 heterocoord 36
- 0  !number of references
+ 1  !number of references
+J. Am. Chem. Soc. 139, 3265 (2017)
 P6/mcc   192
   2.5010  2.5010  2.5799  90.000  90.000  120.000
 3
@@ -143155,7 +143157,7 @@ dng
 4
  0  !number of other symbols
  2  !number of names
-spl-related
+spn-related
 3OH net
  0  !number of other names
  2  !number of keywords
@@ -143213,7 +143215,7 @@ dnf
 4
  0  !number of other symbols
  2  !number of names
-spl-related
+spn-related
 3H net
  0  !number of other names
  2  !number of keywords
@@ -161631,7 +161633,8 @@ ssp
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+J. Am. Chem. Soc. 139, 3619 (2017)
 R-3m   166
   7.4028  7.4028  4.2926  90.000  90.000  120.000
 3
@@ -168914,7 +168917,8 @@ shp-derived
   0     !number of other names
   1     !number of keywords
 bipartite
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc. 139, 3265 (2017)
  P6/mcc           192                                         
 2.9043   2.9043   2.5559  90.000  90.000  120.000            
   3
@@ -174651,7 +174655,7 @@ dpd
   0     !number of other symbols
   2     !number of names
 ST net
-flu-related
+flu-derived
   0     !number of other names
   2    !number of keywords
 bipartite
@@ -175465,8 +175469,9 @@ start
 dpe                                                        
  2
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 SOC net
+ftw-related
   0     !number of other names
   1     !number of keywords
 bipartite
