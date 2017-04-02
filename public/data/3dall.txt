@@ -5994,7 +5994,8 @@ silica
 isohedral tiling
 quasisimple tiling
 good
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Cmcm   63
   3.2578  3.1261  2.8385  90.000  90.000  90.000
 1
@@ -21761,7 +21762,8 @@ sqc464
  2  !number of keywords
 good
 uniform tiling
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P4/mmm   123
   2.4142  2.4142  1.0000  90.000  90.000  90.000
 1
@@ -21808,7 +21810,8 @@ ttw
  2  !number of keywords
 good
 uniform tiling
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P6/mmm   191
   3.7321  3.7321  1.0000  90.000  90.000  120.000
 1
@@ -22468,7 +22471,8 @@ fni
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4(1)22   98
   3.3509  3.3509  1.0000  90.000  90.000  90.000
 1
@@ -26584,8 +26588,9 @@ start
 pcu-b
 1a
  0  !number of other symbols
- 1  !number of names
-sodium chloride
+ 2  !number of names
+halite
+NaCl
  0  !number of other names
  1  !number of keywords
 bipartite
@@ -35696,7 +35701,8 @@ svq
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4/mcm   140
   3.2621  3.2621  1.6818  90.000  90.000  90.000
 1
@@ -53606,7 +53612,8 @@ yfm
 5/3/t32
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4(1)/amd   141
   4.1742  4.1742  2.4705  90.000  90.000  90.000
 1
@@ -61204,7 +61211,8 @@ wjp
  2  !number of keywords
 good
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P6(1)22   178
   2.3473  2.3473  3.9423  90.000  90.000  120.000
 1
@@ -98381,7 +98389,7 @@ xbo
 4
  0  !number of other symbols
  2  !number of names
-Oerovskite
+Perovskite
 OB net
  0  !number of other names
  2  !number of keywords
@@ -108297,8 +108305,9 @@ yzh
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 1  !number of references
+ 2  !number of references
 Chem. Comm. 48, 3960 (2012)
+Chem. Rev. 116, 12466 (2016)
 Fddd   70
   4.0479  1.5082  4.2663  90.000  90.000  90.000
 2
@@ -114728,7 +114737,8 @@ hyb
  2  !number of keywords
 heterocoord
 good
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P6(3)/mmc   194
   3.7321  3.7321  1.6330  90.000  90.000  120.000
 2
@@ -115227,7 +115237,8 @@ gui
 MIL-140
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Imma   74
   4.7822  1.8706  2.0975  90.000  90.000  90.000
 3
@@ -117152,7 +117163,8 @@ cua
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4(1)/a   88
   3.3205  3.3205  6.1477  90.000  90.000  90.000
 2
@@ -118049,7 +118061,8 @@ hqx
 heterocoord
 good
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4(1)22   98
   8.0675  8.0675  2.4813  90.000  90.000  90.000
 3
@@ -118480,7 +118493,8 @@ yan
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4(1)22   98
   3.1769  3.1769  0.9621  90.000  90.000  90.000
 1
@@ -124620,7 +124634,8 @@ hlz
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P42/mnm   136
   3.1213  3.1213  1.0000  90.000  90.000  90.000
 2
@@ -124677,7 +124692,8 @@ zhl
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I2/a   15
   1.73204  3.34470  3.17449  90.000  101.3173  90.000
 2
@@ -128562,7 +128578,8 @@ MIL-103 net
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P-6m2   187
   3.7320  3.7320  1.0000  90.000  90.000  120.000
 2
@@ -128973,7 +128990,8 @@ dmj
  2  !number of keywords
 heterocoord
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P6(5)22   179
   3.6113  3.6113  1.9557  90.000  90.000  120.000
 2
@@ -130989,7 +131007,8 @@ start
 ctt
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+TlSe 
 TPC net
  0  !number of other names
  2  !number of keywords
@@ -133923,8 +133942,9 @@ start
 dia-b3
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 fchalcopyrite
+CuFeS2
  0  !number of other names
  1  !number of keywords
 bipartite
@@ -140310,7 +140330,8 @@ sbq
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P2(1)/n   14
   3.1308  4.3655  4.5411  90.000  102.847  90.000
 10
@@ -149484,7 +149505,8 @@ rac
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)Chem. Rev. 116, 12466 (2016)
 Pnna   52
   2.6469  1.3099  2.9975  90.000  90.000  90.000
 1
@@ -149580,7 +149602,8 @@ rab
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Cccm   66
   3.3485  5.6823  5.8756  90.000  90.000  90.000
 2
@@ -149642,7 +149665,8 @@ etm
  0  !number of other names
  1  !number of keywords
 uniform net
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Ibam   72
   5.1545  3.3654  3.8941  90.000  90.000  90.000
 2
@@ -149699,7 +149723,8 @@ nti
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4122   98
   6.0374  6.0374  3.5194  90.000  90.000  90.000
 3
@@ -149780,7 +149805,8 @@ AST
  0  !number of other names
  1  !number of keywords
 zeolite et
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Cmcm   63
   4.3346  6.6737  1.7187  90.000  90.000  90.000
 3
@@ -152642,7 +152668,8 @@ hyd
  2  !number of keywords
 heterocoord
 polar
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Cmc2(1)   36
   3.5358  5.5355  1.6330  90.000  90.000  90.000
 4
@@ -152741,7 +152768,8 @@ hyc
  2  !number of keywords
 heterocoord
 polar
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Ima2   46
   3.0390  4.2203  1.6236  90.000  90.000  90.000
 4
@@ -152993,7 +153021,8 @@ zbf
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Pmmm   47
   2.0000  2.0000  1.7321  90.000  90.000  90.000
 2
@@ -153060,7 +153089,8 @@ zbc
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 C2/m   12
   4.1062  1.7321  2.4705  90.000  97.876  90.000
 3
@@ -153140,7 +153170,8 @@ zbd
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Cmcm   63
   3.4144  3.4141  1.7320  90.000  90.000  90.000
 2
@@ -153391,7 +153422,8 @@ zbh
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Imma   74
   3.0438  3.3579  3.1950  90.000  90.000  90.000
 2
@@ -153464,7 +153496,8 @@ MOF-76
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P4(3)22   95
   4.3043  4.3043  3.1425  90.000  90.000  90.000
 4
@@ -155595,7 +155628,9 @@ tto
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 2  !number of references
+Chem. Rev. 116, 12466 (2016)
+J. Am. Chem. Soc. 138, 10244 (2016)
 R-3c   167
   11.8949  11.8949  4.9056  90.000  90.000  120.000
 6
@@ -156691,7 +156726,8 @@ zbo
  2  !number of keywords
 chiral
 polar
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 C2   5
   4.1234  1.8611  1.9531  90.000  93.864  90.000
 3
@@ -156781,7 +156817,8 @@ zbp
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P6(1)22   178
   4.1205  4.1205  4.1069  90.000  90.000  120.000
 4
@@ -156873,7 +156910,8 @@ zbq
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 R-3   148
   12.4284  12.4284  2.3322  90.0000  90.0000  120.0000
 6
@@ -157079,7 +157117,8 @@ zbs
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P4/mcc   124
   3.1949  3.1949  1.9067  90.0000  90.0000  90.0000
 2
@@ -157136,7 +157175,8 @@ zbt
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Cmmm   65
   4.0000  2.0000  2.4142  90.000  90.000  90.000
 2
@@ -157203,7 +157243,9 @@ zbu
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 2  !number of references
+Chem. Rev. 116, 12466 (2016)
+J. Am. Chem. Soc. 138, 10244 (2016)
 I2/m   12
   2.3770  3.6959  6.0977  90.000  100.806  90.000
 4
@@ -157300,7 +157342,8 @@ zbw
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 C2/c   15
   2.9596  3.0014  2.1024  90.000  107.973  90.000
 2
@@ -157376,7 +157419,8 @@ zbv
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 C2/c   15
   3.7163  3.0419  6.8842  90.0000  97.7849  90.0000
 6
@@ -157511,7 +157555,9 @@ MOF-73
  0  !number of other names
  1  !number of keywords
 heterocoord
- 0  !number of references
+ 2  !number of references
+Chem. Rev. 116, 12466 (2016)
+J. Am. Chem. Soc. 138, 10244 (2016)
 I2/a   15
   3.4641  2.6486  2.9212  90.0000  95.3756  90.0000
 3
@@ -157615,7 +157661,8 @@ zcc
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4/mmm   139
   6.0532  6.0532  1.0000  90.0000  90.0000  90.0000
 2
@@ -157766,7 +157813,8 @@ zbz
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P4(1)22   91
   2.1678  2.1678  5.0544  90.000  90.000  90.000
 2
@@ -157832,7 +157880,8 @@ zba
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I-42d   122
   4.1374  4.1374  2.5037  90.000  90.000  90.000
 2
@@ -157898,7 +157947,8 @@ zbb
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 C2/m   12
   3.9891  1.6979  2.9948  90.000  109.080  90.000
 3
@@ -157972,7 +158022,8 @@ zca
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P2(1)/n   14
   1.6969  2.7392  3.6470  90.000  97.209  90.000
 3
@@ -158056,7 +158107,8 @@ zcb
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P2/c   13
   1.9021  4.1987  3.8104  90.000  97.459  90.000
 6
@@ -158262,7 +158314,8 @@ awd
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 R32   155
   6.3071  6.3071  2.5566  90.0000  90.0000  120.0000
 4
@@ -158361,7 +158414,9 @@ zcd
  2  !number of keywords
 chiral
 polar
- 0  !number of references
+ 2  !number of references
+Chem. Rev. 116, 12466 (2016)
+J. Am. Chem. Soc. 138, 10244 (2016)
 P4(3)   78
   4.3857  4.3857  2.8642  90.0000  90.0000  90.0000
 6
@@ -158495,7 +158550,8 @@ msf
 MOF-74
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 R-3   148
   12.2848  12.2848  1.9653  90.0000  90.0000  120.0000
 4
@@ -158593,7 +158649,8 @@ msg
 MOF-74-x
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 R-3   148
   17.4112  17.4112  1.9666  90.0000  90.0000  120.0000
 5
@@ -158893,7 +158950,9 @@ zce
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 2  !number of references
+Chem. Rev. 116, 12466 (2016)
+J. Am. Chem. Soc. 138, 10244 (2016)
 P2(1)/n   14
   1.7132  3.5309  2.2156  90.000  100.486  90.000
 3
@@ -159286,7 +159345,8 @@ msh
  0  !number of other names
  1  !number of keywords
 polar
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 R3m   160
   11.6250  11.6250  1.9557  90.000  90.000  120.000
 4
@@ -159389,7 +159449,8 @@ msi
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 P3(2)21   154
   10.0062  10.0062  1.9557  90.000  90.000  120.000
 5
@@ -159768,7 +159829,8 @@ qsl
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 Pbcn   60
   3.6089  6.2590  1.9557  90.000  90.000  90.000
 4
@@ -160245,8 +160307,9 @@ raa
  0  !number of other names
  1  !number of keywords
 good
- 1  !number of references
+ 2  !number of references
 Acta Cryst. A65, 202 (2009)
+Chem. Rev. 116, 12466 (2016)
 C2/m   12
   3.5476  5.7613  2.8997  90.000  109.350  90.000
 2
@@ -161017,7 +161080,8 @@ hqy
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Rev. 116, 12466 (2016)
 I4(1)/amd   141
   11.4831  11.4831  2.4811  90.000  90.000  90.000
 4
@@ -175656,7 +175720,7 @@ V3  12
   3m                                                          
  E2   2                                                      
   0.0625 0.0625 0.8125                                       
-  x, x, y                                                         
+  x, x, z                                                         
   96 g                                                       
   m                                                         
   0                                                          
@@ -175671,6 +175735,178 @@ unk
 4unk 
 unk
    4
+1
+start
+2744
+kpc                                                        
+4
+  0     !number of other symbols
+  2     !number of names
+TCU net
+K2PtCl6
+  0     !number of other names
+  2     !number of keywords
+bipartite
+good
+  0     !number of references
+ Fm-3m           225                                         
+2.8050 2.8050 2.8050 90.000  90.000  90.000            
+  3
+V1  5
+ 0.00000 0.00000 0.16865                                       
+ 0, 0, z                                                          
+ 24 e                                                       
+ 4mm                                                         
+ 8                                                          
+V2  6
+  0.0000 0.0000 0.5000                                       
+ 0, 0, 1/2                                                         
+ 4 b                                                      
+ m-3m                                                         
+ 48                                                          
+V3  12
+  0.2500 0.2500 0.2500                                       
+ 1/4, 1/4, 1/7                                                          
+  8 c                                                      
+ -43m                                                        
+ 24                                                        
+  2
+ E1   2                                                      
+  0.12500 0.12500 0.20933                                       
+  x, x, z                                                    
+  96 k                                                      
+  3m                                                          
+ E2   2                                                      
+  0.00000 0.00000 0.33433                                       
+ 0, 0, z                                                         
+  24 e                                                       
+  4mm                                                         
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+      5 33  44 177 145 442 305 826  525 1330 3833 
+      6  8  48  60 222 170 510 340  918  570 2853    
+     12 22 108  98 324 234 660 430 1116  686 3691    
+unk
+4unk 
+unk
+   4
+2
+start
+2745
+pcu-b3
+1a
+ 0  !number of other symbols
+ 1  !number of names
+NaFeO2
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+R-3m   166
+  1.4142  1.4142  6.9282  90.000  90.000  120.000
+3
+V1  6
+  0.0000  0.0000  0.0000
+  0, 0, 0
+  3 a
+  -3m
+  12
+V2  6
+  0.0000  0.0000  0.5000
+  0, 0, 01/2
+  3 b
+  -3m
+  12
+V3  6
+  0.0000  0.0000  0.2500
+  0, 0, z
+  6 c
+  3m
+ 6
+2
+E1  2
+  0.5000 0.5000 0.8750
+  x, 1-x, z
+  18 h
+  m
+E2  2
+  0.5000 0.0000 0.6250
+  x, 2x, z
+  18 h
+  m
+0
+0
+0
+o
+unk
+  6  18  38  66  102  146  198  258  326  402  1561
+  6  18  38  66  102  146  198  258  326  402  1561
+  6  18  38  66  102  146  198  258  326  402  1561
+  4.4.4.4.4.4.4.4.4.4.4.4.*.*.*
+  4.4.4.4.4.4.4.4.4.4.4.4.*.*.*
+  4.4.4.4.4.4.4.4.4.4.4.4.*.*.*
+4
+3
+start
+2746
+bcu-b3
+1a
+ 0  !number of other symbols
+ 2  !number of names
+Heussler alloy
+AlMnCu2
+ 0  !number of other names
+ 2  !number of keywords
+bipartite
+good
+ 0  !number of references
+Fm-3m   225
+  2.3094 2.3094 2.3094  90.000  90.000  90.000
+3
+V1  8
+  0.0000  0.0000  0.0000
+  0, 0, 0
+  4 a
+  m-3m
+  48
+V2  8
+  0.5000  0.0000  0.0000
+  1/2, 0, 0
+  4 b
+  m-3m
+  48
+V3  8
+  0.2500  0.2500  0.2500
+  1/4, 1/4, 1/4
+  8c
+  -43m
+  24
+2
+E1  2
+  0.1250  0.1250  0.1250
+  x, x, x
+  32 f
+  3m
+E2  2
+  0.3750  0.3750  0.3750
+  x, x, x
+  32 f
+  3m
+0
+0
+0
+unk
+unk
+  8  26  56  98  152  218  296  386  488  602  2331
+  8  26  56  98  152  218  296  386  488  602  2331
+  8  26  56  98  152  218  296  386  488  602  2331
+  unk
+  unk
+  unk
+3
 1
 start
  -1
