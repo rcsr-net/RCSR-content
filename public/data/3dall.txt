@@ -95058,12 +95058,15 @@ start
 ith-d
 3b
  0  !number of other symbols
- 0  !number of names
+ 2  !number of names
+DUT-6
+MOF-205
  0  !number of other names
- 2  !number of keywords
+ 1  !number of keywords
 uniform net
-heterocoord 36
- 0  !number of references
+ 2  !number of references
+Angew, Chem. Int. Ed.48, 9954 (2009)
+Science 339, 424 (2010)
 Pm-3n   223
   2.500  2.5000  2.5000  90.000  90.000  90.000
 2
