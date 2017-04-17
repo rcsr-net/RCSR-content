@@ -5269,7 +5269,7 @@ start
 wva
 0 ! number of other symbols
 1  ! number of names
-plainweave
+plain weave
 0  ! number of other names
 1 ! number of keywords
 weaving
