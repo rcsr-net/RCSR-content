@@ -5274,7 +5274,7 @@ plain weave
 1 ! number of keywords
 weaving
 p4/nbm
-P4/mbm
+P4/nbm
 2.0 2.0 10.0000 90.0000 90.0000 90.0000
 1 1 0
 V1 2
