@@ -691,7 +691,8 @@ hna
 ThB4 net
 OKH26
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p4gm
 P4/mbm
 4.0474 4.0474 10.0000 90.0000 90.0000 90.0000
@@ -713,7 +714,8 @@ hnb
 1  ! number of names
 OKH27
 0  ! number of other names
-0  ! number of keywords
+1  ! number of keywords
+circle packing
 p3m1
 P-6m2
 2.7321 2.7321 10.0000 90.0000 90.0000 120.0000
@@ -5262,6 +5264,24 @@ V7 3
 1/3, 2/3, 0
 3 6 12 15 18 30 36 30 39 48 238
 5^3
+start
+194
+wva
+0 ! number of other symbols
+1  ! number of names
+plainweave
+0  ! number of other names
+1 ! number of keywords
+weaving
+p4/nbm
+P4/mbm
+2.0 2.0 10.0000 90.0000 90.0000 90.0000
+1 2 2
+V1 2
+0.25 0.25 z
+1/4, 1/4, z
+2 2 2 2 2 2 2 2 2 2 21
+*
 start
 -1
 
