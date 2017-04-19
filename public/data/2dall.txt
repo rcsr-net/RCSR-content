@@ -5283,6 +5283,24 @@ V1 2
 2 2 2 2 2 2 2 2 2 2 21
 *
 start
+195
+sql-c**
+0  ! number of other symbols
+1  ! number of names
+sql weave +-+-
+0  ! number of other names
+1  ! number of keywords
+weaving
+p-4b2
+P-4b2
+1.0000 1.0000 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 4
+0.0000 0.0000 0.0000
+0, 0, 0
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
 -1
 
 
