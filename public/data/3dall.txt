@@ -176868,54 +176868,6 @@ unk
 2
 start
 2760
-zlm                                                     
-4
-  0     !number of other symbols
-  1     !number of names
-flu-derived
-  0     !number of other names
-  1     !number of keywords
-good
-  0     !number of references
- I4/mmm          139                                         
- 1.80203 1.80203 3.73516  90.000  90.000  90.000            
-  2
-V1  8
-  0.00000 0.00000 0.00000                                       
- 0, 0, 0                                                          
-  2 a                                                      
- 4/mmm                                                          
- 16                                                         
-V2  3
-  0.00000 0.50000 0.11614                                       
- 0, 1/2, z                                                          
- 8 g                                                      
-mm2                                                          
-4                                                                                                          
-2
- E1   2                                                      
-  0.00000 0.25000 0.05807                                       
-  0, 1/4, z                                                          
- 16 n                                                       
- m                                                          
- E2   2                                                      
-  0.00000 0.50000 0.25000                                       
-  0, 1/2, 1/4                                                          
- 4 d                                                       
- -4m2                                                        
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
-  unk                                                        
-     8 12 32 56 80 110 168 200 248 332 1247     
-     3 15 28 51 81 118 149 207 260 309 1222    
-unk
-unk 
-4
-3
-start
-2761
 zln                                                     
 4
   0     !number of other symbols
