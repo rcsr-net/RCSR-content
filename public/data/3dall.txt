@@ -30619,7 +30619,7 @@ bixbyite
 bipartite
 heterocoord 46
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Ia-3   206
   4.6621  4.6621  4.6621  90.000  90.000  90.000
 3
@@ -31309,7 +31309,7 @@ nbo-derived
 good
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Fm-3m   225
   5.4142  5.4142  5.4142  90.000  90.000  90.000
 2
@@ -34583,7 +34583,7 @@ ftw-derived
 heterocoord 34
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pm-3m   221
   3.8637  3.8637  3.8637  90.000  90.000  90.000
 3
@@ -44590,7 +44590,7 @@ chiral
 heterocoord 34
 self dual net
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(4)22   181
   1.8016  1.8016  5.6051  90.000  90.000  120.000
 2
@@ -49365,7 +49365,7 @@ pts-derived
 heterocoord 34
  2  !number of references
 Chem. Rev, 112, 675 (2012)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P4(2)/mmc   131
   2.4748  2.4748  2.7018  90.000  90.000  90.000
 2
@@ -84349,7 +84349,7 @@ heterocoord 34
 isohedral tiling
  2  !number of references
 CrystEngComm 10, 978 (2008)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Imma   74
   3.5000  2.7029  3.4984  90.000  90.000  90.000
 2
@@ -85269,7 +85269,7 @@ shp-derived
 bipartite
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(3)/mmc   194
   2.8485  2.8485  4.6914  90.000  90.000  120.000
 3
@@ -89038,7 +89038,7 @@ heterocoord 34
 good
  2  !number of references
 JACS 116, 11456 (1994)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P4(2)/mmc   131
   1.8017  1.8017  3.7366  90.000  90.000  90.000
 2
@@ -93820,7 +93820,7 @@ pts-derived
 heterocoord 34
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P4(2)/mmc   131
   1.4142  1.4142  4.8284  90.000  90.000  90.000
 2
@@ -96017,7 +96017,7 @@ toc-derived
 heterocoord 36
 uniform net
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pn-3m   224
   2.7749  2.7749  2.7749  90.000  90.000  90.000
 2
@@ -98241,7 +98241,7 @@ sod-derived
 heterocoord 34
 isohedral tiling
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pm-3n   223
   3.6458  3.6458  3.6458  90.000  90.000  90.000
 2
@@ -100596,7 +100596,7 @@ heterocoord 46
 uniform net
 isohedral tiling
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pa-3   205
   2.4031  2.4031  2.4031  90.000  90.000  90.000
 2
@@ -101113,7 +101113,7 @@ gaf
 good
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Cmmm   65
   1.8614  4.7318  1.0000  90.000  90.000  90.000
 2
@@ -101486,7 +101486,7 @@ uniform net
 self dual net
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pm-3   200
   1.8229  1.8229  1.8229  90.000  90.000  90.000
 2
@@ -101971,7 +101971,7 @@ nia-derived
  1  !number of keywords
 heterocoord 36
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(3)/mmc   194
   2.8867  2.8867  2.9816  90.000  90.000  120.000
 3
@@ -102449,7 +102449,7 @@ stp-derived
 heterocoord
  2  !number of references
 Angew. Chem. Int. Ed.50, 3178 (2011)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(3)/mcm   193
   4.2848  4.2848  2.7041  90.000  90.000  120.000
 3
@@ -102510,7 +102510,7 @@ heterocoord 36
 bipartite
  2  !number of references
 Chem. Rev, 112. 675 (2012)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 R-3c   167
   2.5000  2.5000  7.7462  90.000  90.000  120.000
 3
@@ -103940,7 +103940,7 @@ iac-derived
  1  !number of keywords
 heterocoord 36
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Ia-3d   230
   4.4299  4.4299  4.4299  90.000  90.000  90.000
 2
@@ -104102,7 +104102,7 @@ soc-derived
  1  !number of keywords
 heterocoord 36
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pm-3n   223
   3.6458  3.6458  3.6458  90.000  90.000  90.000
 2
@@ -104422,7 +104422,7 @@ nbo-derived
 heterocoord 34
  2  !number of references
 Chem. Rev, 112. 675 (2012)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 R-3m   166
   3.3932  3.3932  5.4333  90.000  90.000  120.000
 2
@@ -104701,7 +104701,7 @@ rhr-derived
 heterocoord 34
  2  !number of references
 Chem. Rev, 112, 675 (2012)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pm-3m   221
   4.4641  4.4641  4.4641  90.000  90.000  90.000
 2
@@ -105440,7 +105440,7 @@ pts-derived
 heterocoord 34
  2  !number of references
 Chem. Rev, 112, 675 (2012)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Cccm   66
   3.7372  2.5480  2.5475  90.000  90.000  90.000
 2
@@ -106971,7 +106971,7 @@ soc-derived
  1  !number of keywords
 heterocoord 36
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Im-3   204
   3.6458  3.6458  3.6458  90.000  90.000  90.000
 2
@@ -107840,7 +107840,7 @@ idp
 bipartite
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Im-3   204
   3.7713  3.7713  3.7713  90.000  90.000  90.000
 3
@@ -111110,7 +111110,7 @@ ssb-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I4/mmm   139
   3.6031  3.6031  3.7372  90.000  90.000  90.000
 2
@@ -111694,7 +111694,7 @@ nbo-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 R-3m   166
   4.0001  4.0001  3.8728  90.000  90.000  120.000
 2
@@ -112010,7 +112010,7 @@ ssb-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I4/mmm   139
   4.4282  4.4282  3.4818  90.000  90.000  90.000
 2
@@ -112059,7 +112059,7 @@ ssb-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I4/mmm   139
   4.4530  4.4530  2.6012  90.000  90.000  90.000
 2
@@ -113077,7 +113077,7 @@ ssa-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(3)/mmc   194
   3.6011  3.6011  3.7406  90.000  90.000  120.000
 2
@@ -113370,7 +113370,7 @@ heterocoord 34
 uniform net
 isohedral tiling
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P2(1)/n   14
   2.0702  1.9732  2.4438  90.000  107.17  90.000
 2
@@ -113576,7 +113576,7 @@ pth-derived
 heterocoord 34
 chiral
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(2)22   180
   1.8020  1.8020  5.6029  90.000  90.000  120.000
 2
@@ -113626,7 +113626,7 @@ pth-derived
 heterocoord 34
 chiral
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(2)22   180
   2.3095  2.3095  3.8728  90.000  90.000  120.000
 2
@@ -115506,7 +115506,7 @@ pzh
  1  !number of keywords
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Im-3m   229
   5.4150  5.4150  5.4150  90.000  90.000  90.000
 3
@@ -116787,7 +116787,7 @@ bipartite
 heterocoord
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pm-3m   221
   2.1866  2.1866  2.1866  90.000  90.000  90.000
 3
@@ -117466,7 +117466,7 @@ cor-derived
  1  !number of keywords
 heterocoord 36
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 R-3c   167
   2.9694  2.9694  10.9096  90.000  90.000  120.000
 2
@@ -117520,7 +117520,7 @@ lvt-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Imma   74
   2.5468  3.7375  2.5485  90.000  90.000  90.000
 2
@@ -117918,7 +117918,7 @@ bipartite
 heterocoord 36
  2  !number of references
 chemComm, 49, 6773 (2013)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P-62c   190
   2.4998  2.4998  2.5823  90.000  90.000  120.000
 3
@@ -118551,7 +118551,7 @@ polar
 heterocoord 34
 uniform net
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Cmc2(1)   36
   1.8020  4.1467  3.2463  90.000  90.000  90.000
 3
@@ -118770,7 +118770,7 @@ tfa-a
 heterocoord 34
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I-4m2   119
   3.8243  3.8243  8.5181  90.000  90.000  90.000
 3
@@ -118849,7 +118849,7 @@ uniform net
 heterocoord 34
 chiral
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(4)22   181
   1.8017  1.8017  5.6047  90.000  90.000  120.000
 2
@@ -119274,7 +119274,7 @@ heterocoord 34
 chiral
  2  !number of references
 CrystEngComm. 49, 6773 (2013)
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I432   211
   3.8637  3.8637  3.8637  90.000  90.000  90.000
 3
@@ -119989,7 +119989,7 @@ csq-derived
  1  !number of keywords
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6/mmm   191
   4.9505  4.9505  1.3508  90.000  90.000  120.000
 2
@@ -120102,7 +120102,7 @@ wxs
  1  !number of keywords
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P4/mbm   127
   5.00100  5.0010  2.4155  90.000  90.000  90.000
 5
@@ -120191,7 +120191,7 @@ acs-derived
 heterocoord 46
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P-6m2   187
   1.5602  1.5602  1.8688  90.000  90.000  120.000
 2
@@ -120441,7 +120441,7 @@ chiral
 bipartite
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P4(2)32   208
   3.7712  3.7712  3.7712  90.0000  90.0000  90.0000
 3
@@ -121253,7 +121253,7 @@ ott
  1  !number of keywords
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Fm-3m   225
   6.4141  6.4141  6.4141  90.000  90.000  90.000
 3
@@ -121320,7 +121320,7 @@ pts-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pmmm   47
   1.7548  3.2060  2.5640  90.000  90.000  90.000
 3
@@ -121779,7 +121779,7 @@ pts-derived
 heterocoord 34
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 Pmna   53
   3.0517  2.9980  2.9518  90.000  90.000  90.000
 3
@@ -122058,7 +122058,7 @@ pcu-derived
 chiral
 heterocoord 36
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 R32   155
   2.4999  2.4999  3.8735  90.000  90.000  120.000
 3
@@ -122210,7 +122210,7 @@ cor-derived
  1  !number of keywords
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 R-3c   167
   4.3088  4.3088  7.8994  90.000  90.000  120.000
 3
@@ -122400,7 +122400,7 @@ bipartite
 good
 heterocoord 34
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I-43m   217
   4.8990  4.8990  4.8990  90.000  90.000  90.000
 3
@@ -122673,7 +122673,7 @@ bipartite
 good
 chiral
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P4(1)32   213
   4.1222  4.1222  4.1222  90.000  90.000  90.000
 3
@@ -124229,7 +124229,7 @@ asc-derived
 heterocoord 36
 bipartite
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P-6m2   187
   2.8864  2.8864  1.4911  90.000  90.000  120.000
 3
@@ -124287,7 +124287,7 @@ nia-derived
 heterocoord 36
 chiral
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(3)22   182
   2.5002  2.5002  2.5816  90.000  90.000  120.000
 3
@@ -125553,7 +125553,7 @@ stj-a
  1  !number of keywords
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 I4/mmm   139
   10.7885  10.7885  6.1772  90.000  90.000  90.000
 3
@@ -125714,7 +125714,7 @@ xat-a
 heterocoord
 good
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6(3)/mmc   194
   3.5631  3.5631  8.6227  90.000  90.000  120.000
 3
@@ -145064,7 +145064,7 @@ csq-derived
  1  !number of keywords
 heterocoord
  1  !number of references
-Chem. Rev.114, 1343 92014)
+Chem. Rev.114, 1343 (2014)
 P6/mmm   191
   3.6039  3.6039  1.8677  90.000  90.000  120.000
 2
@@ -177056,6 +177056,53 @@ unk
   3.8(2).8(2)
 3
 7
+start
+2763
+qms
+4
+ 0  !number of other symbols
+ 1  !number of names
+6^4 I-WP
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+Pm-3n   223
+  3.5245   3.5245   3.5245  90.000  90.000  90.000
+2
+V1  4
+  0.1342 0.2500 0.3658
+  x, 1/4, 1/2-x
+  24 j
+ 2
+ 2
+V2  4
+  0.0000 0.0000 0.3659
+  0, 0, z
+ 12 f
+ mm2
+ 4
+2
+E1  2
+  0.1921 0.3079 0.2500
+  x, 1/2-x, 1/4
+  24 j
+  2
+E2  2
+  0.0671 0.1250 0.3659
+  x, y, z
+  48 l
+ 1
+4
+3
+26
+[3^8.6^12] + 3[6^4.8^2] + 3[8^4]
+unk
+  4 10 26 47 86 135 186 266 352 466 1579
+  4 12 24 53 76 125 200 262 372 440 1569
+  3.8(5).6.6.6.6
+  6.6.6.6.8.8
+3
+3
 start
  -1
 
