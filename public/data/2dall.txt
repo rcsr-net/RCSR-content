@@ -2054,7 +2054,7 @@ esp
 2  ! number of keywords
 uniform
 circle packing
-p4mg
+p4gm
 P4/mbm
 7.2098 7.2098 10.0000 90.0000 90.0000 90.0000
 4 7 4
@@ -5276,9 +5276,9 @@ weaving
 p4/nbm
 P4/nbm
 2.0 2.0 10.0000 90.0000 90.0000 90.0000
-1 1 0
+1 1 1
 V1 2
-0.25 0.25 z
+0.25 0.25 0.0
 1/4, 1/4, z
 2 2 2 2 2 2 2 2 2 2 21
 *
@@ -5298,6 +5298,42 @@ P-4b2
 V1 4
 0.0000 0.0000 0.0000
 0, 0, 0
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
+196
+sql-c*3
+0  ! number of other symbols
+1  ! number of names
+sql weave ++--
+0  ! number of other names
+1  ! number of keywords
+weaving
+pmaa
+Pmaa
+1.4142 0.7171 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 4
+0.0000 0.0000 0.0000
+0, 0, 0
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
+197
+sql-c*4
+0  ! number of other symbols
+1  ! number of names
+sql weave +++-
+0  ! number of other names
+1  ! number of keywords
+weaving
+pmab
+Pmab
+1.0000 2.0000 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 4
+0.2500 0.3750 0.0000
+1/4, y, z
 4    8   12   16   20   24   28   32   36   40  221
 4^4
 start
