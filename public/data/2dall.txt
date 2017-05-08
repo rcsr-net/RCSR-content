@@ -5337,6 +5337,24 @@ V1 4
 4    8   12   16   20   24   28   32   36   40  221
 4^4
 start
+198
+hcb-c*
+0  ! number of other symbols
+1  ! number of names
+hcb weaving square +-+-
+0  ! number of other names
+1  ! number of keywords
+weaving
+p-4b2
+P-4b2
+2.280 2.280 10.0000 90.0000 90.0000 120.0000
+1 2 1
+V1 3
+0.3000 0.2000 0.0000
+x, 2/3, 0
+3    6    9   12   15   18   21   24   27   30  166
+6^3
+start
 -1
 
 
