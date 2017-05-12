@@ -5359,7 +5359,7 @@ start
 sql-c3*3
 0  ! number of other symbols
 1  ! number of names
-sql weave +++++---
+sql weave ++++----
 0  ! number of other names
 1  ! number of keywords
 weaving
@@ -5369,6 +5369,60 @@ Pbmn
 1 1 1
 V1 4
 0.000 0.5000 0.0000
+0, 1/2, 0
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
+200
+sql-c3*4
+0  ! number of other symbols
+1  ! number of names
+sql weave +--++--+
+0  ! number of other names
+1  ! number of keywords
+weaving
+pban
+Pban
+0.4714 1.8856 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 4
+0.2500 0.7500 0.0000
+1/4, 3/4, 0
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
+201
+sql-c3*5
+0  ! number of other symbols
+1  ! number of names
+sql weave ++--++--
+0  ! number of other names
+1  ! number of keywords
+weaving
+c222
+C222
+0.4714 1.8856 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 4
+0.0000 0.50000 0.0000
+0, 1/2, 0
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
+202
+sql-c3*6
+0  ! number of other symbols
+1  ! number of names
+sql weave +-+--+-+
+0  ! number of other names
+1  ! number of keywords
+weaving
+c2/m
+C2/m
+0.4714 1.8856 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 4
+0.0000 0.50000 0.0000
 0, 1/2, 0
 4    8   12   16   20   24   28   32   36   40  221
 4^4
