@@ -5351,7 +5351,7 @@ P-4b2
 1 2 1
 V1 3
 0.3000 0.2000 0.0000
-x, 192-x, 0
+x, 1/2-x, 0
 3    6    9   12   15   18   21   24   27   30  166
 6^3
 start
@@ -5426,6 +5426,60 @@ V1 4
 0, 1/2, 0
 4    8   12   16   20   24   28   32   36   40  221
 4^4
+start
+203
+hcb-c**
+0  ! number of other symbols
+1  ! number of names
+hcb weaving square +-+-
+0  ! number of other names
+1  ! number of keywords
+weaving
+p222
+P222
+1.0000 0.8660 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.3333 0.0000 0.0000
+x, 0, 0
+3    6    9   12   15   18   21   24   27   30  166
+6^3
+start
+204
+hcb-c*3
+0  ! number of other symbols
+1  ! number of names
+hcb weaving square +--+
+0  ! number of other names
+1  ! number of keywords
+weaving
+pmaa
+Pmaa
+1.7320 1.5 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.0000 0.3333 0.0000
+x, 0, 0
+3    6    9   12   15   18   21   24   27   30  166
+6^3
+start
+205
+hcb-c*4
+0  ! number of other symbols
+1  ! number of names
+hcb weaving square ++--
+0  ! number of other names
+1  ! number of keywords
+weaving
+pmaa
+Pmaa
+2.280 2.280 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.1667 0.0000 0.0000
+x, 0, 0
+3    6    9   12   15   18   21   24   27   30  166
+6^3
 start
 -1
 
