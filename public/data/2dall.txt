@@ -5554,7 +5554,7 @@ V1 3
 6^3
 start
 210
-hhhc
+hhc
 0  ! number of other symbols
 1  ! number of names
 interwoven hcb and hxl
