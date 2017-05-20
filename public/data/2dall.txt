@@ -5269,7 +5269,7 @@ start
 wva
 0 ! number of other symbols
 1  ! number of names
-plain weave
+thread weave 1/1
 0  ! number of other names
 1 ! number of keywords
 weaving
@@ -5575,6 +5575,85 @@ V2 6
 0, 0, 0
 6   12   18   24   30   36   42   48   54   60  331
 3^6
+start
+211
+wve
+0 ! number of other symbols
+1  ! number of names
+thread weave 3/1
+0  ! number of other names
+1 ! number of keywords
+weaving
+p222
+P222
+1.414 2.828 10.0000 90.0000 90.0000 90.0000
+3 1 1
+V1 2
+0.0 0.0 0.0
+0, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V2 2
+0.0 0.5 0.0
+0, 1/2, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V3 2
+0.5 0.75 0.0
+1/2, y, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+212
+wvf
+0 ! number of other symbols
+1  ! number of names
+thread weave 3/2
+0  ! number of other names
+1 ! number of keywords
+weaving
+c222
+C222
+1.414 7.171 10.0000 90.0000 90.0000 90.0000
+3 1 1
+V1 2
+0.0 0.0 0.0
+0, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V2 2
+0.0 0.2 0.0
+0, y, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V3 2
+0.0 0.4 0.0
+0, y, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+213
+wvg
+0 ! number of other symbols
+1  ! number of names
+thread weave 3/3
+0  ! number of other names
+1 ! number of keywords
+weaving
+pbam
+Pbam
+4.247 1.414 10.0000 90.0000 90.0000 90.0000
+2 1 1
+V1 2
+0.25 0.25 0.0
+1/4, 1/4, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V2 2
+0.0833 0.75 0.0
+x, 3/4, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
 start
 -1
 
