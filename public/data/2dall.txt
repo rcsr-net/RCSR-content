@@ -5697,7 +5697,7 @@ x, 1/4, 0
 *
 start
 216
-wvc
+wvd
 0 ! number of other symbols
 1  ! number of names
 thread weave 2/2 single
