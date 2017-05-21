@@ -5640,8 +5640,8 @@ thread weave 3/3
 0  ! number of other names
 1 ! number of keywords
 weaving
-pbam
-Pbam
+pban
+Pban
 4.247 1.414 10.0000 90.0000 90.0000 90.0000
 2 1 1
 V1 2
@@ -5652,6 +5652,65 @@ V1 2
 V2 2
 0.0833 0.75 0.0
 x, 3/4, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+214
+wvb
+0 ! number of other symbols
+1  ! number of names
+thread weave 2/1
+0  ! number of other names
+1 ! number of keywords
+weaving
+c222
+C222
+1.414 4.247 10.0000 90.0000 90.0000 90.0000
+2 1 1
+V1 2
+0.0 0.0 0.0
+0, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V2 2
+0.0 0.3333 0.0
+0, y, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+215
+wvc
+0 ! number of other symbols
+1  ! number of names
+thread weave 2/2 double
+0  ! number of other names
+1 ! number of keywords
+weaving
+p4/nbm
+P4/nbm
+2.828 2.828 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 2
+0.0 0.25 0.0
+x, 1/4, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+216
+wvc
+0 ! number of other symbols
+1  ! number of names
+thread weave 2/2 single
+0  ! number of other names
+1 ! number of keywords
+weaving
+pbaa
+Pbaa
+2.828 1.414 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 2
+0.375 0.25 0.0
+x, 1/4, 0
 2 2 2 2 2 2 2 2 2 2 21
 *
 start
