@@ -5733,7 +5733,7 @@ V1 2
 *
 start
 218
-wvx
+wvy
 0 ! number of other symbols
 1  ! number of names
 chain link achiral
