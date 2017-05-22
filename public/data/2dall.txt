@@ -1,4 +1,4 @@
-tart
+start
 1
 mcm
 1  ! number of other symbols
@@ -5711,6 +5711,42 @@ Pbaa
 V1 2
 0.375 0.25 0.0
 x, 1/4, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+217
+wvx
+0 ! number of other symbols
+1  ! number of names
+chain link chiral
+0  ! number of other names
+1 ! number of keywords
+weaving
+c222
+C222
+0.8800 1.414 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 2
+0.0 0.0 0.0
+0, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+218
+wvx
+0 ! number of other symbols
+1  ! number of names
+chain link achiral
+0  ! number of other names
+1 ! number of keywords
+weaving
+pban
+Pban
+0.8800 1.414 10.0000 90.0000 90.0000 90.0000
+1 1 1
+V1 2
+0.25 0.75 0.0
+1/4, 3/4, 0
 2 2 2 2 2 2 2 2 2 2 21
 *
 start
