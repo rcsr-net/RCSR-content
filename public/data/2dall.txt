@@ -5750,6 +5750,24 @@ V1 2
 2 2 2 2 2 2 2 2 2 2 21
 *
 start
+219
+wvk
+0 ! number of other symbols
+1  ! number of names
+kagome weave
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+2.0 2.0 10.0000 90.0000 90.0000 1200.0000
+1 1 1
+V1 2
+0.5 0.0 0.0
+1/2, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
 -1
 
 
