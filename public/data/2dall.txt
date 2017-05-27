@@ -5801,6 +5801,53 @@ V3 4
 2 2 2 2 2 2 2 2 2 2 21
 *
 start
+221
+wvl
+0 ! number of other symbols
+1  ! number of names
+kagome weave 2/2
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+4.0 4.0 10.0000 90.0000 90.0000 1200.0000
+2 1 1
+V1 2
+0.25 0.0 0.0
+x, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V2 2
+0.25 0.25 0.0
+x, x, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
+222
+wvm
+0 ! number of other symbols
+2  ! number of names
+kagome weave 3,3
+mad weave
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+3.464 3.464 10.0000 90.0000 90.0000 1200.0000
+2 1 1
+V1 2
+0.5 0.0 0.0
+1/2, 0, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+V2 2
+0.1667 0.8333 0.0
+x, 1-x, 0
+2 2 2 2 2 2 2 2 2 2 21
+*
+start
 -1
 
 
