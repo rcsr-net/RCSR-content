@@ -5977,5 +5977,27 @@ x, y, 0
 4 8 11 20 26 26 32 38 43 47 256
 3.5.3.5
 start
+228
+fwe
+0  ! number of other symbols
+1  ! number of names
+htb-e
+0  ! number of other names
+0  ! number of keywords
+p6mm
+P6/mmm
+3.7324 3.7324 10.0  90.0 90.0 120.0
+2 3 4
+V1 4
+0.00000 0.2680 0.00000
+0, y, 0
+4 9 13 16 22 30 32 32 40 50 249
+4^3.6
+V2 4
+0.1548 0.5774 0.0
+2y, y, 0
+4 7 12 20 24 23 30 42 42 37 242
+3.4^3
+start
 -1
 
