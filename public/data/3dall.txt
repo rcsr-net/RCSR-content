@@ -154286,11 +154286,12 @@ start
 skl
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+MOF-520
  0  !number of other names
- 1  !number of keywords
-heterocoord
- 0  !number of references
+ 0  !number of keywords
+ 1  !number of references
+J. Am. Chem. Soc. 136, 5271 (2014)
 P4(2)/nmc   137
   1.0000  1.0000  3.5947  90.000  90.000  90.000
 2
@@ -154338,11 +154339,9 @@ start
 skl-a
 4
  0  !number of other symbols
- 1  !number of names
-TTB anions
+ 0  !number of names
  0  !number of other names
- 1  !number of keywords
-good
+ 0  !number of keywords
  0  !number of references
 P4(2)/nmc   137
   3.4561  3.4561  7.9283  90.000  90.000  90.000
