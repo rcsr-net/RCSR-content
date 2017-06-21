@@ -2563,7 +2563,8 @@ start
 lcs
 1a
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
+ZIF-72
 S*
 4/6/c3
 6^4 G
@@ -4485,8 +4486,10 @@ start
 lta
 1a
  0  !number of other symbols
- 4  !number of names
+ 6  !number of names
 Linde A
+ZIF-21
+ZIF-376
 4/4/c6
 4^2.6^2 P
 4^2.6.8 F-RP
@@ -4539,8 +4542,11 @@ start
 rho
 1a
  0  !number of other symbols
- 3  !number of names
+ 6  !number of names
 rho
+ZIF-11
+ZIF-12
+ZIF-71
 4/4/c4
 4^3.6 P
  1  !number of other names
@@ -4587,10 +4593,11 @@ start
 cha
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 chabazite
 4/4/h7
 sqc5575
+ZIF-303
  0  !number of other names
  3  !number of keywords
 zeolite net
@@ -4641,8 +4648,10 @@ start
 kfi
 1a
  0  !number of other symbols
- 3  !number of names
+ 5  !number of names
 ZK-5
+ZIF-360
+ZIF-365
 4/4/c19
 4^3.8 I-WP
  1  !number of other names
@@ -4697,8 +4706,11 @@ start
 gme
 1b
  0  !number of other symbols
- 2  !number of names
+ 5  !number of names
 gmelinite
+ZIF-70
+ZIF-410
+ZIF-486
 4/4/h45
  1  !number of other names
 qsn-001
@@ -4751,8 +4763,10 @@ start
 gis
 1b
  0  !number of other symbols
- 3  !number of names
+ 5  !number of names
 gismondine
+ZIF-74
+ZIF-75
 4/4/t3
 sqc2200
  1  !number of other names
@@ -4797,8 +4811,9 @@ start
 mer
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 merlinoite
+ZIF-10
 4/4/t33
 sqc8137
  1  !number of other names
@@ -5492,8 +5507,10 @@ start
 sod
 1a
  0  !number of other symbols
- 5  !number of names
+ 7  !number of names
 sodalite
+ZIF-8
+ZIF-65
 W*
 4/4/c1
 6^4 P
@@ -5937,8 +5954,9 @@ start
 dft
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 DAF-2
+ZIF-3
 4/4/t4
 sqc2179
  1  !number of other names
@@ -6387,8 +6405,9 @@ start
 ana
 1b
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 analcime
+ZIF-14
 4/4/c5
 4.6.4.6 G
 sqc11218
@@ -7569,8 +7588,9 @@ start
 crb
 1b
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 CrB4
+ZIF-64
 BCT
 4/4/t5
 sqc184
@@ -7616,9 +7636,10 @@ start
 cag
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 CaGa2O4
 variscite
+ZIF-4
  2  !number of other names
 silica
 qsn-015
@@ -8719,8 +8740,9 @@ start
 zni
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4/4/t62
+ZIF-61
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -10470,8 +10492,9 @@ start
 afx
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SAPO-56
+ZIF-386
  0  !number of other names
  3  !number of keywords
 zeolite net
@@ -14196,12 +14219,14 @@ start
 bam
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+ZIF-725
  0  !number of other names
  2  !number of keywords
 simple tiling
 good
- 0  !number of references
+ 1  !number of references
+J. Am. Chem. Soc. 139, 6448 (2017)
 P6/mmm   191
   7.5752  7.5752  3.1429  90.000  90.000  120.000
 2
@@ -34025,8 +34050,10 @@ start
 frl
 1b
  0  !number of other symbols
- 1  !number of names
+ 3  !number of names
 Ferey ladder
+ZIF-77
+ZIF-73
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -83600,7 +83627,8 @@ start
 poz
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+ZIF-95
  0  !number of other names
  1  !number of keywords
 good
@@ -83714,7 +83742,8 @@ start
 moz
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+ZIF-100
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -94778,7 +94807,8 @@ start
 zea
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+TIF-1
  0  !number of other names
  1  !number of keywords
 ZMOF
@@ -133049,12 +133079,16 @@ start
 ucb
 1b
  0  !number of other symbols
- 0  !number of names
+ 3  !number of names
+ZIF-412
+ZIF-413
+ZIF-414
  0  !number of other names
  2  !number of keywords
 good
 simple tiling
- 0  !number of references
+ 1  !number of references
+J. Am. Chem. Soc. 139, 6448 (2017)
 Fm-3m   225
   12.2758  12.2758  12.2758  90.000  90.000  90.000
 3
@@ -169520,11 +169554,13 @@ start
   gcc                                                        
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+ZIF-615
   0     !number of other names
   1     !number of keywords
 simple tiling
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc. 139, 6448 (2017)
  P6/mmm          191                                         
    5.7647  5.7647  2.2051  90.000  90.000 120.000            
   2
@@ -169667,10 +169703,13 @@ start
 ykh                                                        
 1b
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+ZIF-516
+ZIF-586
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc. 139, 6448 (2017)
  P4(2)/ncm       138                                         
    5.1308  5.1308  6.0373  90.000  90.000  90.000            
   4
@@ -177876,8 +177915,7 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  1    !number of references
-simple tiling
+  0    !number of references
  I4(1)/amd       141                                         
    5.2236  5.2236 14.2547  90.000  90.000  90.000            
   3
