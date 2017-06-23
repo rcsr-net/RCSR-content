@@ -2062,6 +2062,22 @@ P-43m
 0
 0
 start
+76
+vvx
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[5^60.10^12]
+3 3 2
+140 210 72
+0
+0
+start
 -1
 
 start
