@@ -133436,44 +133436,44 @@ thh
 good
  0  !number of references
 I4(1)/amd   141
-  3.3334  3.3334  8.9444  90.000  90.000  90.000
+ 3.0000  3.0000 10.3923  90.000  90.000  90.000
 2
 V1  4
-  0.1500  0.1000  0.0417
+0.1670 0.0849 0.2083
   x, y, z
   32  i
   1
   1
 V2  4
-  0.1500  0.6000  0.1250
+  0.3347 0.0847 0.1250 
   x, 3/4-x, 1/8
   16 g
   2
   2
 5
 E1  2
-  0.1500  0.2500  0.0417
+ 0.1670 0.2500 0.2083
   x, 1/4, z
   16 h
   m
 E2  2
-  0.0000  0.1000  0.0417
+  0.0000 0.0849 0.2083
   0, y, z
   16 h
   m
 E3  2
-  0.1500  0.0000  0.0000
-  x, 0, 0
+  0.2500 0.0849 0.2500
+  1/4, y, 1/4
   16 f
   2
 E4  2
-  0.1500  0.0000  0.0834
+  0.2509 0.0848 0.1666
   x, y, z
   32  i
   1
 E5  2
-  0.1500  0.7500  0.1250
-  x, 3/4, z
+  0.5000 0.0847 0.1250
+  1/2, y, z
   16 h
   m
 0
@@ -136285,7 +136285,7 @@ urs
 4
  0  !number of other symbols
  1  !number of names
-pcu-related
+bcu-related
  0  !number of other names
  3  !number of keywords
 good
@@ -136401,7 +136401,7 @@ uru
 4
  0  !number of other symbols
  2  !number of names
-pcu-rwlated
+bcu-rwlated
 3BR net
  0  !number of other names
  3  !number of keywords
@@ -148667,7 +148667,7 @@ dnt
  0  !number of other symbols
  2  !number of names
 rht-related
-3HU net
+3HK net
  0  !number of other names
  2  !number of keywords
 bpartite
