@@ -5267,6 +5267,8 @@ V7 3
 3 6 12 15 18 30 36 30 39 48 238
 5^3
 start
+-1
+start
 194
 wva
 0 ! number of other symbols
