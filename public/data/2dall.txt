@@ -5267,8 +5267,6 @@ V7 3
 3 6 12 15 18 30 36 30 39 48 238
 5^3
 start
--1
-start
 194
 wva
 0 ! number of other symbols
@@ -5295,9 +5293,9 @@ sql weave +-+-
 0  ! number of other names
 1  ! number of keywords
 weaving
-p-4b2
-P-4b2
-1.0000 1.0000 10.0000 90.0000 90.0000 90.0000
+p-42m
+P-42m
+0.7071 0.7071 10.0000 90.0000 90.0000 90.0000
 1 1 1
 V1 4
 0.0000 0.0000 0.0000
@@ -5435,7 +5433,7 @@ start
 hcb-c**
 0  ! number of other symbols
 1  ! number of names
-hcb weaving square +-+-
+hcb weaving +-+-
 0  ! number of other names
 1  ! number of keywords
 weaving
@@ -5453,7 +5451,7 @@ start
 hcb-c*3
 0  ! number of other symbols
 1  ! number of names
-hcb weaving square ++--
+hcb weaving ++--
 0  ! number of other names
 1  ! number of keywords
 weaving
@@ -5471,7 +5469,7 @@ start
 hcb-c*4
 0  ! number of other symbols
 1  ! number of names
-hcb weaving square +--+
+hcb weaving +--+
 0  ! number of other names
 1  ! number of keywords
 weaving
@@ -5856,7 +5854,7 @@ start
 hcb-c*5
 0  ! number of other symbols
 1  ! number of names
-hcb weaving square +-+-
+hcb weaving +-+-
 0  ! number of other names
 1  ! number of keywords
 weaving
@@ -5869,7 +5867,7 @@ V1 3
 x, y, z
 3    6    9   12   15   18   21   24   27   30  166
 6^3
-V1 3
+V2 3
 0.2500 0.4167 0.0000
 x, y, z
 3    6    9   12   15   18   21   24   27   30  166
@@ -6000,6 +5998,42 @@ V2 4
 2y, y, 0
 4 7 12 20 24 23 30 42 42 37 242
 3.4^3
+start
+229
+hcb-c*6
+0  ! number of other symbols
+1  ! number of names
+hcb weaving solomon link
+0  ! number of other names
+1  ! number of keywords
+weaving
+c222
+C222
+1.4142 2.8284 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.7500 0.1250 0.0000
+x, y, 0
+3    6    9   12   15   18   21   24   27   30  166
+6^3
+start
+230
+hcb-c*7
+0  ! number of other symbols
+1  ! number of names
+hcb weaving solomon link
+0  ! number of other names
+1  ! number of keywords
+weaving
+pban
+Pban
+1.4142 2.8284 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.7500 0.1250 0.0000
+x, y, 0
+3    6    9   12   15   18   21   24   27   30  166
+6^3
 start
 -1
 
