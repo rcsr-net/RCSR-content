@@ -4080,7 +4080,7 @@ cpq
 1  ! number of keywords
 circle packing
 p2mm
-mmm
+Pmmm
  2.56838 3.24105 10.0000 90.0000 90.00 120.0000
 2 4 3
 V1 3
@@ -6088,6 +6088,28 @@ V1 8
 0, 0, 0
 8 32 68 96 120 148 176 204 232 260 1345
 4^8
+start
+234
+jvh
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+circle packing
+c2mm
+Cmmm
+3.17285 6.86197 10.0000 90.0000 90.00 120.0000
+2 5 3
+V1 3
+ 0.15738 0.07283 0.0000
+x, y, 0
+3 5 8 12 15 17 20 23 25 28 157
+4.6.8
+V2 3
+0.15772 0.30910 0.0000
+x, y, 0
+3 6 9 11 14 17 20 23 26 29 159
+6^2.8
 start
 -1
 
