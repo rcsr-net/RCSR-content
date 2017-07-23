@@ -71952,7 +71952,7 @@ fff
 1a
  0  !number of other symbols
  1  !number of names
-3T net
+ST net
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -178827,6 +178827,48 @@ E30  2
 4.4.4.6.4.18 
    4
 40
+start
+2779
+lkb
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+good
+ 0  !number of references
+P-43m   215
+  2.4495 2.4495 2.4495  90.000  90.000  90.000
+2
+V1  2
+  0.3889 0.0000 0.0000
+  x, 0, 0
+  6f
+  mm2
+  4
+V2  3
+  0.1667 0.1667 0.1667
+  x, x, x
+ 4 e
+  3m
+ 6
+1
+E1  2
+  0.1667 0.1667 0.3899
+  x, x, z
+  12 i
+  m
+0
+0
+0
+unk
+unk
+   2 4 2 1 0 0 0 0 0 0 10
+   3 3 3 0 0 0 0 0 0 0 10
+  6
+  6.6.6
+6
+3
 strat
  -1
 
