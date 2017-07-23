@@ -5958,7 +5958,7 @@ fsz-e
 0  ! number of other names
 0  ! number of keywords
 p6
-P622
+P6/m
 4.0000 4.0000 10.0  90.0 90.0 120.0
 3 5 4
 V1 4
@@ -6098,7 +6098,7 @@ jvh
 circle packing
 c2mm
 Cmmm
-3.17285 6.86197 10.0000 90.0000 90.00 120.0000
+3.17285 6.86197 10.0000 90.0000 90.00 90.0000
 2 5 3
 V1 3
  0.15738 0.07283 0.0000
@@ -6110,6 +6110,94 @@ V2 3
 x, y, 0
 3 6 9 11 14 17 20 23 26 29 159
 6^2.8
+start
+235
+cme
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+1.3333 1.3333 10.0000 90.0000 90.00 120.0000
+1 1 1
+V1 2
+ 0.5833 0.1667 0.0000
+x, 2x, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+start
+236
+cmf
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p422
+P422
+2.5000 2.5000 10.0000 90.0000 90.00 90.0000
+2 2 1
+V1 2
+ 0.2382 0.0911 0.0000
+x, y, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+V2 2
+ 0.3941 0.0000 0.0000
+x, 0, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+start
+237
+cmg
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+3.200 3.200 10.0000 90.0000 90.00 120.0000
+2 2 1
+V1 2
+ 0.2187 0.6175 0.0000
+x, y, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+V2 2
+ 0.9374 0.4687 0.0000
+2y, y, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+start
+238
+cmh
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+3.500 3.500 10.0000 90.0000 90.00 120.0000
+3 3 1
+V1 2
+ 0.5595 0.8333 0.0000
+x, y, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+V2 2
+ 0.4881 0.8591 0.0000
+x, y, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+V3 2
+ 0.3453 0.4048 0.0000
+x, y, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
 start
 -1
 
