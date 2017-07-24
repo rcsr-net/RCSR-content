@@ -6388,5 +6388,100 @@ x, y, 0
 2 2 0 0 0 0 0 0 0 0 5
 5
 start
+248
+cms
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+1.6 1.6 10.0 90.0 90.00 120.0
+1 1 1
+V1 2
+ 0.4 0.0 0.0
+x, 0, 0
+2 2 1 0 0 0 0 0 0 0 6
+6
+start
+249
+cmt
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p-31m
+P-31m
+1.2 1.2 10.0 90.0 90.00 120.0
+1 1 1
+V1 2
+ 0.6 0.4 0.0
+x, 1-x, 0
+2 2 1 0 0 0 0 0 0 0 6
+6
+start
+250
+cmu
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+1.2 1.2 10.0 90.0 90.00 120.0
+1 1 1
+V1 2
+ 0.6 0.4 0.0
+x, 1-x, 0
+2 2 1 0 0 0 0 0 0 0 6
+6
+start
+251
+cmv
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+2.0 2.0 10.0 90.0 90.00 120.0
+2 2 2
+V1 2
+ 0.158 0.842 0.0
+x, 1-x, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+V1 2
+0.272 0.544 0.0
+x, 2x, 0
+2 2 1 0 0 0 0 0 0 0 6
+6
+start
+252
+cmw
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p-31m
+P-31m
+2.0 2.0 10.0 90.0 90.00 120.0
+2 2 2
+V1 2
+ 0.158 0.842 0.0
+x, 1-x, 0
+2 0 0 0 0 0 0 0 0 0 3
+3
+V1 2
+0.272 0.544 0.0
+x, 2x, 0
+2 2 1 0 0 0 0 0 0 0 6
+6
+start
 -1
 
