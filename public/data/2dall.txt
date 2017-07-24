@@ -6098,7 +6098,7 @@ jvh
 circle packing
 c2mm
 Cmmm
-3.17285 6.86197 10.0000 90.0000 90.00 90.0000
+3.17285 6.86197 10.0 90.0 90.0 90.0
 2 5 3
 V1 3
  0.15738 0.07283 0.0000
@@ -6120,7 +6120,7 @@ cme
 weaving
 p622
 P622
-1.3333 1.3333 10.0000 90.0000 90.00 120.0000
+1.3333 1.3333 10.0 90.0 90.00 120.0
 1 1 1
 V1 2
  0.5833 0.1667 0.0000
@@ -6137,7 +6137,7 @@ cmf
 weaving
 p422
 P422
-2.5000 2.5000 10.0000 90.0000 90.00 90.0000
+2.5000 2.5000 10.0 90.0 90.0 90.0
 2 2 1
 V1 2
  0.2382 0.0911 0.0000
@@ -6159,7 +6159,7 @@ cmg
 weaving
 p622
 P622
-3.200 3.200 10.0000 90.0000 90.00 120.0000
+3.200 3.200 10.0 90.0 90.0 120.0
 2 2 1
 V1 2
  0.2187 0.6175 0.0000
@@ -6181,7 +6181,7 @@ cmh
 weaving
 p622
 P622
-3.500 3.500 10.0000 90.0000 90.00 120.0000
+3.500 3.500 10.0 90.0 90.0 120.0
 3 3 1
 V1 2
  0.5595 0.8333 0.0000
@@ -6198,6 +6198,114 @@ V3 2
 x, y, 0
 2 0 0 0 0 0 0 0 0 0 3
 3
+start
+239
+cmi
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p-42m
+P-42m
+1.0 1.0 10.0 90.0 90.00 90.0
+1 1 1
+V1 2
+ 0.7 0.0 0.0
+x, 0, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
+start
+240
+cmj
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p422
+P422
+1.0 1.0 10.0 90.0 90.00 90.0
+1 1 1
+V1 2
+ 0.7 0.0 0.0
+x, 0, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
+start
+241
+cmk
+0  ! number of other symbols
+1  ! number of names
+European 4 in 1
+0  ! number of other names
+1  ! number of keywords
+weaving
+pbmn
+Pbmn
+1.28 1.28 10.0 90.0 90.00 90.0
+1 2 1
+V1 2
+ 0.15 0.15 0.0
+x, y, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
+start
+242
+cml
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+2.0 2.0 10.0 90.0 90.00 120.0
+1 2 1
+V1 2
+ 0.447 0.302 0.0
+x, y, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
+start
+243
+cmm
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p-31m
+P-31m
+2.0 2.0 10.0 90.0 90.00 120.0
+1 2 1
+V1 2
+ 0.447 0.302 0.0
+x, y, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
+start
+244
+cmn
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+p622
+P622
+3.2 3.2 10.0 90.0 90.00 120.0
+2 2 1
+V1 2
+ 0.254 0.947 0.0
+x, y, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
+V2 2
+ 0.183 0.5 0.0
+x, y, 0
+2 1 0 0 0 0 0 0 0 0 4
+4
 start
 -1
 
