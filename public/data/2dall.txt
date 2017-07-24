@@ -6252,7 +6252,7 @@ x, y, 0
 4
 start
 242
-cml
+cmm
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
@@ -6269,7 +6269,7 @@ x, y, 0
 4
 start
 243
-cmm
+cmn
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
@@ -6286,7 +6286,7 @@ x, y, 0
 4
 start
 244
-cmn
+cmo
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
