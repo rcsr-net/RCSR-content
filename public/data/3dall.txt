@@ -69230,8 +69230,9 @@ lcw
  1  !number of names
 lattice complex W
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 good
+weaving
  0  !number of references
 Pm-3n   223
   2.0000  2.0000  2.0000  90.000  90.000  90.000
@@ -178834,9 +178835,11 @@ lkb
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 good
- 0  !number of references
+weaving
+ 1  !number of references
+Nature Chem. 2, 461 (2010)
 P-43m   215
   2.4495 2.4495 2.4495  90.000  90.000  90.000
 2
