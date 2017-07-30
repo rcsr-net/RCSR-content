@@ -178833,9 +178833,11 @@ start
 lkb
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+linked adamantine cages
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
+bipartite
 good
 weaving
  1  !number of references
@@ -178846,7 +178848,7 @@ P-43m   215
 V1  2
   0.3889 0.0000 0.0000
   x, 0, 0
-  6f
+  6 f
   mm2
   4
 V2  3
@@ -178871,6 +178873,51 @@ unk
   6
   6.6.6
 6
+3
+start
+2780
+lka
+4
+ 0  !number of other symbols
+ 1  !number of names
+linked Borromean rings
+ 0  !number of other names
+ 3  !number of keywords
+bipartite
+good
+weaving
+ 0  !number of references
+Fm-3c    226
+  2.828 2.828 2.828  90.000  90.000  90.000
+2
+V1  2
+  0.2000 0.0000 0.0000
+  x, 0, 0
+  48 e
+  mm2
+  4
+V2  2
+  0.1500 0.0000 0.000
+  x, 0, 0
+ 48 e
+ mm2
+ 4
+1
+E1  2
+  0.0000 0.4250 0.35
+  0, y, z
+  96 i
+  m
+0
+0
+0
+unk
+unk
+   2 1 0 0 0 0 0 0 0 0 4
+   2 1 0 0 0 0 0 0 0 0 4
+  4
+  4
+4
 3
 strat
  -1
