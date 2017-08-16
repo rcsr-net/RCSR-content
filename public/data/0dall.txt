@@ -246,10 +246,11 @@ oct
 cube
 4^3
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 regular
 simple
 cubic
+spacefilling
 m-3m (Oh)
 Pm-3m
 [4^6]
@@ -426,9 +427,10 @@ start
 rco
 mtp
 0     !number of other symbols
-2     !number of names
+3     !number of names
 rhombicuboctahedron
 3.4^3
+cu0-e
 0     !number of other names
 2     !number of keywords
 Archimedean
@@ -483,12 +485,12 @@ start
 18
 tcz
 unk
-1     !number of other symbols
-oct-a
-3     !number of names
+0     !number of other symbols
+4     !number of names
 truncated cuboctahedron
 4.6.8
 alpha cage
+cuo-a
 0     !number of other names
 3     !number of keywords
 Archimedean
@@ -1687,7 +1689,7 @@ mtp
 rco
 0     !number of other symbols
 1     !number of names
-cuo-e
+rco-d
 0     !number of other names
 2     !number of keywords
 cubic
@@ -1695,7 +1697,7 @@ Catalan
 m-3m (Oh)
 Pm-3m
 [4^24]
-3 2 2
+3 2 1
 26 48 24
 3
 V1 4
@@ -2077,6 +2079,31 @@ Pm-3
 140 210 72
 0
 0
+start
+77
+onb
+cub
+0     !number of other symbols
+1     !number of names
+nbo cage
+0     !number of other names
+3     !number of keywords
+spacefilling
+cage
+cubic
+m-3m (Oh)
+Pm-3m
+[6^8]
+2 1 1
+18 24 8
+2
+V1 4
+1.0 0.0 0.0
+V2 2
+1.0 1.0 0.0
+1
+F1 6
+0.5 0.5 0.05
 start
 -1
 
