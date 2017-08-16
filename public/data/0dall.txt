@@ -2105,6 +2105,33 @@ V2 2
 F1 6
 0.5 0.5 0.05
 start
+78
+cst
+unk
+0     !number of other symbols
+1     !number of names
+ThCr2Si2 poyhedron
+0     !number of other names
+1     !number of keywords
+spacefilling
+4/mmm (Oh)
+P4/mmm
+[4^8.6^4]
+3 3 2
+18 28 12
+3
+V1 4
+0.0 0.0 1.3686
+V2 3
+0.0 0.866 1.0
+V3 4
+0.866 0.866 0.5
+2
+F1 6
+0.866 0.0 0.0
+F2 4
+0.433 0.433 1.1843
+start
 -1
 
 start
