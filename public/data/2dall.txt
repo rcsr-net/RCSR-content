@@ -735,8 +735,9 @@ start
 29
 hnc
 0  ! number of other symbols
-1  ! number of names
+2  ! number of names
 YCrB4 net
+57 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -768,8 +769,9 @@ start
 30
 hnd
 0  ! number of other symbols
-1  ! number of names
+2  ! number of names
 Y2ReB6 net
+567 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -811,8 +813,9 @@ start
 31
 hne
 0  ! number of other symbols
-1  ! number of names
+2  ! number of names
 ThMoB4 net
+57 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -840,7 +843,7 @@ start
 ply
 0  ! number of other symbols
 1  ! number of names
-4-5-6-7-8 net
+45678 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -2186,7 +2189,8 @@ start
 82
 car
 0  ! number of other symbols
-0  ! number of names
+1  ! number of names
+58 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -3757,7 +3761,8 @@ start
 136
 dhh
 0  ! number of other symbols
-0  ! number of names
+1  ! number of names
+58 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -4675,7 +4680,8 @@ start
 175
 hnf
 0  ! number of other symbols
-0  ! number of names
+1  ! number of names
+57 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
@@ -5066,7 +5072,8 @@ start
 188
 cry
 0  ! number of other symbols
-0  ! number of names
+1  ! number of names
+512 net
 0  ! number of other names
 1  ! number of keywords
 circle packing
