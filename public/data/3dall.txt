@@ -178921,7 +178921,7 @@ unk
 3
 start
 2781
-pcu-b3
+pcu-b3*
 1a
  0  !number of other symbols
  1  !number of names
