@@ -824,7 +824,8 @@ sqc9270
 schwarzite
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Fd-3m   227
   6.8287  6.8287  6.8287  90.000  90.000  90.000
 1
@@ -1130,7 +1131,8 @@ schwarzite
 chiral
 isohedral tiling
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 I432   211
   3.4142  3.4142  3.4142  90.000  90.000  90.000
 1
@@ -1218,7 +1220,8 @@ schwarzite
 good
 chiral
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 I4(1)32   214
   5.1027  5.1027  5.1027  90.000  90.000  90.000
 1
@@ -24240,7 +24243,8 @@ reo-e
 uniform tiling
 infinite polyhedron
 good
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Pm-3m   221
   2.4142  2.4142  2.4142  90.000  90.000  90.000
 1
@@ -25160,7 +25164,8 @@ snub cube
  2  !number of keywords
 chiral
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 P432   207
   3.2015  3.2015  3.2015  90.000  90.000  90.000
 1
@@ -35926,8 +35931,9 @@ icosahedron
  2  !number of keywords
 infinite polyhedron
 good
- 1  !number of references
-Struct. Chem. 23, 1079 (2012)
+ 2  !number of references
+Structural Chem. 23, 1079 (2012)
+Structural CChem 28, 113 (2017)
 Fd-3   203
   5.3768  5.3768  5.3768  90.000  90.000  90.000
 1
@@ -36573,7 +36579,8 @@ NaZn13
 snub cube
  1  !number of keywords
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Fm-3c   226
   4.5705  4.5705  4.5705  90.000  90.000  90.000
 1
@@ -37294,7 +37301,8 @@ WAl12
  1  !number of other names
 icosahedron
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Im-3   204
   2.6882  2.6882  2.6882  90.000  90.000  90.000
 1
@@ -70232,7 +70240,8 @@ good
 chiral
 infinite polyhedron
 uniform net
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 P432   207
   4.2149  4.2149  4.2149  90.000  90.000  90.000
 2
@@ -70288,8 +70297,9 @@ schwarzite
 chiral
 uniform net
 infinite polyhedron
- 1  !number of references
+ 2  !number of references
 J. Chem. Inf. Comput. Sci. 44, 1314 (2004)
+Structural CChem 28, 113 (2017)
 P432   207
   6.0458  6.0458  6.0458  90.000  90.000  90.000
 3
@@ -82303,7 +82313,8 @@ snub cube
  2  !number of keywords
 chiral
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 P432   207
   3.1221  3.1221  3.1221  90.000  90.000  90.000
 1
@@ -113857,7 +113868,8 @@ etk
 schwarzite
  1  !number of keywords
 uniform net
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Fm-3c   226
   9.1989  9.1989  9.1989  90.000  90.000  90.000
 2
@@ -140742,7 +140754,8 @@ schwarzite
  2  !number of keywords
 good
 unifform net
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Fd-3   203
   9.1641  9.1641  9.1641  90.000  90.000  90.000
 3
@@ -145986,7 +145999,8 @@ dgo
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 P432   207
   2.1782  2.1782  2.1782  90.000  90.000  90.000
 1
@@ -146130,7 +146144,8 @@ law
 schwarzite
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Im-3   204
   5.7546  5.7546  5.7546  90.000  90.000  90.000
 2
@@ -146972,9 +146987,10 @@ schwarzite
 carbon
  1  !number of keywords
 good
- 2  !number of references
+ 3  !number of references
 Nature 352, 762 (1991)
 New J. Phys.5, 126 (2003)
+Structural CChem 28, 113 (2017)
 Im-3m   229
   10.4857  10.4857  10.4857  90.000  90.000  90.000
 3
@@ -147832,292 +147848,6 @@ unk
 6
 3
 start
-2406
-kgr
-1b
- 0  !number of other symbols
- 1  !number of names
-7^3 D
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-F4(1)32   210
-  8.0003  8.0003  8.0003  90.000  90.000  90.000
-3
-V1  3
-  0.1003  0.1003  0.3997
-  x, x, x
-  32 e
-  3
-  3
-V2  3
-  0.0625  0.2498  0.5000
-  x, y, z
-  96  h
-  1
-  1
-V3  3
-  0.0437  0.2936  0.1346
-  x, y, z
-  96  h
-  1
-  1
-5
-E1  2
-  0.1174  0.0720  0.3467
-  x, y, z
-  96  h
-  1
-E2  2
-  0.0000  0.2498  0.5000
-  0, y, 1/2
-  48 f
-  2
-E3  2
-  0.1250  0.2499  0.5001
-  1/8, y 3/4-y
-  48 g
-  2
-E4  2
-  0.0531  0.2717  0.5577
-  x, y, z
-  96  h
-  1
-E5  2
-  0.0000  0.2500  0.1250
-  x, 1/4-x, 1/8
-  48 g
-  2
-3
-3
-56
-[7^12.12^4] + 2[7^6.15^2] + [15^4]
-unk
-  3  6  12  18  30  45  69  93  120  162  559
-  3  6  12  18  30  44  68  92  127  159  560
-  3  6  12  18  30  44  69  91  121  156  551
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
-2407
-kgq
-1b
- 0  !number of other symbols
- 1  !number of names
-7^3 G
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-I4(1)32   214
-  7.0733  7.0733  7.0733  90.000  90.000  90.000
-3
-V1  3
-  0.0707  0.2502  0.4362
-  x, y, z
-  48  i
-  1
-  1
-V2  3
-  0.1769  0.3166  0.3707
-  x, y, z
-  48  i
-  1
-  1
-V3  3
-  0.2880  0.2880  0.2880
-  x, x, x
-  16 e
-  3
-  3
-5
-E1  2
-  0.1250  0.2182  0.4682
-  1/8, y, 1/4+y
-  24 g
-  2
-E2  2
-  0.0000  0.2500  0.4362
-  0, 1/4, z
-  24 f
-  2
-E3  2
-  0.1238  0.2834  0.4034
-  x, y, z
-  48  i
-  1
-E4  2
-  0.1488  0.3750  0.3988
-  x, 3/8, 1/4+x
-  24 f
-  2
-E5  2
-  0.2325  0.3023  0.3294
-  x, y, z
-  48  i
-  1
-3
-3
-76
-[7^6.12^3] + 3[7^4.18^2] + 2[18^3]
-unk
-  3  6  12  18  30  43  60  83  115  147  518
-  3  6  12  18  30  44  60  87  113  149  523
-  3  6  12  18  30  45  64  84  121  150  534
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
-2408
-kgp
-1b
- 0  !number of other symbols
- 1  !number of names
-7^3 G
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-I4(1)32   214
-  6.8598  6.8598  6.8598  90.000  90.000  90.000
-3
-V1  3
-  0.1700  0.3686  0.3173
-  x, y, z
-  48  i
-  1
-  1
-V2  3
-  0.0526  0.1995  0.4378
-  x, y, z
-  48  i
-  1
-  1
-V3  3
-  0.2853  0.2853  0.2853
-  x, x, x
-  16 e
-  3
-  3
-5
-E1  2
-  0.1186  0.3750  0.3686
-  x, 3/8, 1/4+x
-  24 h
-  2
-E2  2
-  0.1789  0.4091  0.2574
-  x, y, z
-  48  i
-  1
-E3  2
-  0.2277  0.3270  0.3013
-  x, y, z
-  48  i
-  1
-E4  2
-  0.1250  0.1936  0.4436
-  1/8, y, 1/4+v
-  24 g
-  2
-E5  2
-  0.0000  0.2500  0.4378
-  0, 1/4, z
-  24 f
-  2
-3
-3
-72
-3[7^6.16^3] + 3[7^4.14^2] + 2[14^3]
-unk
-  3  6  12  18  30  45  68  91  118  154  546
-  3  6  12  18  30  45  67  89  120  154  545
-  3  6  12  18  30  45  67  87  115  150  534
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
-2409
-kgz
-4
- 0  !number of other symbols
- 1  !number of names
-7^3 D
- 1  !number of other names
-schwarzite
- 1  !number of keywords
-uniform net
- 0  !number of references
-Fd-3   203
-  11.4788  11.4788  11.4788  90.000  90.000  90.000
-3
-V1  3
-  0.0316  0.0444  0.4913
-  x, y, z
-  96  g
-  1
-  1
-V2  3
-  0.0865  0.1047  0.5222
-  x, y, z
-  96  g
-  1
-  1
-V3  3
-  0.3341  0.3341  0.3341
-  x, x, x
-  32 e
-  3
-  3
-4
-E1  2
-  0.1250  0.1250  0.5222
-  1/8, 1/8, z
-  48 f
-  2
-E2  2
-  0.0201  0.0064  0.4735
-  x, y, z
-  96  g
-  1
-E3  2
-  0.0591  0.0746  0.5067
-  x, y, z
-  96  g
-  1
-E4  2
-  0.0853  0.1353  0.553
-  x, y, z
-  96  g
-  1
-3
-2
-48
-[6.^4.7^12] + [7^12.24^4]
-unk
-  3  6  11  15  22  27  28  39  56  77  285
-  3  6  12  17  21  25  35  43  54  70  287
-  3  6  12  18  18  21  33  48  45  63  268
-  6.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
 2410
 ntw
 4
@@ -148732,7 +148462,8 @@ schwarzite
 chiral
 uniform net
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 P432   207
   5.7407  5.7407  5.7407  90.000  90.000  90.000
 3
@@ -148805,7 +148536,8 @@ schwarzite
  2  !number of keywords
 chiral
 uniform net
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 F432   209
   11.8054  11.8054  11.8054  90.000  90.000  90.000
 6
@@ -148905,225 +148637,6 @@ unk
   7.7.7
 7
 15
-start
-2420
-kgj
-1b
- 0  !number of other symbols
- 1  !number of names
-7^3 D
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-F4(1)32   210
-  7.9906  7.9906  7.9906  90.000  90.000  90.000
-3
-V1  3
-  0.0897  0.1801  0.4968
-  x, y, z
-  96  h
-  1
-  1
-V2  3
-  0.0625  0.5038  0.2432
-  x, y, z
-  96  h
-  1
-  1
-V3  3
-  0.0916  0.0916  0.4084
-  x, x, 1/2-x
-  32 e
-  3
-  3
-5
-E1  2
-  0.1250  0.2167  0.5333
-  1/8, y, 3/4-y
-  48 g
-  2
-E2  2
-  0.0467  0.2117  0.5296
-  x, y, z
-  96  h
-  1
-E3  2
-  0.0906  0.1358  0.4526
-  x, y, z
-  96  h
-  1
-E4  2
-  0.0000  0.5000  0.2432
-  0, 1/2, z
-  48 f
-  2
-E5  2
-  0.1250  0.5053  0.2447
-  1/8, y, 3/4-y
-  48 g
-  2
-3
-2
-48
-[7^12.12^4] + [7^12.18^4]
-unk
-  3  6  12  18  30  44  64  84  125  161  548
-  3  6  12  18  30  44  63  92  127  169  565
-  3  6  12  18  30  45  60  93  120  159  547
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
-2421
-kgi
-4
- 0  !number of other symbols
- 1  !number of names
-7^3 G
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-I4(1)32   214
-  5.9968  5.9968  5.9968  90.000  90.000  90.000
-3
-V1  3
-  0.0469  0.1526  0.4439
-  x, y, z
-  48  i
-  1
-  1
-V2  3
-  0.0656  0.3015  0.3713
-  x, y, z
-  48  i
-  1
-  1
-V3  3
-  0.2663  0.2663  0.2663
-  x, x, x
-  16 e
-  3
-  3
-5
-E1  2
-  0.2301  0.3344  0.2347
-  x, y, z
-  48 i
-  1
-E2  2
-  0.0934  0.3750  0.3434
-  x, 3/5, 1/4+x
-  24 h
-  2
-E3  2
-  0.0000  0.2500  0.3713
-  0, 1/4, z
-  24 f
-  2
-E4  2
-  0.0562  0.2271  0.4076
-  x, y, z
-  48 i
-  1
-E5  2
-  0.1250  0.1733  0.4233
-  1/8, y, 1/4+y
-  24 h
-  2
-3
-2
-60
-[7^6.16^3]
-unk
-  3  6  12  18  30  45  72  108  148  201  644
-  3  6  12  18  30  45  72  111  152  204  654
-  3  6  12  18  30  45  72  106  143  199  635
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
-2422
-kgh
-4
- 0  !number of other symbols
- 1  !number of names
-7^3 G
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-I4(1)32   214
-  7.7993  7.7993  7.7993  90.000  90.000  90.000
-3
-V1  3
-  0.1072  0.2678  0.1145
-  x, y, z
-  48  i
-  1
-  1
-V2  3
-  0.0027  0.0617  0.2327
-  x, y, z
-  48  i
-  1
-  1
-V3  3
-  0.0869  0.0869  0.0869
-  x, x, x
-  16 e
-  3
-  3
-5
-E1  2
-  0.1112  0.0346  0.1148
-  x, y, z
-  48 i
-  1
-E2  2
-  0.0027  0.0000  0.2500
-  x, 0, 1/4
-  24 f
-  2
-E3  2
-  0.00998  0.12500  0.24002
-  x, 1/8, 1/2-x
-  24 h
-  2
-E4  2
-  0.9924  0.1023  0.1841
-  x, y, z
-  48 i
-  1
-E5  2
-  0.0625  0.3125  0.12500
-  x, 1/4+x, 1/8
-  24 h
-  2
-3
-3
-68
-[7^6.20^3] + 3[7^4.10^2] +2[10^3]
-unk
-  3  6  12  18  28  33  45  60  84  108  398
-  3  6  12  18  28  35  47  62  84  114  410
-  3  6  12  18  28  35  47  64  87  113  414
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
 start
 2423
 lwh
@@ -155245,7 +154758,8 @@ schwarzite
  2  !number of keywords
 chiral
 uniform net
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 I432   211
   11.9509  11.9509  11.9509  90.000  90.000  90.000
 10
@@ -155429,7 +154943,8 @@ schwarzite
  2  !number of keywords
 chiral
 uniform net
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 I432   211
   11.6409  11.6409  11.6409  90.000  90.000  90.000
 10
@@ -155613,7 +155128,8 @@ snub cube
  2  !number of keywords
 chiral
 infinite polyhedron
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 P432   207
   3.0486  3.0486  3.0486  90.000  90.000  90.000
 1
@@ -155933,8 +155449,9 @@ bpu
 schwarzite
  1  !number of keywords
 good
- 1  !number of references
+ 2  !number of references
 Acta Cryst. A65, 202 (2009)
+Structural CChem 28, 113 (2017)
 Pm-3n   223
   5.6458  5.6458  5.6458  90.000  90.000  90.000
 2
@@ -156041,7 +155558,8 @@ bpw
 schwarzite
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Structural CChem 28, 113 (2017)
 Fd-3c   228
   11.4083  11.4083  11.4083  90.000  90.000  90.000
 3
@@ -165064,80 +164582,6 @@ V4  4
    4
 14
 start
-2622
-kgu
-4
- 0  !number of other symbols
- 2  !number of names
-Klein
-7^3 G
- 1  !number of other names
-schwarzite
- 2  !number of keywords
-chiral
-uniform net
- 0  !number of references
-I4(1)32   214
-   7.9810   7.9810   7.9810  90.000  90.000  90.000
-3
-V1  3
-  0.0626 0.2515 0.5099
-  x, y, z
-  48  i
-  1
-  1
-V2  3
-  0.2545 0.3393 0.4316
-  x, y, z
-  48  i
-  1
-  1
-V3  3
-  0.3415 0.3415 0.3415
-  x, x, x
-  16 e
-  3
-  3
-5
-E1  2
-  0.0291 0.2165 0.5496
-  x, y, z
-  48 i
-  1
-E2  2
-  0.2181 0.3750 0.4681
-  x, 3/8, 3/4-x
-  24 g
-  2
-E3  2
-  0.1250 0.2557 0.5057
-  1/8, y, 1/4+y
-  24 g
-  2
-E4  2
-  0.2980 0.3404 0.3866
-  x, y, z
-  48 i
-  1
-E5  2
-  0.0000 0.2500 0.5099
-  0, 1/4, z
-  24 f
-  2
-3
-2
-60
-[7^6.8^3] + [7^6.24^3]
-unk
-  3 6 12 17 26 31 42 55 76  98 367
-  3 6 12 17 27 30 44 55 76 102 373
-  3 6 12 18 27 37 42 60 78 105 389
-  7.7.7
-  7.7.7
-  7.7.7
-7
-8
-start
 2623
   cea                                                        
  4b
@@ -169460,61 +168904,6 @@ V4  4
 3.8.4.12.4.12 
    3
 12
-start
- 2679
-  swm                                                        
- 3
-  0     !number of other symbols
-  1     !number of names
-3^7 G
-  0     !number of other names
-  1     !number of keywords
-chiral
-  0     !number of references
- I4(1)32         214                                         
-   3.9767  3.9767  3.9767  90.000  90.000  90.000            
-  1
-V1  7
-  0.2090 0.4087 0.2932                                       
-  x, y, z                                                    
-  48  i                                                      
-  1                                                          
-  1                                                          
-  5
- E1   2                                                      
-  0.2752 0.4748 0.3750                                       
-  x, 3/4-x, 3/8                                                          
-  24 g                                                       
-  2                                                          
- E2   2                                                      
-  0.2511 0.3089 0.3510                                       
-  x, y, z                                                    
-  48  i                                                      
-  1                                                          
- E3   2                                                      
-  0.2090 0.5000 0.2500                                       
-  x, 0, 1/4                                                          
-  24 f                                                       
-  2                                                          
- E4   2                                                      
-  0.1838 0.4748 0.4182                                       
-  x, y, z                                                    
-  48  i                                                      
-  1                                                          
- E5   2                                                      
-  0.1261 0.3750 0.3761                                       
-  x, 3/8, 1/4+x                                                          
-  24 g                                                       
-  2                                                          
-  5                                                         
-  4                                                         
-  56
-  3[3^8.4^2] + 2[3^8.10^3] + 3[3^4.10^2] + 2[3^2.4^3]                                                        
-  unk                                                        
-     7   19   35   65  119  156  203  289  381  430 1705     
-unk
-   3
- 4
 start
 2680
 pcu-c3
@@ -176731,61 +176120,6 @@ unk
 3
 2
 start
-2757
- pmc                                                        
- 3
-  0     !number of other symbols
-  1     !number of names
-3^7 G
-  0     !number of other names
-  1     !number of keywords
-chiral
-  0     !number of references
- I4(1)32         214                                         
-   5.2432  5.2432  5.2432  90.000  90.000  90.000            
-  1
-V1  6
-  0.2725 0.2998 0.4162                                       
-  x, y, z                                                    
-  48  i                                                      
-  1                                                          
-  1                                                          
-  5
- E1   2                                                      
-  0.3443 0.2862 0.3580                                       
-  x, y, z                                                    
-  48  i                                                      
-  1                                                          
- E2   2                                                      
-  0.3032 0.3750 0.4468                                       
-  x, 3/8, 3/4-x                                                          
-  24 h                                                       
-  2                                                          
- E3   2                                                      
-  0.3750 0.3168 0.4332                                       
-  3/8, y, 3/4-y                                                          
-  24 g                                                       
-  2                                                         
- E4   2                                                      
-  0.2500 0.2998 0.5000                                       
-  1/4, y, 1/2                                                          
-  24 f                                                       
-  2                                                         
- E5   2                                                      
-  0.2194 0.3750 0.4694                                       
-  x, 3/8, 1/4+x                                                          
-  24 h                                                       
-  2                                                          
-  5                                                          
-  4                                                          
-  88
-  3[3^4] + 2[3^8] + 6[3^4.20^2] + 2[3^2.20^3]                                                      
-  unk                                                        
-     6    9   12   16   24   32   48   64   96  108  416     
-3.3.3.3.3.3.3.4.4.20(45927).20(45927).20(45927).20(45927).20(52488).20(52488) 
-   3
-4
-start
 2758
   zll-a                                                      
 1b
@@ -178930,8 +178264,8 @@ Ca2NF
  1  !number of keywords
 bipartite
  0  !number of references
-Td-3m   227
-  12.8284 2.8284 2.8284  90.000  90.000  90.000
+Fd-3m   227
+ 2.8284 2.8284 2.8284  90.000  90.000  90.000
 3
 V1  6
   0.0000  0.0000  0.0000
@@ -178941,7 +178275,7 @@ V1  6
   12
 V2  6
   0.000  0.0000  0.5000
-  0, 0, 01/2
+  0, 0, 1/2
   16 d
   -3m
   12
@@ -178974,9 +178308,700 @@ unk
   4.4.4.4.4.4.4.4.4.4.4.4.*.*.*
   4.4.4.4.4.4.4.4.4.4.4.4.*.*.*
 4
-3
+2
 start
  -1
+start
+2406
+kgr
+1b
+ 0  !number of other symbols
+ 1  !number of names
+7^3 D
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+F4(1)32   210
+  8.0003  8.0003  8.0003  90.000  90.000  90.000
+3
+V1  3
+  0.1003  0.1003  0.3997
+  x, x, x
+  32 e
+  3
+  3
+V2  3
+  0.0625  0.2498  0.5000
+  x, y, z
+  96  h
+  1
+  1
+V3  3
+  0.0437  0.2936  0.1346
+  x, y, z
+  96  h
+  1
+  1
+5
+E1  2
+  0.1174  0.0720  0.3467
+  x, y, z
+  96  h
+  1
+E2  2
+  0.0000  0.2498  0.5000
+  0, y, 1/2
+  48 f
+  2
+E3  2
+  0.1250  0.2499  0.5001
+  1/8, y 3/4-y
+  48 g
+  2
+E4  2
+  0.0531  0.2717  0.5577
+  x, y, z
+  96  h
+  1
+E5  2
+  0.0000  0.2500  0.1250
+  x, 1/4-x, 1/8
+  48 g
+  2
+3
+3
+56
+[7^12.12^4] + 2[7^6.15^2] + [15^4]
+unk
+  3  6  12  18  30  45  69  93  120  162  559
+  3  6  12  18  30  44  68  92  127  159  560
+  3  6  12  18  30  44  69  91  121  156  551
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2407
+kgq
+1b
+ 0  !number of other symbols
+ 1  !number of names
+7^3 G
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+I4(1)32   214
+  7.0733  7.0733  7.0733  90.000  90.000  90.000
+3
+V1  3
+  0.0707  0.2502  0.4362
+  x, y, z
+  48  i
+  1
+  1
+V2  3
+  0.1769  0.3166  0.3707
+  x, y, z
+  48  i
+  1
+  1
+V3  3
+  0.2880  0.2880  0.2880
+  x, x, x
+  16 e
+  3
+  3
+5
+E1  2
+  0.1250  0.2182  0.4682
+  1/8, y, 1/4+y
+  24 g
+  2
+E2  2
+  0.0000  0.2500  0.4362
+  0, 1/4, z
+  24 f
+  2
+E3  2
+  0.1238  0.2834  0.4034
+  x, y, z
+  48  i
+  1
+E4  2
+  0.1488  0.3750  0.3988
+  x, 3/8, 1/4+x
+  24 f
+  2
+E5  2
+  0.2325  0.3023  0.3294
+  x, y, z
+  48  i
+  1
+3
+3
+76
+[7^6.12^3] + 3[7^4.18^2] + 2[18^3]
+unk
+  3  6  12  18  30  43  60  83  115  147  518
+  3  6  12  18  30  44  60  87  113  149  523
+  3  6  12  18  30  45  64  84  121  150  534
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2408
+kgp
+1b
+ 0  !number of other symbols
+ 1  !number of names
+7^3 G
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+I4(1)32   214
+  6.8598  6.8598  6.8598  90.000  90.000  90.000
+3
+V1  3
+  0.1700  0.3686  0.3173
+  x, y, z
+  48  i
+  1
+  1
+V2  3
+  0.0526  0.1995  0.4378
+  x, y, z
+  48  i
+  1
+  1
+V3  3
+  0.2853  0.2853  0.2853
+  x, x, x
+  16 e
+  3
+  3
+5
+E1  2
+  0.1186  0.3750  0.3686
+  x, 3/8, 1/4+x
+  24 h
+  2
+E2  2
+  0.1789  0.4091  0.2574
+  x, y, z
+  48  i
+  1
+E3  2
+  0.2277  0.3270  0.3013
+  x, y, z
+  48  i
+  1
+E4  2
+  0.1250  0.1936  0.4436
+  1/8, y, 1/4+v
+  24 g
+  2
+E5  2
+  0.0000  0.2500  0.4378
+  0, 1/4, z
+  24 f
+  2
+3
+3
+72
+3[7^6.16^3] + 3[7^4.14^2] + 2[14^3]
+unk
+  3  6  12  18  30  45  68  91  118  154  546
+  3  6  12  18  30  45  67  89  120  154  545
+  3  6  12  18  30  45  67  87  115  150  534
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2409
+kgz
+4
+ 0  !number of other symbols
+ 1  !number of names
+7^3 D
+ 1  !number of other names
+schwarzite
+ 1  !number of keywords
+uniform net
+ 0  !number of references
+Fd-3   203
+  11.4788  11.4788  11.4788  90.000  90.000  90.000
+3
+V1  3
+  0.0316  0.0444  0.4913
+  x, y, z
+  96  g
+  1
+  1
+V2  3
+  0.0865  0.1047  0.5222
+  x, y, z
+  96  g
+  1
+  1
+V3  3
+  0.3341  0.3341  0.3341
+  x, x, x
+  32 e
+  3
+  3
+4
+E1  2
+  0.1250  0.1250  0.5222
+  1/8, 1/8, z
+  48 f
+  2
+E2  2
+  0.0201  0.0064  0.4735
+  x, y, z
+  96  g
+  1
+E3  2
+  0.0591  0.0746  0.5067
+  x, y, z
+  96  g
+  1
+E4  2
+  0.0853  0.1353  0.553
+  x, y, z
+  96  g
+  1
+3
+2
+48
+[6.^4.7^12] + [7^12.24^4]
+unk
+  3  6  11  15  22  27  28  39  56  77  285
+  3  6  12  17  21  25  35  43  54  70  287
+  3  6  12  18  18  21  33  48  45  63  268
+  6.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2420
+kgj
+1b
+ 0  !number of other symbols
+ 1  !number of names
+7^3 D
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+F4(1)32   210
+  7.9906  7.9906  7.9906  90.000  90.000  90.000
+3
+V1  3
+  0.0897  0.1801  0.4968
+  x, y, z
+  96  h
+  1
+  1
+V2  3
+  0.0625  0.5038  0.2432
+  x, y, z
+  96  h
+  1
+  1
+V3  3
+  0.0916  0.0916  0.4084
+  x, x, 1/2-x
+  32 e
+  3
+  3
+5
+E1  2
+  0.1250  0.2167  0.5333
+  1/8, y, 3/4-y
+  48 g
+  2
+E2  2
+  0.0467  0.2117  0.5296
+  x, y, z
+  96  h
+  1
+E3  2
+  0.0906  0.1358  0.4526
+  x, y, z
+  96  h
+  1
+E4  2
+  0.0000  0.5000  0.2432
+  0, 1/2, z
+  48 f
+  2
+E5  2
+  0.1250  0.5053  0.2447
+  1/8, y, 3/4-y
+  48 g
+  2
+3
+2
+48
+[7^12.12^4] + [7^12.18^4]
+unk
+  3  6  12  18  30  44  64  84  125  161  548
+  3  6  12  18  30  44  63  92  127  169  565
+  3  6  12  18  30  45  60  93  120  159  547
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2421
+kgi
+4
+ 0  !number of other symbols
+ 1  !number of names
+7^3 G
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+I4(1)32   214
+  5.9968  5.9968  5.9968  90.000  90.000  90.000
+3
+V1  3
+  0.0469  0.1526  0.4439
+  x, y, z
+  48  i
+  1
+  1
+V2  3
+  0.0656  0.3015  0.3713
+  x, y, z
+  48  i
+  1
+  1
+V3  3
+  0.2663  0.2663  0.2663
+  x, x, x
+  16 e
+  3
+  3
+5
+E1  2
+  0.2301  0.3344  0.2347
+  x, y, z
+  48 i
+  1
+E2  2
+  0.0934  0.3750  0.3434
+  x, 3/5, 1/4+x
+  24 h
+  2
+E3  2
+  0.0000  0.2500  0.3713
+  0, 1/4, z
+  24 f
+  2
+E4  2
+  0.0562  0.2271  0.4076
+  x, y, z
+  48 i
+  1
+E5  2
+  0.1250  0.1733  0.4233
+  1/8, y, 1/4+y
+  24 h
+  2
+3
+2
+60
+[7^6.16^3]
+unk
+  3  6  12  18  30  45  72  108  148  201  644
+  3  6  12  18  30  45  72  111  152  204  654
+  3  6  12  18  30  45  72  106  143  199  635
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2422
+kgh
+4
+ 0  !number of other symbols
+ 1  !number of names
+7^3 G
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+I4(1)32   214
+  7.7993  7.7993  7.7993  90.000  90.000  90.000
+3
+V1  3
+  0.1072  0.2678  0.1145
+  x, y, z
+  48  i
+  1
+  1
+V2  3
+  0.0027  0.0617  0.2327
+  x, y, z
+  48  i
+  1
+  1
+V3  3
+  0.0869  0.0869  0.0869
+  x, x, x
+  16 e
+  3
+  3
+5
+E1  2
+  0.1112  0.0346  0.1148
+  x, y, z
+  48 i
+  1
+E2  2
+  0.0027  0.0000  0.2500
+  x, 0, 1/4
+  24 f
+  2
+E3  2
+  0.00998  0.12500  0.24002
+  x, 1/8, 1/2-x
+  24 h
+  2
+E4  2
+  0.9924  0.1023  0.1841
+  x, y, z
+  48 i
+  1
+E5  2
+  0.0625  0.3125  0.12500
+  x, 1/4+x, 1/8
+  24 h
+  2
+3
+3
+68
+[7^6.20^3] + 3[7^4.10^2] +2[10^3]
+unk
+  3  6  12  18  28  33  45  60  84  108  398
+  3  6  12  18  28  35  47  62  84  114  410
+  3  6  12  18  28  35  47  64  87  113  414
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+2622
+kgu
+4
+ 0  !number of other symbols
+ 2  !number of names
+Klein
+7^3 G
+ 1  !number of other names
+schwarzite
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+I4(1)32   214
+   7.9810   7.9810   7.9810  90.000  90.000  90.000
+3
+V1  3
+  0.0626 0.2515 0.5099
+  x, y, z
+  48  i
+  1
+  1
+V2  3
+  0.2545 0.3393 0.4316
+  x, y, z
+  48  i
+  1
+  1
+V3  3
+  0.3415 0.3415 0.3415
+  x, x, x
+  16 e
+  3
+  3
+5
+E1  2
+  0.0291 0.2165 0.5496
+  x, y, z
+  48 i
+  1
+E2  2
+  0.2181 0.3750 0.4681
+  x, 3/8, 3/4-x
+  24 g
+  2
+E3  2
+  0.1250 0.2557 0.5057
+  1/8, y, 1/4+y
+  24 g
+  2
+E4  2
+  0.2980 0.3404 0.3866
+  x, y, z
+  48 i
+  1
+E5  2
+  0.0000 0.2500 0.5099
+  0, 1/4, z
+  24 f
+  2
+3
+2
+60
+[7^6.8^3] + [7^6.24^3]
+unk
+  3 6 12 17 26 31 42 55 76  98 367
+  3 6 12 17 27 30 44 55 76 102 373
+  3 6 12 18 27 37 42 60 78 105 389
+  7.7.7
+  7.7.7
+  7.7.7
+7
+8
+start
+ 2679
+  swm                                                        
+ 3
+  0     !number of other symbols
+  1     !number of names
+3^7 G
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I4(1)32         214                                         
+   3.9767  3.9767  3.9767  90.000  90.000  90.000            
+  1
+V1  7
+  0.2090 0.4087 0.2932                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.2752 0.4748 0.3750                                       
+  x, 3/4-x, 3/8                                                          
+  24 g                                                       
+  2                                                          
+ E2   2                                                      
+  0.2511 0.3089 0.3510                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E3   2                                                      
+  0.2090 0.5000 0.2500                                       
+  x, 0, 1/4                                                          
+  24 f                                                       
+  2                                                          
+ E4   2                                                      
+  0.1838 0.4748 0.4182                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E5   2                                                      
+  0.1261 0.3750 0.3761                                       
+  x, 3/8, 1/4+x                                                          
+  24 g                                                       
+  2                                                          
+  5                                                         
+  4                                                         
+  56
+  3[3^8.4^2] + 2[3^8.10^3] + 3[3^4.10^2] + 2[3^2.4^3]                                                        
+  unk                                                        
+     7   19   35   65  119  156  203  289  381  430 1705     
+unk
+   3
+ 4
+start
+2757
+ pmc                                                        
+ 3
+  0     !number of other symbols
+  1     !number of names
+3^7 G
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I4(1)32         214                                         
+   5.2432  5.2432  5.2432  90.000  90.000  90.000            
+  1
+V1  6
+  0.2725 0.2998 0.4162                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.3443 0.2862 0.3580                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E2   2                                                      
+  0.3032 0.3750 0.4468                                       
+  x, 3/8, 3/4-x                                                          
+  24 h                                                       
+  2                                                          
+ E3   2                                                      
+  0.3750 0.3168 0.4332                                       
+  3/8, y, 3/4-y                                                          
+  24 g                                                       
+  2                                                         
+ E4   2                                                      
+  0.2500 0.2998 0.5000                                       
+  1/4, y, 1/2                                                          
+  24 f                                                       
+  2                                                         
+ E5   2                                                      
+  0.2194 0.3750 0.4694                                       
+  x, 3/8, 1/4+x                                                          
+  24 h                                                       
+  2                                                          
+  5                                                          
+  4                                                          
+  88
+  3[3^4] + 2[3^8] + 6[3^4.20^2] + 2[3^2.20^3]                                                      
+  unk                                                        
+     6    9   12   16   24   32   48   64   96  108  416     
+3.3.3.3.3.3.3.4.4.20(45927).20(45927).20(45927).20(45927).20(52488).20(52488) 
+   3
+4
+
+
 
 
 
