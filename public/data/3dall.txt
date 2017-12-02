@@ -91499,7 +91499,7 @@ V1  4
   2
 V2  4
   0.1738  0.3476  0.1336
-  x, 2x, x
+  x, 2x, z
   18 h
   m
   2
@@ -91524,7 +91524,7 @@ unk
   4.4.4.8(4).8(2).8(2)
   4.4.4.8(4).12(51).12(51)
 4
-4
+5
 start
 1623
 sea
@@ -120046,8 +120046,9 @@ sxt
  2  !number of keywords
 chiral
 uniform net
- 1  !number of references
-Acta Cryst. A69, 535 (2013)
+ 2  !number of references
+Acta cryst. A 63, 329 (2007)
+Acta Cryst. A 69, 535 (2013)
 I432   211
   1.7019  1.7019  1.7019  90.000  90.000  90.000
 1
