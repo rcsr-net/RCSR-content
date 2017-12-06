@@ -77746,7 +77746,7 @@ ssa
  0  !number of names
  0  !number of other names
  1  !number of keywords
-heterocoord
+bipartite
  1  !number of references
 Acta cryst. A63, 344 (2007)
 P6(3)/mmc   194
@@ -77788,7 +77788,8 @@ ssb
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Acta cryst. A63, 344 (2007)
 I4/mmm   139
@@ -78140,8 +78141,9 @@ ssc-a
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+bipartite
  0  !number of references
 I4(1)32   214
   4.7323  4.7323  4.7323  90.000  90.000  90.000
@@ -96242,10 +96244,10 @@ E2  2
 10
 [4^12] + 3[4^4.12^4]
 unk
-  6  12  32  56  90  126  188  246  330  398  1485
-  4  15  28  55  87  133  176  247  318  409  1473
-  4.4.4.4.4.4.6.6.6.6.6.6.12(24).12(24).12(24)
-  4.6(2).4.6(2).4.6(2)
+  4 9 15 28 56 82 105 138 178 245 861
+  4 8 16 29 48 77 104 130 188 237 842
+  4.12(40).4.12(40).4.12(40)
+  4.4.4.4.6(2).6(2)
 4
 3
 start
@@ -125051,7 +125053,7 @@ icd
  0  !number of names
  0  !number of other names
  1  !number of keywords
-isohedral tiling
+bipartite
  0  !number of references
 Ia-3d   230
   3.2660  3.2660  3.2660  90.000  90.000  90.000
@@ -132644,7 +132646,8 @@ css
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+bipartite
 uniform net
  1  !number of references
 Cryst. Groeth Des. 2014 S.-S. Chen
