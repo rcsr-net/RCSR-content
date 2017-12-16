@@ -178335,7 +178335,7 @@ V2  3
 1
  start
  2789
-  sdn                                                        
+  nso                                                        
  3
   0     !number of other symbols
   1     !number of names
@@ -178479,7 +178479,8 @@ unk
   ttr                                                        
  3
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
+stella quadrangula
 merged crs-ttt
   0     !number of other names
   0     !number of keywords
@@ -178766,5 +178767,53 @@ V4  4
 3.6.5.6.5.6 
    3
    9
+ start
+ 2796
+  str                                                        
+ 1a
+  0     !number of other symbols
+  0     !number of names
+  1     !number of other names
+stella quadrangula
+  1     !number of keywords
+good
+  0     !number of references
+ Fd-3m           227                                         
+   4.7142  4.7142  4.7142  90.000  90.000  90.000            
+  2
+V1  6
+  0.0000 0.0000 0.0000                                       
+  0, 0, 0                                                          
+  16 c                                                       
+  -3m                                                          
+   12                                                        
+V2  6
+  0.0500 0.0500 0.2000                                       
+  x, x, 1/2-x                                                         
+  32 e                                                       
+  3m                                                          
+  6                                                          
+  2
+ E1   2                                                      
+  0.1000 0.0250 0.0250                                       
+  x, y, y                                                          
+  96 g                                                       
+  m                                                          
+ E2   2                                                      
+  0.1250 0.0500 0.1250                                       
+  1/8, y, 1/8                                                          
+  48 f                                                       
+  mm2                                                          
+  3                                                         
+  3                                                         
+  12
+  5[3^4] + [3^12.12^4]                                                     
+  unk                                                        
+     6    8   18   24   54   66  102   96  186  156  717     
+     6   10   15   31   45   81   75  135  135  223  757     
+3.3.3.3.3.3.12(32).12(32).12(32).12(48).12(48).12(48).12(48).12(48).12(48) 
+3.3.3.3.3.3.3.3.3.12(64).12(64).12(64).*.*.* 
+   3
+   2
 start
  -1
