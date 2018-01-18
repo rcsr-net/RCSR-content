@@ -178975,10 +178975,13 @@ start
 frf
 4
  0  !number of other symbols
- 0  !number of names
+ 2  !number of names
+UTSA-34
+3S net
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Chem. Eur. J. 18, 1901 (2012)
 Cmcm   63
   6.1034   3.9159   3.4184   90.000  90.000  90.000
 4
