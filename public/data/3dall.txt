@@ -21636,8 +21636,7 @@ start
 bnn
 1a
  0  !number of other symbols
- 3  !number of names
-boron nitride
+ 2  !number of names
 5/4/h5
 sqc12
  1  !number of other names
@@ -49448,10 +49447,8 @@ dme
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 3  !number of keywords
-heterocoord 34
+ 1  !number of keywords
 good
-isohedral tiling
  0  !number of references
 C2/m   12
   3.7454  2.4023  2.9059  90.000  109.047  90.000
@@ -79436,13 +79433,13 @@ start
 nju
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc9236
 3ST net
  0  !number of other names
- 3  !number of keywords
+ 2  !number of keywords
 good
 bipartite
-heterocoord 34
  1  !number of references
 J. Solid State Chem. 145, 220-226 (1999)
 Im-3m   229
@@ -86142,7 +86139,8 @@ start
 uri
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc11071
 STC net
  0  !number of other names
  3  !number of keywords
@@ -89180,7 +89178,8 @@ start
 tfj
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc976
 flu-derived
 3ST net
  0  !number of other names
@@ -96006,7 +96005,8 @@ start
 wzz
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc1273
 flu plus
  0  !number of other names
  2  !number of keywords
@@ -98433,7 +98433,8 @@ start
 urk
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc2595
 SO net
  0  !number of other names
  4  !number of keywords
@@ -120483,14 +120484,14 @@ start
 tot
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc9235
 3T net
 toc-derived
  0  !number of other names
- 3  !number of keywords
+ 2  !number of keywords
 chiral
 bipartite
-heterocoord
  1  !number of references
 Chem. Rev.114, 1343 (2014)
 P4(2)32   208
@@ -123195,7 +123196,8 @@ start
 ffc
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc 945
 scu-derived
 3S net
  0  !number of other names
@@ -123833,7 +123835,8 @@ start
 epz
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqz5589
 3ST net
  0  !number of other names
  2  !number of keywords
@@ -130755,7 +130758,8 @@ start
 bnn-b
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+boron nitride
  0  !number of other names
  1  !number of keywords
 bipartite
@@ -134003,7 +134007,7 @@ dia-b3
 1b
  0  !number of other symbols
  2  !number of names
-fchalcopyrite
+chalcopyrite
 CuFeS2
  0  !number of other names
  1  !number of keywords
@@ -135367,7 +135371,8 @@ start
 eft
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc929
 bcu-derived
 3SC net
  0  !number of other names
@@ -136830,7 +136835,8 @@ start
 epu
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc2583
 3HX net
  0  !number of other names
  2  !number of keywords
@@ -136887,7 +136893,8 @@ start
 epv
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc2885
 3OX net
  0  !number of other names
  2  !number of keywords
@@ -136944,12 +136951,12 @@ start
 epw
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+sqc12654
 3HX net
  0  !number of other names
- 2  !number of keywords
+ 1  !number of keywords
 bipartite
-heterocoord
  0  !number of references
 Fd-3m   227
   4.8990  4.8990  4.8990  90.0  90.0  90.0
@@ -142511,13 +142518,13 @@ start
 dna
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc12693
 she-related
 3HC net
  0  !number of other names
- 2  !number of keywords
+ 1  !number of keywords
 bipartite
-heterocoord
  0  !number of references
 Im-3m   229
   4.8990  4.8990  4.8990  90.000  90.000  90.000
@@ -143099,13 +143106,13 @@ start
 dne
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc9068
 hxg-derived
 3H net
  0  !number of other names
- 2  !number of keywords
+ 1  !number of keywords
 bipartite
-heterocoord 36
  0  !number of references
 F-43m   216
   5.2908  5.2908  5.2908  90.000  90.000  90.000
@@ -144179,13 +144186,13 @@ start
 dnj
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc12692
 toc-related
 3H8 net
  0  !number of other names
- 2  !number of keywords
+ 1  !number of keywords
 bipartite
-heterocoord
  0  !number of references
 Pn-3m   224
   3.7717  3.7717  3.7717  90.000  90.000  90.000
@@ -146380,7 +146387,8 @@ start
 dnq
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
+sqc925
 3TC net
 bcu-derived
  0  !number of other names
@@ -162982,8 +162990,9 @@ start
 sho
 2b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SOH net
+she plus
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -163819,8 +163828,10 @@ start
 kty
 4
  0  !number of other symbols
- 1  !number of names
+ 3  !number of names
+sqc880
 SOC net
+scu plus
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -170960,7 +170971,8 @@ start
 dnw                                                        
 4
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
+sqc886
 twf-related
   0     !number of other names
   1     !number of keywords
@@ -179724,6 +179736,76 @@ V3  4
 5.6.5.6.5.8 
    5
    5
+ start
+ 2808
+  dia-b4                                                     
+ 1b
+  0     !number of other symbols
+  2     !number of names
+kesterite
+Cu2ZnSnS4
+  0     !number of other names
+  1     !number of keywords
+bipartite
+  0     !number of references
+ I-42m           121                                         
+   2.3095  2.3095  4.6184  90.000  90.000  90.000            
+  4
+V1  4
+  0.0000 0.5000 0.2500                                       
+  0, 1/2, 1/4                                                         
+   4 d                                                       
+  -4                                                          
+  4                                                         
+V2  4
+  0.0000 0.0000 0.0000                                       
+  0, 0, 0                                                         
+   2 a                                                      
+  -4m2                                                          
+ 8                                                         
+V3  4
+  0.5000 0.5000 0.0000                                       
+  1/2, 1/2, 0                                                         
+   2 b                                                       
+  -4m2                                                         
+  8                                                         
+V4  4
+  0.2500 0.2500 0.3750                                       
+  x, x, z                                                          
+   8 i                                                       
+  m                                                         
+  2                                                          
+  3
+ E1   2                                                      
+  0.1250 0.3750 0.3125                                       
+  x, y, z                                                    
+  16  j                                                      
+  1                                                          
+ E2   2                                                      
+  0.8750 0.8750 0.9375                                       
+  x, x, z                                                          
+   8 l                                                      
+  m                                                         
+ E3   2                                                      
+  0.6250 0.6250 0.9375                                       
+  x, x, z                                                          
+   8 l                                                       
+  m                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     4   12   24   42   64   92  124  162  204  252  981     
+     4   12   24   42   64   92  124  162  204  252  981     
+     4   12   24   42   64   92  124  162  204  252  981     
+     4   12   24   42   64   92  124  162  204  252  981     
+6(2).6(2).6(2).6(2).6(2).6(2) 
+6(2).6(2).6(2).6(2).6(2).6(2) 
+6(2).6(2).6(2).6(2).6(2).6(2) 
+6(2).6(2).6(2).6(2).6(2).6(2) 
+   6
+  4
  start
  -1
 
