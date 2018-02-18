@@ -18673,7 +18673,8 @@ dia-b
  1  !number of names
 sphalerite
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+good
 bipartite
  1  !number of references
 Acta Cryst. A59, 515-525 (2003)
@@ -134010,7 +134011,8 @@ dia-b3
 chalcopyrite
 CuFeS2
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+good
 bipartite
  0  !number of references
 I-42d   122
@@ -179889,6 +179891,74 @@ V5  4
 6(2).6(2).6(2).6(2).6(2).6(2) 
    6
    5
+ start
+ 2810
+  crb-b3                                                     
+ 1b
+  0     !number of other symbols
+  1     !number of names
+gamma-LiAlO2
+  0     !number of other names
+  3     !number of keywords
+good
+chiral
+bipartite
+  0     !number of references
+ P4(1)2(1)2       92                                         
+   2.8687  2.8687  3.1564  90.000  90.000  90.000            
+  3
+V1  4
+  0.6740 0.6740 0.0000                                       
+  x, x, 0                                                         
+   4 a                                                      
+  2                                                          
+  2                                                         
+V2  4
+  0.3256 0.3256 0.0000                                       
+  x, ,x, 0                                                         
+   4 a                                                       
+  2                                                          
+  2                                                         
+V3  4
+  0.1746 0.1741 0.2502                                       
+  x, y, z                                                    
+   8  b                                                      
+  1                                                          
+  1                                                          
+  4
+ E1   2                                                      
+  0.7497 0.7500 0.8751                                       
+  x, y, z                                                    
+   8  b                                                      
+  1                                                          
+ E2   2                                                      
+  0.4997 0.6740 0.9999                                       
+  x, y, z                                                    
+   8  b                                                      
+  1                                                          
+ E3   2                                                      
+  0.2501 0.2498 0.1251                                       
+  x, y, z                                                    
+   8  b                                                      
+  1                                                          
+ E4   2                                                      
+  0.3255 0.4998 0.9999                                       
+  x, y, z                                                    
+   8  b                                                      
+  1                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     4   11   24   41   62   90  122  157  200  247  959     
+     4   11   24   41   62   90  122  157  200  247  959     
+     4   11   24   41   62   90  122  157  200  247  959     
+4.6(2).6.6.6.6 
+4.6(2).6.6.6.6 
+4.6(2).6.6.6.6 
+   4
+ 7
  start
  -1
 
