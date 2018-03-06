@@ -2212,6 +2212,29 @@ V1b 4
 0.5 0.8661  0.5
 0 
 start
+83
+ppr
+ppi
+0     !number of other symbols
+1     !number of names
+pentagonal prism
+0     !number of other names
+1     !number of keywords
+simple
+-10m2 (D5h)
+Pmm2
+[4^5.5^2]
+1 2 2
+10 15 7
+3
+V1a 4
+0.5 0.5 -0.6882
+V1b 4
+0.81468 0.5  0.26472
+V1c 4
+0.0 0.5 0.8507
+0
+start
 -1
 
 start
