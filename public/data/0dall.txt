@@ -2150,7 +2150,7 @@ P-8m2
 start
 80
 ppi
-unk
+ppr
 0     !number of other symbols
 1     !number of names
 pentagonal bipyramid
@@ -2169,9 +2169,47 @@ V1a 4
 V1b 4
 0.81468 0.0  0.26472
 V1c 4
-0.0 0.0 1.0
+0.0 0.0 0.8507
 V2 5
 0.0 0.5293 0.0
+0 
+start
+81
+pap
+unk
+0     !number of other symbols
+1     !number of names
+pentagonal antiprism
+0     !number of other names
+1     !number of keywords
+simple
+-5m (D5d)
+P2
+[3^10.5^2]
+1 2 2
+10 20 12
+0
+0 
+start
+82
+hpr
+unk
+0     !number of other symbols
+1     !number of names
+hexagonal prism
+0     !number of other names
+1     !number of keywords
+simple
+6/mmm (D6h)
+Pmmm
+[3^6.6^2]
+1 2 2
+12 18 8
+2
+V1a 4
+1.0 0.0 0.5
+V1b 4
+0.5 0.8661  0.5
 0 
 start
 -1
