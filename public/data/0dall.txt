@@ -2115,7 +2115,7 @@ ThCr2Si2 poyhedron
 0     !number of other names
 1     !number of keywords
 spacefilling
-4/mmm (Oh)
+4/mmm (D4h)
 P4/mmm
 [4^8.6^4]
 3 3 2
@@ -2132,6 +2132,47 @@ F1 6
 0.866 0.0 0.0
 F2 4
 0.433 0.433 1.1843
+start
+79
+mtq
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+-6m2 (D3h)
+P-8m2
+[4^9]
+3 2 2
+11 18 9
+0
+0
+start
+80
+ppi
+unk
+0     !number of other symbols
+1     !number of names
+pentagonal bipyramid
+0     !number of other names
+2     !number of keywords
+deltahedron
+simplicial
+-10m2 (D5h)
+Pmm2
+[3^10]
+2 2 1
+7 15 10
+4
+V1a 4
+0.5 0.0 -0.6882
+V1b 4
+0.81468 0.0  0.26472
+V1c 4
+0.0 0.0 1.0
+V2 5
+0.0 0.5293 0.0
+0 
 start
 -1
 
