@@ -2235,6 +2235,52 @@ V1c 4
 0.0 0.5 0.8507
 0
 start
+84
+mtq
+unk
+0     !number of other symbols
+1     !number of names
+Edshammer polyhedron
+0     !number of other names
+0     !number of keywords
+-6m2 (D3h)
+P-6m2
+[4^9]
+3 2 2
+11 18 9
+0
+0
+start
+85
+mtr
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+-10m2 (D5h)
+Pmmm
+[4^15]
+3 2 2
+17 30 15
+0
+0
+start
+86
+mts
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+6/mmm (D6h)
+P6/mmm
+[4^15]
+3 2 2
+20 36 118
+0
+0
+start
 -1
 
 start
