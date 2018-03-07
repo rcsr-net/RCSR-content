@@ -2236,22 +2236,6 @@ V1c 4
 0
 start
 84
-mtq
-unk
-0     !number of other symbols
-1     !number of names
-Edshammer polyhedron
-0     !number of other names
-0     !number of keywords
--6m2 (D3h)
-P-6m2
-[4^9]
-3 2 2
-11 18 9
-0
-0
-start
-85
 mtr
 unk
 0     !number of other symbols
@@ -2266,7 +2250,7 @@ Pmmm
 0
 0
 start
-86
+85
 mts
 unk
 0     !number of other symbols
@@ -2277,7 +2261,7 @@ unk
 P6/mmm
 [4^15]
 3 2 2
-20 36 118
+20 36 18
 0
 0
 start
