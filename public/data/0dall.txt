@@ -2310,6 +2310,52 @@ P422
 0
 0
 start
+89
+twc
+unk
+0     !number of other symbols
+0     !number of names
+1     !number of other names
+twinned cuboctahedron
+0     !number of keywords
+-6m2 (D3d)
+Pmm2
+[3^8.4^6]
+2 4 3
+12 24 14
+5
+V1a 4
+0.0 1.0 0.0
+V1b 4
+0.0 0.5 0.866
+v1c 4
+0.0 0.5 -0.866
+V2a 4
+0.866 0.5 -0.2886
+V2b 4
+0.866 0.5 0.5773
+0
+start
+90
+gbf
+unk
+0     !number of other symbols
+0     !number of names
+1     !number of other names
+byrobifastigum
+0     !number of keywords
+-4m2 (D2d)
+P-4m2
+[3^4.4^4]
+2 3 2
+8 14 8
+2
+V1 4
+0.0 0.5 0.0
+V2 4
+0.5 0.0 0.866
+0
+start
 -1
 
 start
