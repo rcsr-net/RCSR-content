@@ -2342,7 +2342,7 @@ unk
 0     !number of other symbols
 0     !number of names
 1     !number of other names
-byrobifastigum
+gyrobifastigium
 0     !number of keywords
 -4m2 (D2d)
 P-4m2
@@ -2351,9 +2351,53 @@ P-4m2
 8 14 8
 2
 V1 4
-0.0 0.5 0.0
-V2 4
+0.5 0.5 0.0
+V2 3
 0.5 0.0 0.866
+0
+start
+91
+stk
+unk
+0     !number of other symbols
+0     !number of names
+1     !number of other names
+stella octangula
+2     !number of keywords
+simplicial
+cubic
+m-3m (Oh)
+Pm-3m
+[3^24]
+2 2 1
+14 36 24
+2
+V1 8
+0.7071 0.0 0.0
+V2 3
+0.1011 0.7071 0.7071
+0
+start
+92
+stq
+unk
+0     !number of other symbols
+0     !number of names
+1     !number of other names
+stella quadrangular
+2     !number of keywords
+siplicial
+cubic
+-43m (Td)
+P-43m
+[3^12]
+2 2 1
+8 18 12
+2
+V1 8
+0.353 0.3535 0.3535
+V2 3
+-0.5893 -0.5893 -0.5893
 0
 start
 -1
