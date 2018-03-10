@@ -371,7 +371,7 @@ F2 6
 start
 14
 tte
-unk
+stq
 1     !number of other symbols
 tet-a
 2     !number of names
@@ -398,7 +398,7 @@ F2 3
 start
 15
 tcu
-unk
+stk
 1     !number of other symbols
 cub-a
 2     !number of names
@@ -2358,7 +2358,7 @@ V2 3
 start
 91
 stk
-unk
+tcu
 0     !number of other symbols
 0     !number of names
 1     !number of other names
@@ -2380,7 +2380,7 @@ V2 3
 start
 92
 stq
-unk
+tte
 0     !number of other symbols
 0     !number of names
 1     !number of other names
@@ -2394,7 +2394,7 @@ P-43m
 2 2 1
 8 18 12
 2
-V1 8
+V1 6
 0.353 0.3535 0.3535
 V2 3
 -0.5893 -0.5893 -0.5893
