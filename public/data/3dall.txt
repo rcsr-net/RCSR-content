@@ -78246,7 +78246,8 @@ start
 vba
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+4/4/o13
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -78295,7 +78296,8 @@ start
 vbb
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+4/4/o12
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79494,7 +79496,8 @@ start
 vbc
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o23
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79543,7 +79546,8 @@ start
 vbd
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o20
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79597,7 +79601,8 @@ start
 vbe
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/3/o2
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79697,7 +79702,8 @@ start
 vbg
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o24
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79746,7 +79752,8 @@ start
 vbh
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/3/o5
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79795,7 +79802,8 @@ start
 vbi
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/3/o4
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -79845,7 +79853,8 @@ start
 vbj
 1b
  0  !number of other symbols
- 0  !number of names
+ 01  !number of names
+5/4/o14
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79894,7 +79903,8 @@ start
 vbk
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o12
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79943,7 +79953,8 @@ start
 vbl
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o20
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -79997,7 +80008,8 @@ start
 vbm
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/4/o3
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80051,7 +80063,8 @@ start
 vbn
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o13
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -80152,7 +80165,8 @@ start
 vbp
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o29
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80206,7 +80220,8 @@ start
 vbq
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o16
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80260,7 +80275,8 @@ start
 vbr
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o8
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80314,7 +80330,8 @@ start
 vbs
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o15
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80368,7 +80385,8 @@ start
 vbt
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o10
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -80418,7 +80436,8 @@ start
 vbu
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o11
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -80468,7 +80487,8 @@ start
 vbv
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o17
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80522,7 +80542,8 @@ start
 vbw
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o7
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -80576,7 +80597,8 @@ start
 vbx
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o6
  0  !number of other names
  1  !number of keywords
 good
@@ -80899,7 +80921,8 @@ start
 vcz
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o12
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -80947,7 +80970,8 @@ start
 vda
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o21
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81001,7 +81025,8 @@ start
 vca
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o9
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81055,7 +81080,8 @@ start
 vcb
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o18
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81109,7 +81135,8 @@ start
 vcc
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/4/o9
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81163,7 +81190,8 @@ start
 vcd
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o17
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81217,7 +81245,8 @@ start
 vce
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/4/o19
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81271,7 +81300,8 @@ start
 vcf
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/o24
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81376,7 +81406,8 @@ start
 vch
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+7/3/o18
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81430,7 +81461,8 @@ start
 vci
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+7/3/o14
  0  !number of other names
  0  !number of keywords
  01 !number of references
@@ -81484,7 +81516,8 @@ start
 vcj
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+7/3/o16
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -81792,7 +81825,8 @@ start
 vcp
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+7/3/o17
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -81846,7 +81880,8 @@ start
 vcq
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+7/3/o15
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -82000,7 +82035,8 @@ start
 vct
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+8/3/o8
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -82054,7 +82090,8 @@ start
 vcu
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+3/3/09
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -82108,7 +82145,8 @@ start
 vcv
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+8/3/o7
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -82162,7 +82200,8 @@ start
 vcw
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+9/3/o7
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -82266,7 +82305,8 @@ start
 vcy
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+9/3/o6
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -88455,7 +88495,8 @@ start
 vdb
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+5/3/o3
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -91857,7 +91898,8 @@ ib
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   2.4437  1.6006  2.3997  90.000  102.625  90.000
 1
@@ -91905,7 +91947,8 @@ vmb
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   2.0685  2.7629  1.8150  90.000  115.154  90.000
 1
@@ -91954,7 +91997,8 @@ vmc
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   2.9985  2.4919  1.7504  90.000  101.699  90.000
 1
@@ -92003,7 +92047,8 @@ vmd
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   2.9518  1.7052  1.9121  90.000  100.222  90.000
 1
@@ -92051,7 +92096,8 @@ vme
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.6331  1.6330  1.8258  90.000  116.580  90.000
 1
@@ -92096,10 +92142,12 @@ start
 vmf
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+6/3/m1
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/m   12
   1.8602  2.7347  1.8166  90.000  102.536  90.000
 1
@@ -92152,7 +92200,8 @@ vmg
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   1.7939  2.8972  1.6851  90.000  100.164  90.000
 1
@@ -92205,7 +92254,8 @@ vmh
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 A2/n   15
   1.8493  2.7385  1.8241  90.000  105.068  90.000
 1
@@ -92258,7 +92308,8 @@ vmi
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.9500  2.8430  1.7897  90.000  111.141  90.000
 1
@@ -92311,7 +92362,8 @@ vmj
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.9492  1.6707  2.9130  90.000  102.707  90.000
 1
@@ -92359,7 +92411,8 @@ vmk
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.4496  2.3656  2.4099  90.000  91.669  90.000
 1
@@ -92412,7 +92465,8 @@ vml
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   2.6736  1.6665  1.9264  90.000  96.765  90.000
 1
@@ -92466,7 +92520,8 @@ vmm
  0  !number of other names
  1  !number of keywords
 good
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.0000  2.6939  1.3936  90.000  104.102  90.000
 1
@@ -92519,7 +92574,8 @@ vmn
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.9729  1.8725  2.1998  90.000  116.654  90.000
 1
@@ -92572,7 +92628,8 @@ vmo
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   1.7815  3.3166  1.4143  90.000  107.969  90.000
 1
@@ -92627,10 +92684,12 @@ start
 vmp
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+7/3/m2
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/m   12
   1.0000  3.9551  1.9039  90.000  102.162  90.000
 1
@@ -92688,7 +92747,8 @@ vmq
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   3.7344  1.0000  1.9729  90.000  104.958  90.000
 1
@@ -92741,7 +92801,8 @@ vmr
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.3918  1.3920  1.9418  90.000  104.276  90.000
 1
@@ -92789,7 +92850,8 @@ vms
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.8562  1.9123  1.9464  90.000  100.653  90.000
 1
@@ -92847,7 +92909,8 @@ vmt
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   1.9207  1.9207  1.9370  90.000  104.895  90.000
 1
@@ -92905,7 +92968,8 @@ vmu
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   3.6061  1.0000  1.9797  90.000  103.949  90.000
 1
@@ -92958,7 +93022,8 @@ vmv
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/n   14
   1.0000  1.8373  1.9036  90.000  105.207  90.000
 1
@@ -93011,7 +93076,8 @@ vmw
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.9897  1.0000  3.5833  90.000  104.602  90.000
 1
@@ -93064,7 +93130,8 @@ vmx
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   1.9020  3.6885  1.0000  90.000  101.987  90.000
 1
@@ -93122,7 +93189,8 @@ vmy
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.6685  1.8137  2.4889  90.000  100.886  90.000
 1
@@ -93180,7 +93248,8 @@ vmz
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.8369  1.0000  1.9366  90.000  108.424  90.000
 1
@@ -93233,7 +93302,8 @@ vna
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.0000  1.9108  1.6742  90.000  90.000  90.000
 1
@@ -93286,7 +93356,8 @@ ib
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   1.5176  1.3026  3.2844  90.000  99.804  90.000
 1
@@ -93344,7 +93415,8 @@ vnc
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 C2/c   15
   3.2250  1.0000  1.9820  90.000  92.402  90.000
 1
@@ -93402,7 +93474,8 @@ vnd
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 I2/a   15
   1.9819  1.0000  3.2239  90.000  91.763  90.000
 1
@@ -93460,7 +93533,8 @@ vne
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.0000  1.9305  1.7107  90.000  107.001  90.000
 1
@@ -93518,7 +93592,8 @@ vnf
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+Acta cryst. A 63, 329 (2007)
 P2(1)/c   14
   1.6747  1.0000  1.9772  90.000  104.947  90.000
 1
@@ -181212,6 +181287,170 @@ V3  5
 4.4.4.4.4.4.6.6.12.12
    4
   3
+start
+2829
+  vng                                                        
+1b
+  0     !number of other symbols
+  1     !number of names
+6/3/m2
+  0     !number of other names
+  1     !number of keywords
+good
+  1     !number of references
+Acta cryst. A 63, 329 (2007)
+ C2/m             12                                         
+   1.7833  2.9055  1.9122  90.000 107.069  90.000            
+  1
+V1  6
+  0.0859 0.1721 0.2735                                       
+  x, y, z                                                    
+   8  j                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.0000 0.1721 0.5000                                       
+  0, y, 1/2                                                          
+   4 h                                                       
+  2                                                          
+ E2   2                                                      
+  0.0000 0.1721 0.0000                                       
+  0, y, 0                                                          
+   4 g                                                       
+  2                                                          
+ E3   2                                                      
+  0.0859 0.0000 0.2735                                       
+  x, 0, z                                                          
+   4 i                                                       
+  m                                                          
+ E4   2                                                      
+  0.2500 0.2500 0.5000                                       
+  1/4, 1/4 1/4                                                          
+   4 f                                                       
+  -1                                                          
+ E5   2                                                      
+  0.3359 0.2500 0.2735                                       
+  x, y, z                                                    
+   8  j                                                      
+  1                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     6   18   38   66  102  146  198  258  326  402 1561     
+3.3.3.4.4.4.4.6.6.6(2).6(2).6(3).8(2).*.* 
+   3
+  7
+start
+2830
+  vnh                                                        
+ 1b
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  0     !number of keywords
+  1     !number of references
+Acta cryst. A 63, 329 (2007)
+ C2/c             15                                         
+   2.6970  1.6653  1.9266  90.000  99.903  90.000            
+  1
+V1  7
+  0.3391 0.4194 0.3460                                       
+  x, y, z                                                    
+   8  f                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.5000 0.4194 0.2500                                       
+  1/2, y, 1/4                                                          
+   4 e                                                      
+  2                                                          
+ E2   2                                                      
+  0.5000 0.5000 0.5000                                       
+  1/2, 1/2, 1/2                                                          
+   4 a                                                       
+  -1                                                          
+ E3   2                                                      
+  0.3391 0.5000 0.5960                                       
+  x, y, z                                                    
+   8  f                                                      
+  1                                                          
+ E4   2                                                      
+  0.2500 0.6694 0.2500                                       
+  x, y, z                                                    
+   8  f                                                      
+  1                                                          
+ E5   2                                                      
+  0.2500 0.2500 0.5000                                       
+ 1/4, 1/4, 1/2                                                         
+   4 d                                                       
+  -1                                                         
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     7   23   51   87  137  196  265  347  439  539 2092     
+unk
+   3
+  7
+ start
+ 2831
+  vni                                                        
+ 1b
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  0     !number of keywords
+  1     !number of references
+Acta cryst. A 63, 329 (2007)
+ C2/c             15                                         
+   2.6888  1.0000  2.6878  90.000  93.966  90.000            
+  1
+V1  7
+  0.1340 0.1249 0.1299                                       
+  x, y, z                                                    
+   8  f                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.1340 0.6249 0.1299                                       
+  x, y, z                                                    
+   8  f                                                      
+  1                                                          
+ E2   2                                                      
+  0.0000 0.1249 0.2500                                       
+  0, y, 1/4                                                          
+   4 e                                                       
+  2                                                          
+ E3   2                                                      
+  0.0000 0.0000 0.0000                                       
+  0, 0, 0                                                          
+   4 a                                                       
+  -1                                                          
+ E4   2                                                      
+  0.2500 0.3749 0.2500                                       
+  x, y, z                                                    
+   8  f                                                      
+  1                                                          
+ E5   2                                                      
+  0.2500 0.2500 0.0000                                       
+  1/4, 1/4, 0                                                          
+   4 c                                                       
+  -1                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     7   24   52   92  142  204  277  362  457  564 2182     
+unk
+   3
+   7
 start
  -1
 
