@@ -604,7 +604,7 @@ F2  10
 start
 22
 tic
-stw
+stz
 1     !number of other symbols
 ico-a
 3     !number of names
@@ -2451,7 +2451,7 @@ V2b 3
 0
 start
 94
-stw
+stz
 tic
 0     !number of other symbols
 1     !number of names
