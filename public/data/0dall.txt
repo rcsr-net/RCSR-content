@@ -2450,7 +2450,7 @@ V2b 3
 0.9077 0.9077 0.9077
 0
 start
-94
+95
 stl
 tic
 0     !number of other symbols
@@ -2473,6 +2473,47 @@ V1b 6
 1.309 0.5 0.0
 V2 5
 0.862 1.3947 0.0
+0
+start
+96
+ged
+deg
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+2     !number of keywords
+simplicial
+icosahedral
+-5-3m (Ih)
+Pm-3
+[3^80]
+2 2 2
+42 120 80
+3
+V1a 6
+0.0 0.0 1.618
+V1b 6
+0.809 0.5 1.309
+V2 5
+1.618 0.0 1.0
+0
+start
+97
+ged
+deg
+0     !number of other symbols
+1     !number of names
+C80
+0     !number of other names
+2     !number of keywords
+simple
+icosahedral
+-5-3m (Ih)
+Pm-3
+[5^12.6^30]
+2 2 2
+80 120 42
+0
 0
 start
 -1
