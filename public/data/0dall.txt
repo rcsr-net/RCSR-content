@@ -2499,8 +2499,8 @@ V2 5
 0
 start
 97
-ged
 deg
+ded
 0     !number of other symbols
 1     !number of names
 C80
