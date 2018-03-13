@@ -644,7 +644,7 @@ mtx
 3     !number of names
 rhombiicosidodecahedron
 3.4.5.4
-irc-e
+trc-e
 0     !number of other names
 2     !number of keywords
 Archimedean
