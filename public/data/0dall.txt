@@ -2500,7 +2500,7 @@ V2 5
 start
 97
 deg
-ded
+ged
 0     !number of other symbols
 1     !number of names
 C80
@@ -2513,6 +2513,42 @@ Pm-3
 [5^12.6^30]
 2 2 2
 80 120 42
+0
+0
+start
+98
+gef
+feg
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+2     !number of keywords
+simplicial
+icosahedral
+-5-3m (Ih)
+Pm-3
+[3^180]
+3 4 3
+92 270 180
+0
+0
+start
+99
+feg
+gef
+0     !number of other symbols
+2     !number of names
+C180
+C60 leapfrog
+0     !number of other names
+2     !number of keywords
+simple
+icosahedral
+-5-3m (Ih)
+Pm-3
+[5^12.6^150]
+2 2 2
+180 270 92
 0
 0
 start
