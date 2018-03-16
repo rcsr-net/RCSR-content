@@ -2552,6 +2552,53 @@ Pm-3
 0
 0
 start
+100
+geh
+heg
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+2     !number of keywords
+simplicial
+icosahedral
+532 (I)
+P23
+[3^140]
+2 4 3
+72 210 140
+6
+V1a 6
+0.3309	0.3748	2.0970
+V1b 6
+0.8475	1.1031	1.6469
+V1c 6
+0.1929	1.7461	1.2495
+V1d 6
+-0.7283	1.4152	1.4540
+V1e 
+-0.6430 0.5677 1.9778
+V2 5
+2.1325 0.0 1.3180
+0
+start
+101
+heg
+geh
+0     !number of other symbols
+1     !number of names
+C140
+0     !number of other names
+2     !number of keywords
+simple
+icosahedral
+532 (I)
+P23
+[5^12.6^60]
+3 4 2
+140 210 72
+0
+0
+start
 -1
 
 start
