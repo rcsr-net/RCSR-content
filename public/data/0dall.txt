@@ -2561,8 +2561,8 @@ heg
 2     !number of keywords
 simplicial
 icosahedral
--5-3m (Ih)
-Pm-3
+532 (I)
+P23
 [3^140]
 2 4 3
 72 210 1400
@@ -2591,8 +2591,8 @@ C140
 2     !number of keywords
 simple
 icosahedral
--5-3m (Ih)
-Pm-3
+532 (I)
+P33
 [5^12.6^60]
 3 4 2
 140 210 72
@@ -2609,8 +2609,8 @@ Q122
 2     !number of keywords
 simplicial
 icosahedral
-532 (I)
-P23
+-5-3m (Ih)
+Pm-3
 [3^240]
 4 3 3
 122 560 240
@@ -2627,8 +2627,8 @@ C240
 2     !number of keywords
 simple
 icosahedral
-532 (I)
-P23
+-5-3m (Ih)
+Pm-3
 [5^12.6^110]
 3 3 4
 240 360 122
