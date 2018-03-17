@@ -2565,7 +2565,7 @@ icosahedral
 P23
 [3^140]
 2 4 3
-72 210 140
+72 210 1400
 6
 V1a 6
 0.3309	0.3748	2.0970
@@ -2596,6 +2596,42 @@ P23
 [5^12.6^60]
 3 4 2
 140 210 72
+0
+0
+start
+102
+gej
+jeg
+0     !number of other symbols
+1     !number of names
+Q122
+0     !number of other names
+2     !number of keywords
+simplicial
+icosahedral
+532 (I)
+P23
+[3^240]
+4 3 3
+122 560 240
+0
+0
+start
+103
+jeg
+gej
+0     !number of other symbols
+1     !number of names
+C240
+0     !number of other names
+2     !number of keywords
+simple
+icosahedral
+532 (I)
+P23
+[5^12.6^110]
+3 3 4
+240 360 122
 0
 0
 start
