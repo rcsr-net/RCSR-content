@@ -1,7 +1,7 @@
 start
 1
 snc
-unk
+snc-d
 0     !number of other symbols
 2     !number of names
 snub cube
@@ -675,7 +675,7 @@ F3  5
 start
 24
 snd
-unk
+snd-d
 0     !number of other symbols
 2     !number of names
 snub dodecahedron
@@ -1805,8 +1805,9 @@ ric
 0     !number of other symbols
 0     !number of names
 0     !number of other names
-1     !number of keywords
+2     !number of keywords
 icosahedral
+Catalan
 -5-3m (Ih)
 Pm-3
 [4^60]
@@ -2366,7 +2367,7 @@ stella octangula
 3     !number of keywords
 simplicial
 cubic
-catalan
+Catalan
 m-3m (Oh)
 Pm-3m
 [3^24]
@@ -2388,7 +2389,7 @@ stella quadrangula
 0     !number of other names
 3     !number of keywords
 siplicial
-catalan
+Catalan
 cubic
 -43m (Td)
 P-43m
@@ -2412,7 +2413,7 @@ stella sexangula
 3     !number of keywords
 simplicial
 cubic
-catalan
+Catalan
 m-3m (Oh)
 Pm-3m
 [3^24]
@@ -2435,7 +2436,7 @@ stella vigintangula
 3     !number of keywords
 simplicial
 icosahedral
-catalan
+Catalan
 -5-3m (Ih)
 Pm-3
 [3^60]
@@ -2460,7 +2461,7 @@ stella duodecimangula
 3     !number of keywords
 simplicial
 icosahedral
-catalan
+Catalan
 -5-3m (Ih)
 Pm-3
 [3^60]
