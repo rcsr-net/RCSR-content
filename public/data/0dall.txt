@@ -133,7 +133,7 @@ F1 6
 start
 6
 tid
-tid-z
+tid-d
 1     !number of other symbols
 ido-a
 2     !number of names
@@ -2672,7 +2672,7 @@ Pm-3m
 0
 start
 106
-tid-z
+tid-d
 tid
 0     !number of other symbols
 0     !number of names
