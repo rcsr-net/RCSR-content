@@ -5469,4 +5469,26 @@ V5 3
 3 6 8 10 14 19 28 29 32 32 182
 5^2.7
 start
+202
+bhd
+0  ! number of other symbols
+1  ! number of names
+dhb-d
+0  ! number of other names
+0  ! number of keywords
+p2mg
+Pmam
+1.61035 2.18641 10.0 90.0 90.0 90.0
+2 3 2
+V1 5
+0.25000 0.36422 0.00000
+1/4, y, 0
+5 9 12 19 23 24 33 37 36 47 246
+4^5
+V2 3
+0.75000 0.09313 0.0000
+3/4, y, 0
+3 9 16 15 21 32 27 33 48 39 244
+4^3
+start
 -1
