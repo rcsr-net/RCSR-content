@@ -2376,6 +2376,8 @@ V3 3
 0, y, 0
 3 14 11 31 20 48 28 64 36 80 336
 4^3
+start
+89
 mtg
 0  ! number of other symbols
 0  ! number of names
