@@ -3859,7 +3859,7 @@ cph
 0  ! number of other names
 2  ! number of keywords
 circle packing
-unifrm
+uniform
 P4mm
 P4/mmm
 3.7321 3.7321 10.0000 90.0000 90.00 90.0000
