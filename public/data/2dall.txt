@@ -3857,8 +3857,9 @@ cph
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
+2  ! number of keywords
 circle packing
+unifrm
 P4mm
 P4/mmm
 3.7321 3.7321 10.0000 90.0000 90.00 90.0000
@@ -4412,8 +4413,9 @@ cqg
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
+2  ! number of keywords
 circle packing
+uniform
 c2mm
 Cmmm
 7.00000 1.73206 10.0 90.0 90.0 90.0
@@ -4774,8 +4776,9 @@ cqr
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
+2  ! number of keywords
 circle packing
+uniform
 p2mg
 Pmam
 1.73206 4.00003 10.0 90.0 90.0 90.0
@@ -5075,8 +5078,9 @@ crz
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
+2  ! number of keywords
 circle packing
+uniform
 p6mm
 P6/mmm
 4.95578 4.95578 10.0  90.0 90.0 120.0
@@ -5103,7 +5107,7 @@ krx
 0  ! number of names
 0  ! number of other names
 2  ! number of keywords
-uniform tiling
+unirorm
 circle packing
 p6mm
 P6/mmm
