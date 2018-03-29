@@ -724,7 +724,7 @@ F3  5
 start
 25
 hxb
-unk
+hxb-d
 0     !number of other symbols
 4     !number of names
 N dual
@@ -766,7 +766,7 @@ F3b 5
 start
 26
 tbl
-unk
+tbl-d
 0     !number of other symbols
 3     !number of names
 M dual
@@ -2732,6 +2732,42 @@ P422
 [4^2.5^8]
 2 3 2
 16 24 10
+0
+0
+start
+109
+tbl-d
+tbl
+0     !number of other symbols
+2     !number of names
+M
+ThSi2 polyhedron
+0     !number of other names
+1     !number of keywords
+simplicial
+-4m2 (D2d)
+P-4m2
+[3^36]
+4 9 5
+20 54 36
+0
+0
+start
+110
+hxb-d
+hxb
+0     !number of other symbols
+2     !number of names
+N
+AlB2 polyhedron
+0     !number of other names
+1     !number of keywords
+simplicial
+6/mmm (D6h)
+Pmmm
+[3^36]
+3 4 3
+20 54 36
 0
 0
 start
