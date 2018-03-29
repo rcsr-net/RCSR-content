@@ -30,7 +30,8 @@ start
 ico
 dod
 0     !number of other symbols
-3     !number of names
+4     !number of names
+X
 icosahedon
 3^5
 Frank-Kasper 12-c
@@ -58,7 +59,8 @@ start
 dod
 ico
 0     !number of other symbols
-2     !number of names
+3     !number of names
+X dual
 dodecahedron
 5^3
 0     !number of other names
@@ -724,7 +726,8 @@ start
 hxb
 unk
 0     !number of other symbols
-3     !number of names
+4     !number of names
+N dual
 hexagonal barrel
 CaCu5 polyhedron
 DOH cage
@@ -765,7 +768,8 @@ start
 tbl
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
+M dual
 tennis ball
 SGT cage
 0     !number of other names
@@ -848,9 +852,10 @@ F2  3
 start
 29
 csa
-unk
+csa-d
 0     !number of other symbols
-1     !number of names
+2     !number of names
+Y
 capped square antiprism 
 0     !number of other names
 2     !number of keywords 
@@ -874,9 +879,10 @@ F2  3
 start
 30
 tct
-unk
+tct-d
 0     !number of other symbols
-1     !number of names
+2     !number of names
+Z
 tricapped trigonal prism 
 0     !number of other names
 2     !number of keywords 
@@ -940,7 +946,8 @@ start
 zap-d
 zap
 0     !number of other symbols
-0     !number of names
+1     !number of names
+Q dual
 0     !number of other names
 1     !number of keywords
 simple
@@ -986,7 +993,8 @@ start
 mcp
 mcp-d
 0     !number of other symbols
-2     !number of names
+3     !number of names
+P
 Friauf polyhedron
 Frank-Kasper 16-c
 0     !number of other names
@@ -1046,7 +1054,8 @@ start
 fkf
 fkf-d
 0     !number of other symbols
-1     !number of names
+2     !number of names
+D
 Frank-Kasper 14-c
 0     !number of other names
 1     !number of keywords
@@ -1083,7 +1092,8 @@ start
 mcp-d
 mcp
 0     !number of other symbols
-1     !number of names
+2     !number of names
+P dual
 type II clathrate (MTN) polyhedron
 0     !number of other names
 1     !number of keywords
@@ -1508,7 +1518,8 @@ start
 zap
 zap-d
 0     !number of other symbols
-1     !number of names
+2     !number of names
+Q
 Frank-Kasper 15-c
 0     !number of other names
 1     !number of keywords
@@ -1965,7 +1976,8 @@ start
 fkf-d
 fkf
 0     !number of other symbols
-1     !number of names
+2     !number of names
+R dual
 clathrate type I (MEP) polyhedron
 0     !number of other names
 1     !number of keywords
@@ -2686,6 +2698,40 @@ Pm-3
 [3^120]
 3 3 1
 62 180 120
+0
+0
+start
+107
+tct-d
+tct
+0     !number of other symbols
+1     !number of names
+Z dual
+0     !number of other names
+1     !number of keywords 
+simple
+-6m2 (D3h)
+Pmm2
+[4^3.5^6]
+3 3 2
+14 21 9
+0
+0
+start
+108
+csa-d
+csa
+0     !number of other symbols
+1     !number of names
+Y dual 
+0     !number of other names
+1     !number of keywords 
+simple
+-8m2 (D4d)
+P422
+[4^2.5^8]
+2 3 2
+16 24 10
 0
 0
 start
