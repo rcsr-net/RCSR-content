@@ -130986,12 +130986,15 @@ start
 tbo-b3
 1b
  0  !number of other symbols
- 0  !number of names
+ 2  !number of names
+3S net
+scu-derived
  0  !number of other names
  1  !number of keywords
 bipartite
- 1  !number of references
-JACS 124, 10638 (2012)
+ 2  !number of references
+JACS 133, 14204 (2011)
+JACS 134, 10638 (2012)
 Fmmm   69
   4.9011  4.8990  4.8969  90.000  90.000  90.000
 4
