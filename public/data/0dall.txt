@@ -829,7 +829,7 @@ F2  6
 start
 28
 sap
-unk
+sap-d
 0     !number of other symbols
 2     !number of names
 square antiprism
@@ -2189,13 +2189,12 @@ V2 5
 start
 81
 pap
-unk
+pap-d
 0     !number of other symbols
 1     !number of names
 pentagonal antiprism
 0     !number of other names
-1     !number of keywords
-simple
+0     !number of keywords
 -5m (D5d)
 P2
 [3^10.5^2]
@@ -2770,6 +2769,36 @@ Pmmm
 20 54 36
 0
 0
+start
+111
+sap-d
+sap
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+-8m2 (D4d)
+P422
+[4^8]
+2 2 1
+10 16 8
+0
+0
+start
+112
+pap-d
+pap
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+-5m (D5d)
+P2
+[4^10]
+2 2 1
+12 20 10
+0
+0 
 start
 -1
 
