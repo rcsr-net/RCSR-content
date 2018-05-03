@@ -150943,8 +150943,9 @@ start
 nts
 5-NC
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SH net
+4.6.4.6 + 4.6.4.6.4.6 P
  0  !number of other names
  1  !number of keywords
 bipartite
@@ -150970,10 +150971,10 @@ E1  2
   x, y, z
   192 l
   1
-0
-0
-0
-unk
+4
+4
+16
+6[4^4]+[4^12.8^6]+2[4^6.6^4]+[6^8.8^6]
 unk
   4  17  20  60  60  136  120  252  200  360  1230
   6  9  30  33  90  82  180  153  300  241  1125
