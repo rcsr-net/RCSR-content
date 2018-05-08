@@ -96082,9 +96082,10 @@ start
 wzz
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 sqc1273
 flu plus
+pcu-b plus
  0  !number of other names
  2  !number of keywords
 good
@@ -98510,9 +98511,10 @@ start
 urk
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 sqc2595
 SO net
+nbo-b plus
  0  !number of other names
  4  !number of keywords
 bipartite
@@ -98628,7 +98630,8 @@ start
 xbp
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+dia-b plus
  0  !number of other names
  2  !number of keywords
 heterocoord
@@ -117097,7 +117100,8 @@ start
 tsn
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+acs-b plus
  1  !number of other names
 C(H) minimal surface
  2  !number of keywords
@@ -142217,8 +142221,9 @@ start
 qne
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4Q net
+rhr-b plus
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -167526,8 +167531,9 @@ start
   epr                                                        
  2
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 sqc12695
+sod-b plus
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -182378,10 +182384,10 @@ V4  6
   x, y, z                                                    
   32  o                                                      
   1                                                          
-  0                                                          
-  0                                                          
-  0
-  unk                                                        
+  3                                                          
+  2                                                          
+  36
+  [5^8.6^8] + 2[5^4.6^4.8^2]                                                        
   unk                                                        
      3   13   18   52   66  131  149  242  241  403 1319     
      3   12   23   52   76  125  159  235  262  379 1327     
