@@ -182557,7 +182557,7 @@ Cmem. Soc. Rev. 2018
 I432   211
 1.4706 1.4706 1.4706  90.000  90.000  90.000
 1
-V1  3
+V1  2
   0.75  0.413  0.087
   3/4, y, 1/2-y
   24 i
@@ -182576,7 +182576,227 @@ unk
 unk
   2 2 2 2 2 2 2 2 2 2 21
   ∞
+  1000
+2
+start
+2849
+crs-w
+4
+ 0  !number of other symbols
+ 1  !number of names
+fabric weave
+ 0  !number of other names
+ 2  !number of keywords
+weaving
+chiral
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+F4(1)32   210
+2.359 2.359 2.359  90.000  90.000  90.000
+1
+V1  2
+  0.2923 0.4577 0.625
+  x, 3/4-x, 5/8
+  48 g
+  2
+  2
+1
+E1  2
+  0.0 0.0 0.625
+  0, 0, z
+  48 f
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
   ∞
+  1000
+2
+start
+2850
+nbo-w
+4
+ 0  !number of other symbols
+ 1  !number of names
+fabric weave
+ 0  !number of other names
+ 1 !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+Fd-3c   228
+3.4722 3.4722 3.4722  90.000  90.000  90.000
+1
+V1  2
+  0.875  0.875 0.024
+  7/8, 7/8, z
+  96 f
+  2
+  2
+1
+E1  2
+  0.5  0.6755  0.42555
+  1/2, y, y+1/4
+  96 g
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
+2
+start
+2851
+sod-w
+4
+ 0  !number of other symbols
+ 1  !number of names
+chain-link weave
+ 0  !number of other names
+ 2 !number of keywords
+weaving
+chiral
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+I432   211
+2.1204 2.1204 2.1204  90.000  90.000  90.000
+1
+V1  2
+  0.069 0.25 0.431
+  x, 1/4, 1/2-x
+  24 i
+  2
+  2
+1
+E1  2
+  0.4095 0.0 0.5905
+  x, 0, 1-x
+  24 h
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
+2
+start
+2852
+lcs-w
+4
+ 0  !number of other symbols
+ 1  !number of names
+chai-link weave
+ 0  !number of other names
+ 1 !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+Ia-3d   230
+1.2633 1.2633 1.2633  90.000  90.000  90.000
+1
+V1  2
+  0.75 0.571 0.0
+  374, y, 0
+  48 j
+  2
+  2
+1
+E1  2
+  0.375  0.3395  0.4105
+  3/8, y, 3/4-y
+  48 g
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
+2
+start
+2853
+lcv-w
+4
+ 0  !number of other symbols
+ 1  !number of names
+chai-link weave
+ 0  !number of other names
+ 2 !number of keywords
+weaving
+chiral
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+I4(1)32   214
+2.8248 2.8248 2.8248  90.000  90.000  90.000
+1
+V1  2
+  0.458 0.708 0.625
+  x, 1/4+x, 5/8
+  24 g
+  2
+  2
+1
+E1  2
+  0.625 0.6665  0.5835
+  5/8, y, 5/4-y
+  24 h
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
+2
+start
+2854
+lcv-w*
+4
+ 0  !number of other symbols
+ 1  !number of names
+chai-link weave
+ 0  !number of other names
+ 2 !number of keywords
+chiral
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+I4(1)32   214	
+2.8441 2.8441 2.8441  90.000  90.000  90.000
+1
+V1  2
+  0.075 0.0 0.25
+  x, 0, 1/4
+  24 j
+  2
+  2
+1
+E1  2
+  0.1628  0.0875  0.125
+  x, 1/4-x, 1/8
+  24 h
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
 2
 start
  -1
