@@ -182799,5 +182799,48 @@ unk
   1000
 2
 start
+2855
+pto-c
+4
+ 0  !number of other symbols
+ 1  !number of names
+MOF-14
+ 0  !number of other names
+ 0  !number of keywords
+ 1  !number of references
+CrystEngComm 18, 7607 (2016)
+Im-3   204
+  2.7472 2.7472 2.7472  90.000  90.000  90.000
+2
+V1  3
+  0.2  0.2  0.2
+  x, x, x
+  16 f
+  3
+  3
+V2  4
+  0.25 0.5 0.0
+  x, 1/2, 0
+  12 e
+  mm2
+  4
+1
+E1  2
+  0.1  0.225  0.350
+  x, y, z
+  48 h
+  1
+0
+0
+0
+unk
+unk
+  3  9  18  39  51  98  99  167  162  267  914
+  4  8  24  34  68  74  132  130  216  202  893
+  8(5).8(5).8(5)
+  8(2).8(2).8(4).8(4).8(4).8(4)
+8
+3
+start
  -1
 
