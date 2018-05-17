@@ -2408,6 +2408,23 @@ V4 6
 6 6 6 12 18 18 24 18 24 30 163
 4^6
 start
+90
+sql-c**
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+cmma
+Cmma
+1.0000 2.0000 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 4
+0.0000 0.2500 0.1000
+0, 1/4, z
+4    8   12   16   20   24   28   32   36   40  221
+4^4
+start
 91
 mth
 0  ! number of other symbols
@@ -5499,7 +5516,7 @@ V2 3
 4^3
 start
 203
-hcb-c3
+hcb-c3*
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
