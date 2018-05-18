@@ -5676,7 +5676,7 @@ x, x, z
 4
 start
 212
-wvn
+wvm
 0 ! number of other symbols
 1  ! number of names
 mad fabric weave
