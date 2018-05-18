@@ -5675,4 +5675,40 @@ x, x, z
 2 1 0 0 0 0 0 0 0 0 4
 4
 start
+212
+wvn
+0 ! number of other symbols
+1  ! number of names
+mad fabric weave
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+2.0 2.0 10.0000 90.0000 90.0000 1200.0000
+1 1 1
+V1 2
+0.1667 0.8333 0.1
+x, 1-x, z
+2 2 2 2 2 2 2 2 2 2 21
+�
+start
+213
+wvg
+0 ! number of other symbols
+1  ! number of names
+fabric weave (3,3)
+0  ! number of other names
+1 ! number of keywords
+weaving
+pban
+Pdan
+4.242 1.414 10.0000 90.0000 90.0000 90.0000
+1 2 1
+V1 2
+0.0833 0.75 0.1
+x, 3/4, z
+2 2 2 2 2 2 2 2 2 2 21
+�
+start
 -1
