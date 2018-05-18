@@ -5678,15 +5678,16 @@ start
 212
 wvm
 0 ! number of other symbols
-1  ! number of names
+2  ! number of names
 mad fabric weave
+hexagonal weave (3,3)
 0  ! number of other names
 1 ! number of keywords
 weaving
 p622
 P622
 2.0 2.0 10.0000 90.0000 90.0000 1200.0000
-1 1 1
+1 2 1
 V1 2
 0.1667 0.8333 0.1
 x, 1-x, z
