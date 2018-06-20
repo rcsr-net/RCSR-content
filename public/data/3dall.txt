@@ -124357,7 +124357,7 @@ tsg
 1b
  0  !number of other symbols
  2  !number of names
-asc-derived
+acs-derived
 3P net
  0  !number of other names
  2  !number of keywords
