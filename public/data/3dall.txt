@@ -182555,7 +182555,7 @@ fabric weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I432   211
 1.4706 1.4706 1.4706  90.000  90.000  90.000
 1
@@ -182592,7 +182592,7 @@ fabric weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 F4(1)32   210
 2.359 2.359 2.359  90.000  90.000  90.000
 1
@@ -182628,7 +182628,7 @@ fabric weave
  1 !number of keywords
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 Fd-3c   228
 3.4722 3.4722 3.4722  90.000  90.000  90.000
 1
@@ -182665,7 +182665,7 @@ chain-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I432   211
 2.1204 2.1204 2.1204  90.000  90.000  90.000
 1
@@ -182701,7 +182701,7 @@ chai-link weave
  1 !number of keywords
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 Ia-3d   230
 1.2633 1.2633 1.2633  90.000  90.000  90.000
 1
@@ -182738,7 +182738,7 @@ chai-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I4(1)32   214
 2.8248 2.8248 2.8248  90.000  90.000  90.000
 1
@@ -182775,7 +182775,7 @@ chai-link weave
 chiral
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I4(1)32   214	
 2.8441 2.8441 2.8441  90.000  90.000  90.000
 1
@@ -182855,7 +182855,7 @@ chai-link weave
 chiral
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 P4(1)32   213	
 1.2756 1.2756 1.2756  90.000  90.000  90.000
 1
@@ -182928,7 +182928,7 @@ chai-link weave
  1 !number of keywords
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I-43d   220	
 1.871 1.871 1.871  90.000  90.000  90.000
 1
@@ -182965,7 +182965,7 @@ chai-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 F4(1)32   210	
 1.0844 1.0844 1.0844  90.000  90.000  90.000
 1
@@ -183002,7 +183002,7 @@ chai-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I4(1)22   98	
 1.206 1.206 1.7053  90.000  90.000  90.000
 1
@@ -183039,7 +183039,7 @@ chai-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I432   211	
 1.3503 1.3503 1.3503  90.000  90.000  90.000
 1
@@ -183075,7 +183075,7 @@ chai-link weave
  1 !number of keywords
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 I4(1)/amd   141	
 1.4215 1.4215 2.0104  90.000  90.000  90.000
 1
@@ -183111,7 +183111,7 @@ chai-link weave
  1 !number of keywords
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 P4(2)/nnm   134	
 2.010 2.010 2.010  90.000  90.000  90.000
 1
@@ -183148,7 +183148,7 @@ chai-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 P6(2)22   180	
 1.3985 1.3985 1.287  90.0  90.0  120.0
 1
@@ -183185,7 +183185,7 @@ chai-link weave
 weaving
 chiral
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 P6(2)22   180	
 1.1715 1.1715 1.2792  90.0  90.0  120.0
 1
@@ -183222,7 +183222,7 @@ chai-link weave
 chiral
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 P6(3)22   182	
 1.1477 1.1477 0.9375  90.0  90.0  120.0
 1
@@ -183259,7 +183259,7 @@ chai-link weave
 chiral
 weaving
  1  !number of references
-Cmem. Soc. Rev. 2018
+Cmem. Soc. Rev. 47, 4642 (2018)
 P6(2)22   180	
 1.4389 1.4359 1.5230  90.0  90.0  120.0
 1
