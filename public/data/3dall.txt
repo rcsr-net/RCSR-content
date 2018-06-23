@@ -177911,8 +177911,9 @@ linked adamantine cages
 bipartite
 good
 weaving
- 1  !number of references
+ 2  !number of references
 Nature Chem. 2, 461 (2010)
+Cmem. Soc. Rev. 47, 4642 (2018)
 P-43m   215
   2.4495 2.4495 2.4495  90.000  90.000  90.000
 2
@@ -177957,7 +177958,8 @@ linked Borromean rings
 bipartite
 good
 weaving
- 0  !number of references
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
 Fm-3c    226
   2.828 2.828 2.828  90.000  90.000  90.000
 2
@@ -183235,6 +183237,43 @@ E1  2
   0.0000 0.6667 0.5
   0, y, 1/2
   6 g
+  2
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
+3
+start
+2867
+qtz-w**
+4
+ 0  !number of other symbols
+ 1  !number of names
+chai-link weave
+ 0  !number of other names
+ 2 !number of keywords
+chiral
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 2018
+P6(2)22   180	
+1.4389 1.4359 1.5230  90.0  90.0  120.0
+1
+V1  2
+  0.4 0.0.0 0.0
+  x, 0, 0
+  6 g
+  2
+  2
+1
+E1  2
+  0.7 0.3 0.8333
+  x, 1-x, 5/6
+  6 j
   2
 0
 0
