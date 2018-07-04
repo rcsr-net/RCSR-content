@@ -27683,8 +27683,9 @@ simple tiling
 zeolite net
 clathrate
 good
- 1  !number of references
+ 2  !number of references
 J. Solid State Chem. 178, 2533-2554 (2005)
+Cryst. grwoth Des. 18, 449 (2018)
 Fd-3m   227
   6.2056  6.2056  6.2056  90.000  90.000  90.000
 3
@@ -64875,9 +64876,10 @@ MIL-101
  0  !number of other names
  1  !number of keywords
 good
- 2  !number of references
+ 3  !number of references
 J. Solid State Chem. 178, 2533-2554 (2005)
 Chem. Rev, 112, 675 (2012)
+Cryst. grwoth Des. 18, 449 (2018)
 Fd-3m   227
   7.5837  7.5837  7.5837  90.000  90.000  90.000
 4
@@ -103096,7 +103098,8 @@ mtn-e-a
  0  !number of other names
  1  !number of keywords
 simple tiling
- 0  !number of references
+ 1  !number of references
+Cryst. grwoth Des. 18, 449 (2018)
 Fd-3m   227
   18.7954  18.7954  18.7954  90.000  90.000  90.000
 11
@@ -103630,8 +103633,9 @@ moo-a
  0  !number of other names
  1  !number of keywords
 heterocoord 34
- 1  !number of references
+ 2  !number of references
 Chem. Rev, 112, 675 (2012)
+Cryst. grwoth Des. 18, 449 (2018)
 Fd-3m   227
   29.3327  29.3327  29.3327  90.000  90.000  90.000
 22
@@ -135303,8 +135307,9 @@ MIL-100
  0  !number of other names
  1  !number of keywords
 bipartite
- 1  !number of references
+ 2  !number of references
 Mat. Res. Bull. 41, 911 (2006)
+Cryst. grwoth Des. 18, 449 (2018)
 Fd-3m   227
   13.0887  13.0887  13.0887  90.0  90.0  90.0
 10
@@ -168922,8 +168927,9 @@ NU-1301 net
   2     !number of keywords
 bipartite
 good
-  1     !number of references
+  2     !number of references
 Science 356, 624 (2017)
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   17.4492 17.4492 17.4492  90.000  90.000  90.000            
  17
@@ -169286,7 +169292,8 @@ C84
 good
 simple tiling
 clathrate
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   12.5922 12.5922 12.5922  90.000  90.000  90.000            
   7
@@ -171864,7 +171871,9 @@ start
 NU-1301 ligand net
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  2     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
+Science 356, 624 (2017)
  Fd-3m           227                                         
   10.0655 10.0655 10.0655  90.000  90.000  90.000            
   7
@@ -172030,7 +172039,8 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
    8.7034  8.7034  8.7034  90.000  90.000  90.000            
   6
@@ -172224,7 +172234,8 @@ V3  6
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   21.2659 21.2659 21.2659  90.000  90.000  90.000            
  17
@@ -172595,7 +172606,8 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
    5.0734  5.0734  5.0734  90.000  90.000  90.000            
   3
@@ -172674,7 +172686,8 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   11.2063 11.2063 11.2063  90.000  90.000  90.000            
   7
@@ -172840,7 +172853,8 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   13.6911 13.6911 13.6911  90.000  90.000  90.000            
  11
@@ -173088,7 +173102,8 @@ E28 2
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   16.2743 16.2743 16.2743  90.000  90.000  90.000            
  11
@@ -173341,7 +173356,8 @@ E26  2
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   15.0708 15.0708 15.0708  90.000  90.000  90.000            
  10
@@ -173566,7 +173582,8 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
    7.5461  7.5461  7.5461  90.000  90.000  90.000            
   4
@@ -174249,7 +174266,8 @@ start
   0     !number of other names
   1     !number of keywords
 good
-  0     !number of references
+  1     !number of references
+Cryst. grwoth Des. 18, 449 (2018)
  Fd-3m           227                                         
   23.1861 23.1861 23.1861  90.000  90.000  90.000            
  18
