@@ -142227,7 +142227,7 @@ qne
 4
  0  !number of other symbols
  2  !number of names
-4Q net
+SQ net
 rhr-b plus
  0  !number of other names
  2  !number of keywords
@@ -183834,6 +183834,75 @@ E3   2
 5.9.6.6.7.9 
    5
    8
+start
+2876
+srs-c27
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+chiral
+ 1  !number of references
+Acta) Cryst A71, 82 (2015)
+I4(1)32   214
+  0.9428 0.9428 0.9428  90.000  90.000  90.000
+1
+V1  3
+  0.1250  0.1250  0.1250
+  1/8, 1/8, 1/8
+  8 a
+  32
+  6
+1
+E1  2
+  0.0000 0.7500 0.3750
+  0, 3/4, 3/8
+  12 c
+  222
+0
+0
+0
+unk
+unk
+  3  6  12  24  35  48  69  86  108  138  530
+  10(5).10(5).10(5)
+10
+1
+start
+2877
+srs-c54
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 0  !number of keywords
+ 1  !number of references
+Acta Cryst A71, 82 (2015)
+Ia-3d   230
+  0.9428 0.9428 0.9428  90.000  90.000  90.000
+1
+V1  3
+  0.1250  0.1250  0.1250
+  1/8, 1/8, 1/8
+  16 b
+  32
+  6
+1
+E1  2
+  0.0000  0.7500  0.3750
+  0, 3/4, 3/8
+  24 c
+  222
+0
+0
+0
+unk
+unk
+  3  6  12  24  35  48  69  86  108  138  530
+  10(5).10(5).10(5)
+10
+1
 start
  -1
 
