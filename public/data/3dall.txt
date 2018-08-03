@@ -9027,9 +9027,10 @@ uks
 4^3.6 D
  0  !number of other names
  0  !number of keywords
- 2  !number of references
+ 3  !number of references
 J. Solid State Chem. 178, 2533-2554 (2005)
 Structural Chem 28:147 (2017)
+Chem. Commun. 54, 8769 (2018)
 Pn-3m   224
   3.6958  3.6958  3.6958  90.000  90.000  90.000
 1
@@ -183943,7 +183944,7 @@ E1  2
 0
 8
 unk
-xbo
+unk
   3  18  15  67  45  166  90  305  150  478  1338
   8  8  40  30  120  68  240  126  400  180  1221
   unk
