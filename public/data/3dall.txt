@@ -183621,7 +183621,8 @@ start
  lum                                                    
  1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+lul-derived
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -183672,7 +183673,8 @@ start
  lun                                                    
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+lul-derived
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -183769,7 +183771,8 @@ start
  luo                                                    
 4
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+lul-derived
   0     !number of other names
   1     !number of keywords
 polar
@@ -183903,6 +183906,50 @@ unk
   10(5).10(5).10(5)
 10
 1
+start
+2878
+the-c
+4
+ 0  !number of other symbols
+ 1  !number of names
+3C net
+ 0  !number of other names
+ 2  !number of keywords
+bipartite
+good
+ 0  !number of references
+Im-3m   229
+  2.4995  2.4995  2.4995  90.000  90.000  90.000
+2
+V1  3
+  0.1667  0.1667  0.1667
+  x, x, x
+  16 f
+  3m
+  6
+V2  8
+  0.5000  0.0000  0.0000
+  1/2, 0, 0
+  6 b
+  4/mmm
+  16
+1
+E1  2
+  0.0833  0.0833  0.3333
+  x, x, z
+  48 k
+  m
+0
+0
+8
+unk
+xbo
+  3  18  15  67  45  166  90  305  150  478  1338
+  8  8  40  30  120  68  240  126  400  180  1221
+  unk
+  unk
+4
+2
 start
  -1
 
