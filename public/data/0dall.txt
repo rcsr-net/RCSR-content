@@ -2809,7 +2809,10 @@ P2
 2 2 1
 12 20 10
 0
-0 
+0
+start
+-1
+ 
 start
 113
 yys
@@ -2828,6 +2831,7 @@ Pm-3
 0
 0 
 start
+114
 liu
 unk
 0     !number of other symbols
@@ -2844,7 +2848,7 @@ P-43m
 0
 0 
 start
-114
+115
 wuh
 unk
 0     !number of other symbols
