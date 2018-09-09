@@ -12545,7 +12545,7 @@ cfc
 1b
  0  !number of other symbols
  1  !number of names
-schwarzite 4H
+4H
  0  !number of other names
  2  !number of keywords
 uniform net
@@ -38514,7 +38514,7 @@ E2  2
 2
 8
 2[3^4] + [3^8]
-unk
+hcp-d
   12  44  96  170  264  380  516  674  852  1052  4061
   unk
 3
@@ -184328,7 +184328,170 @@ unk
 unk
 unk
 3
-6
+5
+start
+2884
+  nin                                                        
+3
+  0     !number of other symbols
+  1     !number of names
+binary Ni2In
+  0     !number of other names
+  1     !number of keywords
+good
+  0     !number of references
+ P6/mmm          191                                         
+   1.5954  1.5954  0.9906  90.000  90.000 120.000            
+  2
+V1 11
+  0.3333 0.6667 0.0000                                       
+ 1/3, 2/3, 0                                                         
+   2 c                                                       
+  -6m2                                                          
+ 12                                                          
+V2 14
+  0.0000 0.0000 0.5000                                       
+  0, 0, 1/2                                                          
+   1 b                                                      
+  6/mmm                                                          
+  24                                                          
+  4
+ E1   2                                                      
+  0.3333 0.6667 0.5000                                       
+  1/3, 2/3, 1/2                                                          
+   2 d                                                       
+  -6m2                                                          
+ E2   2                                                      
+  0.5000 0.0000 0.0000                                       
+  1/2, 0, 0                                                          
+   3 f                                                       
+  mmm                                                          
+ E3   2                                                      
+  0.6667 0.8333 0.2500                                       
+  2y, y, z                                                          
+  12 o                                                       
+  m                                                          
+ E4   2                                                      
+  0.0000 0.0000 0.0000                                       
+  0, 0, 0                                                          
+   1 a                                                       
+  6/mmm                                                         
+  3                                                          
+  2                                                          
+  12
+  2[3^4] + [3^8]                                                        
+  nin-d                                                        
+    11   47   98  179  275  398  539  707  890 1103 4248     
+    14   44  104  176  278  398  542  704  896 1100 4257     
+unk
+unk
+   3
+   2
+start
+2885
+  nin-d                                                        
+4
+  0     !number of other symbols
+  1     !number of names
+binary Ni2In dual
+  0     !number of other names
+  1     !number of keywords
+good
+  0     !number of references
+ P6/mmm          191                                         
+   2.51509 2.51509 1.71004  90.000  90.000 120.000            
+  2
+V1 4
+  0.00000 0.33196 0.50000                                       
+ 0, y, 1/2                                                         
+ 6 k                                                       
+ mm2                                                         
+ 4                                                          
+V2 8
+  0.00000 0.50000 0.00000                                       
+  0, 1/2, 0                                                          
+  3 f                                                      
+  mmm                                                          
+  8                                                          
+  3
+ E1   2                                                      
+  0.16598 0.33196 0.50000                                       
+  x, 2x, 1/2                                                          
+  6 m                                                       
+  mm2                                                          
+ E2   2                                                      
+  0.25000 0.50000 0.00000                                       
+  x, 2x, 0                                                          
+  6 l                                                       
+  mm2                                                          
+ E3   2                                                      
+  0.00000 0.41598 0.25000                                       
+  0, y, z                                                          
+  12 n                                                       
+  m                                                                                                                  
+  4                                                          
+  2                                                          
+  12
+  2[3^2.4^9] + [4^12.6^2]                                                        
+  nin                                                        
+    4 15 41  86 153 224 314 416 526 664 2444     
+    8 26 58 108 166 242 330 428 550 666 2583     
+unk
+unk
+   3
+   4
+start
+2886
+hcp-d
+1a
+ 0  !number of other symbols
+ 1  !number of names
+hexagonal closest packing dual
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+P6(3)/mmc   194
+  1.67442 1.67442 2.51546  90.000  90.000  120.000
+2
+V1  8
+  0.00000 0.00000 0.00000
+  0, 0, 0
+  2 a
+  -3m
+  12
+V2  4
+  0.66667 0.33333 0.10515
+  1/3, 1/3, z
+  4 f
+  3m
+  6
+3
+E1  2
+  0.66667 0.33333 0.2500
+  2/3, 1/3, 1/4
+  2 c
+  -6m2
+E2  2
+  .00000 0.00000 0.25000
+  0, 0, 1/4
+  2 b
+  -6m2
+E3  2
+  0.16667 0.83333 0.9474
+  x, 1-x, z
+  12 k
+  m
+2
+1
+8
+[4^12]
+hcp
+8 20 44 74 116 164 224 290 368 452 1761
+4 18 40 74 113 164 221 290 365 452 1742
+  unk
+  unk
+4
+3
 start
  -1
 
