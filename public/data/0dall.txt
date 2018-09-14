@@ -2853,11 +2853,8 @@ P-43m
 0
 0 
 start
--1
-
-start
-71
-kpl
+116
+mdk
 unk
 0     !number of other symbols
 0     !number of names
@@ -2871,6 +2868,8 @@ Pm-3
 180 360 182
 0
 0
+Start
+-1
 
 
 
