@@ -38855,9 +38855,8 @@ scu
  1  !number of names
 SC net
  0  !number of other names
- 3  !number of keywords
+ 2  !number of keywords
 bipartite
-heterocoord
 good
  2  !number of references
 Acta Cryst. A62, 350-355 (2006)
@@ -182367,6 +182366,48 @@ unk
 unk
    3
    2
+start
+2828
+scu-c
+2
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+I4/mmm   139
+  1.6330  1.6330  1.1547  90.000  90.000  90.000
+2
+V1  4
+  0.5000  0.0000  0.5000
+  1/2, 0, 1/2
+  4 c
+  mmm
+  8
+V2  8
+  0.0000  0.0000  0.0000
+  0, 0, 0
+  2 a
+  4/mmm
+  16
+1
+E1  2
+  0.2500  0.0000  0.2500
+  x, 0, z
+  16 n
+  m
+0
+0
+0
+unk
+unk
+  4  20  28  94  76  214  148  382  244  598  1809
+  8  14  56  50  152  110  296  194  488  302  1671
+  unk
+  unk
+4
+2
 start
 2829
   vng                                                        
