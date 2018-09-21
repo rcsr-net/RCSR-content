@@ -25007,8 +25007,9 @@ start
 snr
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/c26
+3^2.4.5.4^2 I-WP
  1  !number of other names
 snub cube
  1  !number of keywords
@@ -59911,9 +59912,7 @@ start
 lcy-c
 4
  0  !number of other symbols
- 2  !number of names
-Y
-6/3/c1
+ 0  !number of names
  0  !number of other names
  2  !number of keywords
 interpenetrating net
@@ -95966,8 +95965,7 @@ lcy-c*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
-interpenetrating net
+ 0  !number of keywords
  1  !number of references
 Acta Cryst A71, 82 (2015)
 Pa-3   205
@@ -185729,6 +185727,108 @@ hcp
   unk
 4
 3
+start
+2887
+qle-z
+5 (ladder)
+ 0  !number of other symbols
+ 1  !number of names
+qld-z-e
+ 0  !number of other names
+ 1  !number of keywords
+chiral
+ 0  !number of references
+I432   211
+  2.7732 2.7732 2.7732 90.000  90.000  90.000
+1
+V1  4
+  0.7500  0.4500  0.0500 
+  3/4, y, 1/2-y
+  24 i
+  2
+  2
+1
+E1  2
+  0.4000  0.3500  0.9500
+  x, y, z
+  48 j
+  1
+0
+0
+0
+unk
+unk
+  4  10  24  58  108  151  200  260  328  404  1548
+  4.4.10(16).10(16).10(16).10(16)
+4
+2
+start
+2888
+lcy-c8
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+Fd-3c   228
+  1.633 1.633 1.633  90.000  90.000  90.000
+1
+V1  6
+  0.250  0.250  0.250
+  1/4, 1/4, 1/4
+  32 b
+  32
+  6
+1
+E1  2
+  0.125  0.00  0.375
+  x, 0 1/2-x
+  96 g
+  2
+0
+0
+0
+unk
+unk
+  6  24  48  86  138  192  260  348  432  530  2065
+  3.3.3.5.5.5.5(2).5(2).5(2).5(2).5(2).5(2).*.*.*
+3
+1
+start
+2889
+lcy-c4
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+chiral
+ 0  !number of references
+F4(1)32   210
+  1.633 1.633 1.633  90.000  90.000  90.000
+1
+V1  6
+  0.1250  0.1250  0.1250
+  1/8, 1/8, 1/8
+  16 a
+  32
+  6
+1
+E1  2
+  0.25  0.0  0.125
+  x, 1/4-x 1/8
+  48 g
+  2
+0
+0
+0
+unk
+unk
+  6  24  48  86  138  192  260  348  432  530  2065
+  3.3.3.5.5.5.5(2).5(2).5(2).5(2).5(2).5(2).*.*.*
+3
+1
 start
  -1
 
