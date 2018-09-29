@@ -2331,7 +2331,6 @@ unk
 twinned cuboctahedron
 bicupola
 0     !number of other names
-twinned cuboctahedron
 0     !number of keywords
 -6m2 (D3h)
 Pmm2
