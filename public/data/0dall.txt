@@ -2868,6 +2868,32 @@ Pm-3
 180 360 182
 0
 0
+start
+117
+twc
+unk
+0     !number of other symbols
+0     !number of names
+1     !number of other names
+elongated biccupola
+0     !number of keywords
+-6m2 (D3d)
+Pmm2
+[3^8.4^12]
+2 4 4
+18 36 20
+5
+V1a 4
+0.5 1.0 0.0
+V1b 4
+0.5 0.5 0.866
+v1c 4
+0.5 0.5 -0.866
+V2a 4
+1.366 0.5 -0.2886
+V2b 4
+1.366 0.5 0.5773
+0
 Start
 -1
 
