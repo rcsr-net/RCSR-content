@@ -2155,7 +2155,7 @@ unk
 0     !number of other names
 0     !number of keywords
 -6m2 (D3h)
-P-8m2
+Pmm2
 [4^9]
 3 2 2
 11 18 9
@@ -2300,8 +2300,8 @@ unk
 0     !number of names
 0     !number of other names
 0     !number of keywords
--6m2 (D3d)
-P-6m2
+-6m2 (D3h)
+Pmm2
 [4^21]
 5 5 3
 23 42 21
@@ -2327,11 +2327,13 @@ start
 twc
 unk
 0     !number of other symbols
-0     !number of names
-1     !number of other names
+2     !number of names
+twinned cuboctahedron
+bicupola
+0     !number of other names
 twinned cuboctahedron
 0     !number of keywords
--6m2 (D3d)
+-6m2 (D3h)
 Pmm2
 [3^8.4^6]
 2 4 3
@@ -2870,14 +2872,14 @@ Pm-3
 0
 start
 117
-twc
+ebc
 unk
 0     !number of other symbols
-0     !number of names
-1     !number of other names
+1     !number of names
 elongated biccupola
+0     !number of other names
 0     !number of keywords
--6m2 (D3d)
+-6m2 (D3h)
 Pmm2
 [3^8.4^12]
 2 4 4
@@ -2893,6 +2895,33 @@ V2a 4
 1.366 0.5 -0.2886
 V2b 4
 1.366 0.5 0.5773
+0
+start
+118
+egb
+unk
+0     !number of other symbols
+1     !number of names
+elongated gyrobiccupola
+0     !number of other names
+0     !number of keywords
+-3m (D3d)
+P2/m
+[3^8.4^12]
+2 4 4
+18 36 20
+5
+V1a 4
+0.5 1.0 0.0
+V1b 4
+0.5 0.5 0.866
+v1c 4
+0.5 0.5 -0.866wtc
+
+V2a 4
+1.366 -0.5 0.2866
+V2b 4
+-1.366 0.0 0.5773
 0
 Start
 -1
