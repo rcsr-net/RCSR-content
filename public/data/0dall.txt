@@ -2149,9 +2149,10 @@ F2 4
 start
 79
 mtq
-unk
+mtq-d
 0     !number of other symbols
-0     !number of names
+1     !number of names
+Edshammer polyhedron
 0     !number of other names
 0     !number of keywords
 -6m2 (D3h)
@@ -2937,6 +2938,21 @@ P-4m2
 [4^4.5^4]
 2 4 2
 12 18 8
+0
+0
+start
+120
+mtq-d
+mtq
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+-6m2 (D3h)
+Pmm2
+[3^8.4^3]
+3 2 2
+9 18 11
 0
 0
 Start
