@@ -580,10 +580,11 @@ dod-a
 truncated dodecahedron
 3.10^2
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 Archimedean
 icosahedral
 simple
+deltahedronata
 -5-3m (Ih)
 Pm-3
 [3^20.10^12]
@@ -2426,10 +2427,11 @@ tro
 1     !number of names
 stella sexangula
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 simplicial
 cubic
 Catalan
+deltahedron
 m-3m (Oh)
 Pm-3m
 [3^24]
@@ -2498,9 +2500,10 @@ deg
 0     !number of other symbols
 0     !number of names
 0     !number of other names
-2     !number of keywords
+3     !number of keywords
 simplicial
 icosahedral
+deltahedron
 -5-3m (Ih)
 Pm-3
 [3^80]
