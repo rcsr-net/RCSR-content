@@ -918,7 +918,7 @@ F3c 3
 start
 31
 bds
-unk
+bds-d
 0     !number of other symbols
 1     !number of names
 bisdisphenoid 
@@ -2377,10 +2377,11 @@ tcu
 1     !number of names
 stella octangula
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 simplicial
 cubic
 Catalan
+deltahedron
 m-3m (Oh)
 Pm-3m
 [3^24]
@@ -2390,7 +2391,7 @@ Pm-3m
 V1 8
 0.7071 0.0 0.0
 V2 3
-0.1011 0.7071 0.7071
+0.7071 0.7071 0.7071
 0
 start
 92
@@ -2400,10 +2401,11 @@ tte
 1     !number of names
 stella quadrangula
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 siplicial
 Catalan
 cubic
+deltahedron
 -43m (Td)
 P-43m
 [3^12]
@@ -2920,6 +2922,22 @@ V2a 4
 1.366 -0.5 0.2866
 V2b 4
 -1.366 0.0 0.5773
+0
+start
+119
+bds-d
+bds
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords  
+simple
+-4m2 (D2d)
+P-4m2
+[4^4.5^4]
+2 4 2
+12 18 8
+0
 0
 Start
 -1
