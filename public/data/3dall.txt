@@ -187357,5 +187357,38 @@ unk
 4
 15
 start
+2904
+lcy-c4*
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+Ia-3d   230
+  1.633 1.633 1.633  90.000  90.000  90.000
+1
+V1  6
+  0.1250  0.1250  0.1250
+  1/8, 1/8, 1/8
+  16 b
+  32
+  6
+1
+E1  2
+  0.25  0.0  0.375
+  x, 3/4+x 3/8
+  48 g
+  2
+0
+0
+0
+unk
+unk
+  6  24  48  86  138  192  260  348  432  530  2065
+  3.3.3.5.5.5.5(2).5(2).5(2).5(2).5(2).5(2).*.*.*
+3
+1
+start
  -1
 
