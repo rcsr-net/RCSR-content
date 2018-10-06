@@ -1,4 +1,4 @@
-start
+hstart
 1
 mcm
 1  ! number of other symbols
@@ -5516,7 +5516,7 @@ V2 3
 4^3
 start
 203
-hcb-c3*
+hxl-w
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
