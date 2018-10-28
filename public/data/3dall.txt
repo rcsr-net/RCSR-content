@@ -187705,7 +187705,7 @@ V3  6
 4
 start
 2911
-  pz-a                                                       
+  tpz-a                                                       
  1b
   0     !number of other symbols
   0     !number of names
