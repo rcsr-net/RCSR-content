@@ -179113,7 +179113,7 @@ lka
 4
  0  !number of other symbols
  1  !number of names
-linked Borromean rings
+linked Borromean rings see also lkd
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -188058,6 +188058,48 @@ V6  3
 3.16(4).16(4) 
    3
 19
+start
+2915
+lkd
+4
+ 0  !number of other symbols
+ 1  !number of names
+linked Borromean rings see also lka
+ 0  !number of other names
+ 2  !number of keywords
+good
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Fm-3c    226
+  2.828 2.828 2.828  90.000  90.000  90.000
+1
+V1  2
+  0.5000 0.3000 0.1000
+  1/2, x, y
+  96 i
+  m
+  2
+2
+E1  2
+  0.5000 0.300 0.000
+  1/2, x, 0
+  48 e
+  mm2
+E2  2
+  0.5000 0.0 0.1
+  1/2, 0, z
+  48 e
+  mm2
+0
+0
+0
+unk
+unk
+   2 1 0 0 0 0 0 0 0 0 4
+  4
+4
+3
 start
  -1
 
