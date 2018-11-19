@@ -188370,5 +188370,40 @@ V6  5
    3
 19
 start
+2919
+hcb-c4
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+chiral
+uniform net
+ 0  !number of references
+P4(3)32   212
+  1.2247 1.2247 1.2247  90.000  90.000  90.000
+1
+V1  3
+  0.291  0.291 0.291
+  x, x, x
+  8 c
+  3
+  3
+1
+E1  2
+  0.125  0.125  0.625
+  y, 1/4-y, 5/8
+  12 d
+  2
+0
+0
+0
+unk
+unk
+  3  6  9  12  15  18  21  24  27  30  166
+  6.6.6
+6
+2
+start
  -1
 
