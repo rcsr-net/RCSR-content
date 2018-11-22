@@ -188405,5 +188405,39 @@ unk
 6
 2
 start
+2920
+pcu-c8
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+chiral
+ 0  !number of references
+P4(3)32   212
+  1.0000  1.0000  1.0000  90.000  90.000  90.000
+1
+V1  6
+  0.0625  0.0625  0.0625
+  x, x, x
+  8 c
+  3
+  3
+1
+E1  2
+  0.5625  0.0625  0.0625
+  x, y, z
+  24 e
+  1
+0
+0
+0
+unk
+unk
+  6  18  38  66  102  146  198  258  326  402  1561
+  4.4.4.4.4.4.4.4.4.4.4.4.*.*.*
+4
+2
+start
  -1
 
