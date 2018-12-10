@@ -188516,7 +188516,8 @@ start
 srr
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+Hopf ring net (HRN) for srs-c
  0  !number of other names
  0  !number of keywords
  0  !number of references
