@@ -88456,7 +88456,7 @@ unk
 2
 start
 1570
-pcu-c4
+pcu-c4*
 4
  0  !number of other symbols
  0  !number of names
@@ -187421,7 +187421,7 @@ unk
 2
 start
 2906
-pcu-c4*
+pcu-c4
 4
  0  !number of other symbols
  0  !number of names
@@ -188406,7 +188406,7 @@ unk
 2
 start
 2920
-pcu-c8
+pcu-c8*
 4
  0  !number of other symbols
  0  !number of names
