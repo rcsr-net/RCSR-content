@@ -188867,7 +188867,7 @@ nht
  4
   0     !number of other symbols
   2     !number of names
-3TP net
+3P net
 MIL-124
   0     !number of other names
   1     !number of keywords
@@ -188909,7 +188909,7 @@ V3  3
   0.4507 0.0671 0.0559                                       
   x, y, z                                                          
   18 c                                                       
-  m 
+  1 
  E4   2                                                      
   0.4339 0.2170 0.8892                                       
   2y, y, z                                                          
