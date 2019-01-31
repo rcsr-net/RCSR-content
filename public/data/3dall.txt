@@ -189061,9 +189061,11 @@ start
 esg                                                        
 1b
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+3O net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  C2/c             15                                         
  2.9773   1.3351   2.6675  90.0000 116.4394  90.0            
