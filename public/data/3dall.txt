@@ -26221,8 +26221,9 @@ start
 hxg
 2b
  0  !number of other symbols
- 1  !number of names
-4^6 P
+ 2  !number of names
+6^6 P
+4^6 D
  0  !number of other names
  3  !number of keywords
 semiregular net
@@ -186952,7 +186953,7 @@ V1  3
    m                                                        
   2                                                          
 V2  3
-  0.2500 0.6083 0.0838                                       
+  0.0708 0.0709 0.3038                                      
   x, y, z                                                    
    8  g                                                      
   1                                                          
