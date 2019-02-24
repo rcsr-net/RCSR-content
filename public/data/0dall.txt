@@ -2710,7 +2710,7 @@ tid-d
 tid
 0     !number of other symbols
 1     !number of names
-fav polyhedron
+fav cage
 0     !number of other names
 3     !number of keywords
 simplicial
@@ -2971,6 +2971,23 @@ Pmm2
 [3^8.4^3]
 3 2 2
 9 18 11
+0
+0
+start
+121
+soy
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+2     !number of keywords
+cubic
+simple
+m-3m (Oh)
+Pm-3m
+[4^6.6^32]
+3 4 3
+72 108 38
 0
 0
 Start
