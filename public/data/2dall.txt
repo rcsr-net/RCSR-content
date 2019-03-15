@@ -5698,12 +5698,12 @@ start
 wvg
 0 ! number of other symbols
 1  ! number of names
-fabric weave (3,3)
+fabric weave (3,3) twill
 0  ! number of other names
 1 ! number of keywords
 weaving
 pban
-Pdan
+Pban
 4.242 1.414 10.0000 90.0000 90.0000 90.0000
 1 2 1
 V1 2
