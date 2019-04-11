@@ -108168,9 +108168,10 @@ start
 iab
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 sqc5590
 3S net
+sqc-derived
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -189464,6 +189465,63 @@ unk
   4.4.4.4.4.4.12(32).12(32).12(32).12(48).12(48).12(48).12(48).12(48).12(48)
 4
 2
+start
+2934
+  tfm                                                        
+ 1
+  0     !number of other symbols
+  2     !number of names
+sqc-derived
+3ST net
+  0     !number of other names
+  1     !number of keywords
+bipartite
+  0     !number of references
+ I4(1)/amd       141                                         
+   2.6223  2.6223  9.3345  90.000  90.000  90.000            
+  3
+V1  4
+  0.0000 0.0000 0.0000                                       
+  0, 0, 0                                                          
+   8 c                                                       
+  2/m                                                          
+  4                                                          
+V2  4
+  0.0000 0.2500 0.3750                                       
+  0, 1/7, 3/8                                                          
+   4 b                                                       
+  -4m2                                                         
+  8                                                          
+V3  3
+  0.0000 0.5347 0.3037                                       
+  0, y, z                                                          
+  16 h                                                       
+  m                                                          
+  2                                                          
+  2
+ E1   2                                                      
+  0.8923 0.1250 0.0268                                       
+  x, y, z                                                    
+  32  i                                                      
+  1                                                          
+ E2   2                                                      
+  0.0000 0.3923 0.3393                                       
+  0, y, z                                                          
+  16 h                                                       
+  m                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     4    6   16   28   52   52  102  106  172  148  687     
+     4    8   20   24   52   64  104   92  176  180  725     
+     3    8   13   32   39   74   77  131  130  212  720     
+4.4.8.8.10(4).10(4) 
+8(2).8(2).10(8).10(8).10(8).10(8) 
+4.8.8 
+   4
+ 4
 start
  -1
 
