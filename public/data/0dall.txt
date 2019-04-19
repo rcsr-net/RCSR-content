@@ -3004,30 +3004,10 @@ Pm3m
 [3^32.4^6.6^12]
 2 3 4
 72 120 50
-2
-V1 4
-0.5 1.655 0.0 
-V2 4
-0.7887 0.7887 1.366
+0
 0
 Start
 123
-deg-e
-unk
-0     !number of other symbols
-0     !number of names
-0     !number of other names
-1     !number of keywords
-icosahedral
--5-3m (Ih)
-Pm-3
-[3^80.5^12.6^30]
-2 5 4
-120 240 122
-0
-0
-start
-124
 rco-e
 unk
 0     !number of other symbols
@@ -3043,7 +3023,29 @@ Pm-3m
 0
 0
 start
+124
+deg-e
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+-5-3m (Ih)
+Pm-3
+[3^80.5^12.6^30]
+2 5 4
+120 240 122
+0
+0
+start
 -1
+
+2
+V1 4
+0.5 1.655 0.0 
+V2 4
+0.7887 0.7887 1.366
 
 
 
