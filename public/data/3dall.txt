@@ -148087,8 +148087,9 @@ start
 kgq
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 7^3 G
+swq dual
  1  !number of other names
 schwarzite
  2  !number of keywords
@@ -148160,8 +148161,9 @@ start
 kgp
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 7^3 G
+swp dual
  1  !number of other names
 schwarzite
  2  !number of keywords
@@ -165264,9 +165266,10 @@ start
 kgu
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 Klein
 7^3 G
+swm dual
  1  !number of other names
 schwarzite
  2  !number of keywords
@@ -169677,12 +169680,14 @@ start
   swm                                                        
  3
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 3^7 G
+kgu dual
   0     !number of other names
   1     !number of keywords
 chiral
-  0     !number of references
+  1     !number of references
+Acta crystallogr. A74, 223 (2018)
  I4(1)32         214                                         
    3.9767  3.9767  3.9767  90.000  90.000  90.000            
   1
@@ -189663,6 +189668,177 @@ V4  4
 3.8.3.16(4).3.16(5) 
    3
 14
+start
+2937
+  swm                                                        
+3
+  0     !number of other symbols
+  2     !number of names
+3^7 G
+kgh dual
+  0     !number of other names
+  1     !number of keywords
+chiral
+  1     !number of references
+Acta crystallogr. A74, 223 (2018)
+ I4(1)32         214                                         
+   3.9706  3.9706  3.9706  90.000  90.000  90.000            
+  1
+V1  7
+  0.0072 0.0464 0.3523                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.0775 0.0196 0.4494                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E2   2                                                      
+  0.0547 0.1714 0.2975                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E3   2                                                      
+  0.1250 0.0743 0.3244                                       
+  1/8, y, 1/4+y                                                          
+  24 g                                                       
+  2                                                          
+ E4   2                                                      
+  0.0072 0.0000 0.2500                                       
+  x, 0, 1/4                                                          
+  24 f                                                       
+  2                                                          
+ E5   2                                                      
+  0.9525 0.1250 0.2975                                       
+  x, 1/8, 1/4-x                                                          
+  24 g                                                       
+  2                                                          
+  5                                                          
+  3                                                          
+  32
+  2[3^14.4^3] + 2[3^8.10^3] + 3[3^4.10^2]                                                      
+  unk                                                        
+     7   20   39   73  130  179  240  330  430  508 1957     
+unk
+   3
+4
+start
+2938
+  swq                                                        
+ 3
+  0     !number of other symbols
+  2     !number of names
+3^7 G
+kgq dual
+  0     !number of other names
+  1     !number of keywords
+chiral
+  1     !number of references
+Acta crystallogr. A74, 223 (2018)
+ I4(1)32         214                                         
+   3.7668  3.7668  3.7668  90.000  90.000  90.000            
+  1
+V1  7
+  0.1923 0.3959 0.2543                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.1691 0.4191 0.1250                                       
+  x, 1/4+x, 1/8                                                          
+  24 g                                                       
+  2                                                          
+ E2   2                                                      
+  0.2233 0.2941 0.3251                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E3   2                                                      
+  0.1923 0.5000 0.2500                                       
+  x, 1/2, 1/4                                                          
+  24 f                                                       
+  2                                                          
+ E4   2                                                      
+  0.1691 0.4768 0.3793                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E5   2                                                      
+  0.0983 0.3750 0.3483                                       
+  x, 3/8, 1/4+x                                                          
+  24 h                                                       
+  2                                                          
+  6                                                          
+  4                                                          
+  64
+  2[3^8.6^3] + 3[3^4.6^2] + 6[3^4.8^2] + 2[3^2.8^3]                                                        
+  unk                                                        
+     7   21   50   95  155  220  320  438  537  686 2530     
+unk
+   3
+4
+start
+2939
+  swp                                                        
+3
+  0     !number of other symbols
+  2     !number of names
+3^7 G
+kgp dual
+  0     !number of other names
+  1     !number of keywords
+chiral
+  1     !number of references
+Acta crystallogr. A74, 223 (2018)
+ I4(1)32         214                                         
+   3.6824  3.6824  3.6824  90.000  90.000  90.000            
+  1
+V1  7
+  0.1430 0.2564 0.3675                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+  5
+ E1   2                                                      
+  0.2553 0.1997 0.3120                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E2   2                                                      
+  0.1250 0.1870 0.4370                                       
+  1/8, y, 1/4+y                                                         
+  24 h                                                      
+  2                                                          
+ E3   2                                                      
+  0.0000 0.2500 0.3675                                       
+  0, 1/4, z                                                          
+  24 f                                                       
+  2                                                          
+ E4   2                                                      
+  0.1303 0.3750 0.3803                                       
+  x, 3/8, 1/4+x                                                         
+  24 h                                                       
+  2                                                          
+ E5   2                                                      
+  0.2680 0.1870 0.4305                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  6                                                          
+  4                                                          
+  64
+  2[3^8.6^3] + 3[3^4.6^2] + 6[3^4.8^2] + 2[3^2.8^3]                                                      
+  unk                                                        
+     7   21   53  104  166  242  342  452  570  714 2672     
+unk
+   3
+4
 start
  -1
 
