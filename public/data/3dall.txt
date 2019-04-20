@@ -189670,7 +189670,7 @@ V4  4
 14
 start
 2937
-  swm                                                        
+  swn                                                        
 3
   0     !number of other symbols
   2     !number of names
