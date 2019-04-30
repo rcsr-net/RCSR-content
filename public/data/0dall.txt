@@ -481,7 +481,7 @@ F2 4
 0.6430 0.6430 2.2910
 F3 4
 1.2920 1.2920 1.2920
-F4
+F4 12
 1.0000 1.0000 1.0000
 start
 18
@@ -2466,9 +2466,10 @@ tdo
 1     !number of names
 stella vigintangula
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 simplicial
 icosahedral
+deltahedron
 Catalan
 -5-3m (Ih)
 Pm-3
@@ -2491,10 +2492,11 @@ tic
 1     !number of names
 stella duodecimangula
 0     !number of other names
-3     !number of keywords
+4     !number of keywords
 simplicial
 icosahedral
 Catalan
+deltahedron
 -5-3m (Ih)
 Pm-3
 [3^60]
