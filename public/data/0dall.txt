@@ -1359,10 +1359,11 @@ start
 45
 tsz
 unk
-1     !number of other symbols
+0     !number of other symbols
+3     !number of names
 rco-a
-1     !number of names
 tschortnerite cage
+twf-t cage
 0     !number of other names
 2     !number of keywords
 cubic
@@ -1922,23 +1923,6 @@ Pm-3
 0
 start
 69
-rco-a
-unk
-0     !number of other symbols
-1     !number of names
-cuo-e-a
-0     !number of other names
-1     !number of keywords
-cubic
-m-3m (Oh)
-Pm-3m
-[4^24.6^8.8^18]
-2 5 4
-96 144 50
-0
-0
-start
-70
 ric-e
 unk
 0     !number of other symbols
@@ -1954,7 +1938,7 @@ Pm-3
 0
 0
 start
-71
+70
 mcp-d-e
 unk
 0     !number of other symbols
@@ -1986,7 +1970,7 @@ F4  5
 F5  6
 0.9467 -0.9467 -0.9487
 start 
-72
+71
 fkf-d
 fkf
 0     !number of other symbols
@@ -2024,7 +2008,7 @@ F2b 5
 F2c 5
 0.85830 -0.8583 0.48776
 start
-73
+72
 mcp-a
 unk
 0     !number of other symbols
@@ -2060,7 +2044,7 @@ F4  6
 F5  6
 1.61712 1.61712 -1.61712
 start
-74
+73
 mcp-d-e-a
 unk
 0     !number of other symbols
@@ -2078,7 +2062,7 @@ P-43m
 0
 0
 start
-75
+74
 mcp-d-a
 unk
 0     !number of other symbols
@@ -2094,7 +2078,7 @@ P-43m
 0
 0
 start
-76
+75
 vvx
 unk
 0     !number of other symbols
@@ -2111,7 +2095,7 @@ Pm-3
 0
 0
 start
-77
+76
 onb
 cub
 0     !number of other symbols
@@ -2136,7 +2120,7 @@ V2 2
 F1 6
 0.5 0.5 0.05
 start
-78
+77
 cst
 unk
 0     !number of other symbols
@@ -2163,7 +2147,7 @@ F1 6
 F2 4
 0.433 0.433 1.1843
 start
-79
+78
 mtq
 mtq-d
 0     !number of other symbols
@@ -2179,7 +2163,7 @@ Pmm2
 0
 0
 start
-80
+79
 ppi
 ppr
 0     !number of other symbols
@@ -2205,7 +2189,7 @@ V2 5
 0.0 0.5293 0.0
 0 
 start
-81
+80
 pap
 pap-d
 0     !number of other symbols
@@ -2221,7 +2205,7 @@ P2
 0
 0 
 start
-82
+81
 hpr
 unk
 0     !number of other symbols
@@ -2242,7 +2226,7 @@ V1b 4
 0.5 0.8661  0.5
 0 
 start
-83
+82
 ppr
 ppi
 0     !number of other symbols
@@ -2265,7 +2249,7 @@ V1c 4
 0.0 0.5 0.8507
 0
 start
-84
+83
 mtr
 unk
 0     !number of other symbols
@@ -2280,7 +2264,7 @@ Pmmm
 0
 0
 start
-85
+84
 mts
 unk
 0     !number of other symbols
@@ -2295,7 +2279,7 @@ P6/mmm
 0
 0
 start
-86
+85
 ghm
 unk
 0     !number of other symbols
@@ -2310,7 +2294,7 @@ P-4m2
 0
 0
 start
-87
+86
 hmg
 unk
 0     !number of other symbols
@@ -2325,7 +2309,7 @@ Pmm2
 0
 0
 start
-88
+87
 xum
 unk
 0     !number of other symbols
@@ -2340,7 +2324,7 @@ P422
 0
 0
 start
-89
+88
 twc
 unk
 0     !number of other symbols
@@ -2367,7 +2351,7 @@ V2b 4
 0.866 0.5 0.5773
 0
 start
-90
+89
 gbf
 unk
 0     !number of other symbols
@@ -2387,7 +2371,7 @@ V2 3
 0.5 0.0 0.866
 0
 start
-91
+90
 stk
 tcu
 0     !number of other symbols
@@ -2411,7 +2395,7 @@ V2 3
 0.7071 0.7071 0.7071
 0
 start
-92
+91
 stq
 tte
 0     !number of other symbols
@@ -2435,7 +2419,7 @@ V2 3
 -0.5893 -0.5893 -0.5893
 0
 start
-93
+92
 sts
 tro
 0     !number of other symbols
@@ -2459,7 +2443,7 @@ V2 3
 1.2073 0.0 0.0
 0
 start
-94
+93
 stv
 tdo
 0     !number of other symbols
@@ -2485,7 +2469,7 @@ V2b 3
 0.9077 0.9077 0.9077
 0
 start
-95
+94
 stl
 tic
 0     !number of other symbols
@@ -2511,7 +2495,7 @@ V2 5
 0.862 1.3947 0.0
 0
 start
-96
+95
 ged
 deg
 0     !number of other symbols
@@ -2535,7 +2519,7 @@ V2 5
 1.618 0.0 1.0
 0
 start
-97
+96
 deg
 ged
 0     !number of other symbols
@@ -2553,7 +2537,7 @@ Pm-3
 0
 0
 start
-98
+97
 gef
 feg
 0     !number of other symbols
@@ -2570,7 +2554,7 @@ Pm-3
 0
 0
 start
-99
+98
 feg
 gef
 0     !number of other symbols
@@ -2589,7 +2573,7 @@ Pm-3
 0
 0
 start
-100
+99
 geh
 heg
 0     !number of other symbols
@@ -2618,7 +2602,7 @@ V2 5
 2.1325 0.0 1.3180
 0
 start
-101
+100
 heg
 geh
 0     !number of other symbols
@@ -2636,7 +2620,7 @@ P33
 0
 0
 start
-102
+101
 gej
 jeg
 0     !number of other symbols
@@ -2654,7 +2638,7 @@ Pm-3
 0
 0
 start
-103
+102
 jeg
 gej
 0     !number of other symbols
@@ -2672,7 +2656,7 @@ Pm-3
 0
 0
 start
-104
+103
 snd-d
 snd
 0     !number of other symbols
@@ -2689,7 +2673,7 @@ P23
 0
 0
 start
-105
+104
 tcz-d
 tcz
 0     !number of other symbols
@@ -2707,7 +2691,7 @@ Pm-3m
 0
 0
 start
-106
+105
 tid-d
 tid
 0     !number of other symbols
@@ -2726,7 +2710,7 @@ Pm-3
 0
 0
 start
-107
+106
 tct-d
 tct
 0     !number of other symbols
@@ -2743,7 +2727,7 @@ Pmm2
 0
 0
 start
-108
+107
 csa-d
 csa
 0     !number of other symbols
@@ -2760,7 +2744,7 @@ P422
 0
 0
 start
-109
+108
 tbl-d
 tbl
 0     !number of other symbols
@@ -2778,7 +2762,7 @@ P-4m2
 0
 0
 start
-110
+109
 hxb-d
 hxb
 0     !number of other symbols
@@ -2796,7 +2780,7 @@ Pmmm
 0
 0
 start
-111
+110
 sap-d
 sap
 0     !number of other symbols
@@ -2811,7 +2795,7 @@ P422
 0
 0
 start
-112
+111
 pap-d
 pap
 0     !number of other symbols
@@ -2826,7 +2810,7 @@ P2
 0
 0
 start
-113
+112
 yys
 unk
 0     !number of other symbols
@@ -2843,7 +2827,7 @@ Pm-3
 0
 0 
 start
-114
+113
 liu
 unk
 0     !number of other symbols
@@ -2860,7 +2844,7 @@ P-43m
 0
 0 
 start
-115
+114
 wuh
 unk
 0     !number of other symbols
@@ -2877,7 +2861,7 @@ P-43m
 0
 0 
 start
-116
+115
 mdk
 unk
 0     !number of other symbols
@@ -2893,7 +2877,7 @@ Pm-3
 0
 0
 start
-117
+116
 ebc
 unk
 0     !number of other symbols
@@ -2919,7 +2903,7 @@ V2b 4
 1.366 0.5 0.5773
 0
 start
-118
+117
 egb
 unk
 0     !number of other symbols
@@ -2945,7 +2929,7 @@ V2b 4
 -1.366 0.0 0.5773
 0
 start
-119
+118
 bds-d
 bds
 0     !number of other symbols
@@ -2961,7 +2945,7 @@ P-4m2
 0
 0
 start
-120
+119
 mtq-d
 mtq
 0     !number of other symbols
@@ -2976,7 +2960,7 @@ Pmm2
 0
 0
 start
-121
+120
 soy
 unk
 0     !number of other symbols
@@ -2993,7 +2977,7 @@ Pm-3m
 0
 0
 start
-122
+121
 ods-e
 unk
 0     !number of other symbols
@@ -3009,7 +2993,7 @@ Pm3m
 0
 0
 Start
-123
+122
 rco-e
 unk
 0     !number of other symbols
@@ -3025,7 +3009,7 @@ Pm-3m
 0
 0
 start
-124
+123
 deg-e
 unk
 0     !number of other symbols
