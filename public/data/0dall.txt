@@ -2466,11 +2466,10 @@ tdo
 1     !number of names
 stella vigintangula
 0     !number of other names
-4     !number of keywords
+3     !number of keywords
 simplicial
 icosahedral
 Catalan
-deltahedrob
 -5-3m (Ih)
 Pm-3
 [3^60]
@@ -2492,11 +2491,10 @@ tic
 1     !number of names
 stella duodecimangula
 0     !number of other names
-4     !number of keywords
+3     !number of keywords
 simplicial
 icosahedral
 Catalan
-deltahedron
 -5-3m (Ih)
 Pm-3
 [3^60]
@@ -2961,7 +2959,6 @@ P-4m2
 0
 0
 start
-start
 120
 mtq-d
 mtq
@@ -2995,22 +2992,6 @@ Pm-3m
 0
 start
 122
-deg-e
-unk
-0     !number of other symbols
-0     !number of names
-0     !number of other names
-1     !number of keywords
-icosahedral
--5-3m (Ih)
-Pm-3
-[3^80.5^12.6^30]
-2 5 4
-120 240 122
-0
-0
-start
-123
 ods-e
 unk
 0     !number of other symbols
@@ -3025,8 +3006,8 @@ Pm3m
 72 120 50
 0
 0
-start
-124
+Start
+123
 rco-e
 unk
 0     !number of other symbols
@@ -3042,7 +3023,32 @@ Pm-3m
 0
 0
 start
+124
+deg-e
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+icosahedral
+-5-3m (Ih)
+Pm-3
+[3^80.5^12.6^30]
+2 5 4
+120 240 122
+0
+0
+start
 -1
+
+2
+V1 4
+0.5 1.655 0.0 
+V2 4
+0.7887 0.7887 1.366
+
+
+
 
 
 
