@@ -70650,8 +70650,9 @@ start
 twf-d
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3SH net
+ocu derived
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -135002,10 +135003,11 @@ unk
 7
 start
 2235
-twf-t
+ftw-t
 2
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+4^3.6 + 4^3.8 tiling of Neovius surtace
  0  !number of other names
  1  !number of keywords
 simple tiling
