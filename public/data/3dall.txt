@@ -146398,7 +146398,7 @@ unk
 2
 start
 2380
-ukz
+utz
 4
  0  !number of other symbols
  2  !number of names
