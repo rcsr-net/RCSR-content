@@ -1363,7 +1363,7 @@ unk
 3     !number of names
 rco-a
 tschortnerite cage
-twf-t cage
+ftw-t cage
 0     !number of other names
 2     !number of keywords
 cubic
@@ -3022,6 +3022,23 @@ Pm-3
 [3^80.5^12.6^30]
 2 5 4
 120 240 122
+0
+0
+start
+124
+but
+unk
+0     !number of other symbols
+1     !number of names
+bcu-t cage
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[4^36.8^6.12^8]
+2 5 4
+96 144 50
 0
 0
 start
