@@ -123482,11 +123482,12 @@ start
 ffd
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
+3ST net
 csq-derived
  0  !number of other names
  2  !number of keywords
-heterocoord 34
+bipartite
 polar
  0  !number of references
 P6mm   183
@@ -177154,51 +177155,73 @@ unk
 2
 start
 2760
-zln                                                     
-4
+  pdm                                                        
+ 1
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+3^6 + 3^7 P
+deltahedron
   0     !number of other names
   1     !number of keywords
 good
   0     !number of references
- Im-3m          229                                         
- 2.48528 2.48528 2.48528  90.000  90.000  90.000            
+ Fm-3c           226                                         
+   7.9343  7.9343  7.9343  90.000  90.000  90.000            
   2
-V1  12
-  0.25000 0.25000 0.25000                                       
- 1/4, 1/4, 1/4                                                          
- 8 c                                                      
- -3m                                                         
- 12                                                         
-V2  4
-  0.00000 0.25000 0.50000                                       
- 0, 1/4, 1/2                                                          
- 12 d                                                      
--4m2                                                          
-8                                                                                                         
-2
+V1  6
+  0.0000 0.1645 0.2247                                       
+  0, y, z                                                          
+  96 i                                                       
+  m                                                          
+  2                                                          
+V2  7
+  0.1060 0.2074 0.1717                                       
+  x, y, z                                                    
+ 192  j                                                      
+  1                                                          
+  1                                                          
+  6
  E1   2                                                      
-  0.25000 0.25000 0.00000                                       
-  x, x, 0                                                          
- 24 h                                                       
- mm2                                                          
+  0.0000 0.1946 0.2801                                       
+  0, y, z                                                          
+  96 i                                                       
+  m                                                         
  E2   2                                                      
-  0.12500 0.25000 0.37500                                       
-  x, 1/4, 1/2-x                                                          
- 48 i                                                       
- 2                                                        
+  0.0530 0.1860 0.1982                                       
+  x, y, z                                                    
+ 192  j                                                      
+  1                                                          
+ E3   2                                                      
+  0.9470 0.1681 0.2586                                       
+  x, y, z                                                    
+ 192  j                                                      
+  1                                                          
+ E4   2                                                      
+  0.1389 0.1567 0.1896                                       
+  x, y, z                                                    
+ 192  j                                                      
+  1                                                          
+ E5   2                                                      
+  0.1060 0.1895 0.2321                                       
+  x, y, z                                                    
+ 192  j                                                      
+  1                                                          
+ E6   2                                                      
+  0.1389 0.2500 0.1388                                       
+  x, 1/4,z                                                          
+  96 h                                                       
+  2                                                          
   0                                                          
   0                                                          
   0
   unk                                                        
   unk                                                        
-   12 42 92 162 252 362 492 642 812 1002 3871     
-    4 32 82 154 242 354 482 634 802  994 3781     
+     6   15   32   48   68  133  172  215  302  332 1324     
+     7   18   30   51   85  128  178  228  279  364 1369     
 unk
-unk 
-4
-1
+unk
+   3
+ 6
 start
 2761
 sph                                                        
