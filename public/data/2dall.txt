@@ -1,4 +1,4 @@
-hstart
+start
 1
 mcm
 1  ! number of other symbols
