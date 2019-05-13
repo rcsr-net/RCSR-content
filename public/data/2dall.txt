@@ -5733,14 +5733,13 @@ start
 215
 hbt
 0  ! number of other symbols
-1  ! number of names
-NC net
+0  ! number of names
 0  ! number of other names
 0  ! number of keywords
 c2mm
 Cmmm
 2.8280 5.6560 10.0000 90.0000 90.0000 90.0000
-3 2 3
+3 3 3
 V1 4
 0.0000 0.0000 0.0000
 0, 0, 0
@@ -5753,7 +5752,7 @@ x, y, 0
 4^2.8
 V3 4
 0.0000 0.2500 0.0000
-0, 1/4, 0
+0, y, 0
 4 5 10 12 20 15 24 24 34 25 174
 4^3.8
 start
