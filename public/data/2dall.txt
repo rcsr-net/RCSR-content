@@ -3564,11 +3564,10 @@ mtf
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
-1  ! number of keywords
-circle packing
+0  ! number of keywords
 p4mm
 P4/mmm
-3.4142 3.4142 10.0000 90.0000 90.0000 90.0000
+2.818 2.818 10.0000 90.0000 90.0000 90.0000
 3 2 2
 V1 4
 0.0000 0.0000 0.0000
@@ -3576,7 +3575,7 @@ V1 4
 4 4 8 12 20 16 28 28 36 24 181
 4^4
 V2 3
-0.19108 0.19108 0.0000
+0.25 0.25 0.0000
 x, x, 0
 3 7 8 15 15 24 21 32 27 40 193
 4^2.8
