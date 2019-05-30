@@ -4393,33 +4393,6 @@ x, 0, z
 3.4.6^2
 start
 165
-cqf
-0  ! number of other symbols
-0  ! number of names
-0  ! number of other names
-1  ! number of keywords
-circle packing
-P3m1
-P-6m2
-3.43095 3.43095 10.0 90.0 90.0 120.0
-3 3 2
-V1 3
-0.33333 0.66667 0.0
-1/3, 2/3, 0
-3 4 8 11 18 19 24 27 30 31 176
-7^3
-V2 3
-0.00000 0.54027 0.0
-0, y, 0
-3 6 10 13 16 21 24 27 30 35 186
-7^3
-V3 3 
-0.00000 0.83173 0.0
-0, y, 0
-3 6 12 12 18 18 27 24 33 33 187
-3.7^2
-start
-166
 cqg
 0  ! number of other symbols
 0  ! number of names
@@ -4447,7 +4420,7 @@ x, 0, 0
 3 7 12 14 17 22 27 28 31 37 199
 6^3
 start
-167
+166
 cqh
 0  ! number of other symbols
 0  ! number of names
@@ -4474,7 +4447,7 @@ x, 0, 0
 4 8 12 12 24 24 24 32 40 36 217
 7^4
 start
-168
+167
 cru
 0  ! number of other symbols
 0  ! number of names
@@ -4496,7 +4469,7 @@ x, y, 0
 3 8 13 15 22 23 28 33 36 41 223
 4.5^2
 start
-169
+168
 cqi
 0  ! number of other symbols
 0  ! number of names
@@ -4523,7 +4496,7 @@ V3 3
 3 6 10 14 17 20 23 26 30 34 184
 6^3
 start
-170
+169
 cqj
 0  ! number of other symbols
 0  ! number of names
@@ -4550,7 +4523,7 @@ V3 3
 3 6 12 9 12 21 18 30 21 30 163
 8^3
 start
-171
+170
 cqk
 0  ! number of other symbols
 0  ! number of names
@@ -4577,7 +4550,7 @@ V3 4
 4 6 10 16 18 22 28 26 36 36 203
 3.8.3.8
 start
-172
+171
 cql
 0  ! number of other symbols
 0  ! number of names
@@ -4604,7 +4577,7 @@ V3 4
 4 8 10 16 20 22 28 30 34 42 215
 5^2.6^2
 start
-173
+172
 cqm
 0  ! number of other symbols
 0  ! number of names
@@ -4631,7 +4604,7 @@ V3 4
 4 4 8 12 14 16 22 22 24 32 159
 3^2.10^2
 start
-174
+173
 cqn
 0  ! number of other symbols
 0  ! number of names
@@ -4663,7 +4636,7 @@ V4 3
 3 8 11 16 21 25 28 35 37 40 225
 5^2.6
 start
-175
+174
 hnf
 0  ! number of other symbols
 1  ! number of names
@@ -4696,7 +4669,7 @@ V4 3
 3 6 12 12 15 18 24 27 27 30 175
 7^3
 start
-176
+175
 cqo
 0  ! number of other symbols
 0  ! number of names
@@ -4723,7 +4696,7 @@ V3 4
 4 6 14 16 22 24 28 36 34 44 229
 3.6.3.6
 start
-177
+176
 cqp
 0  ! number of other symbols
 0  ! number of names
@@ -4756,7 +4729,7 @@ V4 6
 6 6 12 12 24 24 24 30 36 48 223
 3^6
 start
-178
+177
 cqq
 0  ! number of other symbols
 0  ! number of names
@@ -4783,7 +4756,7 @@ V3 4
 4 6 14 14 20 26 28 28 42 38 221
 3.6.3.6
 start
-179
+178
 cqr
 0  ! number of other symbols
 0  ! number of names
@@ -4811,39 +4784,7 @@ V3 5
 5 7 11 13 22 23 25 29 31 44 211
 3^4.6
 start
-180
-cqs
-0  ! number of other symbols
-0  ! number of names
-0  ! number of other names
-1  ! number of keywords
-circle packing
-p2gg
-Pbam
-5.37463 4.64462 10.0 90.0 90.0 90.0
-4 7 2
-V1 3
-0.14762 0.23732 0.0
-x, y, 0
-3 4 8 12 12 17 21 20 29 26 153
-3.9^2
-V2 3
-0.07428 0.43518 0.0
-x, y, 0
-3 4 6 12 14 17 20 21 27 29 154
-3.9^2
-V3 3
-0.25903 0.40976 0.0
-x, y, 0
-3 4 8 12 13 17 20 23 26 28 155
-3.9^2
-V4 3
-0.08851 0.03317 0.0
-x, y, 0
-3 6 8 12 13 17 22 22 25 29 158
-9^3
-start
-181
+179
 cqt
 0  ! number of other symbols
 0  ! number of names
@@ -4880,7 +4821,7 @@ V5 4
 4 8 8 16 20 24 28 24 32 40 205
 5^4
 start
-182
+180
 cqu
 0  ! number of other symbols
 0  ! number of names
@@ -4912,7 +4853,7 @@ V4 4
 4 8 10 14 20 22 26 30 32 38 205
 5.6.5.6
 start
-183
+181
 cqv
 0  ! number of other symbols
 0  ! number of names
@@ -4944,39 +4885,7 @@ V4 4
 4 8 10 16 20 22 28 30 34 40 213
 5.6.5.6
 start
-184
-cqw
-0  ! number of other symbols
-0  ! number of names
-0  ! number of other names
-1  ! number of keywords
-circle packing
-p2gg
-Pbam
-4.67770 4.37585 10.0 90.0 90.0 90.0
-4 6 2
-V1 3
-0.28698 0.48078 0.0
-x, y, 0
-3 5 8 13 14 18 21 25 28 28 164
-3.8^2
-V2 3
-0.41188 0.06467 0.0
-x, y, 0
-3 6 10 11 14 21 21 23 27 31 168
-8^3
-V3 3
-0.40906 0.29318 0.0
-x, y, 0
-3 5 8 13 16 18 20 26 26 31 167
-3.8^2
-V4 4
-0.00000 0.00000 0.0
-0, 0, 0
-4 4 8 14 16 18 18 28 28 28 167
-3.8.3.8
-start
-185
+182
 cqx
 0  ! number of other symbols
 0  ! number of names
@@ -5003,7 +4912,7 @@ V3 3
 3 6 11 14 19 20 27 26 35 34 196
 3.7^2
 start
-186
+183
 cqz
 0  ! number of other symbols
 0  ! number of names
@@ -5030,7 +4939,7 @@ V3 4
 4 8 12 18 20 24 30 32 40 42 231
 4.5.4.5
 start
-187
+184
 crx
 0  ! number of other symbols
 0  ! number of names
@@ -5057,7 +4966,7 @@ V3 3
 3 6 10 13 16 21 24 25 30 35 184
 5^2.8
 start
-188
+185
 cry
 0  ! number of other symbols
 1  ! number of names
@@ -5085,7 +4994,7 @@ x, 2x, 0
 3 6 6 9 15 18 21 21 24 27 151
 5^2.12
 start
-189
+186
 crz
 0  ! number of other symbols
 0  ! number of names
@@ -5113,7 +5022,7 @@ V3 3
 3 9 12 12 21 27 24 27 39 42 217
 6^3
 start
-190
+187
 krx
 0  ! number of other symbols
 0  ! number of names
@@ -5141,7 +5050,7 @@ V3 5
 5 10 16 21 26 33 36 44 47 56 295
 3^3.4^2
 start
-191
+188
 krx-d
 0  ! number of other symbols
 0  ! number of names
@@ -5178,7 +5087,7 @@ V5 6
 6 12 12 18 24 24 36 48 36 48 265
 5^6
 start
-192
+189
 kry
 0  ! number of other symbols
 0  ! number of names
@@ -5216,7 +5125,7 @@ V5 5
 5 9 15 21 27 33 38 45 49 56 299
 3^2.4.3.4
 start
-193
+190
 kry-d
 0  ! number of other symbols
 0  ! number of names
@@ -5263,7 +5172,7 @@ V7 3
 3 6 12 15 18 30 36 30 39 48 238
 5^3
 start
-194
+191
 jvh
 0  ! number of other symbols
 0  ! number of names
@@ -5285,7 +5194,7 @@ x, y, 0
 3 6 9 11 14 17 20 23 26 29 159
 6^2.8
 start
-195
+192
 fwa
 0  ! number of other symbols
 1  ! number of names
@@ -5313,7 +5222,7 @@ x, 2x, 0
 4 8 9 15 16 24 26 27 33 34 197
 3.6.3.12
 start
-196
+193
 fwb
 0  ! number of other symbols
 1  ! number of names
@@ -5335,7 +5244,7 @@ V2 4
 4 6 8 12 16 22 22 26 32 32 181
 3.12.3.12
 start
-197
+194
 fwc
 0  ! number of other symbols
 1  ! number of names
@@ -5362,7 +5271,7 @@ V3 4
 4 8 12 20 22 24 28 42 38 40 239
 3.5.3.5
 start
-198
+195
 fwd
 0  ! number of other symbols
 1  ! number of names
@@ -5389,7 +5298,7 @@ x, y, 0
 4 8 11 20 26 26 32 38 43 47 256
 3.5.3.5
 start
-199
+196
 fwe
 0  ! number of other symbols
 1  ! number of names
@@ -5411,7 +5320,7 @@ V2 4
 4 7 12 20 24 23 30 42 42 37 242
 3.4^3
 start
-200
+197
 tfr
 0  ! number of other symbols
 1  ! number of names
@@ -5449,7 +5358,7 @@ x, y, 0
 3 5 7 9 10 12 17 19 18 18 119
 5.8.12
 start
-201
+198
 fsv
 0  ! number of other symbols
 1  ! number of names
@@ -5487,7 +5396,7 @@ V5 3
 3 6 8 10 14 19 28 29 32 32 182
 5^2.7
 start
-202
+199
 bhd
 0  ! number of other symbols
 1  ! number of names
@@ -5509,7 +5418,7 @@ V2 3
 3 9 16 15 21 32 27 33 48 39 244
 4^3
 start
-203
+200
 hxl-w
 0  ! number of other symbols
 0  ! number of names
@@ -5526,7 +5435,7 @@ V1 3
 3    6    9   12   15   18   21   24   27   30  166
 6^3
 start
-204
+201
 hcb-c*
 0  ! number of other symbols
 0  ! number of names
@@ -5543,7 +5452,7 @@ V1 3
 3    6    9   12   15   18   21   24   27   30  166
 6^3
 start
-205
+202
 sql-w
 0 ! number of other symbols
 1  ! number of names
@@ -5561,7 +5470,7 @@ V1 2
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-206
+203
 wvd
 0 ! number of other symbols
 1  ! number of names
@@ -5579,7 +5488,7 @@ x, 1/4, 0
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-207
+204
 kgm-w
 0 ! number of other symbols
 1  ! number of names
@@ -5597,7 +5506,7 @@ V1 2
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-208
+205
 wvc
 0 ! number of other symbols
 1  ! number of names
@@ -5615,7 +5524,7 @@ x, 1/4, z
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-209
+206
 wvz
 0 ! number of other symbols
 1  ! number of names
@@ -5633,7 +5542,7 @@ x, y, z
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-210
+207
 cmu
 0 ! number of other symbols
 1  ! number of names
@@ -5651,7 +5560,7 @@ x, 1-x, z
 2 2 2 2 2 1 0 0 0 0 12
 12
 start
-211
+208
 cmk
 0 ! number of other symbols
 1  ! number of names
@@ -5669,7 +5578,7 @@ x, y, z
 2 1 0 0 0 0 0 0 0 0 4
 4
 start
-212
+209
 wvm
 0 ! number of other symbols
 2  ! number of names
@@ -5688,7 +5597,7 @@ x, 1-x, z
 2 2 2 2 2 2 2 2 2 2 21
 �
 start
-213
+210
 wvg
 0 ! number of other symbols
 1  ! number of names
@@ -5706,7 +5615,7 @@ x, 3/4, z
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-214
+211
 wvn
 0 ! number of other symbols
 1  ! number of names
@@ -5724,7 +5633,7 @@ x, x, z
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
-215
+212
 hbt
 0  ! number of other symbols
 0  ! number of names
@@ -5751,7 +5660,7 @@ V3 4
 4 5 10 12 20 15 24 24 34 25 174
 4^3.8
 start
-216
+213
 cqy
 0  ! number of other symbols
 0  ! number of names
