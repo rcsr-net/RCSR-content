@@ -176806,7 +176806,8 @@ sky
  0  !number of other names
  1  !number of keywords
 bipartite
- 0  !number of references
+ 1  !number of references
+J. Am. Chem. Soc, 141, 6967-6975 (2019)
 Pm-3n   223
   2.98143 2.98143 2.98143  90.000  90.000  90.000
 2
@@ -186550,7 +186551,8 @@ start
   0     !number of other names
   1     !number of keywords
 bipartite
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc, 141, 6967-6975 (2019)
  I4(1)/acd       142                                         
 3.1828   3.1828   5.9667  90.000  90.000  90.000            
  3
@@ -186720,7 +186722,8 @@ start
   2     !number of keywords
 bipartite
 polar
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc, 141, 6967-6975 (2019)
  P6(3)mc         186                                         
    1.8425   1.8425   2.5672  90.000  90.000 120.000            
   2
@@ -186978,7 +186981,8 @@ start
   0     !number of other names
   1     !number of keywords
 bipartite
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc, 141, 6967-6975 (2019)
  Pmmn             59                                         
    1.8454   2.4567   1.6665  90.000  90.000  90.000            
  3
