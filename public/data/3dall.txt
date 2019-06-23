@@ -56057,8 +56057,7 @@ start
 cbs
 2
  0  !number of other symbols
- 1  !number of names
-CrB
+ 0  !number of names
  0  !number of other names
  2  !number of keywords
 heterocoord
@@ -80744,7 +80743,7 @@ unk
 2
 start
 1458
-dia-c3
+dia-c3*
 4
  0  !number of other symbols
  1  !number of names
@@ -91326,7 +91325,7 @@ unk
 4
 start
 1618
-dia-c3*
+dia-c3
 4
  0  !number of other symbols
  0  !number of names
