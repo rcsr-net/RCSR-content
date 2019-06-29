@@ -191412,7 +191412,8 @@ dia-c5*
  0  !number of other names
  1  !number of keywords
 interpenetrating net
- 0  !number of references
+ 1  !number of references
+Acra Cryst. A72, 68-372 (2016)
 I4(1)/a   88
   0.7303 0.7303 2.3094  90.000  90.000  90.000
 1
@@ -191472,6 +191473,41 @@ unk
   6(2).6(2).6(2).6(2).6(2).6(2)
 6
 2
+start
+2964
+dia-c4**
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+interpenetrating net
+ 1  !number of references
+Acra Cryst. A72, 68-372 (2016)
+I4(1)/acd   142
+ 1.633 1.633 2.3094  90.000  90.000  90.000
+1
+V1  4
+  0.3170  0.0670  0.3750
+  x, x-1/4, 3/8
+ 16 f
+  2
+  2
+1
+E1  2
+  0.3170 0.3170 0.50000
+  x, y, z
+ 32 g
+1
+0
+0
+0
+unk
+unk
+  4  12  24  42  64  92  124  162  204  252  981
+  6(2).6(2).6(2).6(2).6(2).6(2)
+6
+3
 start
  -1
 
