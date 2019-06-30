@@ -191475,7 +191475,7 @@ unk
 2
 start
 2964
-dia-c4**
+dia-c4*
 4
  0  !number of other symbols
  0  !number of names
