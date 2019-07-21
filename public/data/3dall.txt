@@ -186241,12 +186241,13 @@ start
 1b
   0     !number of other symbols
   1     !number of names
-SC net
+TC net
   0     !number of other names
   2     !number of keywords
 bipartite
 chiral
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc. 141, 7498-7508 (2019)
  P6(2)22         180                                         
    2.8406   2.8406   3.4800  90.000  90.000 120.000            
  4
