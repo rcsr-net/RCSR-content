@@ -2676,7 +2676,7 @@ Ia-3   206
 V1  4
   0.1036  0.1036  0.1036
   x, x, x
-  16 e
+  16 c
   3
   3
 2
@@ -35596,7 +35596,7 @@ svn
 1a
  0  !number of other symbols
  2  !number of names
-*Y minimal surface
+±Y minimal surface
 7/4/c1
  0  !number of other names
  1  !number of keywords
@@ -43712,7 +43712,7 @@ E1  2
 3
 0
 [4^3] + 3[4.10^2] + 2[10^3]
-unk
+pyo
   3  13  12  48  35  96  69  172  108  276  833
   6  6  24  24  70  48  138  86  216  138  757
   4.4.4
@@ -49142,7 +49142,7 @@ E3  2
 4
 3
 0
-[4^3] + [4.6^2] + 2[4.6^3]
+[4^3] + [4.6^2] + 2[4.6^3] (SD [4^3] + [4^3.6^4])
 unk
   3  16  44  81  128  185  253  332  421  520  1984
   7  22  48  85  132  189  257  336  425  524  2026
@@ -55962,7 +55962,8 @@ start
 rtw
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+Minimal surface R2
  0  !number of other names
  2  !number of keywords
 self dual net
@@ -117160,10 +117161,10 @@ start
 tsn
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 acs-b plus
- 1  !number of other names
 C(H) minimal surface
+ 0  !number of other names
  2  !number of keywords
 heterocoord
 good
@@ -117203,7 +117204,7 @@ E2  2
 3
 4
 16
-5[4^3] + [4^9]
+5[4^3] + [4^9] (SD [4^3] + [4^6] + [4^9])
 unk
   3  18  33  110  99  272  201  506  339  812  2394
   6  32  42  134  114  308  222  554  366  872  2651
@@ -122857,8 +122858,7 @@ start
 pyo
 1b
  0  !number of other symbols
- 1  !number of names
-pyr-derived
+ 0  !number of names
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -125034,7 +125034,7 @@ V1  8
   4
 1
 E1  2
-  0.1250  0.43750  0.6250
+  0.1250  0.3125  0.3125
   x, y, z
   96 h
   1
@@ -125151,7 +125151,7 @@ Ia-3d   230
   3.2660  3.2660  3.2660  90.000  90.000  90.000
 2
 V1  4
-  0.0000  0.2500  0.12507
+  0.0000  0.2500  0.1250
   0, 1/4, 1/8
   24 c
   222
@@ -182611,7 +182611,8 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P-42m           111                                         
    2.3094  2.3094  2.3095  90.000  90.000  90.000            
@@ -182678,7 +182679,8 @@ V4  4
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P-43m           215                                         
    2.3094  2.3094  2.3094  90.000  90.000  90.000            
@@ -191927,6 +191929,344 @@ unk
 omk 
   4
   4
+start
+2971
+cyt
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+bipartite
+good
+ 0  !number of references
+Pm-3m   221
+  2.0 2.0 2.0  90.000  90.000  90.000
+2
+V1  4
+  0.0 0.0 0.4
+  0, 0, z
+  6 e
+  4mm
+  8
+V2  8
+  0.0  0.5  0.5
+  0, 1/2, 1/2
+  3 c
+  4/mmm
+  16
+1
+E1  2
+  0.0  0.25  0.45
+  0, y, z
+  24  k
+  m
+0
+0
+0
+
+unk
+  4 25 28 100  76 220 148 388  244  604 1838
+  8 12 56  50 152 110 296 194  488  302 1669
+  unk
+  unk
+4
+2	
+start
+2972
+cyu
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+bipartite
+good
+ 0  !number of references
+Fd-3m   227
+  2.828 2.828 2.828  90.000  90.000  90.000
+2
+V1  6
+  0.2 0.55 0.7
+  x, 3/4-x, 1/2+x
+ 32 e
+  3m
+ 6
+V2  12
+  0.5  0.5  0.5
+  1/2, 1/2, 1/2
+  16 d
+  -3m
+  12
+1
+E1  2
+  0.35 0.525 0.6
+  x y z
+  192 i
+  1
+0
+0
+0
+unk
+unk
+   6 49  66 252 206  612  426 1132  726 1812 5288
+  12 24 132 126 412  306  852  566 1452  906 4789
+  unk
+  unk
+4
+2	
+start
+2973
+cya
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+Pm-3n   223
+  2.828 2.828 2.828  90.000  90.000  90.000
+2
+V1  3
+  0.15 0.15 0.15
+  x, x, x
+ 16 i
+  3
+ 3
+V2  8
+  0.25  0.0  0.5
+  1/4, 0, 1/2
+ 6 c
+ -4m2
+  8
+1
+E1  2
+  0.2 0.075 0.325
+  x y z
+  48 l
+  1
+3
+4
+24
+4[4^3] + 3[4^4.8^2] + 3[8^4] + [8^6]
+unk
+   3 19 18  78  51 196  99 334 162  534 1495
+   8  8 48 34 136  74 264 130  432  202 1337
+  unk
+  unk
+4
+2	
+start
+2974
+cyb
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+Pm-3n   223
+  2.828 2.828 2.828  90.000  90.000  90.000
+2
+V1  4
+  0.15 0.0 0.5
+  x, 0, 1/2
+ 12 g
+  mm2
+ 4
+V2  6
+  0.25  0.25  0.25
+  1/4, 1/4, 1/4
+ 8 e
+ 32
+  6
+1
+E1  2
+  0.2 0.125 0.375
+  x y z
+  48 l
+  1
+0
+0
+0
+unk
+unk
+   4 17 24  68  68 148 132 260 216  404 1342
+   6  9 36 39 102   98 198 167 324  267 1247
+  unk
+  unk
+4
+2	
+start
+2975
+cyc
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+P4(2)/mmc   131
+  1.633 1.633 2.309  90.000  90.000  90.000
+2
+V1  4
+  0.2 0.5 0.0
+  x, 1/2, 0
+ 4 m
+  mm2
+ 4
+V2  8
+  0.0  0.0  0.25
+  0, 0, 1/4
+ 2 e
+ -4m2
+  8
+1
+E1  2
+  0.1 0.25 0.125
+  x y z
+  16 r
+  1
+4
+5
+24
+2[4^4] + [4^4.8^2] + [8^4]
+pto-d
+   4 21 24  84  64 184 124 324  204  504 1538
+   8 10 48  42 128  90 248 162  408  250 1395
+  unk
+  unk
+4
+3	
+start
+2976
+cyd
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+Im-3m   229
+  2.828 2.828 2.828  90.000  90.000  90.000
+2
+V1  4
+  0.15 0.0 0.5
+  x, 0, 1/2
+ 24 g
+ mm2
+ 4
+V2  12
+  0.25  0.25  0.25
+  1/4, 1/4, 1/4
+ 8 c
+ -3m
+  12
+1
+E1  2
+  0.2 0.125 0.375
+  x y z
+  96 l
+  1
+0
+0
+0
+unk
+unk
+    4 33 28 156 100 436 212  828  364 1332 3494
+   12 12 84  60 300 152 636  290 1092  450 3089
+  unk
+  unk
+4
+2
+start
+2977
+cye
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+Im-3m   229
+  2.828 2.828 2.828  90.000  90.000  90.000
+2
+V1  6
+  0.2 0.2 0.2
+  x, x, x
+ 16 f
+ 3m
+ 6
+V2  8
+  0.25  0.0  0.5
+  1/4, 0, 1/2
+ 12 d
+ -4m2
+  8
+1
+E1  2
+  0.225 0.1 0.35
+  x y z
+  96 l
+  1
+4
+4
+20
+12]4^4] + 4]4^6] + [4^12.6^6] + 3[4^4.8^2]
+unk
+    6 25 42 120 150 304 318  580  546  900 2992
+   8 16 56  78 200 218  424  414  728  666 2809
+  unk
+  unk
+4
+2
+start
+2978
+cyf
+5-NC
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+bipartite
+ 0  !number of references
+Pm-3m   221
+  1.414 1.414 1.414  90.000  90.000  90.000
+2
+V1  4
+  0.5 0.15 0.5
+  1/2, y, 1/2
+ 6 f
+ 4mm
+ 8
+V2  24
+  0.0  0.0  0.0
+  0, 0, 0
+ 1 a
+ m-3m
+ 48
+1
+E1  2
+  0.25 0.075 0.25
+  x y x
+ 24 m
+  m
+0
+0
+0
+unk
+unk
+    4 65  36 356 108  884  220 1652  372 2660 6358
+   24 18 216  74 648  170 1320  306 2232  482 5491
+  unk
+  unk
+4
+2
 start
  -1
 
