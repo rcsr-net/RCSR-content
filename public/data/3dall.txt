@@ -192753,7 +192753,9 @@ unk
   cza                                                        
  1
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+cyu derived
+3S net
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -192808,7 +192810,8 @@ V3  3
   dfv                                                        
  1
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+dfs-derived
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -193298,7 +193301,9 @@ V4  3
  hxh                                                        
  4
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+cyu-derived
+3H net
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -193353,7 +193358,9 @@ V3  3
 czb                                                        
  4
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+cyb derived
+3S net
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -193408,7 +193415,9 @@ start
 czd                                                        
  4
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+cyd-derived
+3SH net
   0     !number of other names
   1     !number of keywords
 bipartite
