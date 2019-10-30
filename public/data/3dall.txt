@@ -193946,5 +193946,39 @@ V3  3
    3
 5
 start
+3003
+dia-c8*
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+interpenetrating net
+ 0  !number of references
+Ccca  68
+  1.1547  0.5774  1.1547  90.000  90.000  90.000
+1
+V1  4
+  0.000  0.2500  0.7500
+  0, 1/4, 34
+ 4 b
+  222
+  4
+1
+E1  2
+  0.2500  0.7500  0.0000
+  1/4, 3/4, 0
+  8 c
+ -1
+0
+0
+0
+unk
+unk
+  4  12  24  42  64  92  124  162  204  252  981
+  6(2).6(2).6(2).6(2).6(2).6(2)
+6
+3
+start
  -1
 
