@@ -194073,7 +194073,7 @@ unk
 3
  start
  3006
-  rn-a                                                       
+  trn-a                                                       
  1
   0     !number of other symbols
   0     !number of names
@@ -194132,6 +194132,7 @@ V2  4
 3.8.3.8(2).4.10 
    3
  6
+start
 3007
 trn-c
 2
