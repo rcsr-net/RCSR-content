@@ -2997,7 +2997,8 @@ start
 rco-e
 unk
 0     !number of other symbols
-0     !number of names
+1     !number of names
+mtp-e
 0     !number of other names
 1     !number of keywords
 cubic
@@ -3042,18 +3043,22 @@ Pm-3m
 0
 0
 start
+125
+peo
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[5^24.8^6]
+3 3 2
+56 84 30
+0
+0
+start
 -1
-
-2
-V1 4
-0.5 1.655 0.0 
-V2 4
-0.7887 0.7887 1.366
-
-
-
-
-
-
 
 
