@@ -194171,5 +194171,205 @@ unk
 4
 3
 start
+3008
+tok
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+uniform net
+chiral
+ 0  !number of references
+I4(1)32   214
+  1.7056   1.7056   1.7056  90.000  90.000  90.000
+1
+V1  4
+  0.0000 0.2500 0.1250
+  0, 1/4, 1/8
+ 12 c
+ 222
+  4
+1
+E1  2
+  0.1875 0.1250 0.9375
+  x, 1/8, 3/4+x
+ 24 h
+  2
+0
+0
+0
+unk
+unk
+ 4 12 36 108 230 368 524 700 912 1148 4043
+  9(4).9(4).9(4).9(4).9(4).9(4)
+9
+1
+start
+3009
+okt
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+uniform net
+chiral
+ 0  !number of references
+I4(1)32   214
+  1.2978 1.2978 1.2978  90.000  90.000  90.000
+1
+V1  4
+  0.0000 0.2500 0.1250
+  0, 1/4, 1/8
+ 12 c
+ 222
+  4
+1
+E1  2
+0.3750 0.3125 0.0625
+  3/8, y, y-14
+ 24 g
+  2
+0
+0
+0
+unk
+unk
+ 4 12 36 108 304 630 1044 1380 1820 2359 7698
+  10(2).10(2).10(4).10(4).10(4).10(4)
+10
+1
+start
+3010
+oku
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+uniform net
+chiral
+ 0  !number of references
+I4(1)32   214
+2.2716   2.2716   2.2716  90.000  90.000  90.000
+1
+V1  3
+  0.1250 0.1571 0.4071 
+  1/8, y, 1/4+y
+ 24 g
+ 2
+  2
+2
+E1  2
+0.1250 0.0000 0.2500
+  1/8, 0, 14
+ 12 c
+222
+Eq  2
+0.1410 0.3750 0.3910
+  x, 3/8, 14+x
+ 24 h
+  2
+0
+0
+0
+unk
+unk
+ 3 6 12 24 48 96 192 330 511 730 1953
+  16(18).16(18).16(20)
+16
+2
+ start
+ 3011
+  oku-a                                                      
+ 1
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I4(1)32         214                                         
+   4.8520  4.8520  4.8520  90.000  90.000  90.000            
+  2
+V1  3
+  0.1255 0.2720 0.3762                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+  1                                                          
+V2  3
+  0.0729 0.3229 0.1250                                       
+  x, 1/4+x, 1/8                                                         
+  24 g                                                       
+  2                                                         
+  2                                                          
+  4
+ E1   2                                                      
+  0.1250 0.1991 0.4491                                       
+  1/8, y, 1/4+y                                                         
+  24 g                                                       
+  2                                                          
+ E2   2                                                      
+  0.1258 0.3750 0.3758                                       
+  x, 3/8, 1/4+x                                                         
+  24 h                                                       
+  2                                                         
+ E3   2                                                      
+  0.1252 0.1725 0.3496                                       
+  x, y, z                                                    
+  48  i                                                      
+  1                                                          
+ E4   2                                                      
+  0.0000 0.2500 0.1250                                       
+ 0, 1/4, 1/8                                                         
+  12 c                                                      
+  222                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     3    4    6    8   12   16   24   32   48   64  218     
+     3    4    6    8   12   16   24   32   48   64  218     
+3.32(18).32(20) 
+3.32(18).32(18) 
+   3
+   5
+start
+3012
+lvt-c3
+2
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 0  !number of keywords
+ 0  !number of references
+I-43d   220
+  2.3094  2.3094  2.3094  90.000  90.000  90.000
+1
+V1  4
+ 0.25 0.0 0.25
+  x, 0, 1/4
+ 24 d
+  2
+  2
+1
+E1  2
+  0.125  0.125  0.375
+  x, y, z
+  48 e
+  1
+0
+0
+0
+unk
+umk
+  4  10  24  44  72  104  144  188  240  296  1127
+  4.4.8(4).8(4).8(8).8(8)
+4
+2
+start
  -1
 
