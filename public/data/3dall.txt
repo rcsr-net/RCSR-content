@@ -191763,7 +191763,8 @@ V2  4
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+CrystEngComm. 21, 6156 (2019)
  Pmna             53                                         
    5.7605  2.8987  3.3489  90.000  90.000  90.000            
   2
@@ -191825,7 +191826,8 @@ start
   0     !number of other names
   1     !number of keywords
 chiral
-  0     !number of references
+  1     !number of references
+CrystTngComm. 21, 6156 (2019)
  C222             21                                         
    4.8655  1.8761  3.3796  90.000  90.000  90.000            
   3
@@ -191889,7 +191891,8 @@ start
   0     !number of names
   0     !number of other names
   0     !number of keywords
-  0     !number of references
+  1     !number of references
+CrystEngComm. 21, 6156 (2019)
  Fddd             70                                         
 3.3717   1.0000   5.9057  90.000  90.000  90.000            
   2
@@ -194370,6 +194373,136 @@ umk
   4.4.8(4).8(4).8(8).8(8)
 4
 2
+ start
+ 3013
+  laf-a                                                      
+ 1
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  0     !number of keywords
+  0     !number of references
+ P4(2)/mnm       136                                         
+   3.3832  3.3832  7.0274  90.000  90.000  90.000            
+  4
+V1  3
+  0.0000 0.0000 0.1169                                       
+  0, 0, z                                                          
+   4 e                                                      
+  mm2                                                        
+ 4                                                         
+V2  3
+  0.3021 0.3021 0.4288                                       
+  x, x, z                                                         
+   8 j                                                      
+  m                                                         
+  2                                                          
+V3  3
+  0.0000 0.0000 0.2592                                       
+  0, 0, z                                                          
+   4 e                                                       
+  mm2                                                          
+  4                                                         
+V4  3
+  0.1045 0.1045 0.3825                                       
+  x, x, z                                                          
+   8 j                                                       
+  m                                                          
+  2                                                          
+  6
+ E1   2                                                      
+  0.9010 0.0990 0.0940                                       
+  x, x, z                                                          
+   8 j                                                       
+  m                                                          
+ E2   2                                                      
+  0.0000 0.0000 0.1881                                       
+  0, 0, z                                                          
+   4 e                                                       
+  mm2                                                          
+ E3   2                                                      
+  0.3021 0.3021 0.5000                                       
+  x, x, 1/2                                                          
+   4 g                                                       
+  mm2                                                         
+ E4   2                                                      
+  0.2033 0.2033 0.4056                                       
+  x, x, z                                                          
+   8 j                                                       
+  m                                                         
+ E5   2                                                      
+  0.0523 0.0523 0.3208                                       
+  x, x, z                                                          
+   8 j                                                       
+  m                                                         
+ E6   2                                                      
+  0.0000 0.0000 0.3825                                       
+  0, 0, z                                                         
+   4 e                                                      
+  mm2                                                          
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+     3    6    9   13   20   31   51   72   85  116  407     
+     3    6    9   12   19   33   51   71   90  112  407     
+     3    4    8   15   20   27   42   70   93  114  397     
+     3    4    8   14   20   28   43   70   96  115  402     
+6.16(2).16(2) 
+6.8.16(2) 
+3.16(2).16(2) 
+3.8.16(2) 
+   3
+   8
+start
+ 3014
+  laf                                                      
+ 4
+  0     !number of other symbols
+  1     !number of names
+3H net
+  0     !number of other names
+  1     !number of keywords
+bipartite
+  0     !number of references
+ P4(2)/mnm       136                                         
+ 1.3339   1.3339   2.6645  90.000  90.000  90.000            
+  2
+V1  3
+  0.0000 0.0000 0.3753                                       
+  0, 0, z                                                          
+   4 e                                                      
+  mm2                                                        
+ 4                                                         
+V2  6
+  0.0000 0.0000 0.0000                                       
+  0, 0, 0                                                        
+  2 a                                                     
+  mmm                                                         
+  8                                                                                                           
+  2
+ E1   2                                                      
+  0.2500 0.7500 0.0624                                      
+  x, -x, z                                                          
+   8 j                                                       
+  m                                                          
+ E2   2                                                      
+  0.0000 0.0000 0.1876                                      
+  0, 0, z                                                          
+   4 e                                                       
+  mm2                                                                                                       
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+ 3 14 23 88   79 226 163 426 275 678 1976    
+ 6 10 46 50 158 120 326 218 550 344 1829   
+4.8)11).8(11) 
+4.4.8.8.82).82).82).82).86).86).86).86).86).*.*
+    3
+ 3
 start
  -1
 
