@@ -3198,7 +3198,7 @@ P4/mmm
 0
 start
 134
-sbc
+sgc
 unk
 0     !number of other symbols
 1     !number of names
