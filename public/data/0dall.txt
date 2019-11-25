@@ -3133,7 +3133,7 @@ P2
 0
 start
 130
-pwt
+pet
 unk
 0     !number of other symbols
 1     !number of names
