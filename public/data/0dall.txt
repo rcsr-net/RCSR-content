@@ -3213,6 +3213,70 @@ P-4m2
 0
 0
 start
+135
+rka
+unk
+0     !number of other symbols
+1     !number of names
+regular polycatenane (knot)
+0     !number of other names
+0     !number of keywords
+432 (0)
+P432
+[3^4]
+1 1 1
+12 12 4
+1
+V1 2
+0.4082 0.4082 0.0
+0
+432 (0)
+P432
+[3^4]
+1 1 1
+12 12 4
+1
+V1 2
+0.4082 0.4082 0.0
+0
+start
+136
+rkb
+unk
+0     !number of other symbols
+1     !number of names
+regular polycatenane (knot)
+0     !number of other names
+0     !number of keywords
+432 (0)
+P432
+[4^6]
+1 1 1
+24 48 6
+1
+V1 2
+0.1837 0.3377 0.6212
+0
+start
+137
+rkc
+unk
+0     !number of other symbols
+1     !number of names
+regular polycatenane (knot)
+0     !number of other names
+0     !number of keywords
+432 (0)
+P432
+[3^8]
+1 1 1
+24 36 8
+1
+V1 2
+0.1837 0.3377 0.6212
+0
+start
 -1
+
 
 
