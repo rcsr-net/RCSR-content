@@ -3094,7 +3094,7 @@ P432
 0
 start
 128
-qlq
+qlp
 unk
 0     !number of other symbols
 0     !number of names
