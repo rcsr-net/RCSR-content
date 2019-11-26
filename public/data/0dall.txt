@@ -3218,9 +3218,10 @@ rka
 unk
 0     !number of other symbols
 1     !number of names
-regular polycatenane (knot)
+[4]catenane cuo-derived
 0     !number of other names
-0     !number of keywords
+1     !number of keywords
+weaving
 432 (0)
 P432
 [3^4]
@@ -3245,14 +3246,15 @@ rkb
 unk
 0     !number of other symbols
 1     !number of names
-regular polycatenane (knot)
+[6]catebane snc-derived
 0     !number of other names
-0     !number of keywords
+1     !number of keywords
+weaving
 432 (0)
 P432
 [4^6]
 1 1 1
-24 48 6
+24 24 6
 1
 V1 2
 0.1837 0.3377 0.6212
@@ -3263,17 +3265,104 @@ rkc
 unk
 0     !number of other symbols
 1     !number of names
-regular polycatenane (knot)
+[8]catenane snc-derived
 0     !number of other names
-0     !number of keywords
+1     !number of keywords
+weaving
 432 (0)
 P432
 [3^8]
 1 1 1
-24 36 8
+24 24 8
 1
 V1 2
 0.1837 0.3377 0.6212
+0
+start
+138
+rke
+unk
+0     !number of other symbols
+1     !number of names
+[12]catenane snd-derived
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P23
+[5^12]
+1 1 1
+60 60 12
+0
+0
+start
+139
+rkd
+unk
+0     !number of other symbols
+1     !number of names
+[6]catenane ido-derived
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P23
+[5^6]
+1 1 1
+30 30 6
+0
+0
+start
+140
+rkg
+unk
+0     !number of other symbols
+1     !number of names
+[12]catenane snd-derived
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P23
+[5^12]
+1 1 1
+60 60 12
+0
+0
+start
+141
+rkh
+unk
+0     !number of other symbols
+1     !number of names
+[20]catenane snd-derived
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P23
+[3^20]
+1 1 1
+60 60 20
+0
+0
+start
+142
+rkz
+unk
+0     !number of other symbols
+2     !number of names
+five tetrahedra
+dod-derived
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P23
+[3^20]
+1 1 1
+20 30 20
+0
 0
 start
 -1
