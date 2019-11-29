@@ -3365,6 +3365,57 @@ P23
 0
 0
 start
+143
+qlr
+unk
+0     !number of other symbols
+1     !number of names
+3.6.3.6
+0     !number of other names
+1     !number of keywords
+weaving
+23 (T)
+P23
+[3^8.6^4]
+2 2 3
+12 24 12
+0
+0
+start
+144
+qls
+unk
+0     !number of other symbols
+1     !number of names
+5.6.5.6
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P432
+[5^24.6^20]
+2 2 3
+60 120 42
+0
+0
+start
+145
+qlt
+unk
+0     !number of other symbols
+1     !number of names
+3.8.4.8
+0     !number of other names
+1     !number of keywords
+weaving
+432 (0)
+P432
+[3^8.4^8.8^6]
+2 2 3
+24 48 20
+0
+0
+start
 -1
 
 
