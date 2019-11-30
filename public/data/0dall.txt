@@ -3416,6 +3416,111 @@ P432
 0
 0
 start
+146
+knd
+unk
+0     !number of other symbols
+2     !number of names
+borromean
+knot 6(2)^3
+0     !number of other names
+1     !number of keywords
+weaving
+m-3 (Th)
+Pm-3
+[4^3]
+1 2 1
+3 12 3
+0
+0
+start
+147
+knd-z
+unk
+0     !number of other symbols
+2     !number of names
+borromean
+knot 6(2)^3
+0     !number of other names
+1     !number of keywords
+weaving
+m-3 (Th)
+Pm-3
+[4^3]
+2 1 1
+12 12 3
+0
+0
+start
+148
+kne
+unk
+0     !number of other symbols
+2     !number of names
+Solomom link
+knot 4(1)^2
+0     !number of other names
+1     !number of keywords
+weaving
+422 (D4)
+P422
+[4^2]
+1 2 1
+8 8 2
+0
+0
+start
+149
+knf
+unk
+0     !number of other symbols
+1     !number of names
+knot 6(1)^2
+0     !number of other names
+1     !number of keywords
+weaving
+622 (D6)
+P622
+[6^2]
+1 2 1
+12 12 2
+0
+0
+start
+150
+kng
+unk
+0     !number of other symbols
+1     !number of names
+knot 8(1)^2
+0     !number of other names
+1     !number of keywords
+weaving
+822 (D8)
+P422
+[8^2]
+1 2 1
+16 16 2
+0
+0
+start
+151
+knh
+unk
+0     !number of other symbols
+1     !number of names
+knot 8(3)^4
+0     !number of other names
+1     !number of keywords
+weaving
+-4m2 (D8)
+P422
+[8^2]
+1 2 1
+16 16 2
+0
+0
+start
 -1
 
 
