@@ -3521,6 +3521,117 @@ P422
 0
 0
 start
+152
+kni
+unk
+0     !number of other symbols
+3     !number of names
+trefoil
+knot 3(1)
+yorous knot (3,2)
+0     !number of other names
+1     !number of keywords
+weaving
+622 (D6)
+P622
+[6^2]
+1 2 1
+12 12 2
+0
+0
+start
+153
+knj
+unk
+0     !number of other symbols
+2     !number of names
+Hopf link
+knot 4(1)^2
+0     !number of other names
+1     !number of keywords
+weaving
+422 (D4)
+P422
+[4^2]
+1 2 1
+8 8 2
+0
+0
+start
+154
+knl
+unk
+0     !number of other symbols
+2     !number of names
+Whitehead link
+knot 5(1)^2
+0     !number of other names
+1     !number of keywords
+weaving
+222 (D2)
+P222
+[4^2]
+3 3 2
+8 8 2
+0
+0
+start
+155
+knk
+unk
+0     !number of other symbols
+2     !number of names
+fihure-eight
+knot 4(1)
+0     !number of other names
+1     !number of keywords
+weaving
+222 (D2)
+P222
+[10]
+3 3 1
+10 10 1
+0
+0
+start
+156
+knm
+unk
+0     !number of other symbols
+3     !number of names
+cinquefoil
+knot 5(1)
+toroid not (5,2)
+0     !number of other names
+1     !number of keywords
+weaving
+52 (D5)
+P2
+[10]
+1 2 1
+10 10 2
+0
+0
+start
+157
+knn
+unk
+0     !number of other symbols
+2     !number of names
+three-twist
+cinquefoil
+knot 5(1)
+0     !number of other names
+1     !number of keywords
+weaving
+2 (C2)
+P2
+[14]
+7 7 1
+14 14 1
+0
+0
+start
 -1
 
 
