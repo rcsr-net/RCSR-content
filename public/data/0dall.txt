@@ -3617,7 +3617,7 @@ start
 knn
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 three-twist
 cinquefoil
 knot 5(1)
