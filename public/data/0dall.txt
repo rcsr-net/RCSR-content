@@ -3515,9 +3515,9 @@ knot 8(3)^4
 weaving
 -4m2 (D8)
 P422
-[8^2]
+[3^4]
 1 2 1
-16 16 2
+12 12 2
 0
 0
 start
@@ -3528,15 +3528,15 @@ unk
 3     !number of names
 trefoil
 knot 3(1)
-yorous knot (3,2)
+torus knot (3,2)
 0     !number of other names
 1     !number of keywords
 weaving
-622 (D6)
-P622
-[6^2]
+32 (D3)
+P32
+[6]
 1 2 1
-12 12 2
+6 6 1
 0
 0
 start
@@ -3546,15 +3546,15 @@ unk
 0     !number of other symbols
 2     !number of names
 Hopf link
-knot 4(1)^2
+knot 2(1)^2
 0     !number of other names
 1     !number of keywords
 weaving
-422 (D4)
-P422
-[4^2]
+-4m2 (D2d)
+P-4m2
+[3^2]
 1 2 1
-8 8 2
+6 6 2
 0
 0
 start
@@ -3581,7 +3581,7 @@ knk
 unk
 0     !number of other symbols
 2     !number of names
-fihure-eight
+figure-eight
 knot 4(1)
 0     !number of other names
 1     !number of keywords
@@ -3617,10 +3617,9 @@ start
 knn
 unk
 0     !number of other symbols
-3     !number of names
+2     !number of names
 three-twist
-cinquefoil
-knot 5(1)
+knot 5(5)
 0     !number of other names
 1     !number of keywords
 weaving
