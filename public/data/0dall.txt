@@ -3714,14 +3714,13 @@ start
 knr
 unk
 0     !number of other symbols
-3     !number of names
-septfoil
+2     !number of names
 knot 15(x)
 toeus knot (5,4)
 0     !number of other names
 1     !number of keywords
 weaving
-42 (D5)
+52 (D5)
 P2
 [10]
 1 2 1
@@ -3733,7 +3732,8 @@ start
 kns
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
+septfoil
 knot 7(1)
 toeus knot (7,2)
 0     !number of other names
