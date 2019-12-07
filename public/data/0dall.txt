@@ -3217,7 +3217,8 @@ start
 rka
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [4]catenane cuo-derived
 0     !number of other names
 1     !number of keywords
@@ -3245,7 +3246,8 @@ start
 rkb
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [6]catebane snc-derived
 0     !number of other names
 1     !number of keywords
@@ -3264,7 +3266,8 @@ start
 rkc
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [8]catenane snc-derived
 0     !number of other names
 1     !number of keywords
@@ -3283,7 +3286,8 @@ start
 rke
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [12]catenane snd-derived
 0     !number of other names
 1     !number of keywords
@@ -3300,7 +3304,8 @@ start
 rkd
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [6]catenane ido-derived
 0     !number of other names
 1     !number of keywords
@@ -3317,7 +3322,8 @@ start
 rkg
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [12]catenane snd-derived
 0     !number of other names
 1     !number of keywords
@@ -3334,7 +3340,8 @@ start
 rkh
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+regular knot
 [20]catenane snd-derived
 0     !number of other names
 1     !number of keywords
@@ -3516,7 +3523,7 @@ weaving
 -4m2 (D8)
 P422
 [3^4]
-1 2 1
+2 2 1
 12 12 2
 0
 0
@@ -3619,7 +3626,7 @@ unk
 0     !number of other symbols
 2     !number of names
 three-twist
-knot 5(5)
+knot 5(2)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3628,6 +3635,168 @@ P2
 [14]
 7 7 1
 14 14 1
+0
+0
+start
+158
+kno
+unk
+0     !number of other symbols
+2     !number of names
+pretzel
+knot 6(1)
+0     !number of other names
+1     !number of keywords
+weaving
+2 (C2)
+P2
+[12]
+6 6 1
+12 12 1
+0
+0
+start
+159
+knp
+unk
+0     !number of other symbols
+2     !number of names
+triple cross
+knot 6(3)^3
+0     !number of other names
+1     !number of keywords
+weaving
+32 (D3)
+P32
+[3^3]
+2 2 1
+9 9 3
+0
+0
+start
+160
+knq
+unk
+0     !number of other symbols
+2     !number of names
+knot 10(154)
+toeus knot (5,3)
+0     !number of other names
+1     !number of keywords
+weaving
+52 (D5)
+P2
+[10]
+1 2 1
+10 10 1
+0
+0
+start
+161
+knq-z
+unk
+0     !number of other symbols
+2     !number of names
+knot 10(154)
+toeus knot (5,3)
+0     !number of other names
+1     !number of keywords
+weaving
+52 (D5)
+P2
+[10]
+1 2 1
+10 10 1
+0
+0
+start
+162
+knr
+unk
+0     !number of other symbols
+3     !number of names
+septfoil
+knot 7(1)
+toeus knot (7,2)
+0     !number of other names
+1     !number of keywords
+weaving
+72 (D7)
+P2
+[10]
+1 2 1
+10 10 1
+0
+0
+start
+163
+kns
+unk
+0     !number of other symbols
+2     !number of names
+knot 15(x)
+toeus knot (5,4)
+0     !number of other names
+1     !number of keywords
+weaving
+52 (D5)
+P2
+[10]
+1 2 1
+10 10 1
+0
+0
+start
+164
+knt
+unk
+0     !number of other symbols
+2     !number of names
+knot 14(x)
+toeus knot (7,3)
+0     !number of other names
+1     !number of keywords
+weaving
+72 (D7)
+P2
+[14]
+1 2 1
+14 14 1
+0
+0
+start
+165
+knu
+unk
+0     !number of other symbols
+2     !number of names
+knot 12(x)^3
+toeus knot (6,3)
+0     !number of other names
+1     !number of keywords
+weaving
+622 (D6)
+P622
+[4^3]
+1 2 1
+12 12 3
+0
+0
+start
+166
+knu
+unk
+0     !number of other symbols
+1     !number of names
+knot 12(x)^3
+0     !number of other names
+1     !number of keywords
+weaving
+26 (T)
+P23
+[4^3]
+1 2 1
+12 12 3
 0
 0
 start
