@@ -3716,12 +3716,12 @@ unk
 0     !number of other symbols
 3     !number of names
 septfoil
-knot 7(1)
-toeus knot (7,2)
+knot 15(x)
+toeus knot (5,4)
 0     !number of other names
 1     !number of keywords
 weaving
-72 (D7)
+42 (D5)
 P2
 [10]
 1 2 1
@@ -3734,16 +3734,16 @@ kns
 unk
 0     !number of other symbols
 2     !number of names
-knot 15(x)
-toeus knot (5,4)
+knot 7(1)
+toeus knot (7,2)
 0     !number of other names
 1     !number of keywords
 weaving
-52 (D5)
+72 (D7)
 P2
-[10]
+[114]
 1 2 1
-10 10 1
+14 14 1
 0
 0
 start
