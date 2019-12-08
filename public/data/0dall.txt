@@ -3942,6 +3942,23 @@ P422
 0
 0
 start
+175
+trp-c4
+unk
+0     !number of other symbols
+1     !number of names
+linked trigonal prisms
+0     !number of other names
+1     !number of keywords
+weaving
+432 (O)
+P432
+[3^8.4^12]
+1 2 1
+24 36 20
+0
+0
+start
 -1
 
 
