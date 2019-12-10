@@ -3577,9 +3577,9 @@ knot 5(1)^2
 weaving
 222 (D2)
 P222
-[4^2]
+[4.6]
 3 3 2
-8 8 2
+10 10 2
 0
 0
 start
@@ -3956,6 +3956,146 @@ P432
 [3^8.4^12]
 1 2 1
 24 36 20
+0
+0
+start
+176
+esa
+unk
+0     !number of other symbols
+1     !number of names
+four theta graphs
+0     !number of other names
+1     !number of keywords
+weaving
+432 (O)
+P432
+[3^12]
+2 1 1
+20 24 12
+0
+0
+start
+177
+esb
+unk
+0     !number of other symbols
+2     !number of names
+tangled theta 
+New J. Chem, 32, 1457 (2008)
+0     !number of other names
+1     !number of keywords
+weaving
+32 D3)
+P321
+[5^3]
+3 3 1
+14 15 3
+0
+0
+start
+178
+esc
+unk
+0     !number of other symbols
+1     !number of names
+Escher's cube 
+0     !number of other names
+1     !number of keywords
+weaving
+222 D2)
+P222
+[4^4.6^2]
+4 5 1
+12 16 6
+0
+0
+start
+179
+esd
+unk
+0     !number of other symbols
+1     !number of names
+tngleds cube 
+0     !number of other names
+1     !number of keywords
+weaving
+422 D4)
+P422
+[4^6]
+1 3 1
+8 12 6
+0
+0
+start
+180
+koc
+unk
+0     !number of other symbols
+2     !number of names
+torus knot (4,3)
+knot 8(19)
+0     !number of other names
+1     !number of keywords
+weaving
+422 D4)
+P422
+[8]
+1 2 1
+8 8 1
+0
+0
+start
+181
+kod
+unk
+0     !number of other symbols
+1     !number of names
+knot 8(18)
+0     !number of other names
+1     !number of keywords
+weaving
+422 D4)
+P422
+[8]
+2 3 1
+8 8 1
+0
+0
+start
+182
+koe
+unk
+0     !number of other symbols
+2     !number of names
+torus knot (8,3)
+knot 16(x)
+0     !number of other names
+1     !number of keywords
+weaving
+822 D8)
+P422
+[16]
+1 2 1
+16 16 1
+0
+0
+start
+183
+kof
+unk
+0     !number of other symbols
+2     !number of names
+torus knot (8,4)
+knot 24(3)
+0     !number of other names
+1     !number of keywords
+weaving
+822 D8)
+P422
+[4^4]
+1 2 1
+16 16 4
 0
 0
 start
