@@ -4087,7 +4087,7 @@ unk
 0     !number of other symbols
 2     !number of names
 torus knot (8,4)
-knot 24(3)
+knot 24(x)^4
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4096,6 +4096,24 @@ P422
 [4^4]
 1 2 1
 16 16 4
+0
+0
+start
+184
+kog
+unk
+0     !number of other symbols
+2     !number of names
+torus knot (12,5)
+knot 48(x)
+0     !number of other names
+1     !number of keywords
+weaving
+1222 D12)
+P622
+[24]
+1 2 1
+24 24 1
 0
 0
 start
