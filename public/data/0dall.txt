@@ -4117,6 +4117,27 @@ P622
 0
 0
 start
+185
+gtp
+unk
+0     !number of other symbols
+1     !number of names
+gebus three polyhedron
+0     !number of other names
+1     !number of keywords
+cubic
+-43m (Td)
+P-43m
+[3^16.4^18.6^4]
+2 4 5
+30 72 38
+2
+V1 8
+0.7071 0.0 0.0
+V2 4
+0.0 0.7071 1.4142
+0
+start
 -1
 
 
