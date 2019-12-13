@@ -3584,7 +3584,7 @@ P222
 0
 start
 155
-knk
+knk-d
 unk
 0     !number of other symbols
 2     !number of names
@@ -4136,6 +4136,24 @@ V1 8
 0.7071 0.0 0.0
 V2 4
 0.0 0.7071 1.4142
+0
+start
+155
+knk
+unk
+0     !number of other symbols
+2     !number of names
+figure-eight
+knot 4(1)
+0     !number of other names
+1     !number of keywords
+weaving
+-4 (S4)
+P222
+[8]
+2 2 1
+8 8 1
+0
 0
 start
 -1
