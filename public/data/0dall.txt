@@ -3584,7 +3584,7 @@ P222
 0
 start
 155
-knk-d
+knk-z
 unk
 0     !number of other symbols
 2     !number of names
