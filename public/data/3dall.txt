@@ -194797,7 +194797,7 @@ unk
 4
  start
  3019
-  cxh-a                                                      
+  czh-a                                                      
  1
   0     !number of other symbols
   0     !number of names
