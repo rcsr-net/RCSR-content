@@ -167400,9 +167400,10 @@ start
   ceo                                                        
  1b
   0     !number of other symbols
-  2     !number of names
+  3     !number of names
 alb-derived
 3QO net
+Li2CO3
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -194512,7 +194513,8 @@ V2  6
 cyg-derived
 3SC net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P4/mmm          123                                         
    2.7926  2.7926  2.3241  90.000  90.000  90.000            
@@ -194751,7 +194753,8 @@ V4  3
   1     !number of names
 SPC net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P4/mmm          123                                         
    2.7881  2.7881  1.1543  90.000  90.000  90.000            
@@ -194909,7 +194912,8 @@ V4  4
 cyg-derived
 SQ net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P4/mmm          123                                         
    2.8319   2.8319   1.4135  90.000  90.000  90.000            
@@ -194963,7 +194967,8 @@ start
   0     !number of other symbols
   0     !number of names
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  P4/mmm          123                                         
    1.65 1.65 1.51  90.000  90.000  90.000            
