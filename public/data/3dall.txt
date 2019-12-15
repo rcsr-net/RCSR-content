@@ -194508,7 +194508,9 @@ V2  6
   cxg                                                        
  1
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+cyg-derived
+3SC net
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -194746,7 +194748,8 @@ V4  3
   czh                                                        
  1
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+SPC net
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -194902,7 +194905,9 @@ V4  4
   czg                                                        
  4
   0     !number of other symbols
-  0     !number of names
+  2     !number of names
+cyg-derived
+SQ net
   0     !number of other names
   0     !number of keywords
   0     !number of references
