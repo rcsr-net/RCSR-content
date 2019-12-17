@@ -86079,7 +86079,7 @@ urg
  0  !number of other names
  2  !number of keywords
 good
-heterocoord
+bipartite
  0  !number of references
 Pm-3n   223
   2.4309  2.4309  2.4309  90.000  90.000  90.000
@@ -102637,7 +102637,7 @@ zyg
 stp-derived
  0  !number of other names
  1  !number of keywords
-heterocoord
+bipartite
  2  !number of references
 Angew. Chem. Int. Ed.50, 3178 (2011)
 Chem. Rev.114, 1343 (2014)
@@ -151668,8 +151668,7 @@ urg-a
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 2  !number of keywords
-bipartite
+ 1  !number of keywords
 good
  0  !number of references
 Pm-3n   223
