@@ -24426,7 +24426,8 @@ snb
 6/3/c25
  1  !number of other names
 icosahedron
- 1  !number of keywords
+ 2  !number of keywords
+bipartite
 chiral
  0  !number of references
 F4(1)32   210
@@ -34619,7 +34620,7 @@ the-derived
 ftw-derived
  0  !number of other names
  2  !number of keywords
-heterocoord 34
+bipartite
 good
  1  !number of references
 Chem. Rev.114, 1343 (2014)
@@ -85715,7 +85716,7 @@ pts plus
  0  !number of other names
  2  !number of keywords
 good
-heterocoord
+bipartite
  0  !number of references
 P4(2)/mmc   131
   1.4142  1.4142  2.8286  90.000  90.000  90.000
@@ -87338,7 +87339,7 @@ STO net
  0  !number of other names
  2  !number of keywords
 good
-heterocoord 46
+bipartite
  0  !number of references
 Im-3m   229
   4.0000  4.0000  4.0000  90.000  90.000  90.000
@@ -88559,7 +88560,8 @@ qdl-e
  1  !number of names
 ST net
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+bipartite
 chiral
  0  !number of references
 P6(2)22   180
@@ -96441,7 +96443,7 @@ xag
 twf-related
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 Im-3m   229
@@ -96671,7 +96673,7 @@ xaj
  0  !number of other names
  2  !number of keywords
 good
-heterocoord
+bipartite
  0  !number of references
 Pm-3m   221
   3.0055  3.0055  3.0055  90.000  90.000  90.000
@@ -98641,7 +98643,7 @@ xbp
 dia-b plus
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 F-43m   216
@@ -98697,7 +98699,7 @@ xbq
  0  !number of names
  0  !number of other names
  1  !number of keywords
-heterocoord 36
+bipartite
  0  !number of references
 F-43m   216
   4.4495  4.4495  4.4495  90.000  90.000  90.000
@@ -98800,7 +98802,7 @@ xbn
  0  !number of names
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 Pm-3m   221
@@ -99001,7 +99003,7 @@ xbu
  0  !number of names
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 Fm-3m   225
@@ -101722,7 +101724,7 @@ tty
 scu-derived
  0  !number of other names
  1  !number of keywords
-heterocoord
+bipartite
  0  !number of references
 P4/mmm   123
   1.8010  1.8010  1.8697  90.000  90.000  90.000
@@ -102158,7 +102160,8 @@ tsa
 nia-derived
 3O net
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  1  !number of references
 Chem. Rev.114, 1343 (2014)
 P6(3)/mmc   194
@@ -105750,7 +105753,8 @@ sbr
  1  !number of names
 ST net
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  0  !number of references
 Cmma   67
   2.3092  4.6196  2.3092  90.000  90.000  90.000
@@ -110630,7 +110634,8 @@ hyw
  0  !number of names
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+bipartite
 P4(2)/nnm   134
   2.0656  2.0656  4.6188  90.000  90.000  90.000
 3
@@ -117167,7 +117172,7 @@ acs-b plus
 C(H) minimal surface
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 P-6m2   187
@@ -118107,7 +118112,8 @@ jjt
 nia-derived
  1  !number of other names
 nia-derived
- 0  !number of keywords
+ 1  !number of keywords
+bipartite
  2  !number of references
 chemComm, 49, 6773 (2013)
 Chem. Rev.114, 1343 (2014)
@@ -122250,7 +122256,7 @@ pcu-derived
  0  !number of other names
  2  !number of keywords
 chiral
-heterocoord 36
+bipartite
  1  !number of references
 Chem. Rev.114, 1343 (2014)
 R32   155
@@ -124480,7 +124486,8 @@ tsb
  1  !number of names
 nia-derived
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+bipartite
 chiral
  1  !number of references
 Chem. Rev.114, 1343 (2014)
@@ -124633,7 +124640,7 @@ ttp
 stp-derived
  0  !number of other names
  1  !number of keywords
-heterocoord 36
+bipartite
  0  !number of references
 P6/mmm   191
   4.2868  4.2868  1.3507  90.000  90.000  120.000
@@ -134272,7 +134279,8 @@ ste
 hccc-6
 TiP
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+bipartite
 good
  0  !number of references
 P6(3)/mmc   194
@@ -139767,7 +139775,7 @@ ntu
 rht-derived
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 Fm-3m   225
@@ -139909,7 +139917,7 @@ alb-related
 QHX net
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 P6/mmm   191
@@ -139966,7 +139974,7 @@ tee
 flu-related
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 I4/mmm   139
@@ -140779,7 +140787,7 @@ rht-derived
 pcu-related
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 Fm-3m   225
@@ -140989,7 +140997,7 @@ kce
 3SX net
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 Im-3m   229
@@ -141140,7 +141148,7 @@ alb-related
 3HX net
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 P6(3)/mmc   194
@@ -141198,7 +141206,7 @@ alb-derived
 3PH net
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord 36
  2  !number of references
 J. Am. Chem. Soc. 139, 3265 (2017)
@@ -148320,7 +148328,7 @@ ntw
 rht-derived
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord
  0  !number of references
 Fm-3   202
@@ -148630,7 +148638,7 @@ ttt-derived
 dia-related
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 heterocoord 34
  0  !number of references
 F-43m   216
@@ -148865,7 +148873,7 @@ rht-related
 3HK net
  0  !number of other names
  2  !number of keywords
-bpartite
+b1partite
 heterocoord
  0  !number of references
 Fm-3m   225
@@ -149492,7 +149500,7 @@ ats
 nia plus
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 good
  0  !number of references
 P6(3)/mmc   194
@@ -151661,7 +151669,7 @@ urg-a
  0  !number of names
  0  !number of other names
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 Pm-3n   223
@@ -166204,7 +166212,7 @@ start
 shp-derived
   0     !number of other names
   1     !number of keywords
-biprtite
+bipartite
   1     !number of references
 Faraday Discuss. 201, 127 (2017)
  P6(3)/mmc       194                                         
@@ -175685,7 +175693,7 @@ STB net
 flu plus
  0  !number of other names
  2  !number of keywords
-bpartite
+bipartite
 good
  0  !number of references
 I4/mmm   139
