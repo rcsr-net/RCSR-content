@@ -110631,9 +110631,9 @@ hyw
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
- 1  !number of references
+ 1  !number of keywords
 bipartite
+ 0  !number of references
 P4(2)/nnm   134
   2.0656  2.0656  4.6188  90.000  90.000  90.000
 3
