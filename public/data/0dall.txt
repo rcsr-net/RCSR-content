@@ -4156,6 +4156,23 @@ P222
 0
 0
 start
+156
+koi
+unk
+0     !number of other symbols
+1     !number of names
+four trefoil
+0     !number of other names
+1     !number of keywords
+weaving
+432 (O)
+P432
+[6^4]
+1 2 1
+24 24 4
+0
+0
+start
 -1
 
 
