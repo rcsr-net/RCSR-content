@@ -24426,8 +24426,7 @@ snb
 6/3/c25
  1  !number of other names
 icosahedron
- 2  !number of keywords
-bipartite
+ 1  !number of keywords
 chiral
  0  !number of references
 F4(1)32   210
@@ -101723,8 +101722,7 @@ tty
  1  !number of names
 scu-derived
  0  !number of other names
- 1  !number of keywords
-bipartite
+ 0  !number of keywords
  0  !number of references
 P4/mmm   123
   1.8010  1.8010  1.8697  90.000  90.000  90.000
@@ -120579,7 +120577,7 @@ shb
  1  !number of other names
 SPX net
  2  !number of keywords
-heterocoord
+bipartite
 good
  0  !number of references
 P6/mmm   191
@@ -124639,8 +124637,7 @@ ttp
  1  !number of names
 stp-derived
  0  !number of other names
- 1  !number of keywords
-bipartite
+ 0  !number of keywords
  0  !number of references
 P6/mmm   191
   4.2868  4.2868  1.3507  90.000  90.000  120.000
@@ -127531,7 +127528,7 @@ tfy
 the-derived
  0  !number of other names
  1  !number of keywords
-heterocoord 34
+bipartite
  0  !number of references
 Fm-3c   226
   9.2038  9.2038  9.2038  90.0  90.0  90.0
@@ -138342,7 +138339,7 @@ tfp
 stp-derived
  0  !number of other names
  1  !number of keywords
-heterocoord 34
+bipartite
  0  !number of references
 P6/mmm   191
   5.7735  5.7735  1.4908  90.000  90.000  120.000
@@ -148872,9 +148869,8 @@ dnt
 rht-related
 3HK net
  0  !number of other names
- 2  !number of keywords
-b1partite
-heterocoord
+ 1  !number of keywords
+bipartite
  0  !number of references
 Fm-3m   225
   4.3477  4.3477  4.3477  90.000  90.000  90.000
@@ -187548,7 +187544,7 @@ start
 SP net
   0     !number of other names
   1     !number of keywords
-bipatite
+bipartite
   0     !number of references
  P6/mmm          191                                         
    5.6571  5.6571  1.1546  90.000  90.000 120.000            
