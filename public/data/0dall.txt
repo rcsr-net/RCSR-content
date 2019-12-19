@@ -3679,7 +3679,7 @@ knq
 unk
 0     !number of other symbols
 2     !number of names
-knot 10(154)
+knot 10(124)
 torus knot (5,3)
 0     !number of other names
 1     !number of keywords
@@ -3697,7 +3697,7 @@ knq-z
 unk
 0     !number of other symbols
 2     !number of names
-knot 10(154)
+knot 10(124)
 torus knot (5,3)
 0     !number of other names
 1     !number of keywords
@@ -4138,7 +4138,7 @@ V2 4
 0.0 0.7071 1.4142
 0
 start
-155
+186
 knk
 unk
 0     !number of other symbols
@@ -4156,7 +4156,7 @@ P222
 0
 0
 start
-156
+187
 koi
 unk
 0     !number of other symbols
@@ -4170,6 +4170,23 @@ P432
 [6^4]
 1 2 1
 24 24 4
+0
+0
+start
+188
+koj
+unk
+0     !number of other symbols
+1     !number of names
+knot 10(123)
+0     !number of other names
+1     !number of keywords
+weaving
+522 (D5)
+P2
+[15]
+2 3 1
+15 15 1
 0
 0
 start
