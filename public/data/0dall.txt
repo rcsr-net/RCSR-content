@@ -4292,6 +4292,41 @@ P432
 0
 0
 start
+195
+kom
+unk
+0     !number of other symbols
+1     !number of names
+knot 9(7)^3
+0     !number of other names
+1     !number of keywords
+weaving
+32 (D3)
+P321
+[8^3]
+4 3 1
+24 24 3
+0
+0
+start
+196
+koo
+unk
+0     !number of other symbols
+2     !number of names
+Brunnian
+knot 12(x)^3
+0     !number of other names
+1     !number of keywords
+weaving
+622 (D6)
+P622
+[12^3]
+3 4 1
+36 36 3
+0
+0
+start
 -1
 
 
