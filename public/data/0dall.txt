@@ -3463,9 +3463,10 @@ start
 kne
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 Solomom link
 knot 4(1)^2
+torus knot (4,2)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3839,7 +3840,7 @@ knw
 unk
 0     !number of other symbols
 3     !number of names
-torus knot (6,3)
+torus knot (6,4)
 knot 12(x)^2
 double trefoil
 0     !number of other names
@@ -4063,21 +4064,21 @@ P422
 0
 0
 start
-182
-koe
+185
+knu-z
 unk
 0     !number of other symbols
 2     !number of names
-torus knot (8,3)
-knot 16(x)
+knot 12(x)^3
+torrus knot (6,3)
 0     !number of other names
 1     !number of keywords
 weaving
-822 D8)
-P422
-[16]
+622 (D6)
+P622
+[4^3]
 1 2 1
-16 16 1
+12 12 3
 0
 0
 start
@@ -4104,16 +4105,16 @@ kog
 unk
 0     !number of other symbols
 2     !number of names
-torus knot (12,5)
-knot 48(x)
+torus knot (6,5)
+knot 24(x)
 0     !number of other names
 1     !number of keywords
 weaving
-1222 D12)
+322 D6)
 P622
-[24]
+[12]
 1 2 1
-24 24 1
+12 12 1
 0
 0
 start
@@ -4149,7 +4150,7 @@ knot 4(1)
 1     !number of keywords
 weaving
 -4 (S4)
-P222
+P-4
 [8]
 2 2 1
 8 8 1
@@ -4198,12 +4199,96 @@ unk
 square knot (composite)
 0     !number of other names
 1     !number of keywords
-2/mving
-522 (C2h)
+weaving
+2/m (C2h)
 P2/m
 [10]
 3 3 1
 10 10 1
+0
+0
+start
+190
+kol
+unk
+0     !number of other symbols
+1     !number of names
+triple 4(1) knot (composite)
+0     !number of other names
+1     !number of keywords
+weaving
+322 (D3)
+P321
+[24]
+4 4 1
+24 24 1
+0
+0
+start
+191
+kon
+unk
+0     !number of other symbols
+1     !number of names
+granny knot (composite)
+0     !number of other names
+1     !number of keywords
+weaving
+222 (D2)
+P222
+[10]
+3 3 1
+10 10 1
+0
+0
+start
+192
+knd-z2
+unk
+0     !number of other symbols
+2     !number of names
+Borrominian rings
+knot 6(2)^3
+0     !number of other names
+1     !number of keywords
+weaving
+32 (D3)
+P321
+[4^3]
+2 3 1
+12 12 3
+0
+0
+start
+193
+qlv
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+weaving
+532 (O)
+P23
+[5^24.10^24]
+2 3 1
+120 180 48
+0
+0
+start
+194
+rco-w
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+weaving
+432 (O)
+P432
+[8^6]
+2 2 1
+48 48 6
 0
 0
 start
