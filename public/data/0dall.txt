@@ -3286,9 +3286,10 @@ start
 rke
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular knot
 [12]catenane snd-derived
+ric-w
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4359,23 +4360,6 @@ P432
 [3^8]
 1 1 1
 24 24 8
-0
-0
-start
-199
-ric-w
-unk
-0     !number of other symbols
-1     !number of names
-knot 60(x)^12
-0     !number of other names
-1     !number of keywords
-weaving
-532 (I)
-P23
-[5^12]
-2 2 1
-60 60 12
 0
 0
 start
