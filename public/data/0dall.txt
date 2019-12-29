@@ -4363,6 +4363,24 @@ P432
 0
 0
 start
+199
+koq
+unk
+0     !number of other symbols
+2     !number of names
+Borromran ywins
+knot 30(x)^6
+0     !number of other names
+1     !number of keywords
+weaving
+m-3 (Th)
+Pm-3
+[4^6]
+1 2 1
+24 24 6
+0
+0
+start
 -1
 
 
