@@ -4381,6 +4381,23 @@ Pm-3
 0
 0
 start
+200
+koy
+unk
+0     !number of other symbols
+1     !number of names
+composite knot 4(1)+4(1)
+0     !number of other names
+1     !number of keywords
+weaving
+2/m (C2h)
+Pm-3
+[18]
+5 4 1
+18 18  1
+0
+0
+start
 -1
 
 
