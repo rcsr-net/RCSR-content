@@ -4278,7 +4278,7 @@ P23
 0
 start
 194
-rco-w
+rco-e-w
 unk
 0     !number of other symbols
 1     !number of names
@@ -4395,6 +4395,23 @@ P2/m
 [18]
 5 4 1
 18 18  1
+0
+0
+start
+201
+deg-e-w
+unk
+0     !number of other symbols
+1     !number of names
+[12]catenane
+0     !number of other names
+1     !number of keywords
+weaving
+532 (I)
+P23
+[10^12]
+2 2 1
+120 120 12
 0
 0
 start
