@@ -5419,21 +5419,21 @@ V2 3
 4^3
 start
 200
-hxl-w
+hcb-w
 0  ! number of other symbols
 0  ! number of names
 0  ! number of other names
 1  ! number of keywords
 weaving
 p-31m
-P-31m
-1.0 1.0 10.0 90.0000 90.0000 120.0000
+P-321
+10.0 10.0 10.0 90.0000 90.0000 120.0000
 1 1 1
-V1 3
-0 0.0 0.1
-0, 0, z
-3    6    9   12   15   18   21   24   27   30  166
-6^3
+V1 2
+0.4047 0.4272 0.3981
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+�
 start
 201
 hcb-c*
@@ -5745,8 +5745,8 @@ P4b2
 V1 4
 0.2442 0.2481 0.4286 
 x, y, z
-2 1 0 0 0 0 0 0 0 0 4
-4
+2 2 1 0 0 0 0 0 0 0 6
+6
 start
 216
 cmt
@@ -5765,8 +5765,8 @@ P3
 V1 4
 0.0924 0.7619 0.3086 
 x, y, z
-2 1 0 0 0 0 0 0 0 0 4
-4
+2 2 1 0 0 0 0 0 0 0 6
+6
 start
 start
 218
@@ -5826,8 +5826,9 @@ start
 221
 hcb-c3
 0  ! number of other symbols
-1  ! number of names
+2  ! number of names
 Acta Cryst. A76, 110 (2020)
+hxl-w
 0  ! number of other names
 1  ! number of keywords
 weaving
