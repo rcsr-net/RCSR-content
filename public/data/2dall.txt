@@ -5823,11 +5823,11 @@ V1 4
 4^4
 start
 221
-hcb-c3
+hxl-w
 0  ! number of other symbols
 2  ! number of names
 Acta Cryst. A76, 110 (2020)
-hxl-w
+hcb-c3*
 0  ! number of other names
 1  ! number of keywords
 weaving
