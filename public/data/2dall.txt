@@ -5769,7 +5769,7 @@ x, y, z
 6
 start
 218
-sql-c7
+sql-c5
 0  ! number of other symbols
 1  ! number of names
 Acta cryst. A76, 110 (2020)
