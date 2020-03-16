@@ -3328,16 +3328,18 @@ P23
 [5^12]
 1 1 1
 60 60 12
-0
+1
+V1 2
+0.0559 0.0200 0.8498
 0
 start
 141
-rkh
+rla
 unk
 0     !number of other symbols
 2     !number of names
 regular link
-[20]catenane snd-derived
+[20]catenane
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3346,7 +3348,9 @@ P23
 [3^20]
 1 1 1
 60 60 20
-0
+1
+V1 2
+0.9391 -0.2255 -0.2387
 0
 start
 142
@@ -4446,7 +4450,7 @@ V1 2
 0.5756 0.2076 0.0160
 0
 start
-204
+203
 rkk
 unk
 0     !number of other symbols
@@ -4464,6 +4468,66 @@ P432
 1
 V1 2
 0.4173 0.3970 -0.0617
+0
+start
+204
+rkl
+unk
+0     !number of other symbols
+2     !number of names
+regular link
+[12]catenane
+0     !number of other names
+1     !number of keywords
+weaving
+235 (I)
+P23
+[3^8]
+1 1 1
+60 60 12
+1
+V1 2
+0.0569 0.0200 0.8498
+0
+start
+205
+rkm
+unk
+0     !number of other symbols
+2     !number of names
+regular link
+[12]catenane
+0     !number of other names
+1     !number of keywords
+weaving
+235 (I)
+P23
+[3^8]
+1 1 1
+60 60 12
+1
+V1 2
+0.9259 -0.0576 0.2339
+0
+start
+206
+rkn
+unk
+0     !number of other symbols
+2     !number of names
+regular link
+[12]catenane
+0     !number of other names
+1     !number of keywords
+weaving
+235 (I)
+P23
+[3^8]
+1 1 1
+60 60 12
+1
+V1 2
+0.5844 -0.6813 0.1665
 0
 start
 -1
