@@ -2415,13 +2415,13 @@ sql-c**
 0  ! number of other names
 1  ! number of keywords
 weaving
-cmma
-Cmma
-1.0000 2.0000 10.0000 90.0000 90.0000 90.0000
-1 2 1
+pnam
+Pnam
+10.0000 10.0000 10.0000 90.0000 90.0000 90.0000
+1 1 1
 V1 4
-0.0000 0.2500 0.1000
-0, 1/4, z
+0.0000 0.1213 0.2237
+0, y, z
 4    8   12   16   20   24   28   32   36   40  221
 4^4
 start
@@ -5421,7 +5421,9 @@ start
 200
 hcb-w
 0  ! number of other symbols
-0  ! number of names
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
 0  ! number of other names
 1  ! number of keywords
 weaving
@@ -5930,6 +5932,196 @@ V1 3
 1/3, 2/3, z
 3    6    9   12   15   18   21   24   27   30  166
 6^3
+start
+227
+sql-ww
+0 ! number of other symbols
+2  ! number of names
+Acta Cryst. A76, 110 (2020)
+sql-w worsted
+0  ! number of other names
+1 ! number of keywords
+weaving
+p422
+P422
+10.0 10.0 10.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.2675 0.0304 0.3330
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+228
+sql-ww*
+0 ! number of other symbols
+2  ! number of names
+sql-w worsted
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p4b2
+P4b2
+10.0 10.0 10.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.9731 0.2335 0.3069
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+229
+sql-ww**
+0 ! number of other symbols
+2  ! number of names
+Acta Cryst. A76, 110 (2020)
+sql-w worsted
+0  ! number of other names
+1 ! number of keywords
+weaving
+p42(1)2
+P42(1)2
+10.0 10.0 10.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.2050 0.1336 0.3500
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+230
+kgm-ww
+0 ! number of other symbols
+2  ! number of names
+kgm-w worsted
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+10.0 10.0 10.0 90.0 90.0 120.0
+1 1 1
+V1 2
+0.3551 0.9682 0.2237
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+231
+zza
+0 ! number of other symbols
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+10.0 10.0 10.0 90.0 90.0 120.0
+1 1 1
+V1 2
+0.9945 0.2308 0.3441
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+232
+zzb
+0 ! number of other symbols
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p422
+P422
+10.0 10.0 20.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.0866 0.2335 0.4085
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+233
+zzc
+0 ! number of other symbols
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p42(1)2
+P42(1)2
+10.0 10.0 20.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.2441 0.0488 0.3266
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+234
+zzd
+0 ! number of other symbols
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p312
+P312
+10.0 10.0 20.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.5017 0.2827 0.3453
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+235
+zze
+0 ! number of other symbols
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p321
+P321
+10.0 10.0 10.0 90.0 90.0 90.0
+1 1 1
+V1 2
+0.4273 0.0227 0.3979
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+236
+hcb-w-c
+0 ! number of other symbols
+2  ! number of names
+zigzag weave
+Acta Cryst. A76, 110 (2020)
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+10.0 10.0 10.0 90.0 90.0 120.0
+1 1 1
+V1 2
+0.3697 0.4608 0.2918
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
 start
 -1
 
