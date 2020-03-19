@@ -4184,9 +4184,9 @@ knot 10(123)
 weaving
 522 (D5)
 P2
-[15]
+[20]
 2 3 1
-15 15 1
+20 20 1
 0
 0
 start
@@ -4617,6 +4617,23 @@ P23
 [4^15]
 1 2 1
 60 60  15
+0
+0
+start
+213
+koj-z
+unk
+0     !number of other symbols
+1     !number of names
+knot 10(123)
+0     !number of other names
+1     !number of keywords
+weaving
+-5 (C5i)
+P-1
+[20]
+2 2 1
+20 20 1
 0
 0
 start
