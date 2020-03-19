@@ -7,8 +7,7 @@ srs
 SrSi
 Y*
 3/10/c1
- 1  !number of other names
-(10,3)-a
+ 0  !number of other names
  6  !number of keywords
 regular net
 uniform net
@@ -1679,8 +1678,7 @@ bto
  2  !number of names
 B2O3
 3/10/h1
- 1  !number of other names
-(10,3)-c
+ 0  !number of other names
  4  !number of keywords
 uniform net
 chiral
@@ -2099,7 +2097,7 @@ srs-c
 Y**
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 Ia-3d   230
@@ -2135,7 +2133,7 @@ srs-a-c
  1  !number of other names
 Y*4*
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   6.0948  6.0948  6.0948  90.000  90.000  90.000
@@ -2175,7 +2173,7 @@ srs-c4
  1  !number of other names
 Y***
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -2211,7 +2209,7 @@ ths-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 P4(2)/nnm   134
   1.3333  1.3333  2.6663  90.0000  90.0000  90.0000
@@ -5866,7 +5864,7 @@ sra-c
 SrAl2
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Cmma   67
   3.2592  1.6842  1.3166  90.000  90.000  90.000
@@ -9338,7 +9336,7 @@ uld-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   5.8491  5.8491  5.8491  90.000  90.000  90.000
@@ -9426,7 +9424,7 @@ uld-z-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   5.5131  5.5131  5.5131  90.000  90.000  90.000
@@ -9470,7 +9468,7 @@ ulf-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   4.9504  4.9504  4.9504  90.000  90.000  90.000
@@ -9650,7 +9648,7 @@ lcv-c
 V*
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   3.2663  3.2663  3.2663  90.000  90.000  90.000
@@ -9685,7 +9683,7 @@ dia-a-c
  1  !number of other names
 D4*
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Pn-3m   224
   2.5689  2.5689  2.5689  90.000  90.000  90.000
@@ -9725,7 +9723,7 @@ lcv-a-c
  1  !number of other names
 V4*
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   6.8288  6.8288  6.8288  90.000  90.000  90.000
@@ -10101,7 +10099,7 @@ dia-c
 diamond intergrowth
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 Pn-3m   224
@@ -10137,7 +10135,7 @@ nbo-c3
 NbO triple intergrowth
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 P-31m   162
   1.6330  1.6330  0.5774  90.000  90.000  120.000
@@ -10214,7 +10212,7 @@ afw-c
 W2 intergrowth
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 R-3c   167
   2.8868  2.8868  2.2362  90.000  90.000  120.000
@@ -10255,7 +10253,7 @@ quartz intergrowth
  0  !number of other names
  2  !number of keywords
 chiral
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P6(2)22   180
@@ -10291,7 +10289,7 @@ cds-c
 CdSO4 intergrowth
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 P4(2)/mcm   132
   0.7071  0.7071  2.0000  90.000  90.000  90.000
@@ -28800,7 +28798,7 @@ pyrite
  3  !number of keywords
 heterocoord 36
 uniform net
-interpenetrating net
+weaving
  0  !number of references
 Ia-3   206
   2.4495  2.4495  2.4495  90.000  90.000  90.000
@@ -29647,7 +29645,7 @@ ant-c
  0  !number of other names
  2  !number of keywords
 heterocoord 36
-interpenetrating net
+weaving
  0  !number of references
 P4(2)/nnm   134
   1.3333  1.3333  2.6667  90.000  90.000  90.000
@@ -29694,7 +29692,7 @@ etc-c3
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  2  !number of references
 Aust. J. Chem. 56, 981 (2003)
 Soft Matter 5, 782 (2009)
@@ -31187,7 +31185,7 @@ hms-c
  3  !number of keywords
 heterocoord
 uniform net
-interpenetrating net
+weaving
  0  !number of references
 P6(3)/mmc   194
   1.7321  1.7321  1.0000  90.000  90.000  120.000
@@ -55875,7 +55873,7 @@ PtS
 cooperite
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 P4(2)/mcm   132
   1.1547  1.1547  2.3093  90.000  90.000  90.000
@@ -59920,7 +59918,7 @@ lcy-c
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -66206,7 +66204,7 @@ sda-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 I4(1)/amd   141
   1.0000  1.0000  3.4641  90.000  90.000  90.000
@@ -68919,7 +68917,7 @@ tfc-c
  3  !number of keywords
 uniform net
 heterocoord 34
-interpenetrating net
+weaving
  0  !number of references
 Fmmm   69
   4.7320  1.8613  1.0000  90.000  90.000  90.000
@@ -68973,7 +68971,7 @@ tfa-c
  3  !number of keywords
 uniform net
 heterocoord 34
-interpenetrating net
+weaving
  1  !number of references
 Chem. Commun. 1082-1083 (2006)
 I4(1)/amd   141
@@ -77450,7 +77448,7 @@ crs-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Pn-3m   224
   1.4142  1.4142  1.4142  90.000  90.000  90.000
@@ -78932,7 +78930,7 @@ pcu-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  2  !number of references
 Acta Cryst. A59, 22-27 (2003)
 Acta Cryst. A60, 517-520 (2004)
@@ -78968,7 +78966,7 @@ ins-c
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 heterocoord 34
  1  !number of references
 Chem. Commun. 631-632, 1997
@@ -79024,7 +79022,7 @@ sgn-z-c
 4-way
  2  !number of keywords
 rod net
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   3.4641  3.4641  3.4641  90.000  90.000  90.000
@@ -79147,7 +79145,7 @@ srs-c8
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -80751,7 +80749,7 @@ dia-c3*
 diamond intergrowth
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 I-43d   220
@@ -84608,7 +84606,7 @@ svn-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3   206
   1.8685  1.8685  1.8685  90.000  90.000  90.000
@@ -84647,7 +84645,7 @@ lvt-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating nets
+weaving
  0  !number of references
 P4(2)/nnm   134
   1.6333  1.6333  1.1545  90.000  90.000  90.000
@@ -88358,7 +88356,7 @@ qtz-c3
  0  !number of other names
  2  !number of keywords
 chiral
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P6(2)22   180
@@ -88393,7 +88391,7 @@ qtz-c4
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -88429,7 +88427,7 @@ hex-c3
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 R-3m   166
   1.0000  1.0000  1.0000  90.000  90.000  120.000
@@ -88468,7 +88466,7 @@ pcu-c4*
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -89757,7 +89755,7 @@ srs-c3
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -89799,7 +89797,7 @@ qtz-c6
  0  !number of other names
  2  !number of keywords
 chiral
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P6(2)22   180
@@ -89836,7 +89834,7 @@ rutile
  0  !number of other names
  2  !number of keywords
 heterocoord 36
-interpenetrating net
+weaving
  0  !number of references
 Pmna   53
   1.4906  1.1788  2.3576  90.000  90.000  90.000
@@ -89885,7 +89883,7 @@ twt-c
  3  !number of keywords
 uniform net
 chiral
-interpenetrating net
+weaving
  0  !number of references
 P6(2)22   180
   2.4750  2.4750  1.0133  90.000  90.000  120.000
@@ -89926,7 +89924,7 @@ twt-c3
  3  !number of keywords
 uniform net
 chiral
-interpenetrating net
+weaving
  0  !number of references
 P6(2)22   180
   1.4289  1.4289  2.0265  90.000  90.000  120.000
@@ -89967,7 +89965,7 @@ eta-c
  3  !number of keywords
 uniform net
 chiral
-interpenetrating net
+weaving
  0  !number of references
 P6(2)22   180
   3.1018  3.1018  1.0932  90.000  90.000  120.000
@@ -90008,7 +90006,7 @@ eta-c4
  3  !number of keywords
 uniform net
 chiral
-interpenetrating net
+weaving
  0  !number of references
 P6(2)22   180
   3.1018  3.1018  0.5466  90.000  90.000  120.000
@@ -90049,7 +90047,7 @@ eta-c3
  3  !number of keywords
 uniform net
 chiral
-interpenetrating net
+weaving
  0  !number of references
 P6(2)22   180
   1.7908  1.7908  2.1864  90.000  90.000  120.000
@@ -90090,7 +90088,7 @@ LiGe
  0  !number of other names
  2  !number of keywords
 good
-interpenetrating net
+weaving
  0  !number of references
 P4(2)/nnm   134
   2.8284  2.8284  1.4142  90.000  90.000  90.000
@@ -90130,7 +90128,7 @@ est-c
 ST2
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 P4(2)/nbc   133
   1.0000  1.0000  3.4153  90.000  90.000  90.000
@@ -90376,7 +90374,7 @@ srs-c*
  0  !number of other names
  2  !number of keywords
 chiral
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P4(2)22   93
@@ -90416,7 +90414,7 @@ srs-c4*
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P4(2)/nbc   133
@@ -90456,7 +90454,7 @@ gsi-c
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ia-3d   230
   2.7879  2.7879  2.7879  90.000  90.000  90.000
@@ -90494,8 +90492,9 @@ unj-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+weaving
  0  !number of references
 P6(4)22   181
   2.2614  2.2614  1.1310  90.000  90.000  120.000
@@ -90535,7 +90534,7 @@ mog-c
 moganite
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Fmmm   69
   3.5163  1.7837  1.5151  90.000  90.000  90.000
@@ -90583,7 +90582,7 @@ pte-c
 ST net
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 heterocoord 46
  0  !number of references
 Fmmm   69
@@ -90636,7 +90635,7 @@ unc-c
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 chiral
  0  !number of references
 I4(1)22   98
@@ -91333,7 +91332,7 @@ dia-c3
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 I4(1)/amd   141
@@ -91368,7 +91367,7 @@ dia-c4
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P4/nbm   125
@@ -91403,7 +91402,7 @@ dia-c6
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P4(2)/nnm   134
@@ -93653,7 +93652,7 @@ ctn-c
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 heterocoord 34
  0  !number of references
 Ia-3d   230
@@ -93696,7 +93695,7 @@ bor-c
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 heterocoord 34
  0  !number of references
 I-43m   217
@@ -95921,7 +95920,8 @@ lfm-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 Cmma   67
   2.0000  1.8363  2.1283  90.000  90.000  90.000
@@ -95972,7 +95972,8 @@ lcy-c*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 Pa-3   205
@@ -99115,7 +99116,8 @@ nof-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 Phys. Rev. Letts. 102, 146401 (2009)
 P42/mbc   135
@@ -106520,7 +106522,8 @@ dmp-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 CrystEngComm 6, 377-395 (2004)
 Pcca   54
@@ -109145,7 +109148,8 @@ sit-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+weaving
 heterocoord 36
  1  !number of references
 JACS 2001, 123, 8239 (MOF-39 = sit-c)
@@ -110431,8 +110435,9 @@ hcb-c3
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 uniform net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P6/mcc   192
@@ -117125,7 +117130,7 @@ bor-c*
  0  !number of names
  0  !number of other names
  2  !number of keywords
-interpenetrating net
+weaving
 heterocoord 34
  0  !number of references
 Pn-3m   224
@@ -117426,7 +117431,7 @@ pcu-h-e-c
  0  !number of other names
  2  !number of keywords
 good
-isohedral tiling
+weaving
  0  !number of references
 R-3m   166
   5.0000  5.0000  1.9365  90.000  90.000  120.000
@@ -131130,8 +131135,9 @@ qtz-x-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+weaving
  0  !number of references
 P6(2)22   180
   1.0000  1.0000  1.2990  90.000  90.000  120.000
@@ -131278,7 +131284,8 @@ edi-c
 ice VI
 ice XV
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 P4(2)/nmc   137
   2.2073  2.2073  2.1156  90.000  90.000  90.000
@@ -131662,7 +131669,8 @@ sit-c-a
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 Imma   74
   3.4818  5.5422  5.3671  90.000  90.000  90.000
@@ -155395,7 +155403,8 @@ qtz-c*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 Acta Crystallogr. A76, 367 (2016)
 Ccca   68
@@ -159498,7 +159507,7 @@ hqx-c
  0  !number of names
  0  !number of other names
  2  !number of keywords
-heterocoord
+weaving
 good
  0  !number of references
 I4(1)/acd   142
@@ -159809,7 +159818,8 @@ hcb-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+weaving
 uniform net
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -159849,7 +159859,8 @@ sql-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
+weaving
 uniform net
  1  !number of references
 Acta Cryst A71, 82 (2015)
@@ -159889,8 +159900,9 @@ sql-c*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 uniform net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 I4/mcm   140
@@ -159924,9 +159936,10 @@ sql-c3
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
 uniform net
 chiral
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P6(2)22   180
@@ -159965,8 +159978,9 @@ sql-c3*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 uniform net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P6/mcc   192
@@ -160000,8 +160014,9 @@ sql-c6
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 uniform net
+weaving
  2  !number of references
 Acta Cryst A71, 82 (2015)
 Acta Cryst A72, 366 (2016)
@@ -160036,9 +160051,10 @@ sql-c3**
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
 uniform net
 chiral
+weaving
  2  !number of references
 Acta Cryst A71, 82 (2015)
 Acta Cryst A72, 366 (2016)
@@ -161429,7 +161445,7 @@ nbo-c
 NbO triple intergrowth
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 R-3m   166
   2.8284  2.8284  0.8660  90.000  90.000  120.000
@@ -162983,7 +162999,7 @@ bcu-dia-c
   0     !number of names
   0     !number of other names
   1     !number of keywords
-heterocoord
+weaving
   1     !number of references
 CrystEngComm 14, 5720 (2012)
 I-42d             122                                         
@@ -163048,7 +163064,8 @@ bcu-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 ACrystEngComm 14, 634 (2012)
 I41/amd   141
@@ -163082,7 +163099,8 @@ fcu-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 Chem. Eur. J. 77, 9320 (2011)
 Fd-3m   227
@@ -164360,8 +164378,9 @@ hst-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+weaving
  0  !number of references
 P6(4)22   181
   1.8016  1.8016  2.8025  90.000  90.000  120.000
@@ -169754,7 +169773,7 @@ pcu-c3
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 P-31m   162
@@ -170680,7 +170699,8 @@ ths-c3
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 I4(1)/amd   141
@@ -170719,7 +170739,8 @@ ths-b-c*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 I4(1)/amd   141
   1.8848 1.8848  5.3381  90.000  90.000  90.000
@@ -170765,8 +170786,9 @@ ths-b-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 polar
+weaving
  0  !number of references
 P4(2)nm   102
   1.3333  1.3333  2.6663  90.0000  90.0000  90.0000
@@ -176036,7 +176058,7 @@ kpc
 4
   0     !number of other symbols
   2     !number of names
-TCU net
+QOB net
 K2PtCl6
   0     !number of other names
   2     !number of keywords
@@ -182412,8 +182434,9 @@ scu-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 bipartite
+weaving
  0  !number of references
 I4/mmm   139
   1.6330  1.6330  1.1547  90.000  90.000  90.000
@@ -184104,7 +184127,8 @@ pto-c
  1  !number of names
 MOF-14
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 CrystEngComm 18, 7607 (2016)
 Im-3   204
@@ -185122,8 +185146,9 @@ srs-c27
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+weaving
  1  !number of references
 Acta) Cryst A71, 82 (2015)
 I4(1)32   214
@@ -185157,7 +185182,8 @@ srs-c54
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 Ia-3d   230
@@ -185192,8 +185218,9 @@ the-c
  1  !number of names
 3C net
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
 bipartite
+weaving
 good
  0  !number of references
 Im-3m   229
@@ -185812,7 +185839,8 @@ lcy-c8
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 Fd-3c   228
   1.633 1.633 1.633  90.000  90.000  90.000
@@ -185845,8 +185873,9 @@ lcy-c4
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+weaving
  0  !number of references
 F4(1)32   210
   1.633 1.633 1.633  90.000  90.000  90.000
@@ -187410,7 +187439,8 @@ lcy-c4*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 Ia-3d   230
   1.633 1.633 1.633  90.000  90.000  90.000
@@ -187443,7 +187473,8 @@ pcu-c6
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 P-31m   162
   0.8165  0.8165  0.2887  90.000  90.000  120.000
@@ -187476,7 +187507,8 @@ pcu-c4
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 R-3m   166
   1.4142  1.4142  0.4330  90.000  90.000  120.000
@@ -187509,7 +187541,8 @@ pcu-c5
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 R-3m   166
   1.4142  1.4142  0.3464  90.000  90.000  120.000
@@ -188426,7 +188459,8 @@ hcb-c4
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
+weaving
 chiral
 uniform net
  0  !number of references
@@ -188461,8 +188495,9 @@ pcu-c8*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 chiral
+weaving
  0  !number of references
 P4(3)32   212
   1.0000  1.0000  1.0000  90.000  90.000  90.000
@@ -188676,7 +188711,8 @@ pcu-c6*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 P-31c   163
   0.8165  0.8165 0.5773  90.000  90.000  120.000
@@ -188709,7 +188745,8 @@ pcu-c7*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 R-3   148
   0.5345 0.5345  1.732  90.000  90.000  120.000
@@ -188742,7 +188779,8 @@ pcu-c9*
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 R-3   148
   0.8165 0.8165  0.5775  90.000  90.000  120.000
@@ -189478,8 +189516,9 @@ spn-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 1  !number of keywords
+ 2  !number of keywords
 bipartite
+weaving
  0  !mumber of references
 Pn-3m   224
   2.4495 2.4495 2.4495  90.000  90.000  90.000
@@ -191421,7 +191460,7 @@ dia-c5*
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acra Cryst. A72, 68-372 (2016)
 I4(1)/a   88
@@ -191456,7 +191495,7 @@ dia-c5
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acta Cryst A71, 82 (2015)
 I4(1)/amd   141
@@ -191491,7 +191530,7 @@ dia-c4*
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  1  !number of references
 Acra Cryst. A72, 68-372 (2016)
 I4(1)/acd   142
@@ -193960,7 +193999,7 @@ dia-c8*
  0  !number of names
  0  !number of other names
  1  !number of keywords
-interpenetrating net
+weaving
  0  !number of references
 Ccca  68
   1.1547  0.5774  1.1547  90.000  90.000  90.000
@@ -193994,9 +194033,10 @@ cml-c3
  1  !number of names
 3P net
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
 bipartite
 polar
+weaving
  0  !number of references
 Cmc2(1)   36
   1.466  3.138  0.972  90.000  90.000  90.000
@@ -194146,7 +194186,8 @@ trn-c
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 P4(2)/mcm   132
  1.414 1.414 1.4142 90.000  90.000  90.000
@@ -194351,7 +194392,8 @@ lvt-c3
  0  !number of other symbols
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+weaving
  0  !number of references
 I-43d   220
   2.3094  2.3094  2.3094  90.000  90.000  90.000
