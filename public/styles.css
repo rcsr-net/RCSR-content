@@ -80,6 +80,7 @@ h1 {
 }
 
 .homePageLogo {
+    clear: both;
     background: -webkit-linear-gradient(top, #0071BC 12%, white);
     background: linear-gradient(to bottom, #0071BC 12%, white);
     padding: 40px 10%;
@@ -88,20 +89,20 @@ h1 {
 }
 
 .homePageLogo p {
+    display: inline-block;
+    vertical-align: middle;
     color: white;
     font-size: 57px;
     line-height: 68px;
     text-align: center;
     font-weight: 300;
-    width: 60%;
+    width: 50%;
     text-shadow: 2px 2px 6px #0071BC, 3px 3px 10px #0071BC;
 }
 
 .homePageLogo img {
-    float: right;
-    vertical-align: center;
-    height: 350px;
-    width: 372px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .partnerLogos {
