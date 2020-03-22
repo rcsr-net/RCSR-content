@@ -1,0 +1,32 @@
+start
+1		!serial number
+qaa		!symbol
+1		!number of names
+braid	! name
+1		Inumber of keyords
+weaving	!keyword
+p2/c		! 1-periodic group
+P12/c1	! 3-periodic group
+5.0 5.0 5.0 90.0 90.0 90.0	! a b c alph beta gamma
+1		! kinds of vertices
+V1 2 0.2 0.1 0.75	! vertex coord x y z
+2		! kinds of edges
+E1 0.0 0.0 0.5	!edge center x y z
+E2 0.0 0.6 0.75	!edge centerx y z
+start
+2
+qba
+1
+4^4 tetragonal
+1
+uniform
+p4(2)/mmc
+4.0 4.0 2.62 90.0 90.0 90.0
+1
+V1 0.4 0.0 0.0
+2 
+E1 0.4 0.0 0.5
+E2 0.2 0.8 0.25
+start
+-1
+
