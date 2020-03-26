@@ -4047,7 +4047,7 @@ P422
 0
 start
 181
-kod
+kod-z
 unk
 0     !number of other symbols
 1     !number of names
@@ -4174,7 +4174,7 @@ P432
 0
 start
 188
-koj
+koj-z
 unk
 0     !number of other symbols
 1     !number of names
@@ -4622,6 +4622,74 @@ P23
 start
 213
 koj-z
+unk
+0     !number of other symbols
+1     !number of names
+knot 10(123)
+0     !number of other names
+1     !number of keywords
+weaving
+-5 (C5i)
+P-1
+[20]
+2 2 1
+20 20 1
+0
+0
+start
+214
+rly
+unk
+0     !number of other symbols
+1     !number of names
+link 12^4
+0     !number of other names
+1     !number of keywords
+weaving
+23 (T)
+P432
+[6^4]
+2 2 1
+24 24 4
+0
+0
+start
+215
+rlz
+unk
+0     !number of other symbols
+1     !number of names
+link 16^6
+0     !number of other names
+1     !number of keywords
+weaving
+432 (0)
+P432
+[8^6]
+2 2 1
+48 48 6
+0
+0
+start
+216
+kod
+unk
+0     !number of other symbols
+1     !number of names
+knot 8(18)
+0     !number of other names
+1     !number of keywords
+weaving
+-8 S8)
+P4
+[8]
+2 2 1
+8 8 1
+0
+0
+start
+217
+koj
 unk
 0     !number of other symbols
 1     !number of names
