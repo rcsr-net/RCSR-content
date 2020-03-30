@@ -239,7 +239,7 @@ E1 0.4 0.0 0.5
 E2 0.2 0.8 0.25
 start
 17
-qbg
+qbh
 1
 3^6 hexagonal
 1
