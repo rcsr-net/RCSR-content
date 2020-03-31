@@ -3218,11 +3218,20 @@ rka
 unk
 0     !number of other symbols
 2     !number of names
-regular link
+regular knot
 [4]catenane cuo-w
 0     !number of other names
 1     !number of keywords
 weaving
+432 (0)
+P432
+[3^4]
+1 1 1
+12 12 4
+1
+V1 2
+0.4082 0.4082 0.0
+0
 432 (0)
 P432
 [3^4]
@@ -3238,7 +3247,7 @@ rkb
 unk
 0     !number of other symbols
 2     !number of names
-regular link
+regular knot
 [6]catebane rco-w
 0     !number of other names
 1     !number of keywords
@@ -3250,7 +3259,7 @@ P432
 24 24 6
 1
 V1 2
-0.2041 0.6487 -0.2813
+0.1837 0.3377 0.6212
 0
 start
 137
@@ -3258,8 +3267,8 @@ rkc
 unk
 0     !number of other symbols
 2     !number of names
-regular link
-[8]catenane
+regular knot
+[8]catenane snc-derived
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3270,7 +3279,7 @@ P432
 24 24 8
 1
 V1 2
-0.6145 0.1935 -0.3127
+0.1837 0.3377 0.6212
 0
 start
 138
@@ -3278,7 +3287,7 @@ rke
 unk
 0     !number of other symbols
 3     !number of names
-regular link
+regular knot
 [12]catenane snd-derived
 ric-w
 0     !number of other names
@@ -3289,8 +3298,7 @@ P23
 [5^12]
 1 1 1
 60 60 12
-1 V2
-0.0807 -0.8568 -0.6737
+0
 0
 start
 139
@@ -3298,7 +3306,7 @@ rkd
 unk
 0     !number of other symbols
 2     !number of names
-regular link
+regular knot
 [6]catenane ido-w
 0     !number of other names
 1     !number of keywords
@@ -3308,9 +3316,7 @@ P23
 [5^6]
 1 1 1
 30 30 6
-1
-V1 2
-0.0 0.0 0.85065
+0
 0
 start
 140
@@ -3318,7 +3324,7 @@ rkg
 unk
 0     !number of other symbols
 2     !number of names
-regular link
+regular knot
 [12]catenane snd-derived
 0     !number of other names
 1     !number of keywords
@@ -3328,18 +3334,16 @@ P23
 [5^12]
 1 1 1
 60 60 12
-1
-V1 2
-0.0559 0.0200 0.8498
+0
 0
 start
 141
-rla
+rkh
 unk
 0     !number of other symbols
 2     !number of names
-regular link
-[20]catenane
+regular knot
+[20]catenane snd-derived
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3348,9 +3352,7 @@ P23
 [3^20]
 1 1 1
 60 60 20
-1
-V1 2
-0.9391 -0.2255 -0.2387
+0
 0
 start
 142
@@ -3428,7 +3430,7 @@ unk
 0     !number of other symbols
 2     !number of names
 borromean
-link 6(2)^3
+knot 6(2)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3446,7 +3448,7 @@ unk
 0     !number of other symbols
 2     !number of names
 borromean
-link 6(2)^3
+knot 6(2)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3464,8 +3466,8 @@ unk
 0     !number of other symbols
 3     !number of names
 Solomom link
-link 4(1)^2
-torus link (4,2)
+knot 4(1)^2
+torus knot (4,2)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3482,7 +3484,7 @@ knf
 unk
 0     !number of other symbols
 1     !number of names
-link 6(1)^2
+knot 6(1)^2
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3499,7 +3501,7 @@ kng
 unk
 0     !number of other symbols
 1     !number of names
-link 8(1)^2
+knot 8(1)^2
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3516,7 +3518,7 @@ knh
 unk
 0     !number of other symbols
 1     !number of names
-link 8(3)^4
+knot 8(3)^4
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3553,7 +3555,7 @@ unk
 0     !number of other symbols
 2     !number of names
 Hopf link
-lik 2(1)^2
+knot 2(1)^2
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3571,15 +3573,15 @@ unk
 0     !number of other symbols
 2     !number of names
 Whitehead link
-link 5(1)^2
+knot 5(1)^2
 0     !number of other names
 1     !number of keywords
 weaving
 222 (D2)
 P222
-[4^2]
-2 4 2
-8 8 2
+[4.6]
+3 3 2
+10 10 2
 0
 0
 start
@@ -3662,7 +3664,7 @@ unk
 0     !number of other symbols
 2     !number of names
 triple cross
-link 6(3)^3
+knot 6(3)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3741,7 +3743,7 @@ torus knot (7,2)
 weaving
 72 (D7)
 P2
-[14]
+[114]
 1 2 1
 14 14 1
 0
@@ -3770,8 +3772,8 @@ knu
 unk
 0     !number of other symbols
 2     !number of names
-link 12(x)^3
-torrus link (6,3)
+knot 12(x)^3
+torrus knot (6,3)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3788,7 +3790,7 @@ knv
 unk
 0     !number of other symbols
 1     !number of names
-link 12(x)^3
+knot 12(x)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3839,8 +3841,8 @@ knw
 unk
 0     !number of other symbols
 3     !number of names
-torus link (6,4)
-link 18(x)^2
+torus knot (6,4)
+knot 12(x)^2
 double trefoil
 0     !number of other names
 1     !number of keywords
@@ -3858,8 +3860,8 @@ knx
 unk
 0     !number of other symbols
 2     !number of names
-torus link (6,5)
-link 24(x)
+torus knot (6,5)
+knot 24(x)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3894,8 +3896,8 @@ knz
 unk
 0     !number of other symbols
 2     !number of names
-torus link (8,4)
-link 24(x)^4
+torus knot (8,4)
+knot 24(x)^4
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3913,7 +3915,7 @@ unk
 0     !number of other symbols
 2     !number of names
 Brummian
-link 20(x)5
+knot 20(x)5
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3930,7 +3932,7 @@ kob
 unk
 0     !number of other symbols
 1     !number of names
-link 12(x)^4
+knot 12(x)^4
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3938,7 +3940,7 @@ weaving
 P422
 [3^4]
 2 2 1
-12 12 4
+12 12 3
 0
 0
 start
@@ -4047,7 +4049,7 @@ P422
 0
 start
 181
-kod-z
+kod
 unk
 0     !number of other symbols
 1     !number of names
@@ -4068,8 +4070,8 @@ knu-z
 unk
 0     !number of other symbols
 2     !number of names
-link 12(x)^3
-torrus link (6,3)
+knot 12(x)^3
+torrus knot (6,3)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4086,8 +4088,8 @@ kof
 unk
 0     !number of other symbols
 2     !number of names
-torus link (8,4)
-link 24(x)^4
+torus knot (8,4)
+knot 24(x)^4
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4109,7 +4111,7 @@ knot 24(x)
 0     !number of other names
 1     !number of keywords
 weaving
-622 D6)
+322 D6)
 P622
 [12]
 1 2 1
@@ -4174,7 +4176,7 @@ P432
 0
 start
 188
-koj-z
+koj
 unk
 0     !number of other symbols
 1     !number of names
@@ -4184,9 +4186,9 @@ knot 10(123)
 weaving
 522 (D5)
 P2
-[20]
+[15]
 2 3 1
-20 20 1
+15 15 1
 0
 0
 start
@@ -4216,7 +4218,7 @@ triple 4(1) knot (composite)
 0     !number of other names
 1     !number of keywords
 weaving
-32 (D3)
+322 (D3)
 P321
 [24]
 4 4 1
@@ -4247,7 +4249,7 @@ unk
 0     !number of other symbols
 2     !number of names
 Borrominian rings
-link 6(2)^3
+knot 6(2)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4280,7 +4282,7 @@ rco-e-w
 unk
 0     !number of other symbols
 1     !number of names
-link 24(x)6
+knot 24(x)6
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4297,7 +4299,7 @@ kom
 unk
 0     !number of other symbols
 1     !number of names
-link 9(7)^3
+knot 9(7)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4315,7 +4317,7 @@ unk
 0     !number of other symbols
 2     !number of names
 Brunnian
-link 12(x)^3
+knot 12(x)^3
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4332,7 +4334,7 @@ kop
 unk
 0     !number of other symbols
 1     !number of names
-link 30(x)^6
+knot 30(x)^6
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4349,7 +4351,7 @@ rki
 unk
 0     !number of other symbols
 1     !number of names
-link 48(x)^8
+knot 48(x)^8
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4366,8 +4368,8 @@ koq
 unk
 0     !number of other symbols
 2     !number of names
-Borromran twins
-link 30(x)^6
+Borromran ywins
+knot 30(x)^6
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4380,7 +4382,7 @@ Pm-3
 0
 start
 200
-kpa
+koy
 unk
 0     !number of other symbols
 1     !number of names
@@ -4427,281 +4429,6 @@ P23
 [3^4.6^4]
 1 2 1
 12 18 8
-0
-0
-start
-203
-rkj
-unk
-0     !number of other symbols
-2     !number of names
-regular link
-[8]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-432 (0)
-P432
-[3^8]
-1 1 1
-24 24 8
-1
-V1 2
-0.5756 0.2076 0.0160
-0
-start
-204
-rkk
-unk
-0     !number of other symbols
-2     !number of names
-regular link
-[8]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-432 (0)
-P432
-[3^8]
-1 1 1
-24 24 8
-1
-V1 2
-0.4173 0.3970 -0.0617
-0
-start
-205
-rkl
-unk
-0     !number of other symbols
-2     !number of names
-regular link
-[12]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-235 (I)
-P23
-[3^8]
-1 1 1
-60 60 12
-1
-V1 2
-0.0569 0.0200 0.8498
-0
-start
-206
-rkm
-unk
-0     !number of other symbols
-2     !number of names
-regular link
-[12]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-235 (I)
-P23
-[3^8]
-1 1 1
-60 60 12
-1
-V1 2
-0.9259 -0.0576 0.2339
-0
-start
-207
-rkn
-unk
-0     !number of other symbols
-2     !number of names
-regular link
-[12]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-235 (I)
-P23
-[3^8]
-1 1 1
-60 60 12
-1
-V1 2
-0.5844 -0.6813 0.1665
-0
-start
-208
-kpb
-unk
-0     !number of other symbols
-2     !number of names
-knot 7(4)
-Durer's knot
-0     !number of other names
-1     !number of keywords
-weaving
-222 (D2)
-P222
-[12]
-3 3 1
-12 12  1
-0
-0
-start
-209
-kov
-unk
-0     !number of other symbols
-2     !number of names
-link
-[4]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-432 (O)
-P432
-[6^4]
-1 2 1
-24 24  4
-0
-0
-start
-210
-kou
-unk
-0     !number of other symbols
-2     !number of names
-link
-[4]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-432 (O)
-P432
-[6^4]
-1 2 1
-24 24  4
-0
-0
-start
-211
-koy
-unk
-0     !number of other symbols
-2     !number of names
-link
-[15]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-235 (I)
-P23
-[4^15]
-1 2 1
-60 60  15
-0
-0
-start
-212
-koz
-unk
-0     !number of other symbols
-2     !number of names
-link
-[15]catenane
-0     !number of other names
-1     !number of keywords
-weaving
-235 (I)
-P23
-[4^15]
-1 2 1
-60 60  15
-0
-0
-start
-213
-koj-z
-unk
-0     !number of other symbols
-1     !number of names
-knot 10(123)
-0     !number of other names
-1     !number of keywords
-weaving
--5 (C5i)
-P-1
-[20]
-2 2 1
-20 20 1
-0
-0
-start
-214
-rly
-unk
-0     !number of other symbols
-1     !number of names
-link 12^4
-0     !number of other names
-1     !number of keywords
-weaving
-23 (T)
-P432
-[6^4]
-2 2 1
-24 24 4
-0
-0
-start
-215
-rlz
-unk
-0     !number of other symbols
-1     !number of names
-link 16^6
-0     !number of other names
-1     !number of keywords
-weaving
-432 (0)
-P432
-[8^6]
-2 2 1
-48 48 6
-0
-0
-start
-216
-kod
-unk
-0     !number of other symbols
-1     !number of names
-knot 8(18)
-0     !number of other names
-1     !number of keywords
-weaving
--8 S8)
-P4
-[8]
-2 2 1
-8 8 1
-0
-0
-start
-217
-koj
-unk
-0     !number of other symbols
-1     !number of names
-knot 10(123)
-0     !number of other names
-1     !number of keywords
-weaving
--5 (C5i)
-P-1
-[20]
-2 2 1
-20 20 1
 0
 0
 start
