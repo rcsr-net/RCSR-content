@@ -4706,7 +4706,7 @@ P-1
 0
 start
 218
-kpa
+kpb
 unk
 0     !number of other symbols
 1     !number of names
