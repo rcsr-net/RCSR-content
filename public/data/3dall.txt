@@ -195606,5 +195606,423 @@ E7   2
    3
 7
 start
+3030
+acs-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+P63/mmc  194
+2.8 2.8 2.3  90.000  90.000  120.000
+1
+V1  3
+  0.458 0.916 0.0625
+  x, 2x, z
+  12 k
+  m
+  2
+2
+E1  2
+  0.916 0.453  0.250
+ 2x, x, 1/4
+  6 h
+  mm2
+E2  2
+  0.542 0.084  0.9375
+ x, 2x, Z
+  12 K
+  m
+0
+0
+0
+unk
+unk
+  3 2 0 0 0 0 0 0 0 0 6
+  3.4(2)
+  3
+4
+start
+3031
+ana-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Ia-3d   230
+4.4 4.4 4.4  90.000  90.000  90.000
+1
+V1  2
+  0.167 0.362 0.944
+  x, y, z
+  96 h
+  1
+  1
+1
+E1  2
+  0.028 0.388  0.875
+ x, y, z
+  96 h
+  1
+0
+0
+0
+unk
+unk
+  2 0 0 0 0 0 0 0 0 0 3
+  3
+  3
+4
+start
+3032
+ana-y*
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Ia-3d   230
+4.4 4.4 4.4  90.000  90.000  90.000
+1
+V1  2
+  0.167 0.362 0.885
+  x, y, z
+  96 h
+  1
+  1
+1
+E1  2
+  0.223 0.406  0.932
+ x, y, z
+  96 h
+  1
+0
+0
+0
+unk
+unk
+  2 2 1 0 0 0 0 0 0 0 6
+  6
+  6
+4
+start
+3033
+crs-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Fd-3m  227
+2.8 2.8 2.8  90.000  90.000  90.000
+1
+V1  3
+  0.031 0.031 0.031
+  x, x, x
+  32 e
+  3m
+  6
+1
+E1  2
+  0.375 0.375 0.031
+ 3/8, 3/8, z
+  48 f
+  mm2
+0
+0
+0
+unk
+unk
+  3 0 0 0 0 0 0 0 0 0 4
+  3(3)
+  3
+2
+start
+3034
+lcs-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Ia-3  206
+3.3 3.3 3.3 90.000  90.000  90.000
+1
+V1  2
+  0.219 0.128 0.408
+  x, y, z
+  48 e
+  1
+  1
+1
+E1  2
+  0.094 0.172 0.048
+ x, y, z
+  48 e
+  1
+0
+0
+0
+unk
+unk
+  2 2 1 0 0 0 0 0 0 0 6
+  6
+  6
+4
+start
+3035
+lcv-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 2  !number of keywords
+weaving
+chiral
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+I4132  214
+2.5 2.5 2.5 90.000  90.000  90.000
+1
+V1  2
+  0.8125 0.375 0.0625
+  x, 3/8, x-3/4
+  24 h
+  2
+  2
+1
+E1  2
+  0.781 0.931 0.375
+ x, 1/4-x, 3/8
+  24 h
+  2
+0
+0
+0
+unk
+unk
+  2 0 0 0 0 0 0 0 0 0 3
+  3
+  3
+2
+start
+3036
+pcu-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Pm-3n  223
+1.25 1.25 1.25 90.000  90.000  90.000
+1
+V1  2
+  0.1 0.6 0.25
+  x, 1/2+x, 1/4
+  24 j
+  2
+  2
+1
+E1  2
+  0.25 0.1 0.0
+ x, y, 0
+  24 k
+  m
+0
+0
+0
+unk
+unk
+  2 1 0 0 0 0 0 0 0 0 4
+  4
+  4
+2
+start
+3037
+pth-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+catenated ribbon
+ 0  !number of other names
+ 2  !number of keywords
+chiral
+weaving
+ 0  !number of references
+P6(2)22  180
+1.6 1.6 3.5 90.000  90.000  120.000
+2
+V1  4
+  0.5 0.0 0.0
+  1/2, 0, 0
+  3 c
+  222
+  4
+V2  2
+  0.0 0.0 0.555
+  0, 0, z
+  6 e
+  2
+  2
+1
+E1  2
+  0.25 0.0 0.888
+ x, y, z
+  12 k
+  1
+0
+0
+0
+unk
+unk
+  4 2 4 2 4 2 4 2 4 2 31
+  2 6 2 4 2 4 2 4 2 4 33
+  4(2)
+  4
+  4
+3
+start
+3038
+pts-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+catenated ribbon
+ 0  !number of other names
+ 2  !number of keywords
+chiral
+weaving
+ 0  !number of references
+P4(2)22   93
+1.4 1.4 2.1 90.000  90.000  90.000
+2
+V1  4
+  0.0 0.0 0.0
+  0, 0, 0
+  2 a
+  222
+  4
+V2  2
+  0.0 0.0 0.35
+  0, 0, z
+  4 g
+  2
+  2
+1
+E1  2
+  0.75 0.0 0.675
+ x, y, z
+  8 p
+  1
+0
+0
+0
+unk
+unk
+  4 2 4 2 4 2 4 2 4 2 31
+  2 6 2 4 2 4 2 4 2 4 33
+  4(2)
+  4
+  4
+3
+start
+3039
+sod-y
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Im-3m  229
+2.8 2.8 2.8 90.000  90.000  90.000
+1
+V1  2
+  0.5 0.1667 0.0
+  1/2, y, 0
+  24 g
+  mm2
+  4
+1
+E1  2
+  0.3333 0.3333 0.0
+ x, x, 0
+  24 h
+  mm2
+0
+0
+0
+unk
+unk
+  2 1 0 0 0 0 0 0 0 0 4
+  4
+  4
+2
+start
+3040
+sod-y*
+4
+ 0  !number of other symbols
+ 1  !number of names
+polycatenane
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 1  !number of references
+Cmem. Soc. Rev. 47, 4642 (2018)
+Pn-3m      224
+2.8 2.8 2.8 90.000  90.000  90.000
+1
+V1  2
+  0.5625 0.5625 0.25
+  x, x, z
+  24 k
+  m
+  2
+1
+E1  2
+  0.4375 0.0938 0.0938
+ x, y, y
+  24 k
+  m
+0
+0
+0
+unk
+unk
+  2 1 0 0 0 0 0 0 0 0 4
+  4
+  4
+3
+start
  -1
 
