@@ -18,69 +18,48 @@
   al. Nature <b>2003</b>, <i>423</i>, 705-714).
 </p>
 
-<p>
-  It is overseen by a steering committee:
-  <ul>
-    <li>Michael O’Keeffe (ASU), Chairman</li>
-    <li>Olaf Delgado-Friedrichs (ANU), Co-chairman</li>
-    <li>Stephen Hyde (ANU)</li>
-    <li>Omar Yaghi (UC, Berkeley)</li>
-  </ul>
-</p>
+The RCSR is currently maintained by Olaf Delgado-Friedrichs and Michael
+O'Keeffe.  It is a collection of structures that consist of points (vertices)
+embedded in space that are joined by straight non-intersecting links (edges)
+&mdash; in mathematical jargon "piecewise linear". A reorganization in 2020
+divides these into four sections: 3-, 2-, 1-, or 0-periodic. These in turn are
+divided into two subsets. A default set and a second accessed if, and only if,
+keyword "weaving" is selected. Specifically:
 
-<div class="highlight">
-  <p>
-    To reference the database please cite:
-  </p>
+<dt>0-periodic.</dt>
+<dd>
+  <i>Default.</i> Convex polyhedra including a few "cages" with 2-coordinated
+  vertices.<br>
 
-  <p>
-    O'Keeffe, M.; Peskov, M. A.; Ramsden, S. J.; Yaghi, O. M. <i>Accts. Chem.
-      Res.</i> <b>2008</b>, <i>41</i>, 1782-1789.
-  </p>
-</div>
+  <i>Weaving.</i> Knots, polycatenanes, "tangled" polyhedra (think of Escher's
+  cube).
+</dd>
 
-<p>
-  The most important part is a searchable database of 3-periodic nets. These
-  are presented for the most part in maximum symmetry embeddings in which
-  edge lengths are constrained to be equal to unity and the volume is
-  maximized subject to that constraint. For these the "embed type" is
-  1. Some nets do not allow such embeddings and other embeddability types
-  are given below.
-</p>
+<dt>1-periodic.</dt>
+<dd>
+  <i>Default.</i> Cylinder tilings.<br>
 
-<p>
-  The 3D nets database contains mainly structures of interest to designed
-  synthesis and/or of special interest to the theory of periodic graphs and
-  tilings. Suggestions for additions are welcome, but it is emphasized that to
-  be usable the size must be limited, and only special simple structures are
-  added – examples are uninodal nets, binodal bipartite nets, and minimal
-  transitivity nets. There are exceptions for structures that are the nets of
-  materials of unusual interest such as MOF-177 (<b>qom</b>) and MIL-100
-  (<b>moo</b>).
-</p>
+  <i>Weaving.</i> Interlocked components not lined by edges.  Bundles of
+  threads (braids), chains etc.
+</dd>
 
-<p>
-  Clicking the "nets" link leads to a search page where searches can be done
-  by <i>symbol</i> (every structure in this database has a unique symbol),
-  by <i>name</i> (some structures have names), by <i>keyword</i> and
-  by <i>properties</i>. Searches are not cases sensitive.
-  The terms are all explained in pages accessed by
-  clicking the appropriate link on the search page. As well as
-  crystallographic data, vertex symbols and coordination sequences are
-  given. For an explanation of these see reference [1] below. Tilings are
-  generally given as natural tilings [2] with face symbols
-  [<i>N<sup>n</sup></i>.<i>M<sup>m</sup></i>...] that indicate that the tile
-  has <i>n N-</i>sided faces, <i>m M</i>-sided faces etc. For other terms
-  see the links on the search page.
-</p>
+<dt>2-periodic.</dt>
+<dd>
+  <i>Default.</i> Plane tilings (carry 2-periodic graphs).<br>
+  <i>Weaving.</i> Interlocked components not linked by edges.  Weavings of
+  threads, polycatenanes (chain mail), weaving (interpenetrating) of nets.
+</dd>
 
-<p>
-  Other databases are of 2-periodic structures ("layers") and of
-  "polyhedra". At present we have fewer entries for these. Users familiar
-  with the "nets" search should find these self-explanatory, but read on
-  after "embeddings" on how to use the coordinate data for polyhedra and
-  some other notes.
-</p>
+<dt>3-periodic.</dt>
+<dd>
+  <i>Default.</i> This is the bulk of RCSR. It contains embeddings of
+  3-periodic graphs.  The coordinates are, as far as possible, for equal edge
+  lengths and minimum density.<br>
+
+  <i>Weaving.</i> Multi-component 3-periodic structures. Weaving of threads,
+  polycatenanes and interpenetrating nets. The last can be deselected in the
+  search box by selecting "exclude catenated".
+</dd>
 
 <p>
   The symbol is either a three-letter symbol <b>pqr</b> or a three letter
