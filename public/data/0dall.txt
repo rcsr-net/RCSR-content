@@ -4721,6 +4721,21 @@ P422
 16 18 4
 0
 0
+219
+bnt
+unk
+0     !number of other symbols
+1     !number of names
+bnn-t cage
+0     !number of other names
+0     !number of keywords
+p6/mmm (D6h)
+Pmmm
+[4^18.6^12.8^6.12^2]
+3 7 5
+72 108 38
+0
+0
 start
 -1
 
