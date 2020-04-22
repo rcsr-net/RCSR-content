@@ -1,4 +1,4 @@
-=start
+start
 1
 snc
 snc-d
