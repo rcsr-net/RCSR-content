@@ -119523,7 +119523,7 @@ unk
 3
 start
 2025
-qld-z
+qld
 5 (ladder)
  0  !number of other symbols
  1  !number of names
@@ -185799,7 +185799,7 @@ hcp
 3
 start
 2887
-qle-z
+qle
 5 (ladder)
  0  !number of other symbols
  1  !number of names
