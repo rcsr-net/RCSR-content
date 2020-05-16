@@ -4738,6 +4738,22 @@ Pmmm
 0
 0
 start
+220
+tro-a
+unk
+0     !number of other symbols
+1     !number of names
+csd cage
+0     !number of other names
+0     !number of keywords
+m-3m (Oh)
+Pm-3m
+[3^24.8^6.12^8]
+2 4 3
+72 108 38
+0
+0
+start
 -1
 
 
