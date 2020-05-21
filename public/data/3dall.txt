@@ -194505,7 +194505,8 @@ start
   0     !number of other names
   1     !number of keywords
 bipartite
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc. 142, 9471 (2020)
  P4(2)/mnm       136                                         
  1.3339   1.3339   2.6645  90.000  90.000  90.000            
   2
@@ -196708,7 +196709,8 @@ start
   0     !number of other names
   1     !number of keywords
 good
-  0     !number of references
+  1     !number of references
+J. Am. Chem. Soc. 142, 9471 (2020)
  Cmmm             65                                         
    1.81705 1.14371 1.03592  90.000  90.000  90.000            
   2
@@ -197424,6 +197426,40 @@ V3  3
 6(2).6(2).6(2)
    3
 5
+start
+3058
+lcu
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 1  !number of keywords
+chiral
+ 0  !number of references
+P4(3)32   212
+  0.73030 0.73030 0.73030  90.000  90.000  90.000
+1
+V1  12
+  0.1250  0.1250  0.1250
+  1/8, 1/8, 1/8
+  4 a
+  32
+  6
+1
+E1  2
+   0.25000 -0.50000 -0.12500
+  x, y, z
+  24 e
+  1
+0
+0
+0
+unk
+unk
+ 12 110 504 1064 1712 2676 3752 4970 6486 8024 29311
+  unk
+4
+1
 start
  -1
 
