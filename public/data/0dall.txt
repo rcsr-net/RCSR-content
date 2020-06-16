@@ -4754,6 +4754,23 @@ Pm-3m
 0
 0
 start
+221
+wsf
+unk
+0     !number of other symbols
+2     !number of names
+Williams polyhedron
+isq cage
+0     !number of other names
+0     !number of keywords
+mmm (D2h)
+Pmmm
+[4^2.5^8.6^4]
+4 6 3
+24 36 14
+0
+0
+start
 -1
 
 
