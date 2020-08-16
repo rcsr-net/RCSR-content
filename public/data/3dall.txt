@@ -39046,7 +39046,7 @@ flu
 1a
  0  !number of other symbols
  3  !number of names
-TC-net
+TC net
 fluorite
 F-RD minimal surface
  0  !number of other names
@@ -198789,9 +198789,11 @@ start
   crg                                                        
 1
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+STO net
   0     !number of other names
-  0     !number of keywords
+  1     !number of keywords
+bipartite
   0     !number of references
  C2/m             12                                         
    2.9836  1.3332  2.6669  90.000 116.647  90.000            
