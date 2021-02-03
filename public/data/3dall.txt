@@ -199515,7 +199515,7 @@ V3  4
  4
  start
  3079
-  zig-a                                                      
+  zlg-a                                                      
  1 b
   0     !number of other symbols
   0     !number of names
@@ -199527,7 +199527,7 @@ V3  4
   4
 V1  4
   0.3162 0.0000 0.1257                                       
- x. 0, z                                                         
+ x, 0, z                                                         
    8 o                                                       
   m                                                          
   2                                                          
@@ -199607,7 +199607,7 @@ V4  4
  10
  start
  3080
-  zig                                                      
+  zlg                                                      
  4
   0     !number of other symbols
   0     !number of names
