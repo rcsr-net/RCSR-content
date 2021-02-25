@@ -3217,9 +3217,10 @@ start
 rka
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [4]catenane cuo-w
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3237,9 +3238,10 @@ start
 rkb
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [6]catebane rco-w
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3257,9 +3259,10 @@ start
 rkc
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [8]catenane
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3277,10 +3280,11 @@ start
 rke
 unk
 0     !number of other symbols
-3     !number of names
+4     !number of names
 regular link
 [12]catenane snd-derived
 ric-w
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3297,9 +3301,10 @@ start
 rkd
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [6]catenane ido-w
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3317,9 +3322,10 @@ start
 rkg
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [12]catenane snd-derived
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3357,9 +3363,10 @@ start
 rkz
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 five tetrahedra
 dod-derived
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3426,9 +3433,10 @@ start
 knd
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 borromean
 link 6(2)^3
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3462,9 +3470,10 @@ start
 kne
 unk
 0     !number of other symbols
-3     !number of names
+4     !number of names
 Solomom link
 link 4(1)^2
+Acta cryst. A76, 644-621 (2020)
 torus link (4,2)
 0     !number of other names
 1     !number of keywords
@@ -3481,8 +3490,9 @@ start
 knf
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
 link 6(1)^2
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3498,8 +3508,9 @@ start
 kng
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
 link 8(1)^2
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3515,7 +3526,8 @@ start
 knh
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+Acta cryst. A76, 644-621 (2020)
 link 8(3)^4
 0     !number of other names
 1     !number of keywords
@@ -3532,10 +3544,11 @@ start
 kni
 unk
 0     !number of other symbols
-3     !number of names
+4     !number of names
 trefoil
 knot 3(1)
 torus knot (3,2)
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3551,9 +3564,10 @@ start
 knj
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 Hopf link
 lik 2(1)^2
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3569,9 +3583,10 @@ start
 knl
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 Whitehead link
 link 5(1)^2
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3605,10 +3620,11 @@ start
 knm
 unk
 0     !number of other symbols
-3     !number of names
+4     !number of names
 cinquefoil
 knot 5(1)
 torus not (5,2)
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4294,8 +4310,9 @@ start
 rki
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
 link 48(x)^8
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4383,6 +4400,7 @@ unk
 2     !number of names
 regular link
 [8]catenane
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4400,9 +4418,10 @@ start
 rkk
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [8]catenane
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4420,9 +4439,10 @@ start
 rkl
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [12]catenane
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4440,9 +4460,10 @@ start
 rkm
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [12]catenane
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -4460,9 +4481,10 @@ start
 rkn
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [12]catenane
+Acta cryst. A76, 644-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
