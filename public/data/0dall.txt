@@ -3434,7 +3434,7 @@ knd
 unk
 0     !number of other symbols
 3     !number of names
-borromean
+3-borromean B)3,3)
 link 6(2)^3
 Acta Cryst. A76, 611-621 (2020)
 0     !number of other names
@@ -3602,9 +3602,10 @@ start
 knk-z
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 figure-eight
 knot 4(1)
+B(2,3)
 0     !number of other names
 1     !number of keywords
 weaving
@@ -3896,7 +3897,7 @@ start
 koa
 unk
 0     !number of other symbols
-3     !number of names
+2     !number of names
 5-Borromean B(5,5)
 link 20(x)5
 0     !number of other names
@@ -4115,6 +4116,7 @@ unk
 2     !number of names
 figure-eight
 knot 4(1)
+B(2,3)
 0     !number of other names
 1     !number of keywords
 weaving
