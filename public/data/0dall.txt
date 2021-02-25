@@ -4609,7 +4609,8 @@ start
 kod
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+B(4,3)
 knot 8(18)
 0     !number of other names
 1     !number of keywords
@@ -4627,7 +4628,7 @@ koj
 unk
 0     !number of other symbols
 2     !number of names
-B95,3)
+B(5,3)
 knot 10(123)
 0     !number of other names
 1     !number of keywords
