@@ -4259,7 +4259,7 @@ koo
 unk
 0     !number of other symbols
 2     !number of names
-Brunnian
+3-borromean B(6,3)
 link 12(x)^3
 0     !number of other names
 1     !number of keywords
@@ -4626,7 +4626,8 @@ start
 koj
 unk
 0     !number of other symbols
-1     !number of names
+2     !number of names
+B95,3)
 knot 10(123)
 0     !number of other names
 1     !number of keywords
