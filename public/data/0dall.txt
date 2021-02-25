@@ -4397,7 +4397,7 @@ start
 rkj
 unk
 0     !number of other symbols
-2     !number of names
+3     !number of names
 regular link
 [8]catenane
 Acta cryst. A76, 644-621 (2020)
