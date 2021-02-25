@@ -4118,23 +4118,6 @@ P-4
 0
 0
 start
-187
-koi
-unk
-0     !number of other symbols
-1     !number of names
-four trefoil
-0     !number of other names
-1     !number of keywords
-weaving
-432 (O)
-P432
-[6^4]
-1 2 1
-24 24 4
-0
-0
-start
 188
 koj-z
 unk
@@ -4585,23 +4568,6 @@ P23
 [4^15]
 1 2 1
 60 60  15
-0
-0
-start
-213
-koj-z
-unk
-0     !number of other symbols
-1     !number of names
-knot 10(123)
-0     !number of other names
-1     !number of keywords
-weaving
--5 (C5i)
-P-1
-[20]
-2 2 1
-20 20 1
 0
 0
 start
