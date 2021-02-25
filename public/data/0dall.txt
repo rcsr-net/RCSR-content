@@ -3674,42 +3674,6 @@ P32
 0
 0
 start
-160
-knq
-unk
-0     !number of other symbols
-2     !number of names
-knot 10(124)
-torus knot (5,3)
-0     !number of other names
-1     !number of keywords
-weaving
-52 (D5)
-P2
-[10]
-1 2 1
-10 10 1
-0
-0
-start
-161
-knq-z
-unk
-0     !number of other symbols
-2     !number of names
-knot 10(124)
-torus knot (5,3)
-0     !number of other names
-1     !number of keywords
-weaving
-52 (D5)
-P2
-[10]
-1 2 1
-10 10 1
-0
-0
-start
 162
 knr
 unk
@@ -4063,24 +4027,6 @@ P422
 0
 0
 start
-185
-knu-z
-unk
-0     !number of other symbols
-2     !number of names
-link 12(x)^3
-torrus link (6,3)
-0     !number of other names
-1     !number of keywords
-weaving
-622 (D6)
-P622
-[4^3]
-1 2 1
-12 12 3
-0
-0
-start
 183
 kof
 unk
@@ -4362,7 +4308,7 @@ P432
 0
 start
 199
-koq
+knq
 unk
 0     !number of other symbols
 2     !number of names
@@ -4762,7 +4708,8 @@ unk
 Williams polyhedron
 isq cage
 0     !number of other names
-0     !number of keywords
+1     !number of keywords
+space filling
 mmm (D2h)
 Pmmm
 [4^2.5^8.6^4]
