@@ -1,8 +1,9 @@
 start
 1		!serial number
 qaa		!symbol
-1		!number of names
+2		!number of names
 braid	! name
+Acta Crys. A77, 130-137 (2021)
 1		Inumber of keyords
 weaving	!keyword
 p2/c		! 1-periodic group
@@ -46,8 +47,9 @@ E2 0..2 0.2 0.0
 start
 4
 qab
-1
+2
 rubber band
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p-4m2
@@ -61,8 +63,9 @@ E2 0.0732 0.0 0.0
 start
 5
 qac
-1
+2
 chain
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p42/mmc
@@ -91,8 +94,9 @@ E1 0.8 0.0 0.5
 start
 7
 qad
-1
+2
 double chain
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p42/mmc
@@ -121,8 +125,9 @@ E2 0.025 0.0125 0.875
 start
 9
 qaf
-1
+2
 5-strand braid
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p2/c
@@ -136,8 +141,9 @@ E2 0.0 0.0722 0.25
 start
 10
 qag
-1
+2
 7-strand braid
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p2/c
@@ -152,9 +158,10 @@ start
 11
 qah
 1
-double seztuple helix
-1
+double sextuple helix
+2
 weaving
+Acta Crys. A77, 130-137 (2021)
 p422
 P422
 100.0 100.0 10.0 90.0 90.0 90.0
@@ -299,8 +306,9 @@ E2 0.7 0.0 0.5
 start
 21
 qam
-1
+2
 6-thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p3c
@@ -313,8 +321,9 @@ E1 -0.0408 0.0 0.6866
 start
 22
 qan
-1
+2
 8-thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p4cc
@@ -327,8 +336,9 @@ E1 -0.0747 0.0309 0.9326
 start
 23
 qai
-1
+2
 helical unwoven bundle
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p4(2)22
@@ -342,8 +352,9 @@ E2 -0.0118 0.0118 0.75
 start
 24
 qao
-1
+2
 12-thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p6cc
@@ -356,8 +367,9 @@ E1 0.1391 0.1901 0.4307
 start
 25
 qal
-1
+2
 12-thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p6(1)22
@@ -370,8 +382,9 @@ E1 0.0 0.0 0.3841
 start
 26
 qav
-1
+2
 4 saw-tooth thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p4(2)22
@@ -385,8 +398,9 @@ E2 0.0 0.0177 0.0
 start
 27
 qaq
-1
+2
 6 saw-tooth thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p6(3)22
@@ -400,8 +414,9 @@ E2 -0.0184 0.0184 0.75
 start
 28
 qca
-1
+2
 4 thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p-42c
@@ -415,8 +430,9 @@ E2 -0.0237 0.0 0.25
 start
 29
 qcb
-1
+2
 8 thread weave
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p-42c
@@ -430,8 +446,9 @@ E2 0.0303 0.0 0.75
 start
 30
 qas
-1
+2
 4-thread knit
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p4/mcc
@@ -445,8 +462,9 @@ E2 0.0 -0.0219 0.25
 start
 31
 qat
-1
+2
 6-thread knit
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p6/mcc
@@ -460,8 +478,9 @@ E2 0.0564 0.0136 0.5
 start
 32
 qkt
-1
+2
 Tait's periodic knot
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p2/c
@@ -477,8 +496,9 @@ E3 0.0049 0.0800 0.4542
 start
 33
 qqp
-1
+2
 trigonal rubber band
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p-3m
@@ -492,8 +512,9 @@ E2 -0.0733 -0.0366 0.2962
 start
 34
 qqq
-1
+2
 regular link
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p-4c2
@@ -506,8 +527,9 @@ E1 -0.0959 0.0254 0.0
 start
 35
 qqr
-1
+2
 regular link
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p-3c
@@ -520,8 +542,9 @@ E1 -0.0864 -0.0388 0.0
 start
 36
 qka
-1
+2
 monotoxal periodic knot
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p4322
@@ -537,8 +560,9 @@ E3 0.0049 -0.0311 0.0
 start
 37
 qkb
-1
+2
 periodic knot
+Acta Crys. A77, 130-137 (2021)
 1
 weaving
 p6522
