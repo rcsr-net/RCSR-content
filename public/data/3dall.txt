@@ -190488,7 +190488,7 @@ primitive cubic tangle
  0  !number of keywords
  0  !number of references
 Pa-3   205
-  1.7654  1.7654  1.7654  90.000  90.000  90.000
+  0.7654  0.7654  0.7654  90.000  90.000  90.000
 1
 V1  6
   0.3535  0.3535  0.3535
