@@ -4708,6 +4708,23 @@ Pmmm
 0
 0
 start
+222
+vic
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+2     !number of keywords
+simple
+icosahedral
+m-3-5 (Ih)
+Pm-3
+[3^20.6^30]
+2 2 2
+72 120 50
+0
+0
+start
 -1
 
 
