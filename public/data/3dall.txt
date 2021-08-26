@@ -179276,8 +179276,9 @@ unk
   aca                                                        
  1
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged acs-ssa
+SOP-net
   0     !number of other names
   1     !number of keywords
 bipartite
@@ -199687,6 +199688,41 @@ V2  4
 3.3.8.10(2).8.12(2) 
    3
  5
- start
+start
+3083
+sql-c*-w
+4
+ 0  !number of other symbols
+ 1  !number of names
+fabric weave
+ 0  !number of other names
+ 1  !number of keywords
+weaving
+ 0  !number of references
+P4/ncc     130
+2.0 2.0 2.818  90.000  90.000  90.000
+1
+V1  2
+  0.3333 0.8333 0.25
+  x, x+1/2, 1/4
+  8 j
+  2
+  2
+1
+E1  2
+  0.0 0.0  0.0
+  0, o, 0
+  8 d
+  -1
+0
+0
+0
+unk
+unk
+  2 2 2 2 2 2 2 2 2 2 21
+  ∞
+  1000
+3
+start
  -1
 
