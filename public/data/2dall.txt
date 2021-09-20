@@ -6123,6 +6123,67 @@ x, y, z
 2 2 2 2 2 2 2 2 2 2 21
  �
 start
+237
+wvs
+0 ! number of other symbols
+1  ! number of names
+knit-purl
+0  ! number of other names
+1 ! number of keywords
+weaving
+pma2
+Pma2
+10.0 10.0 10.0 90.0 90.0 90.0
+2 3 1
+V1 2
+0.9962 0.5039 0.7971
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+V2 2
+0.3516 0.1986 0.1588
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+238
+wvx
+0 ! number of other symbols
+2  ! number of names
+chain-link
+UUOO
+0  ! number of other names
+1 ! number of keywords
+weaving
+pban
+Pban
+5.0 5.0 5.0 90.0 90.0 900.0
+1 2 1
+V1 2
+0.3373 0.0350 0.8373
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
+239
+wvy
+0 ! number of other symbols
+2  ! number of names
+chain-link
+UDUD
+0  ! number of other names
+1 ! number of keywords
+weaving
+c222
+C222
+10.0 5.747 10.0 90.0 90.0 900.0
+1 2 1
+V1 2
+0.2809 0.3726 0.1319
+x, y, z
+2 2 2 2 2 2 2 2 2 2 21
+ �
+start
 -1
 
 
