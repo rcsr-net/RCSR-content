@@ -4746,7 +4746,7 @@ toq
 unk
 0     !number of other symbols
 1     !number of names
-genus 6 polyhedron, V-E+F=-4
+genus 3 polyhedron, V-E+F=-4
 0     !number of other names
 0     !number of keywords
 -43m (Td)
