@@ -4751,9 +4751,9 @@ genus 3 polyhedron, V-E+F=-4
 0     !number of keywords
 -43m (Td)
 -43m
-[3^24.4^12.6^4]
-3 6 4
-48 84 40
+[3^12.4^16.6^4]
+3 4 4
+28 64 32
 0
 0
 start
