@@ -199907,7 +199907,7 @@ unk
 3
 start
 3084
- WUk                                                      
+wuk                                                     
 1b
   0     !number of other symbols
   0     !number of names
