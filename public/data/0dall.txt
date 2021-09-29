@@ -4730,14 +4730,30 @@ top
 unk
 0     !number of other symbols
 1     !number of names
-genus 1 polyhedron
+genus 1 polyhedron, V-E+F=0
 0     !number of other names
 0     !number of keywords
 4/mmm (D4h)
 P4/mmm
 [3^24.4^8]
-3 5 3
+3 6 3
 20 52 32
+0
+0
+start
+224
+toq
+unk
+0     !number of other symbols
+1     !number of names
+genus 6 polyhedron, V-E+F=-4
+0     !number of other names
+0     !number of keywords
+-43m (Td)
+-43m
+[3^24.4^12.6^4]
+3 6 4
+48 84 40
 0
 0
 start
