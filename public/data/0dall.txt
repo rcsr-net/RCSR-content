@@ -4733,11 +4733,11 @@ unk
 genus 1 polyhedron, V-E+F=0
 0     !number of other names
 0     !number of keywords
-4/mmm (D4h)
-P4/mmm
-[3^24.4^8]
-3 6 3
-20 52 32
+-6M2 (D3h)
+P-6M2
+[3^6.4^3]
+2 4 3
+9 18 9
 0
 0
 start
@@ -4752,8 +4752,24 @@ genus 3 polyhedron, V-E+F=-4
 -43m (Td)
 -43m
 [3^12.4^18.6^4]
-3 4 4
+2 4 4
 28 66 34
+0
+0
+start
+225
+tor
+unk
+0     !number of other symbols
+1     !number of names
+genus 5 polyhedron, V-E+F=-8
+0     !number of other names
+0     !number of keywords
+m-3m (Oh)
+m-3m
+[3^24.4^36.6^8]
+2 4 4
+56 132 68
 0
 0
 start
