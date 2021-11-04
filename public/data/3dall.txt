@@ -140,7 +140,7 @@ sod-f
  0  !number of other symbols
  3  !number of names
 3/4/c2
-sqc 9251
+sqc9254
 4.12^2 P
  0  !number of other names
  0  !number of keywords
@@ -319,7 +319,7 @@ sod-h
  3  !number of names
 3/4/c8
 4.8.12 D
-sqc2873
+sqc12873
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -411,8 +411,9 @@ start
 lcs-f
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3/4/c10
+sqc12878
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -989,8 +990,9 @@ start
 pcu-h
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3/6/h1
+sqc328
  0  !number of other names
  2  !number of keywords
 good
@@ -1212,7 +1214,7 @@ utc
  3  !number of names
 3/8/c2
 9^3 G
-sqc9259
+sqc9269
  1  !number of other names
 schwarzite
  3  !number of keywords
@@ -3923,10 +3925,11 @@ start
 hbo
 1a
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 gamma HBO2
 4/3/c5
 3.8.4.8 P
+sqc11143
  1  !number of other names
 qsn-034
  2  !number of keywords
@@ -4487,13 +4490,14 @@ start
 lta
 1a
  0  !number of other symbols
- 6  !number of names
+ 7  !number of names
 Linde A
 ZIF-21
 ZIF-376
 4/4/c6
 4^2.6^2 P
 4^2.6.8 F-RP
+sqc11208
  1  !number of other names
 alpha cage
  5  !number of keywords
@@ -4543,13 +4547,14 @@ start
 rho
 1a
  0  !number of other symbols
- 6  !number of names
+ 7  !number of names
 rho
 ZIF-11
 ZIF-12
 ZIF-71
 4/4/c4
 4^3.6 P
+sqc11215
  1  !number of other names
 alpha cage
  5  !number of keywords
@@ -5064,11 +5069,12 @@ start
 gie
 1b
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 UCSB-7
 BSV
 4/4/c20
 4^3.6 G
+sqc13520
  1  !number of other names
 qsn-082
  2  !number of keywords
@@ -5357,8 +5363,9 @@ start
 umh
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4/4/t32
+sqc8111
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -6200,8 +6207,9 @@ start
 umi
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4/4/t58
+sqc8135
  1  !number of other names
 qsn-022
  2  !number of keywords
@@ -6677,7 +6685,7 @@ rhr
  3  !number of names
 4/4/c3
 4.6.4.6 P
-sqc544
+sqc5544
  0  !number of other names
  1  !number of keywords
 semiregular net
@@ -9020,9 +9028,10 @@ start
 uks
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 4/4/c7
 4^3.6 D
+sqc11213
  0  !number of other names
  0  !number of keywords
  3  !number of references
@@ -10429,8 +10438,9 @@ start
 aww
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 AlPO4-22
+sqc11167
  1  !number of other names
 AlPO-22
  3  !number of keywords
@@ -10854,8 +10864,9 @@ start
 ast
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 octadecasil
+sqc3869
  0  !number of other names
  4  !number of keywords
 good
@@ -11166,8 +11177,9 @@ start
 asv
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ASU-7
+sqc3847
  0  !number of other names
  1  !number of keywords
 zeolite net
@@ -11284,10 +11296,11 @@ start
 edi
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 edingtonite
 ice VI
 K5 net
+sqc527
  0  !number of other names
  1  !number of keywords
 zeolite net
@@ -12314,7 +12327,8 @@ start
 baa
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc937
  0  !number of other names
  2  !number of keywords
 good
@@ -13320,7 +13334,8 @@ start
 pbz-e
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12822
  0  !number of other names
  2  !number of keywords
 good
@@ -13368,7 +13383,8 @@ start
 uta-e
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12821
  0  !number of other names
  2  !number of keywords
 good
@@ -13416,7 +13432,8 @@ start
 pbp-e
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12820
  0  !number of other names
  3  !number of keywords
 good
@@ -14654,7 +14671,8 @@ start
 bas
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12838
  0  !number of other names
  2  !number of keywords
 simple tiling
@@ -14712,7 +14730,8 @@ start
 bat
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc13506
  0  !number of other names
  2  !number of keywords
 simple tiling
@@ -15176,8 +15195,9 @@ start
 sas
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 STA-6
+sqc8138
  0  !number of other names
  3  !number of keywords
 good
@@ -15463,7 +15483,8 @@ start
 bbc
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc5531
  0  !number of other names
  1  !number of keywords
 good
@@ -15520,7 +15541,8 @@ start
 bbd
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11162
  0  !number of other names
  1  !number of keywords
 good
@@ -15587,10 +15609,11 @@ start
 pts
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 ST net
 PtS
 cooperite
+sqc183
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -15789,7 +15812,8 @@ start
 bbh
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc974
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -16140,7 +16164,8 @@ start
 bbn
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc5496
  0  !number of other names
  1  !number of keywords
 good
@@ -16192,7 +16217,8 @@ start
 bbo
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc9832
  0  !number of other names
  1  !number of keywords
 good
@@ -17229,7 +17255,8 @@ start
 bcb
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc7751
  0  !number of other names
  2  !number of keywords
 good
@@ -17292,7 +17319,8 @@ start
 bcd
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11163
  0  !number of other names
  2  !number of keywords
 good
@@ -17360,7 +17388,8 @@ start
 bce
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11160
  0  !number of other names
  2  !number of keywords
 simple tiling
@@ -17428,7 +17457,8 @@ start
 bcf
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12445
  0  !number of other names
  2  !number of keywords
 good
@@ -17840,7 +17870,8 @@ start
 bcq
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc941
  0  !number of other names
  1  !number of keywords
 good
@@ -17951,8 +17982,9 @@ start
 mot
 2b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 MOF-112
+sqc29
  1  !number of other names
 square
  1  !number of keywords
@@ -18001,7 +18033,8 @@ start
 pbg-e
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc14260
  0  !number of other names
  1  !number of keywords
 good
@@ -18053,7 +18086,8 @@ start
 nbo-a-e
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc9141
  0  !number of other names
  2  !number of keywords
 good
@@ -18150,7 +18184,8 @@ start
 pcu-g-e
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12819
  0  !number of other names
  3  !number of keywords
 simple tiling
@@ -21979,7 +22014,7 @@ CaB6
 5/3/c3
 3^3.8^2 I-WP
 K6 net
-sqc 1568
+sqc1568
  0  !number of other names
  2  !number of keywords
 uniform tiling
@@ -22161,7 +22196,7 @@ crs-a
  3  !number of names
 5/3/c10
 3^3.6^2 D
-sqc2217
+sqc12217
  0  !number of other names
  2  !number of keywords
 good
@@ -22210,7 +22245,7 @@ fnf
  3  !number of names
 5/3/c11
 3.4^4 D
-sqc2219
+sqc12219
  0  !number of other names
  2  !number of keywords
 good
@@ -23590,8 +23625,9 @@ start
 fnq
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 5/4/h4
+sqc1522
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -23857,11 +23893,12 @@ start
 pcu
 1a
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 primitive cubic lattice
 6/4/c1
 4^6 P
 6^6 G
+sqc1
  0  !number of other names
  6  !number of keywords
 uniform tiling
@@ -23945,11 +23982,12 @@ start
 crs
 1a
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 T
 cristobalite
 6/3/c2
 6^6 D
+sqc889
  0  !number of other names
  3  !number of keywords
 uniform tiling
@@ -24195,9 +24233,10 @@ start
 kag
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 kagome tiling
 6/3/h13
+sqc249
  0  !number of other names
  2  !number of keywords
 uniform tiling
@@ -24237,9 +24276,10 @@ start
 reo-e
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 6/3/c3
 3.4^2.3.4^2 P
+sqc8990
  0  !number of other names
  3  !number of keywords
 uniform tiling
@@ -24647,9 +24687,10 @@ start
 dia-j
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 6/3/c14
 3^3.4.3.4 D
+sqc12702
  0  !number of other names
  2  !number of keywords
 infinite polyhedron
@@ -24960,8 +25001,9 @@ start
 snq
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/t7
+sqc836
  0  !number of other names
  1  !number of keywords
 good
@@ -25296,8 +25338,9 @@ start
 sne
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/t32
+sqc912
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -25336,8 +25379,9 @@ start
 snw
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/4/t10
+sqc895
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -26219,9 +26263,10 @@ start
 hxg
 2b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 6^6 P
 4^6 D
+sqc947
  0  !number of other names
  3  !number of keywords
 semiregular net
@@ -26259,8 +26304,9 @@ start
 bcs
 2b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4^6 G
+sqc4991
  0  !number of other names
  2  !number of keywords
 good
@@ -26347,8 +26393,9 @@ start
 sms
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/h2
+sqc2708
  0  !number of other names
  1  !number of keywords
 good
@@ -28504,9 +28551,10 @@ start
 pto
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 Pt3O4
 3S net
+sqc5591
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -28643,10 +28691,11 @@ start
 bor
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 boracite
 3T net
 K3,4 net
+sqc975
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -28691,10 +28740,11 @@ start
 ctn
 1b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 C3N4
 3T net
 S minimal surface
+sqc5593
  0  !number of other names
  5  !number of keywords
 bipartite
@@ -28928,9 +28978,10 @@ start
 gar
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 TO net
 garnet net
+sqc11070
  0  !number of other names
  2  !number of keywords
 heterocoord 46
@@ -29486,8 +29537,9 @@ start
 mot-e
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ST net
+sqc942
  0  !number of other names
  1  !number of keywords
 good
@@ -29535,7 +29587,8 @@ start
 she-a
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12882
  0  !number of other names
  1  !number of keywords
 good
@@ -29789,7 +29842,8 @@ start
 sxa
 2
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc34
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -30165,8 +30219,9 @@ start
 tcs
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ThCr2Si2
+sqc325
  0  !number of other names
  3  !number of keywords
 isohedral tiling
@@ -31074,7 +31129,8 @@ start
 fsd
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc61
  0  !number of other names
  3  !number of keywords
 good
@@ -31337,8 +31393,9 @@ start
 tfb
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 nbo-derived
+sqc7391
  0  !number of other names
  2  !number of keywords
 good
@@ -32394,8 +32451,9 @@ start
 cds-a
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 augmented cds
+sqc977
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -32946,8 +33004,9 @@ start
 she
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SH net
+sqc5432
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -33241,8 +33300,9 @@ start
 pto-a
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 augmented Pt3O4
+sqc12872
  0  !number of other names
  2  !number of keywords
 good
@@ -33638,8 +33698,9 @@ start
 toc
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 TO net
+sqc5433
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -33848,7 +33909,8 @@ start
 fsc
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11
  1  !number of other names
 alpha cage
  2  !number of keywords
@@ -34001,7 +34063,8 @@ start
 fsg
 2
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc10
  0  !number of other names
  3  !number of keywords
 good
@@ -34671,7 +34734,8 @@ start
 tfg
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc9223
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -34780,7 +34844,8 @@ start
 the-a
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc13171
  0  !number of other names
  2  !number of keywords
 heterocoord 34
@@ -34838,7 +34903,8 @@ start
 scu-a
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc6928
  0  !number of other names
  2  !number of keywords
 good
@@ -35446,10 +35512,11 @@ start
 svk
 1a
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 3^3.4^2 prism tiling
 AACC
 7/3/o1
+sqc49
  0  !number of other names
  2  !number of keywords
 uniform tiling
@@ -36333,10 +36400,11 @@ start
 bcu
 1a
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 body centered cubic
 cI
 8/4/c1
+sqc3
  0  !number of other names
  3  !number of keywords
 regular net
@@ -36373,9 +36441,10 @@ start
 reo
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 reO3
 8/3/c2
+sqc877
  0  !number of other names
  3  !number of keywords
 uniform tiling
@@ -36412,9 +36481,10 @@ start
 thp
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 Th of Th3P4
 8/3/c1
+sqc5052
  0  !number of other names
  1  !number of keywords
 semiregular net
@@ -36449,11 +36519,12 @@ start
 pyc
 1a
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 pyrochlore
 8/3/c3
 3^8 D
 deltahedron
+sqc10956
  0  !number of other names
  2  !number of keywords
 infinite polyhedron
@@ -36493,10 +36564,11 @@ start
 hex
 1a
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 hexagonal lattice
 8/3/h4
 hP
+sqc4
  0  !number of other names
  3  !number of keywords
 uniform tiling
@@ -36945,10 +37017,11 @@ start
 tsi
 1a
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 ThSi2
 8/3/t1
 Cs(HP)
+sqc106
  0  !number of other names
  3  !number of keywords
 uniform tiling
@@ -37897,9 +37970,10 @@ start
 bct
 1a
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 10/3/t1
 bct
+sqc8
  0  !number of other names
  2  !number of keywords
 good
@@ -38445,11 +38519,12 @@ start
 fcu
 1a
  0  !number of other symbols
- 4  !number of names
+ 5  !number of names
 cubic closest packing
 face centered cubic
 12/3/c1
 F-RD minimal surface
+sqc19
  0  !number of other names
  3  !number of keywords
 quasiregular net
@@ -38576,9 +38651,10 @@ start
 bcu-x
 3b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 body centered cubic
 0.C-TO minimal surface
+sqc38
  0  !number of other names
  2  !number of keywords
 good
@@ -38856,8 +38932,9 @@ start
 scu
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SC net
+sqc170
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -38948,10 +39025,11 @@ start
 ftw
 2b
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 SB net
 Cu3Au
 C(P) = Neovius minimal surface
+sqc867
  0  !number of other names
  5  !number of keywords
 bipartite
@@ -39045,10 +39123,11 @@ start
 flu
 1a
  0  !number of other symbols
- 3  !number of names
+ 4  !number of names
 TC net
 fluorite
 F-RD minimal surface
+sqc169
  0  !number of other names
  4  !number of keywords
 bipartite
@@ -40897,8 +40976,9 @@ start
 ulj
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 4/3/c28
+sqc11142
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -43847,7 +43927,8 @@ start
 jph
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc2210
  0  !number of other names
  3  !number of keywords
 isohedral tiling
@@ -44406,8 +44487,9 @@ start
 sev
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 7/4/o1
+sqc44
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -44991,7 +45073,8 @@ start
 fte
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11183
  0  !number of other names
  2  !number of keywords
 good
@@ -46256,7 +46339,8 @@ start
 fty
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc14437
  1  !number of other names
 alpha cage
  2  !number of keywords
@@ -46514,7 +46598,8 @@ start
 fue
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc14282
  1  !number of other names
 alpha cage
  2  !number of keywords
@@ -46583,7 +46668,8 @@ start
 fuf
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc13517
  1  !number of other names
 FAU cage
  1  !number of keywords
@@ -49400,8 +49486,9 @@ start
 dmd
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 pts-derived
+sqc528
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -49631,7 +49718,8 @@ start
 fvr
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc9215
  0  !number of other names
  3  !number of keywords
 good
@@ -58761,8 +58849,9 @@ start
 wia
 2a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 6/3/t44 [I4(1)/a]
+sqc5100
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -60985,9 +61074,10 @@ start
 ose
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 7/3/o5
 6^3 c1
+sqc59
  0  !number of other names
  1  !number of keywords
 good
@@ -63668,8 +63758,9 @@ start
 nta
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 (9,3)a
+sqc3056
  0  !number of other names
  2  !number of keywords
 uniform net
@@ -64676,7 +64767,8 @@ start
 msw
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc26
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -70992,7 +71084,8 @@ start
 reo-d
 3b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc543
  0  !number of other names
  3  !number of keywords
 good
@@ -71041,8 +71134,9 @@ start
 crs-d
 3b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 NaTl
+sqc870
  0  !number of other names
  3  !number of keywords
 good
@@ -71091,7 +71185,8 @@ start
 ast-d
 3b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc719
  0  !number of other names
  2  !number of keywords
 good
@@ -71219,7 +71314,8 @@ start
 nbo-x-d
 3b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc3288
  0  !number of other names
  2  !number of keywords
 good
@@ -71436,9 +71532,10 @@ start
 sth
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 5/3/h1
 K6 net
+sqc1566
  0  !number of other names
  1  !number of keywords
 good
@@ -71913,7 +72010,8 @@ nba
 1a
  1  !number of other symbols
 nbo-j
- 0  !number of names
+ 1  !number of names
+sqc5596
  0  !number of other names
  2  !number of keywords
 good
@@ -72173,7 +72271,8 @@ start
 ttt-a
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc10067
  0  !number of other names
  2  !number of keywords
 good
@@ -72280,7 +72379,7 @@ wiw
  0  !number of other symbols
  2  !number of names
 3/10/h4
-sqc3058
+sqc3054
  0  !number of other names
  1  !number of keywords
 uniform net
@@ -72942,9 +73041,10 @@ start
 wlk
 1b
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 5/4/h38
 K6 net
+sqc1564
  0  !number of other names
  1  !number of keywords
 isohedral tiling
@@ -73228,8 +73328,9 @@ start
 wlr
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 5/4/h45
+sqc7322
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -77252,8 +77353,9 @@ start
 sqc
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SC net
+sqc1973
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -77784,7 +77886,8 @@ start
 ssb
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc2202
  0  !number of other names
  1  !number of keywords
 bipartite
@@ -78001,7 +78104,8 @@ start
 ssb-a
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11263
  0  !number of other names
  1  !number of keywords
 good
@@ -79101,8 +79205,9 @@ start
 lcx
 3b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 lattice complex W
+sqc5117
  0  !number of other names
  1  !number of keywords
 good
@@ -80775,7 +80880,8 @@ start
 pts-f
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc2195
  0  !number of other names
  2  !number of keywords
 good
@@ -80879,7 +80985,8 @@ start
 lsz
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc166
  0  !number of other names
  1  !number of keywords
 good
@@ -83285,8 +83392,9 @@ start
 skb
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 5/4/o9
+sqc492
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -84670,7 +84778,8 @@ start
 clh
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc946
  0  !number of other names
  1  !number of keywords
 good
@@ -84868,8 +84977,9 @@ start
 lbt
 ib
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 linked bowties
+sqc5497
  0  !number of other names
  1  !number of keywords
 good
@@ -84921,7 +85031,8 @@ start
 mjz
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc12220
  0  !number of other names
  1  !number of keywords
 good
@@ -87325,8 +87436,9 @@ start
 url
 1a
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 STO net
+sqc11071
  0  !number of other names
  2  !number of keywords
 good
@@ -88747,7 +88859,8 @@ start
 yav-d
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc284
  0  !number of other names
  3  !number of keywords
 good
@@ -89168,8 +89281,9 @@ start
 tfi
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 pts-derived
+sqc515
  1  !number of other names
 carbon
  2  !number of keywords
@@ -90223,7 +90337,8 @@ start
 ana-f
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc14293
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -91204,7 +91319,8 @@ start
 btu
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc247
  0  !number of other names
  1  !number of keywords
 good
@@ -91266,7 +91382,8 @@ start
 btv
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc134
  0  !number of other names
  1  !number of keywords
 heterocoord
@@ -93988,8 +94105,9 @@ start
 tfk
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 pts-derived
+sqc519
  0  !number of other names
  2  !number of keywords
 heterocoord 34
@@ -94147,7 +94265,8 @@ start
 cdm
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc851
  1  !number of other names
 square
  1  !number of keywords
@@ -94205,7 +94324,8 @@ start
 cdn
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc1752
  1  !number of other names
 square
  1  !number of keywords
@@ -94268,7 +94388,8 @@ start
 mou
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc466
  1  !number of other names
 square
  1  !number of keywords
@@ -94321,7 +94442,8 @@ start
 cdz
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc30
  1  !number of other names
 square
  0  !number of keywords
@@ -94535,7 +94657,8 @@ start
 seb
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc46
  0  !number of other names
  2  !number of keywords
 good
@@ -94593,7 +94716,8 @@ start
 tfo
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc74
  0  !number of other names
  3  !number of keywords
 heterocoord 34
@@ -95999,7 +96123,8 @@ start
 ild
 3b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc15
  0  !number of other names
  2  !number of keywords
 good
@@ -96490,7 +96615,8 @@ start
 xah
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc320
  0  !number of other names
  2  !number of keywords
 good
@@ -96846,7 +96972,8 @@ start
 pts-x
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc502
  0  !number of other names
  3  !number of keywords
 heterocoord
@@ -96895,7 +97022,8 @@ start
 xak
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc873
  0  !number of other names
  2  !number of keywords
 good
@@ -96943,7 +97071,8 @@ start
 xal
 2b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc354
  0  !number of other names
  2  !number of keywords
 good
@@ -97093,7 +97222,8 @@ start
 xao
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc688
  0  !number of other names
  3  !number of keywords
 isohedral tiling
@@ -97987,7 +98117,8 @@ start
 xbe
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc522
  0  !number of other names
  3  !number of keywords
 heteroccoord
@@ -98266,7 +98397,8 @@ start
 xbi
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc8971
  0  !number of other names
  2  !number of keywords
 heteroccoord
@@ -98416,8 +98548,9 @@ start
 xbl
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 sod-derived
+sqc7388
  0  !number of other names
  2  !number of keywords
 heterocoord 34
@@ -98633,8 +98766,9 @@ start
 xbp
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 dia-b plus
+sqc480
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -98849,7 +98983,8 @@ start
 xbs
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc70
  0  !number of other names
  2  !number of keywords
 heterocoord
@@ -101715,8 +101850,9 @@ start
 tty
 2b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 scu-derived
+sqc494
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -101989,8 +102125,9 @@ start
 cut
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 scu-derived
+sqc517
  0  !number of other names
  1  !number of keywords
 heterocoord
@@ -104602,8 +104739,9 @@ start
 fof
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 nbo-derived
+sqc1575
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -104881,8 +105019,9 @@ start
 ucp
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 rhr-derived
+sqc12293
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -111298,8 +111437,9 @@ start
 stx
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ssb-derived
+sqc3895
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -111882,8 +112022,9 @@ start
 fog
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 nbo-derived
+sqc1572
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -112150,8 +112291,9 @@ start
 stj
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ssb -derived
+sqc3890
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -112198,8 +112340,9 @@ start
 stw
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ssb-derived
+sqc3891
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -112247,8 +112390,9 @@ start
 stu
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 ssb-derived
+sqc3893
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -114125,7 +114269,8 @@ start
 srd
 3
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc2948
  0  !number of other names
  3  !number of keywords
 heterocoord 34
@@ -114475,7 +114620,8 @@ start
 srd-l
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc11728
  0  !number of other names
  2  !number of keywords
 good
@@ -116098,8 +116244,9 @@ start
 soi
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 5/4/o31
+sqc3588
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -119169,7 +119316,8 @@ start
 ttc
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc5607
  0  !number of other names
  1  !number of keywords
 good
@@ -119221,7 +119369,8 @@ start
 ttd
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc5601
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -119272,7 +119421,8 @@ start
 ttf
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc5602
  0  !number of other names
  1  !number of keywords
 good
@@ -119968,8 +120118,9 @@ start
 ylf
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3O net
+sqc5381
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -120737,8 +120888,9 @@ start
 epy
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3SH net
+sqc12776
  0  !number of other names
  2  !number of keywords
 bipartite
@@ -123141,8 +123293,9 @@ start
 mjb
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 mot-e derived
+sqc1388
  0  !number of other names
  2  !number of keywords
 heterocoord 34
@@ -123342,7 +123495,7 @@ ffc
 1b
  0  !number of other symbols
  3  !number of names
-sqc 945
+sqc945
 scu-derived
 3S net
  0  !number of other names
@@ -123787,7 +123940,7 @@ hee
 1b
  0  !number of other symbols
  2  !number of names
-sqc13777
+sqc13776
 6.8^2,6^2.8P
  1  !number of other names
 schwarzite
@@ -124220,7 +124373,8 @@ start
 xux
 ib
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc188
  0  !number of other names
  1  !number of keywords
 heterocoord 34
@@ -130375,7 +130529,8 @@ start
 hof
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc185
  0  !number of other names
  3  !number of keywords
 heterocoord 34
@@ -130604,8 +130759,9 @@ start
 flt
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 flu-derived
+sqc495
  0  !number of other names
  1  !number of keywords
 heterocoord
@@ -130727,8 +130883,9 @@ start
 mmn
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 mmm-related
+sqc6327
  0  !number of other names
  1  !number of keywords
 heterocoord
@@ -131400,7 +131557,8 @@ start
 cdq
 2
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc422
  0  !number of other names
  3  !number of keywords
 goodd
@@ -132278,8 +132436,9 @@ start
 xca
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 xda-derived
+sqc705
  0  !number of other names
  2  !number of keywords
 uniform net
@@ -133046,8 +133205,9 @@ start
 ahq
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 SOH net
+sqc890
  0  !number of other names
  3  !number of keywords
 bipartite
@@ -143800,8 +143960,9 @@ start
 utx
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3^9 P
+sqc2580
  0  !number of other names
  1  !number of keywords
 chiral
@@ -146221,8 +146382,9 @@ start
 dgp
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3^8 P
+sqc5309
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -146374,9 +146536,10 @@ start
 uty
 2
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 3^9 D
 deltahedron
+sqc8843
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -146414,9 +146577,10 @@ start
 utz
 4
  0  !number of other symbols
- 2  !number of names
+ 3  !number of names
 3^9 G
 deltahedron
+sqc8558
  0  !number of other names
  1  !number of keywords
 chiral
@@ -147240,8 +147404,9 @@ start
 tej
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3^8 D
+sqc5051
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -147348,8 +147513,9 @@ start
 tie
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3^8 G
+sqc10878
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -147405,8 +147571,9 @@ start
 teo
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3^8 G
+sqc10983
  0  !number of other names
  1  !number of keywords
 chiral
@@ -162286,7 +162453,8 @@ start
 ycr
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc13998
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -162413,7 +162581,8 @@ start
 ycq
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc13178
  0  !number of other names
  0  !number of keywords
  1  !number of references
@@ -163967,8 +164136,9 @@ start
 hbl
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 hbm-derived
+sqc6667
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -164024,7 +164194,8 @@ start
 hbm
 2
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc5264
  0  !number of other names
  0  !number of keywords
  0  !number of references
@@ -164817,7 +164988,8 @@ start
   kty-a                                                      
  3
   0     !number of other symbols
-  0     !number of names
+  1     !number of names
+sqc880
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -168602,7 +168774,7 @@ start
  2
   0     !number of other symbols
   2     !number of names
-sqc12695
+sqc10994
 sod-b plus
   0     !number of other names
   1     !number of keywords
@@ -168659,7 +168831,7 @@ start
  2
   0     !number of other symbols
   3     !number of names
- sqc8979
+sqc8979
 3SC net
 nbo-related
   0     !number of other names
@@ -177604,7 +177776,8 @@ start
 tam
 4
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+sqc8562
  0  !number of other names
  1  !number of keywords
 good
@@ -179435,8 +179608,9 @@ V4  5
   anl                                                        
  3
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged acs-ana
+sqc13385
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -179529,8 +179703,9 @@ unk
   gal                                                        
  3
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged lcs-gar
+sqc12665
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -179576,8 +179751,9 @@ unk
   hxs                                                        
  1
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged hxg-sod
+sqc11027
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -179672,8 +179848,9 @@ V2  3
   nso                                                        
  3
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged nbo-sod
+sqc5414
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -179719,8 +179896,9 @@ V2  6
   ses                                                        
  1
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged sh-sod
+sqc8955
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -179766,8 +179944,9 @@ unk
   ton                                                        
  3
   0     !number of other symbols
-  1     !number of names
+  2     !number of names
 merged toc-nbo
+sqc8902
   0     !number of other names
   0     !number of keywords
   0     !number of references
@@ -181353,8 +181532,9 @@ start
 scp
 4
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 sqc plus
+sqc5081
  0  !number of other names
  1  !number of keywords
 bipartite
@@ -187957,9 +188137,10 @@ start
   bch                                                        
  1b
   0     !number of other symbols
-  2     !number of names
+  3     !number of names
 bcs-derived
 3O net
+sqc9065
   0     !number of other names
   1     !number of keywords
 chiral
@@ -190103,9 +190284,10 @@ unk
   pda                                                        
  1
   0     !number of other symbols
-  2     !number of names
+  3     !number of names
 3^6 + 3^8 P
 deltahedron
+sqc13061
   0     !number of other names
   1     !number of keywords
 good
@@ -199723,8 +199905,62 @@ unk
   ∞
   1000
 3
- start
+start
 3084
+wuk                                                     
+4
+  0     !number of other symbols
+  0     !number of names
+  0     !number of other names
+  1     !number of keywords
+chiral
+  0     !number of references
+ I4122            98                                        
+ 2.38197 2.38197 2.25974  90.000  90.000  90.000            
+  1
+V1  6
+  0.17787 0.53758 0.08624                                      
+  x, y, z                                                          
+   16 g                                                     
+  1                                                         
+  1                                                                                                                
+  5
+ E1   2                                                      
+  0.25000 0.53758 0.875                                      
+  1/4, x, 7/8                                                   
+  8 f                                                     
+  2                                                         
+ E2   2                                                      
+  0.32014 0.67986 0.00000                                      
+  x, 1-x, 0                                                    
+  8 e                                                      
+  2                                                          
+ E3   2                                                      
+  0.10772 0.67986 0.96125                                      
+  x, y, z                                                          
+  16 g                                                      
+  1  
+ E4   2                                                      
+  0.07014 0.42986 0.25000                                     
+  x, 1/2-x, 1/4                                                   
+  8 e                                                    
+  2                                                         
+ E5   2                                                      
+  0.17787 0.75000 0.12500                                      
+  x, 3/4, 1/8                                                    
+  8 f                                                      
+  2                                                    
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+   6 14 39  82 156 236 339  443  565  705 2586     
+3.3.3.3.3.3.6(2).6(2).6(2).8.8.10(90).10(90).10(110).* 
+   3
+ 5
+ start
+ 3085
   zyb                                                        
  1b
   0     !number of other symbols
@@ -199732,7 +199968,7 @@ unk
   0     !number of other names
   0     !number of keywords
   0     !number of references
- P2(1)/n          14                                         
+ P2(1)/n         14                                         
    1.9990  1.7055  3.2124  90.000 100.333  90.000            
   2
 V1  5
@@ -199778,7 +200014,7 @@ V2  3
 4.6.6.6.6.6.6.6(2).8(2).8(3) 
 4.6(2).6(2) 
    4
-10
+ 10
 start
  -1
 
