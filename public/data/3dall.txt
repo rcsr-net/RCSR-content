@@ -10385,11 +10385,13 @@ start
 ucn
 1b
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 UCSB-9
+zeolite SBN
  1  !number of other names
 silica
- 0  !number of keywords
+ 1  !number of keywords
+zeolite net
  0  !number of references
 P6(3)/mmc   194
   2.4408  2.4408  4.2209  90.000  90.000  120.000
@@ -47669,11 +47671,13 @@ start
 fuw
 1a
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+zeolite NPT
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
 simple tiling
 good
+zeolite net
  0  !number of references
 Fd-3m   227
   9.6573  9.6573  9.6573  90.000  90.000  90.000
@@ -47937,11 +47941,13 @@ start
 fvb
 1b
  0  !number of other symbols
- 0  !number of names
+ 1  !number of names
+zeolite PTT
  0  !number of other names
- 2  !number of keywords
+ 3  !number of keywords
 simple tiling
 good
+zeolite PTT
  0  !number of references
 P-3m1   164
   4.1603  4.1603  3.2274  90.000  90.000  120.000
@@ -93931,8 +93937,7 @@ bel
  1  !number of names
 K5 net
  0  !number of other names
- 1  !number of keywords
-zeolite net
+ 0  !number of keywords
  0  !number of references
 P-6m2   187
   2.4404  2.4404  2.1108  90.000  90.000  120.000
@@ -104366,7 +104371,8 @@ jst
 noh-e
  0  !number of names
  0  !number of other names
- 0  !number of keywords
+ 1  !number of keywords
+zeolite net
  0  !number of references
 Pa-3   205
   5.2958  5.2958  5.2958  90.000  90.000  90.000
@@ -150214,7 +150220,7 @@ rad
 AST
  0  !number of other names
  1  !number of keywords
-zeolite et
+zeolite net
  1  !number of references
 Chem. Rev. 116, 12466 (2016)
 Cmcm   63
