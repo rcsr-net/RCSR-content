@@ -4773,6 +4773,24 @@ m-3m
 0
 0
 start
+226
+esc
+unk
+0     !number of other symbols
+2     !number of names
+tangled theta 
+New J. Chem, 32, 1457 (2008)
+0     !number of other names
+1     !number of keywords
+weaving
+32 D3)
+P321
+[5^3]
+2 2 1
+8 9 3
+0
+0
+start
 -1
 
 
