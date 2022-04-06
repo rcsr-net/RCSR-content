@@ -3975,7 +3975,7 @@ P321
 0
 start
 178
-esc
+esr
 unk
 0     !number of other symbols
 1     !number of names
