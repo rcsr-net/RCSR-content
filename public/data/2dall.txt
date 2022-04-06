@@ -6219,6 +6219,24 @@ V1 3
 3    6    9   12   15   18   21   24   27   30  166
 6^3
 start
+242
+cme
+0 ! number of other symbols
+1  ! number of names
+chain mail
+0  ! number of other names
+1 ! number of keywords
+weaving
+p622
+P622
+2.5 2.5 10.0 90.0 90.0 120.0
+1 2 1
+V1 2
+0.8333 0.1336 0.1
+x, 1-x, z
+2 2 1 0 0 0 0 0 0 0 6
+6
+start
 -1
 
 
