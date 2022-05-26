@@ -200439,6 +200439,211 @@ V1  6
 4.4.4.4.6(2).6(5).6(5).6(5).6(5).6(6).6(7).6(7).6(11).6(11).* 
 4
 4
+ start
+3094
+  qcx                                                       
+4
+  0     !number of other symbols
+  1     !number of names
+Borromean ladders
+  0     !number of other names
+  1     !number of keywords
+weaving
+  0     !number of references
+ Pm-3            200                                        
+ 2.0 2.0 2.0 90.0 90.0 90.0            
+  1
+V1  3
+ 0.2 0.5 0.0                                       
+  x, 1/2, 0                                                    
+  6 g                                                      
+ mm2
+  4                                                         
+  2                                                                                                                 
+ E1   2                                                      
+  0.50000 1.50000 0.00000                                       
+  1/2, 1/1, 0                                                          
+  3 c                                                       
+ mmm                                                         
+ E2   2                                                      
+  0.2 0.5000 0.50000                                       
+  x, 1/2, 1/2                                                    
+  6 h                                                      
+ mm2                                                                                                                                                                    
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+3 4 4 4 4 4 4 4 4 4 40  
+4.4.* 
+4
+2
+ start
+3095
+  qcz                                                       
+4
+  0     !number of other symbols
+  1     !number of names
+ladders
+  0     !number of other names
+  2     !number of keywords
+chiral
+weaving
+  0     !number of reference
+P23            195                                        
+ 2.0 2.0 2.0 90.0 90.0 90.0            
+  1
+V1  3
+ 0.0991 0.2127 0.4037                                       
+  x, y, z                                                    
+ 12 j                                                      
+ 1
+1                                                         
+  2                                                                                                                 
+ E1   2                                                      
+ 0.0991 0.2127 0.9037                                       
+  x, y, z                                                          
+  12 j                                                       
+ 1                                                        
+ E2   2                                                      
+  0.2112 0.5000 0.50000                                       
+  x, 0, 0                                                    
+  6 j                                                      
+ 2                                                                                                                                                                    
+  0                                                          
+  0                                                          
+  0
+  unk                                                        
+  unk                                                        
+3 4 4 4 4 4 4 4 4 4 40  
+4.4.* 
+4
+4
+start
+3096
+qtz-c6*
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+chiral
+weaving
+ 0  !number of references
+R32   155
+  10.0 10.0 7.0  90.000  90.000  120.000
+1
+V1  4
+  0.1667  0.0000  0.0000
+  x, 0, 0
+  9 d
+  2
+  2
+1
+E1  2
+  0.0833  0.5333  0.3333
+  x, y, z
+ 18 i
+  1
+0
+0
+0
+unk
+unk
+  4  12  30  52  80  116  156  204  258  318  1231
+  6.6.6(2).6(2).8(7).8(7)
+6
+3
+start
+3097
+hcb-c**
+4
+ 0  !number of other symbols
+ 0  !number of names
+ 0  !number of other names
+ 2  !number of keywords
+weaving
+uniform net
+ 0  !number of references
+I41/amd   141
+  10.0 10.0 16.7  90.000  90.000  90.000
+1
+V1  3
+  0.5  0.5  0.33
+  1/2, y, z
+  16 h
+  m
+  2
+2
+E1  2
+  0.75 0.25 0.25
+  3/4, 1/4, 1/4
+  8 d
+  2/m
+E2  2
+  0.75 0.0 0.0
+  x, 0, 0
+ 16 f
+  2
+0
+0
+0
+unk
+unk
+  3  6  9  12  15  18  21  24  27  30  166
+  6.6.6
+6
+4
+start
+3098
+lyq
+4
+ 0  !number of other symbols
+ 1  !number of names
+TO-net
+ 0  !number of other names
+ 2  !number of keywords
+chiral
+bipaetite
+ 0  !number of references
+P4252   208
+ 2.14702 2.14702 2.14702 90.0000 90.0000 90.0000
+2
+V1  6
+ 0.32188 0.32188 0.67812
+  x, x, 1-x
+  8 g
+  3
+  3
+V2  4
+ 0.12952 0.37048 0.25000
+  x, 1/2-x, 1/4
+  12 k
+  2
+  2
+2
+E1  2
+0.15382 0.27430 0.03594
+  x, y, z
+ 24 m
+ 1
+E2  2
+  0.15382 0.59618 0.21406
+ xm y,z
+ 24 m
+ 1
+0
+0
+0
+unk
+unk
+6 15 57  90 243 245 495 435 837  696 3120
+4 18 38 121 162 366 330 653 558 1045 3296
+N7A
+N/A
+4
+3
 start
  -1
 
