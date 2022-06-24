@@ -23948,7 +23948,7 @@ Y minimal surface
 6/3/c1
  0  !number of other names
  5  !number of keywords
-semiregular net
+regular net
 isohedral tiling
 chiral
 good
@@ -23972,9 +23972,9 @@ E1  2
   2
 2
 1
-12
-[3.5^3] (SD: [5^6])
-dia
+10
+[5^6])
+lcy
   6  24  48  86  138  192  260  348  432  530  2065
   3.3.3.5.5.5.5(2).5(2).5(2).5(2).5(2).5(2).*.*.*
 3
