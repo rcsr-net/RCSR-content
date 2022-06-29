@@ -6263,6 +6263,24 @@ x, y, 0
 3 6 9 12 15 17 20 23 26 29 161
 6.6.6
 start
+244
+cmt
+0 ! number of other symbols
+1  ! number of names
+Borromean chain mail
+0  ! number of other names
+1 ! number of keywords
+weaving
+p-31m
+P-31m
+10.0 10.0 10.0 90.0 90.0 120.0
+1 1 1
+V1 2
+0.2145 0.2142 0.3086
+x, x, z
+2 2 2 2 2 1 0 0 0 0 12
+6
+start
 -1
 
 
