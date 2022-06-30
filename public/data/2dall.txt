@@ -5750,26 +5750,6 @@ x, y, z
 2 2 1 0 0 0 0 0 0 0 6
 6
 start
-217
-cmt
-0  ! number of other symbols
-3  ! number of names
-chain mail
-Borromean
-Acta cryst. A76, 110 (2020)
-0  ! number of other names
-1  ! number of keywords
-weaving
-p3
-P3
-10.0 10.0 10.0 90.0 90.0 120.0
-1 1 1
-V1 4
-0.0924 0.7619 0.3086 
-x, y, z
-2 2 1 0 0 0 0 0 0 0 6
-6
-start
 218
 sql-c5
 0  ! number of other symbols
@@ -6264,7 +6244,7 @@ x, y, 0
 6.6.6
 start
 244
-cmu
+cmt
 0 ! number of other symbols
 1  ! number of names
 Borromean chain mail
