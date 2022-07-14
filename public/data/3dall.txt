@@ -11735,9 +11735,8 @@ off
  1  !number of names
 offretite
  0  !number of other names
- 3  !number of keywords
+ 2  !number of keywords
 zeolite net
-simple tiling
 good
  0  !number of references
 P-6m2   187
@@ -28182,11 +28181,11 @@ E1  2
   x, y, z
   12  k
   1
+1
 2
-2
-36
-2[4.8^2] + [8^4]
-phw
+32
+[8^8] + [8^4]
+pth
   4  10  24  46  76  114  156  202  256  316  1205
   4  10  24  46  76  114  156  202  256  316  1205
   4.4.8(3).8(3).8(7).8(7)
