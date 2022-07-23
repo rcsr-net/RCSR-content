@@ -200563,7 +200563,7 @@ pth-c
  0  !number of other names
  2  !number of keywords
 chiral
-bipartite
+weaving
  0  !number of references
 P6(1)22   178
   1.6330  1.6330  3.4641  90.000  90.000  120.000
