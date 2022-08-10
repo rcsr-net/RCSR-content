@@ -35612,11 +35612,14 @@ start
 svm
 1a
  0  !number of other symbols
- 1  !number of names
+ 3  !number of names
 7/3/c3
+3^7 D
+deltahedron
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 Fd-3   203
   4.8269  4.8269  4.8269  90.000  90.000  90.000
 1
@@ -36003,7 +36006,8 @@ icosahedron
  2  !number of keywords
 infinite polyhedron
 good
- 2  !number of references
+ 3  !number of references
+PNAS, 115, 8905 {2018)
 Structural Chem. 23, 1079 (2012)
 Structural CChem 28, 113 (2017)
 Fd-3   203
@@ -36528,7 +36532,8 @@ sqc10956
  2  !number of keywords
 infinite polyhedron
 good
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 Fd-3m   227
   3.7713  3.7713  3.7713  90.000  90.000  90.000
 1
@@ -37282,13 +37287,16 @@ start
 nca
 1a
  0  !number of other symbols
- 1  !number of names
+ 3  !number of names
 9/3/c1
+deltahedron
+3^9 G
  0  !number of other names
  2  !number of keywords
 chiral
 good
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 I4(1)32   214
   2.8285  2.8285  2.8285  90.000  90.000  90.000
 1
@@ -97806,10 +97814,13 @@ start
 xay
 2b
  0  !number of other symbols
- 0  !number of names
+ 2  !number of names
+deltahedron
+3^9 P
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 P-43m   215
   1.4142  1.4142  1.4142  90.000  90.000  90.000
 1
@@ -146545,7 +146556,8 @@ deltahedron
 sqc8843
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 Fd-3m   227
   2.8284  2.8284  2.8284  90.000  90.000  90.000
 1
@@ -148005,12 +148017,14 @@ start
 tes
 2
  0  !number of other symbols
- 1  !number of names
+ 2  !number of names
 3^8 G
+deltahedron
  0  !number of other names
  1  !number of keywords
 chiral
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 I4(1)32   214
   2.8284  2.8284  2.8284  90.000  90.000  90.000
 1
@@ -177141,11 +177155,13 @@ start
 shy
 4
  0  !number of other symbols
- 1  !number of names
-3^10 P
+ 2  !number of names
+deltahedron
+3^9 P
  0  !number of other names
  0  !number of keywords
- 0  !number of references
+ 1  !number of references
+PNAS, 115, 8905 {2018)
 Pm-3   200
 1.61818 1.61818 1.61818  90.000  90.000  90.000
 1
@@ -200665,10 +200681,10 @@ E7  2
  x. y. z
   12 k
   1
-0
-0
-0
-unk
+7
+3
+72
+]3^8] + 2[3^8] + [3^16.6^2.8^2]
 unk
   8 23 56 127 212 300 436 591 769 918 3441
   8 23 55 120 195 293 408 577 747 910 3337
