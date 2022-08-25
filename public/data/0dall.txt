@@ -4818,9 +4818,25 @@ simple
 cubic
 m-3 (Th)
 Pm-3
-5^12.6^36]
+[5^12.6^36]
 6 7 3
 92 138 48
+0
+0
+start
+229
+oae
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+1     !number of keywords
+cubic
+m-3m (Oh)
+Pm-3m
+[3^72.4^6]
+3 3 3
+44 120 78
 0
 0
 start
