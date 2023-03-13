@@ -6275,12 +6275,29 @@ V1 6
 0.0 0.0 0.0
 0. 0; 0
 6 12 18 24 30 36 42 48 54 60 331
-3^2.4.3&2.4
+3^2.4.3^2.4
 V2 4
 0.5 0.5 0.0
 1/2, 1/2, 0
 4 12 18 24 30 36 42 48 54 60 329
 3.4.3.4
+start
+246
+hgb
+0 ! number of other symbols
+1  ! number of names
+herringbone tiling (hcb)
+0  ! number of other names
+0 ! number of keywords
+p2gg
+Pbam
+1.4142 2.8284 10.0 90.0 90.0 90.0
+1 2 1
+V1 2
+0.75 0.125 0.0
+x, y, 0
+3    6    9   12   15   18   21   24   27   30  166
+6.6.6
 start
 -1
 
