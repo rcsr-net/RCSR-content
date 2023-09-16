@@ -6299,5 +6299,40 @@ x, y, 0
 3    6    9   12   15   18   21   24   27   30  166
 6.6.6
 start
+247
+hcb-c5
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+c2/m
+C2/m
+8.6268 24.9 12.3 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.1667 0.0 0.4132
+x, 0, z
+3    6    9   12   15   18   21   24   27   30  166
+6^3
+start
+248
+hcb-c7*
+0  ! number of other symbols
+0  ! number of names
+0  ! number of other names
+1  ! number of keywords
+weaving
+c2/m
+C2/m
+2.525 10.206 10.0 90.0000 90.0000 90.0000
+1 2 1
+V1 3
+0.6667 0.0 0.213
+x, 0, z
+3    6    9   12   15   18   21   24   27   30  166
+6^3
+start
 -1
+
 
