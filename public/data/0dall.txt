@@ -4840,6 +4840,37 @@ Pm-3m
 0
 0
 start
+230
+our
+unk
+0     !number of other symbols
+1     !number of names
+Durer's polyhwderon
+0     !number of other names
+0     !number of keywords
++3m
+P-31m
+]3^2.5^6]
+2 3 2
+12 18 8
+0
+0
+start
+231
+out
+unk
+0     !number of other symbols
+0     !number of names
+0     !number of other names
+0     !number of keywords
+-46m
+P-43m
+]3^4.6^6]
+2 2 2
+16 24 10
+0
+0
+start
 -1
 
 
