@@ -4841,7 +4841,7 @@ Pm-3m
 0
 start
 230
-our
+dur
 unk
 0     !number of other symbols
 1     !number of names
@@ -4857,7 +4857,7 @@ P-31m
 0
 start
 231
-out
+dut
 unk
 0     !number of other symbols
 0     !number of names
