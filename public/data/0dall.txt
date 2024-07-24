@@ -4871,6 +4871,27 @@ P-43m
 0
 0
 start
+232
+rkh
+unk
+0     !number of other symbols
+3     !number of names
+regular link
+[4]catenane cuo-w
+Acta Cryst. A76, 611-621 (2020)
+0     !number of other names
+1     !number of keywords
+weaving
+32 (T)
+P23
+[3^4]
+1 1 1
+12 12 4
+1
+V1 2
+0.0227 0.0571 0.0025
+0
+start
 -1
 
 
