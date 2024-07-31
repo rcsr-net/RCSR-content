@@ -5721,8 +5721,8 @@ chain mail
 0  ! number of other names
 1  ! number of keywords
 weaving
-p4/N
-P4/N
+p4/n
+P4/n
 10.0 10.0 20.0 90.0 90.0 90.0
 1 1 1
 V1 2
@@ -5740,8 +5740,8 @@ Acta cryst. A76, 110 (2020)
 0  ! number of other names
 1  ! number of keywords
 weaving
-p4b2
-P4b2
+p-4b2
+P-4b2
 10.0 10.0 10.0 90.0 90.0 90.0
 1 1 1
 V1 2
