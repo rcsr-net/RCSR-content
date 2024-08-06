@@ -4882,7 +4882,7 @@ Acta Cryst. A76, 611-621 (2020)
 0     !number of other names
 1     !number of keywords
 weaving
-32 (T)
+23 (T)
 P23
 [3^4]
 1 1 1
