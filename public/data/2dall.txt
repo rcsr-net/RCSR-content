@@ -5723,10 +5723,10 @@ chain mail
 weaving
 p4/n
 P4/n
-10.0 10.0 20.0 90.0 90.0 90.0
+10.0 10.0 100.0 90.0 90.0 90.0
 1 1 1
 V1 2
-0.2027 0.2162 0.3083 
+0.0748 0.2870 0.0492
 x, y, z
 2 1 0 0 0 0 0 0 0 0 4
 4
@@ -5813,8 +5813,8 @@ hcb-c3*
 0  ! number of other names
 1  ! number of keywords
 weaving
-p31m
-P31m
+p-31m
+P-31m
 10.0 10.0 10.0 90.0000 90.0000 120.0000
 1 1 1
 V1 3
@@ -6165,7 +6165,7 @@ x, y, z
  �
 start
 240
-sql-w12
+sql-w10
 0 ! number of other symbols
 1  ! number of names
 Acta cryst A76, 110 (2020)
