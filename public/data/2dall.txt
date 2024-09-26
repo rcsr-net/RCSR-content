@@ -6165,7 +6165,7 @@ x, y, z
  �
 start
 240
-sql-w10
+sql-w12
 0 ! number of other symbols
 1  ! number of names
 Acta cryst A76, 110 (2020)
