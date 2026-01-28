@@ -196684,7 +196684,7 @@ E52  2
  70
 start
 3043
-tok
+lok
 4
  0  !number of other symbols
  0  !number of names
